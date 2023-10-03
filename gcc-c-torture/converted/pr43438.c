@@ -18,6 +18,6 @@ int main(void)
   func_12(l_11);
   if (g_9 != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -7,8 +7,7 @@
 __attribute__((noinline, noclone)) int
 foo (int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (x < 4096 + 8 || x >= 4096 + 256 + 8)
     return -1;
 
@@ -22,7 +21,7 @@ int
 main (void)
 {
   if (__SCHAR_MAX__ != 127 || __CHAR_BIT__ != 8 || __SIZEOF_INT__ != 4)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   if (foo (4095 + 9) != 1
       || foo (4095 + 32) != 2
@@ -34,6 +33,6 @@ main (void)
       || foo (4095 + 256) != 1)
     __builtin_abort ();
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

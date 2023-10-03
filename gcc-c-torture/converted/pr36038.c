@@ -39,6 +39,6 @@ main ()
   doit ();
   if (__builtin_memcmp (expect, list, sizeof (list)))
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

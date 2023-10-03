@@ -8,7 +8,7 @@ main ()
 
 h1 ()
 {
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 h2 (e)
@@ -16,7 +16,7 @@ h2 (e)
 {
   if (e != &v)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 g (c)
@@ -43,7 +43,7 @@ g (c)
     return b;
   *c = 'a';
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 

@@ -8,8 +8,7 @@ volatile unsigned char x;
 __attribute__((noipa)) int
 foo (struct S d)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return d.i & x;
 }
 
@@ -20,6 +19,6 @@ main ()
   x = 0x75;
   if (foo (d) != (0x56 & 0x75))
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

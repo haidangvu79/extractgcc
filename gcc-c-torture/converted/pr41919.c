@@ -13,7 +13,7 @@ int g_23 = 0;
 static struct S1
 foo (void)
 {
-  printf("bar ");
+  printf("foo ");
   int *l_100 = &g_23;
   int **l_110 = &l_100;
   struct S1 l_128 = { 1 };
@@ -36,6 +36,6 @@ int main (void)
   struct S1 s = foo();
   if (bar(0x99 ^ (s.f0 && 1), 1) != -104)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

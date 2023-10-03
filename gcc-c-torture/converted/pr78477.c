@@ -6,8 +6,7 @@ unsigned short b;
 unsigned
 foo (unsigned x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   b = x;
   a >>= (b & 1);
   b = 1 | (b << 5);
@@ -21,10 +20,10 @@ int
 main ()
 {
   if (__CHAR_BIT__ != 8 || sizeof (short) != 2 || sizeof (int) < 4)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   unsigned x = foo (12345);
   if (x != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

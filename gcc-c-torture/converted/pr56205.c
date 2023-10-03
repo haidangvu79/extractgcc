@@ -25,8 +25,6 @@ f1 (const char *fmt, ...)
 __attribute__((noinline, noclone)) static void
 f2 (const char *fmt, va_list ap)
 {
-  printf("__builtin_abort ");
-
   asm volatile ("" : : : "memory");
   if (__builtin_strcmp (fmt, "baz") != 0
       || __builtin_strcmp (va_arg (ap, const char *), "foo") != 0
@@ -39,8 +37,6 @@ f2 (const char *fmt, va_list ap)
 static void
 f3 (int x, char const *y, va_list z)
 {
-  printf("__builtin_abort ");
-
   f1 ("%s %d %s", x ? "" : "foo", ++a, (y && *y) ? "bar" : "");
   if (y && *y)
     f2 (y, z);
@@ -49,8 +45,7 @@ f3 (int x, char const *y, va_list z)
 __attribute__((noinline, noclone)) void
 f4 (int x, char const *y, ...)
 {
-  printf("__builtin_abort ");
-
+  printf("f4 ");
   va_list z;
   va_start (z, y);
   if (!x && *c == '\0')
@@ -66,6 +61,6 @@ main ()
   f4 (0, "baz", "foo", 12.0, 26);
   if (a != 1 || b != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -25,6 +25,6 @@ int main (void)
   if (f (0, 0, 0, 0, u) != (1 << sizeof (short) * 8))
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

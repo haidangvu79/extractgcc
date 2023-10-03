@@ -21,7 +21,7 @@ quux (char *p)
 __attribute__((noipa)) void
 qux (void)
 {
-  printf("qux ");
+  printf("baz ");
   char b[100];
   __builtin_memset (b, 'x', sizeof (b));
   quux (b);
@@ -30,7 +30,7 @@ qux (void)
 __attribute__((noipa)) void
 bar (void)
 {
-  printf("qux ");
+  printf("baz ");
   static unsigned char u[9] = "abcdefghi";
   char b[100];
   __builtin_memcpy (b, u, sizeof (u));
@@ -41,7 +41,7 @@ bar (void)
 __attribute__((noipa)) void
 baz (void)
 {
-  printf("qux ");
+  printf("baz ");
   static unsigned char u[] = { 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r' };
   char b[100];
   __builtin_memcpy (b, u, sizeof (u));
@@ -55,6 +55,6 @@ main ()
   qux ();
   bar ();
   baz ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

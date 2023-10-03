@@ -46,7 +46,7 @@ int x (int argc, char **argv)
     if (r (argv[o]) == 0)
       return 1;
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 char *m (char *x) {{ printf("abort_main "); 		abort (); } }
@@ -55,7 +55,7 @@ char *s (char *v, char **pp)
   if (strcmp (v, "a") != 0 || check++ > 1)
    { printf("abort_main "); 		abort (); }
   *pp = v+1;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 int r (const char *f)

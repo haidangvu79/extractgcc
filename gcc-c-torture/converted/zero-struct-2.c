@@ -16,6 +16,6 @@ int main(void)
   spinlock_t lock = (spinlock_t) { .raw_lock = one_raw_spinlock() };
   if (ii != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -17,6 +17,6 @@ int main (void)
   for (i = 0; i < 2; i ++)
     if (a[i])
      { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

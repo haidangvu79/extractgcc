@@ -18,6 +18,6 @@ main (void)
   b ^= c && (foo (a, -1ULL) != 1L);
   if (b != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

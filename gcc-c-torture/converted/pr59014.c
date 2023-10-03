@@ -5,8 +5,7 @@ int a = 2, b, c, d;
 int
 foo ()
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   for (;; c++)
     if ((b > 0) | (a & 1))
       ;
@@ -23,6 +22,6 @@ main ()
   foo ();
   if (d != 2)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

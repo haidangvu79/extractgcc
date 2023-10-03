@@ -57,6 +57,6 @@ loop:
   if (t1 != t2 || t1->f.f9 != 2)
    { printf("abort_main "); 		abort (); }
   foo (10);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

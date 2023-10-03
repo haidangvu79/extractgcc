@@ -21,8 +21,7 @@ void bar (int *x, int y, int z, int w)
 __attribute__((noipa)) void
 foo (struct S *x, struct S *y, int *z, int w)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   *o = w;
   if (w)
     bar (0, 0, 0, -1);
@@ -43,6 +42,6 @@ main ()
   foo (&s, &s, &a[1], 5);
   if (s.c != 12 || s.d != &a[1])
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

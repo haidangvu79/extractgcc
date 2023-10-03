@@ -25,6 +25,6 @@ main (void)
   b.b = -2LL;
   if (foo (a, b).b != 4LL)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

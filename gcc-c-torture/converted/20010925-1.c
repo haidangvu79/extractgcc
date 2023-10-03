@@ -21,6 +21,6 @@ int foo (void *a, void *b, unsigned int c)
     return 1;
 
   memcpy (a, b, c);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

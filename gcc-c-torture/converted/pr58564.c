@@ -10,6 +10,6 @@ main ()
   b = (0, 0 > ((&c == d) & (1 && (a ^ 1)))) | 0U;
   if (b != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

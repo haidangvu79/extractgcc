@@ -3,24 +3,21 @@
 __attribute__((noinline, noclone)) long int
 foo (signed char x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return x < 0 ? 0x80000L : 0L;
 }
 
 __attribute__((noinline, noclone)) long int
 bar (signed char x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return x < 0 ? 0x80L : 0L;
 }
 
 __attribute__((noinline, noclone)) long int
 baz (signed char x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return x < 0 ? 0x20L : 0L;
 }
 
@@ -31,6 +28,6 @@ main ()
       || foo (0) != 0L || bar (0) != 0L || baz (0) != 0L
       || foo (31) != 0L || bar (31) != 0L || baz (31) != 0L)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

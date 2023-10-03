@@ -31,7 +31,7 @@ func1 (void)
 void __attribute__((__noinline__))
 func2 (void)
 {
-  printf("func2 ");
+  printf("memcmp ");
   Q a, b;
   a = q1 + q2;
   b = q3 - q4;
@@ -56,6 +56,6 @@ main (void)
   if (memcmp (&z2, &z4, sizeof (Q)) != 0)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

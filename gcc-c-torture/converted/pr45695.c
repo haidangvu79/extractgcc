@@ -29,6 +29,6 @@ main (void)
    { printf("abort_main "); 		abort (); }
   if (f (l + 4, l + 1, l + 4) != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

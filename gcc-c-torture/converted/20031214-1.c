@@ -30,6 +30,6 @@ main ()
   k++;
   b (&j);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

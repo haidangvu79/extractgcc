@@ -32,6 +32,6 @@ int main(void)
     __builtin_abort ();
   if (next->iIndex1 != 0xFFFEFEFE)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

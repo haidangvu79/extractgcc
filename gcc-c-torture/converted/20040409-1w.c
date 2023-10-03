@@ -69,6 +69,6 @@ int main()
   test(0xffff,0x7fff);
 #endif
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

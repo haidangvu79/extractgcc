@@ -13,6 +13,6 @@ int main()
 {
   if (foo((struct a *)0) != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

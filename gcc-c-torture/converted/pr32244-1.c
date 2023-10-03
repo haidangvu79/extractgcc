@@ -17,6 +17,6 @@ int main()
 {
   x.b = 0x0100;
   test1(0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

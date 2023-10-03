@@ -28,6 +28,6 @@ main ()
 {
   for (i = 0; i < 16; i++)
     foo ("abcdefghijklmnop", i);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

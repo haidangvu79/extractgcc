@@ -2,7 +2,6 @@ unsigned
 f ()
 {
   printf("f ");
-  printf("g ");
   long long l2;
   unsigned short us;
   unsigned long long ul;
@@ -16,7 +15,6 @@ unsigned long long
 g ()
 {
   printf("f ");
-  printf("g ");
   long long l2;
   unsigned short us;
   unsigned long long ul;

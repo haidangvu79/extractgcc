@@ -3,24 +3,21 @@
 __attribute__((noinline, noclone)) int
 f1 (int x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   return x % y;
 }
 
 __attribute__((noinline, noclone)) int
 f2 (int x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   return x % -y;
 }
 
 __attribute__((noinline, noclone)) int
 f3 (int x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   int z = -y;
   return x % z;
 }
@@ -32,6 +29,6 @@ main ()
       || f2 (-__INT_MAX__ - 1, -1) != 0
       || f3 (-__INT_MAX__ - 1, -1) != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

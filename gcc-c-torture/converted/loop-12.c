@@ -21,6 +21,6 @@ main (void)
 {
   p = "abc\n";
   foo ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

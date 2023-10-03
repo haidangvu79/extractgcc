@@ -15,7 +15,7 @@ wwrite(long long i)
     case 23:
     case 28:
     case 47:
-      printf("return "); 		return 0; 
+      printf("return 0"); 		return 0; 
     default:
       return 123;
     }

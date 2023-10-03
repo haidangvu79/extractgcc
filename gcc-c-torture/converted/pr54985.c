@@ -33,6 +33,6 @@ int main ()
   ST _1[2] = {{2}, {1}};
   if (foo(_1, 2) != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

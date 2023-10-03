@@ -56,7 +56,7 @@ main ()
   stest(9);
   stest(0);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 #ifndef __OPTIMIZE__

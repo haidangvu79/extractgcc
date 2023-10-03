@@ -21,7 +21,7 @@ int main ()
 	    goto die;
 	}
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 die:
  { printf("abort_main "); 		abort (); }
 }

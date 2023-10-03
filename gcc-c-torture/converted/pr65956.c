@@ -71,6 +71,6 @@ main ()
   bar (220, a + 2);
   if (v[1] != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

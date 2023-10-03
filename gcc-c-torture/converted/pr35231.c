@@ -15,6 +15,6 @@ int main()
 {
   if (foo(2, 0) != 2)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

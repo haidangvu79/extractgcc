@@ -10,7 +10,6 @@ static int i = 1;
 static __inline__ void doit(void **pptr, int cond)
 {
   printf("f ");
-  printf("g ");
   if (cond) {
   printf("f ");
   here:

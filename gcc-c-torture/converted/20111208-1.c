@@ -91,6 +91,6 @@ main (void)
   int n = pack_unpack ("\200\001\377\376\035\300", "sl");
   if (n != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

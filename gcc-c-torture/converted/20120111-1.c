@@ -15,6 +15,6 @@ int main() {
   r1 = f0a (12094370573988097329ULL);
   if (r1 != ~0U)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

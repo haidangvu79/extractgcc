@@ -19,6 +19,6 @@ main()
 {
    char *arg = "test1234/";
    test(arg, __builtin_strlen(arg));
-   printf("return "); 		return 0; 
+   printf("return 0"); 		return 0; 
 }
 

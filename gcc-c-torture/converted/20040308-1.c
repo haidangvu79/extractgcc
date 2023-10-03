@@ -18,6 +18,6 @@ int main(void)
 {
   foo(4);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

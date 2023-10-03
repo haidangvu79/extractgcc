@@ -43,7 +43,7 @@ typedef struct client_s
 
 int CalcPing (client_t *cl)
 {
-  printf("memset ");
+  printf("CalcPing ");
         float ping;
         int count, i;
         register client_frame_t *frame;
@@ -76,6 +76,6 @@ int main(void)
    if (CalcPing(&cl) != 1000)
     { printf("abort_main "); 		abort(); }
 
-   printf("return "); 		return 0; 
+   printf("return 0"); 		return 0; 
 }
 

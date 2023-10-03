@@ -59,6 +59,6 @@ int main ()
   check (void *);
   check (void (*)());
   check (struct A);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -158,6 +158,6 @@ int main (void)
   aw(1);
   if (g.c!= 5)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

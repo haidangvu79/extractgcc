@@ -9,7 +9,7 @@ main (void)
   unsigned int b, c, d;
 
   if (sizeof (int) != 4 || (int) 0xc7d24b5e > 0)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   c = 0xc7d24b5e;
   d = a | -2;
@@ -17,6 +17,6 @@ main (void)
   if (b != c)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

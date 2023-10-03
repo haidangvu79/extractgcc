@@ -23,6 +23,6 @@ static char * volatile argp = "pr36321.x";
 int main(int argc, char **argv)
 {
   foo (argp);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

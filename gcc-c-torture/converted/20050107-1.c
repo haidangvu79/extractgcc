@@ -23,6 +23,6 @@ main (void)
   s.a = C;
   s.b = D;
   foo (&s);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

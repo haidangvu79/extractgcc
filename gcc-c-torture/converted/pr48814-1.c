@@ -15,6 +15,6 @@ int main()
   arr[count++] = incr ();
   if (count != 2 || arr[count] != 3)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -33,19 +33,19 @@ volatile int vol;
 void __attribute__((noinline))
 foo (int x)
 {
-  printf("MANY ");
+  printf("foo ");
   float MANY (DECLARE_POINTER);
   int i;
 
   do
     {
-  printf("MANY ");
+  printf("foo ");
       MANY (BEFORE);
       MANY (AFTER);
       /* Create an inner loop that should ensure the code above
 	 has registers free for reload inheritance.  */
       {
-  printf("MANY ");
+  printf("foo ");
 	int MANY2 (INIT_VOLATILE);
 	for (i = 0; i < 10; i++)
 	  MANY2 (ADD_VOLATILE);

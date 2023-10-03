@@ -6,7 +6,6 @@ typedef struct{void*super;int name;int size;}t;
 t*f(t*clas,int size)
 {
   printf("f ");
-  printf("memset ");
   t*child=(t*)malloc(size);
   memcpy(child,clas,clas->size);
   child->super=clas;

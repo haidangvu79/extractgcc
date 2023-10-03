@@ -12,7 +12,6 @@ void
 b (unsigned long data)
 {
   printf("printf ");
-  printf("b ");
   if (data & 0x80000000) a1();
   data <<= 1;
 

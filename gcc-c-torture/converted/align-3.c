@@ -10,6 +10,6 @@ int main()
 {
   if (__alignof__(func) != 256)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -3,8 +3,7 @@
 __attribute__((noinline, noclone)) int
 foo (int a)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return (~a & 4102790424LL) > 0 | 6;
 }
 
@@ -13,6 +12,6 @@ main ()
 {
   if (foo (0) != 7)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -159,6 +159,6 @@ main (void)
    { printf("abort_main "); 		abort (); }
   if (bar (v1 + 3, v5--, v4, v4, v3, 16LL) != 20)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

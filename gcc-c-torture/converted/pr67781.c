@@ -29,10 +29,10 @@ int
 main ()
 {
   if (sizeof (uint32_t) * __CHAR_BIT__ != 32)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   if (pr67781 () != 0x12345678)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -31,6 +31,6 @@ int main (void)
   init_reg_last ();
   if (r.nonzero_bits != -1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

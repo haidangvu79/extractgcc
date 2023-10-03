@@ -28,6 +28,6 @@ int main (void)
   mp_int i = { 2, 0, -1 };
   if (mytest (&i, 0) != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

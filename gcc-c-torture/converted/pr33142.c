@@ -14,6 +14,6 @@ int main() {
     volatile long dy = 63, dx = -77;
     if (lisp_atan2(dy, dx))
        { printf("abort_main "); 		abort(); }
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

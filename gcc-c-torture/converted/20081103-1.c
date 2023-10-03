@@ -14,6 +14,6 @@ int main (void)
   struct S s;
   __builtin_memcpy (s.arr, A, 4);
   foo (s);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

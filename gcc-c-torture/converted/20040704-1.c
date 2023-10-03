@@ -8,7 +8,7 @@ int main()
     {
      { printf("abort_main "); 		abort (); }
     label:
-      printf("return "); 		return 0; 
+      printf("return 0"); 		return 0; 
     }
   goto label;
 }

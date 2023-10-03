@@ -18,6 +18,6 @@ int main()
    { printf("abort_main "); 		abort (); }
  { printf("exit_main "); 		exit (0); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

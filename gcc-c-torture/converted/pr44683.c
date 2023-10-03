@@ -15,6 +15,6 @@ int main(void)
   double x = -0.0;
   if (copysign_bug (x) != 2)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

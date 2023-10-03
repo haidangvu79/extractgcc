@@ -21,6 +21,6 @@ int main()
   a.b.bb.c.i = 1;
   if (foo (&a.b.bb.c) != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -4,8 +4,7 @@
 __attribute__((noinline, noclone)) unsigned int
 foo (int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   unsigned long long y = -1ULL >> x;
   return (unsigned int) y >> 31;
 }
@@ -18,6 +17,6 @@ main ()
   if (foo (15) != 1 || foo (32) != 1 || foo (33) != 0)
     __builtin_abort ();
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

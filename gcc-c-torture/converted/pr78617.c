@@ -22,6 +22,6 @@ int fn4(int p1, int p2) {
 int main() {
   if (fn4(0, 0) != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

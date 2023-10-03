@@ -5,8 +5,7 @@ typedef unsigned long long V64 __attribute__ ((vector_size (32)));
 static V32 __attribute__ ((noinline, noclone))
 foo (V64 x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   V64 y = (V64)(V8){((V8)(V64){65535, x[0]})[1]};
   return (V32){y[0], 255};
 }
@@ -17,6 +16,6 @@ int main ()
 //  __builtin_printf ("%08x %08x %08x %08x %08x %08x %08x %08x\n", x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7]);
   if (x[1] != 255)
     __builtin_abort();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

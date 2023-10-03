@@ -34,6 +34,6 @@ int main()
   unsigned long long r = 0x8000000000000001ull;
 
   do_test (&r);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

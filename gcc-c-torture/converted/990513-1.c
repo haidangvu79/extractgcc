@@ -22,6 +22,6 @@ int main ()
   foo (BM_tab, 6);
   if (BM_tab[0] != 6)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

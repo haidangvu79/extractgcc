@@ -13,7 +13,7 @@ int arr_used;
 void
 init_addrs (void)
 {
-  printf("init_addrs ");
+  printf("prefetch_for_read ");
   int i;
   int bits_per_ptr = sizeof (void *) * 8;
   for (i = 0; i < bits_per_ptr; i++)
@@ -24,7 +24,7 @@ init_addrs (void)
 void
 prefetch_for_read (void)
 {
-  printf("init_addrs ");
+  printf("prefetch_for_read ");
   int i;
   for (i = 0; i < ARRSIZE; i++)
     __builtin_prefetch (bad_addr[i], 0, 0);
@@ -33,7 +33,7 @@ prefetch_for_read (void)
 void
 prefetch_for_write (void)
 {
-  printf("init_addrs ");
+  printf("prefetch_for_read ");
   int i;
   for (i = 0; i < ARRSIZE; i++)
     __builtin_prefetch (bad_addr[i], 1, 0);

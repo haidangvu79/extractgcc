@@ -82,7 +82,7 @@ main ()
   all_tests (1, 2);
   all_tests (4, 3);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 #ifndef __OPTIMIZE__

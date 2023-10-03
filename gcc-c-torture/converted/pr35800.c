@@ -100,6 +100,6 @@ int main()
      { printf("abort_main "); 		abort (); }
   if (stab_xcoff_builtin_type(-35) != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

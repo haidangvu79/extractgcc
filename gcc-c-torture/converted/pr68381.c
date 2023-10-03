@@ -4,8 +4,7 @@ __attribute__ ((noinline, noclone))
 int
 foo (unsigned short x, unsigned short y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int r;
   if (__builtin_mul_overflow (x, y, &r))
     __builtin_abort ();
@@ -20,6 +19,6 @@ main (void)
   int y = 2;
   if (foo (x, y) != x * y)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

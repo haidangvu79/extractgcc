@@ -8,7 +8,6 @@ long
 g2 (double f)
 {
   printf("f ");
-  printf("g2 ");
   return f;
 }
 
@@ -16,7 +15,6 @@ double
 f (long i)
 {
   printf("f ");
-  printf("g2 ");
   if (g1 (i) != g2 (i))
    { printf("abort_func "); 		abort (); }
 

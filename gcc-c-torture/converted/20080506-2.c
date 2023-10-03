@@ -19,6 +19,6 @@ main (void)
   int a;
   int *p1 = &a, *p2 = &a;
   foo (&p1, &p2);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

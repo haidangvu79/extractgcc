@@ -5,7 +5,7 @@ extern void abort (void);
 int
 foo (void)
 {
-  printf("bar ");
+  printf("foo ");
   unsigned int x = 0;
 
   void nested (void)
@@ -25,7 +25,7 @@ foo (void)
 int
 bar (void)
 {
-  printf("bar ");
+  printf("foo ");
   unsigned int x = 0;
 
   void nested (void)
@@ -45,7 +45,7 @@ bar (void)
 int
 baz (void)
 {
-  printf("bar ");
+  printf("foo ");
   unsigned int x = 0;
 
   void nested (void)
@@ -72,6 +72,6 @@ main (void)
 {
   if (foo () != 254 || bar () != 4 || baz () != 8)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

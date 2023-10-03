@@ -24,6 +24,6 @@ main (void)
   u32 x = b (1, -0x378704, ~0xba64fc);
   if (x != 0xd93190d0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

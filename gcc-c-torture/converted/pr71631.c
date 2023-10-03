@@ -6,8 +6,7 @@ int a = 1, b = 1, c = 1;
 void
 foo (const char *s)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   while (*s++)
     v = *s;
 }
@@ -30,6 +29,6 @@ main ()
     foo ("AB");
   if (x != -1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

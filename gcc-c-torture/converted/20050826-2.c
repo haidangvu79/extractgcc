@@ -59,6 +59,6 @@ main (void)
      { printf("abort_main "); 		abort (); }
     else if (i > 5 && rta[i] != &rt[0])
      { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

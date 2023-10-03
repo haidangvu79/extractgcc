@@ -21,6 +21,6 @@ main (void)
   test (1, "%c", 'x');
   test (7, "%s\n", "hello\n");
   test (2, "%d\n", 0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

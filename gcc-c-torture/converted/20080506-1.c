@@ -17,6 +17,6 @@ main ()
   u = MIN ((unsigned int) MAX (i, 0), (unsigned int) i);
   if (u != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

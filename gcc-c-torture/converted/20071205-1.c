@@ -14,6 +14,6 @@ main (void)
 {
   if (foo (0x32) != 0x32ff || foo (0x174) != 0x74ff)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

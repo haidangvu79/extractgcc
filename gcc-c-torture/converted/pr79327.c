@@ -22,6 +22,6 @@ main (void)
     __builtin_abort ();
   if (__builtin_sprintf (buf, "%#hhx", a) != 4)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

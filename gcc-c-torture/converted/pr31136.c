@@ -12,6 +12,6 @@ int main()
   s.b6 = s.b4;
   if (s.b6 != 15)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

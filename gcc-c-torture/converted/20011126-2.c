@@ -40,6 +40,6 @@ int main ()
 {
   char out[4];
   test ("aab", out);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

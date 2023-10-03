@@ -16,7 +16,7 @@ bar (const char *x, const char *y, int z)
 #define my_assert(e) ((e) ? (void) 0 : bar (#e, __FILE__, __LINE__))
 
 typedef struct {
-  printf("my_assert ");
+  printf("foo ");
   unsigned M1;
   unsigned M2 : 1;
   int : 0;
@@ -26,7 +26,7 @@ typedef struct {
 S
 foo ()
 {
-  printf("my_assert ");
+  printf("foo ");
   S result = {0, 0, 1};
   return result;
 }
@@ -37,6 +37,6 @@ main ()
   S ret = foo ();
   my_assert (ret.M2 == 0);
   my_assert (ret.M3 == 1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

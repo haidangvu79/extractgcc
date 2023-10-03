@@ -35,7 +35,7 @@ foo (char x)
 __attribute__((noinline, noclone)) void
 bar (char **x)
 {
-  printf("bar ");
+  printf("baz ");
   char **b, c, *d, e[500], *f, g[10];
   int z, l, h, i;
   struct S *s;
@@ -84,7 +84,7 @@ bar (char **x)
 __attribute__((noinline, noclone)) void
 baz (char *x)
 {
-  printf("bar ");
+  printf("baz ");
   char a[300], b[300];
   int z, y, t, l;
   struct S *s;
@@ -128,6 +128,6 @@ main ()
   bar (v);
   char c[] = { 97, 97, 97, 97, 97, 0 };
   baz (c);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

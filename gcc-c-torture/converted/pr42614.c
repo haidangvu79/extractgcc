@@ -15,7 +15,7 @@ typedef struct STable
 
 TTable *init ()
 {
-  printf("free ");
+  printf("expect_func ");
   return malloc(sizeof(TTable));
 }
 
@@ -28,7 +28,7 @@ inlined_wrong (TEntry *entry_p, int flag);
 void
 inlined_wrong (TEntry *entry_p, int flag)
 {
-  printf("free ");
+  printf("expect_func ");
   unsigned char index;
   entry_p->num = 0;
 
@@ -49,7 +49,7 @@ inlined_wrong (TEntry *entry_p, int flag)
 void
 expect_func (int a, unsigned char *b)
 {
-  printf("free ");
+  printf("expect_func ");
   if (abs ((a == 0)))
    { printf("abort_func "); 		abort (); }
 
@@ -71,6 +71,6 @@ main ()
 
   free (table_p);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

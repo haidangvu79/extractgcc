@@ -48,7 +48,7 @@ int
 main (void)
 {
   if (sizeof (short) != 2 || sizeof (int) != 4 || sizeof (long long) != 8)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   if (test1 () != 0)
    { printf("abort_main "); 		abort (); }
@@ -72,6 +72,6 @@ main (void)
   u.x = test5 (z);
   if (u.y[0] != 6 || u.y[1] != 6)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

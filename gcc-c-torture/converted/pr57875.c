@@ -17,6 +17,6 @@ main ()
   b = a[e[0] >> 1 & 1];
   if (b != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

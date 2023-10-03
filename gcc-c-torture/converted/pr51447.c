@@ -25,6 +25,6 @@ main (void)
 nonlocal_lab:
   if (ptr != &&nonlocal_lab)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

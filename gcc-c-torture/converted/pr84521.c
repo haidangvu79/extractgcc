@@ -55,6 +55,6 @@ main (void)
   if (p != q)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -39,6 +39,6 @@ void foo (int e, int n)
 int main(void)
 {
   foo (1, 1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

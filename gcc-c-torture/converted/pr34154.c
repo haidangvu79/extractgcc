@@ -13,6 +13,6 @@ int main()
     unsigned long long aLL = 1000000000000000000ULL;
     if (foo (aLL) != 19)
 	abort ();
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

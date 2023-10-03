@@ -26,6 +26,6 @@ int main()
   end_bit = MIN (rl_bitpos + rl_bitsize, ll_bitpos + ll_bitsize);
   if (end_bit != 32)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

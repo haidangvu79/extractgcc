@@ -31,6 +31,6 @@ static void foo ()
 int main ( int argc, char* argv[] )
 {
     foo();
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

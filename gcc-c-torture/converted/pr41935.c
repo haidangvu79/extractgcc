@@ -5,7 +5,7 @@ extern void abort (void);
 long int
 foo (int n, int i, int j)
 {
-  printf("__builtin_offsetof ");
+  printf("foo ");
   typedef int T[n];
   struct S { int a; T b[n]; };
   return __builtin_offsetof (struct S, b[i][j]);
@@ -22,6 +22,6 @@ main (void)
   if (foo (5, 5, 5)
       != __builtin_offsetof (struct S, b) + (5 * 5 + 5) * sizeof (int))
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

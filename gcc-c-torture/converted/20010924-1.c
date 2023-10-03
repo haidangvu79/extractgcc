@@ -67,6 +67,6 @@ main()
   if (a4.a4p[1] != 'b')
    { printf("abort_main "); 		abort(); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

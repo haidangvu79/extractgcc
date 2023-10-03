@@ -21,6 +21,6 @@ void bar(int *pc) {
 
 int main() {
   bar(code);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

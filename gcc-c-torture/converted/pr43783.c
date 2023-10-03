@@ -19,6 +19,6 @@ int main()
     x += bid_Kx192[1].w[1];
   if (x != 32)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

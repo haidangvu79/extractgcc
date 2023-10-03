@@ -42,6 +42,6 @@ int main (void)
 	15, 16.,
 	17, 18. );
   exit(0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

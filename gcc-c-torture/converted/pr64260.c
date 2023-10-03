@@ -5,8 +5,7 @@ int a = 1, b;
 void
 foo (char p)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int t = 0;
   for (; b < 1; b++)
     {
@@ -23,6 +22,6 @@ main ()
   foo (0);
   if (a != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

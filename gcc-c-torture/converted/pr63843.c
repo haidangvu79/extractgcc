@@ -29,6 +29,6 @@ main ()
       && sizeof (int) == 4
       && bar (x) != 0x8181U)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

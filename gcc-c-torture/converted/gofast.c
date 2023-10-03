@@ -49,7 +49,7 @@ int fail_count = 0;
 int
 fail (char *msg)
 {
-  printf("fp_mul ");
+  printf("eqsf2 ");
   fail_count++;
   fprintf (stderr, "Test failed: %s\n", msg);
 }

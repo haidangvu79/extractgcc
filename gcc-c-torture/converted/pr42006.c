@@ -30,6 +30,6 @@ static int func_4(unsigned int p_6)
 int main(void)
 {
   func_4(0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

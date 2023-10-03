@@ -5,16 +5,14 @@ struct S { int a; char b[1]; };
 __attribute__((noipa)) int
 foo (struct S *p)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   return __builtin_strlen (&p->b[0]);
 }
 
 __attribute__((noipa)) int
 bar (struct S *p)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   return __builtin_strlen (p->b);
 }
 
@@ -30,6 +28,6 @@ main ()
 	__builtin_abort ();
       __builtin_free (p);
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

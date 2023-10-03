@@ -9,8 +9,7 @@ bar (int x)
 __attribute__((noinline, noclone)) int
 foo (unsigned x, long long y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (y < 0)
     return 0;
   if (y < (long long) (4 * x))
@@ -43,6 +42,6 @@ main ()
   y = 10000;
   if (foo (x, y) != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

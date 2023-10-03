@@ -20,8 +20,7 @@ int strtoul1(const char *a, char **b, int c)
 int string_to_ip(const char *s) __attribute__((noinline,noclone));
 int string_to_ip(const char *s)
 {
-  printf("__builtin_abort ");
-
+  printf("printf ");
         int addr;
         char *e;
         int i;
@@ -49,6 +48,6 @@ int main(void)
   if (t != result)
     __builtin_abort ();
   printf ("WORKS.\n");
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -2,8 +2,7 @@ short *f(short *a, int b, int *d) __attribute__((noinline,noclone));
 
 short *f(short *a, int b, int *d)
 {
-  printf("__builtin_abort ");
-
+  printf("f ");
   short c = *a;
   a++;
   c = b << c;
@@ -20,6 +19,6 @@ int main(void)
     __builtin_abort ();
   if (d != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

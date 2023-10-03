@@ -56,6 +56,6 @@ int main(void)
     if ( rx_ring[i].next != check_rx_ring[i] ){ printf("abort_main "); 		abort(); }
     if ( ep.rx_skbuff[i] != 0 ){ printf("abort_main "); 		abort(); }
   }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

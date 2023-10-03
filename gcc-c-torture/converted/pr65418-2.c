@@ -3,8 +3,7 @@
 __attribute__((noinline, noclone)) int
 foo (int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (x == -216 || x == -211 || x == -218 || x == -205 || x == -223)
      return 1;
   return 0;
@@ -17,6 +16,6 @@ main ()
   for (i = -230; i < -200; i++)
     if (foo (i) != (i == -216 || i == -211 || i == -218 || i == -205 || i == -223))
       __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -22,13 +22,13 @@ int
 main ()
 {
   if (__CHAR_BIT__ != 8 || sizeof (unsigned int) != 4 || sizeof (unsigned long long) != 8)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   struct S s = { 0xdeadbeU, 0xefU, 0xfeedbea8U };
   unsigned long long l = bar (&s);
   if (foo (l >> 32) != s.l3
       || (foo (l) >> 8) != s.l1
       || (foo (l) & 0xff) != s.l2)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

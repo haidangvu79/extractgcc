@@ -44,6 +44,6 @@ main ()
   str = foo (&loc, 10, 3);
   if (str!=1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

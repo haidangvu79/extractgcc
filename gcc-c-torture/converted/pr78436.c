@@ -9,8 +9,7 @@ struct S
 __attribute__((noinline, noclone)) void
 foo ()
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   s.b = 0;
   s.a = -1193165L;
 }
@@ -21,6 +20,6 @@ main ()
   foo ();
   if (s.b != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

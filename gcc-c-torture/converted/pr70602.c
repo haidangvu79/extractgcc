@@ -20,6 +20,6 @@ main ()
       b = b || e[0].s;
       c = e[0].t;
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

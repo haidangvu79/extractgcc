@@ -3,8 +3,7 @@
 __attribute__((noipa)) int
 foo (int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   x &= 63;
   x -= 50;
   x |= 1;
@@ -23,6 +22,6 @@ main ()
   for (i = 0; i < 63; i++)
     if (foo (i) != 1)
       __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

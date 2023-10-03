@@ -47,6 +47,6 @@ int main (void)
   for (i=0; i < 96; i++)
     if (result[i] != correct[i]){ printf("abort_main "); 		abort(); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

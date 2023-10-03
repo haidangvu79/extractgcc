@@ -11,8 +11,7 @@ T b;
 static __attribute__ ((noipa)) T
 foo (T c, T d, T e, T f, T g, T h)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   __builtin_mul_overflow ((unsigned char) h, -16, &h);
   return b + h;
 }
@@ -23,6 +22,6 @@ main ()
   T x = foo (0, 0, 0, 0, 0, 4);
   if (x != -64)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

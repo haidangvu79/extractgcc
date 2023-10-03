@@ -69,6 +69,6 @@ main (void)
       if (dst[i] != e)
 	abort ();
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

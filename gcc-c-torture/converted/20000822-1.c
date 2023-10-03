@@ -24,6 +24,6 @@ int main()
   if (f1() != 2)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

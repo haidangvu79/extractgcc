@@ -31,6 +31,6 @@ int main(int argc __attribute__((unused)), char **argv __attribute__((unused)))
   if (p.error != 7)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

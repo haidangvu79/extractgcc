@@ -19,6 +19,6 @@ main ()
   foo (r);
   r = (struct S) { 0, 2, -1, 2 };
   foo (r);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

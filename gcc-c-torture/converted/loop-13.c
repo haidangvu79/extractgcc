@@ -33,6 +33,6 @@ main (void)
   if (x[9] != 18)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

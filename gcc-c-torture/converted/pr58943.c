@@ -5,8 +5,7 @@ unsigned int x[1] = { 2 };
 unsigned int
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   x[0] |= 128;
   return 1;
 }
@@ -17,6 +16,6 @@ main ()
   x[0] |= foo ();
   if (x[0] != 131)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -25,6 +25,6 @@ void f(short delta)
 int main(void)
 {
     f(-1);
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

@@ -11,6 +11,6 @@ int main ()
 	e = d[300000000000000000][0];
     }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -73,6 +73,6 @@ int test4 ()
 int main ()
 {
   test1 (); test2 (); test3 (); test4 ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

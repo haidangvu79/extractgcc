@@ -29,6 +29,6 @@ int
 main ()
 {
   foo (g);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -29,6 +29,6 @@ main (int argc, char** argv)
   x.g = 2;
   /* Struct should now look like {100, 0, 0, 100, 0, 0, 0, 2}.  */
   bar (&x);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

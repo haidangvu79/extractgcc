@@ -29,6 +29,6 @@ main ()
   if (foo (__INT_MAX__) != (bar (__INT_MAX__) < __INT_MAX__)
       || foo (__INT_MAX__) != ((int) baz (__INT_MAX__) + 1 < __INT_MAX__))
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -16,6 +16,6 @@ main ()
   short i;
   for (i = 6; i >= 0; i--)
     foo ((void *) (long) i);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -48,6 +48,6 @@ main ()
   foo (&b, 6);
   if (a.a != 4 || a.b[0] != 7 || b.a != 3 || b.b[0] != 7)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

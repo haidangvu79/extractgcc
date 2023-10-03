@@ -8,24 +8,21 @@ static long long e = 0;
 static short
 foo (long long x, long long y)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   return x / y;
 }
 
 static char
 bar (char x, char y)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   return x - y;
 }
 
 static int
 baz (int x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   *f = (y != (short) (y * 3));
   for (c = 0; c < 2; c++)
     {
@@ -50,8 +47,7 @@ baz (int x, int y)
 static void
 fnx (unsigned long long x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   if (!y)
     {
       b = a[b & 1];
@@ -90,6 +86,6 @@ main ()
 
   if (d != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

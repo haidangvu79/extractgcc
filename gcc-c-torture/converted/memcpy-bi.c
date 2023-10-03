@@ -51,6 +51,6 @@ main ()
   T (72);
   T (76);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

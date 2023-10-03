@@ -13,8 +13,7 @@ bar (char x)
 __attribute__((noinline, noclone)) void
 foo (const char *x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   char d = x[0];
   int c = d;
   if ((c >= 0 && c <= 0x7f) == 0)
@@ -25,8 +24,7 @@ foo (const char *x)
 __attribute__((noinline, noclone)) void
 baz (const char *x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   char d = x[0];
   int c = d;
   if ((c >= 0 && c <= 0x7f) == 0)
@@ -51,6 +49,6 @@ main ()
   baz (c + 1);
   if (e != (char) 0x87)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

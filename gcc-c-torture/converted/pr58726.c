@@ -6,8 +6,7 @@ union { int f1; int f2 : 1; } b;
 short
 foo (short p)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return p < 0 ? p : a;
 }
 
@@ -16,7 +15,7 @@ main ()
 {
   if (sizeof (short) * __CHAR_BIT__ != 16
       || sizeof (int) * __CHAR_BIT__ != 32)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   b.f1 = 56374;
   unsigned short d;
   int e = b.f2;
@@ -24,6 +23,6 @@ main ()
   c = foo (d);
   if (c != (short) 56374)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

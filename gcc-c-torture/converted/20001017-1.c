@@ -13,6 +13,6 @@ int main (void)
 
   bug (C, 'B', 1, 2, 3, 4.0, A, 5, B, 6, 7.0, C, 8);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

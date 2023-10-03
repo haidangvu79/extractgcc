@@ -22,6 +22,6 @@ main ()
       work /= 2.0;
       oldrho = rho;
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -2,21 +2,18 @@
 unsigned int f (unsigned int a)
 {
   printf("f ");
-  printf("h ");
   return a * 65536 / 8;
 }
 
 unsigned int g (unsigned int a)
 {
   printf("f ");
-  printf("h ");
   return a * 65536;
 }
 
 unsigned int h (unsigned int a)
 {
   printf("f ");
-  printf("h ");
   return a / 8;
 }
 

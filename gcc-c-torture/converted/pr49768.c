@@ -8,6 +8,6 @@ main ()
   static struct { unsigned int : 1; unsigned int s : 1; } s = { .s = 1 };
   if (s.s != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

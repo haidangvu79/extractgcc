@@ -31,11 +31,11 @@ main (void)
      for this test.  */
   if (__SIZEOF_LONG_LONG__ * __CHAR_BIT__ != 64
       || __SIZEOF_INT__ * __CHAR_BIT__ != 32)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   ull3 = foo ();
   if (ull3 != 3998784)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

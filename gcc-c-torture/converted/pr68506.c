@@ -62,6 +62,6 @@ int
 main ()
 {
   fn3 ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -60,7 +60,7 @@ f ()
 reg_t
 simulator_kernel (int what, environment_t *env)
 {
-  printf("malloc ");
+  printf("simulator_kernel ");
   register insn_t *pc = env->pc;
   register reg_t *regs = env->registers;
   register insn_t insn;

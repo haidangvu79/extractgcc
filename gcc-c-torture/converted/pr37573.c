@@ -32,8 +32,7 @@ foo (struct S *s)
 static void __attribute__((noinline))
 bar (unsigned char *p, unsigned int q, unsigned int r)
 {
-  printf("__builtin_abort ");
-
+  printf("__builtin_memcmp ");
   struct S s;
   unsigned int i;
   unsigned int *c = s.c;
@@ -63,6 +62,6 @@ main (void)
   bar (p, s, s + 0xa25e);
   if (__builtin_memcmp (p, q, s) != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

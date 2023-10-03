@@ -36,6 +36,6 @@ int main(void)
   add_unwind_adjustsp (4132);
   if (bytes[0] != 0x88 || bytes[1] != 0x07)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -6,8 +6,7 @@ union B c = { { 2, "123456789012345678901234567890" } };
 __attribute__((noinline, noclone)) void
 foo (int *x[2])
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   x[0] = &b.a.a;
   x[1] = &c.a.a;
 }
@@ -19,6 +18,6 @@ main ()
   foo (x);
   if (*x[0] != 1 || *x[1] != 2)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

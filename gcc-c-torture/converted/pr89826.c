@@ -6,8 +6,7 @@ u32 b;
 u64
 foo (u32 d)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   a -= d ? 0 : ~a;
   return a + b;
 }
@@ -18,6 +17,6 @@ main (void)
   u64 x = foo (2);
   if (x != 0)
     __builtin_abort();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

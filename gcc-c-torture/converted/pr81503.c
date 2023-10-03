@@ -20,6 +20,6 @@ int main() {
   foo();
   if (c != 2147476810)
     return -1;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

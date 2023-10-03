@@ -20,7 +20,7 @@
 #define MAX_LENGTH (MAX_OFFSET + MAX_COPY + MAX_EXTRA)
 
 static union {
-  printf("memset ");
+  printf("check ");
   char buf[MAX_LENGTH];
   long long align_int;
   long double align_fp;

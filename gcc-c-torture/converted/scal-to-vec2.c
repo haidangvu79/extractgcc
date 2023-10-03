@@ -58,6 +58,6 @@ int main (int argc, char *argv[]) {
     l1 = vsrt() * l0; check (long, 2, l0, l1, vsrt(), *, l);
     l1 = vchr() * l0; check (long, 2, l0, l1, vchr(), *, l);
 
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

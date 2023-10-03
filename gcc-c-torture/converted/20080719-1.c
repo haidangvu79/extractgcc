@@ -63,6 +63,6 @@ int main(void)
   int b = a[0];
   if (b != cfb_tab8_be[0])
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

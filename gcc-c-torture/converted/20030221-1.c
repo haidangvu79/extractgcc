@@ -13,6 +13,6 @@ int main (void)
   if ((buf[0] != 10) || (p - buf != 1))
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

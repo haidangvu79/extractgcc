@@ -32,6 +32,6 @@ main (void)
   bar (x);
   if (memcmp (x, "IJKLMNOP\0R", sizeof x) != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -50,6 +50,6 @@ main(int argc, char *argv[])
   if (bit.i % (unsigned int) bit.u != unsigned_result)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

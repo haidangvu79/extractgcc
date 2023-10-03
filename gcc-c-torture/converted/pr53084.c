@@ -16,6 +16,6 @@ main ()
 {
   static const char *const foo[] = {"foo" + 1};
   bar (foo[0]);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

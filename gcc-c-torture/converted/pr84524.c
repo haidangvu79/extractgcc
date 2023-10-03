@@ -3,8 +3,7 @@
 __attribute__((noipa)) void
 foo (unsigned short *x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   unsigned short i, v;
   unsigned char j;
   for (i = 0; i < 256; i++)
@@ -39,6 +38,6 @@ main ()
       if (a[i] != v)
 	__builtin_abort ();
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

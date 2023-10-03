@@ -24,6 +24,6 @@ int main(void)
   f(&value, new_value);
   if (value != old_value+1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

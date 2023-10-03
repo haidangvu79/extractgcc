@@ -56,6 +56,6 @@ main ()
 {
   f1 (1, 2, 3, 4);
   f2 (5, 6, 7, 8, 9, 10);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

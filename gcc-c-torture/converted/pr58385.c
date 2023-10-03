@@ -18,6 +18,6 @@ main ()
   ((0 || a) & foo () >= 0) <= 1 && 1;
   if (b)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

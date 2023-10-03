@@ -5,8 +5,7 @@ struct S { unsigned short s[64]; };
 __attribute__((noinline, noclone)) void
 foo (struct S *x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   unsigned int i;
   unsigned char *s;
 
@@ -18,8 +17,7 @@ foo (struct S *x)
 __attribute__((noinline, noclone)) void
 bar (struct S *x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   unsigned int i;
   unsigned char *s;
 
@@ -34,7 +32,7 @@ main ()
   unsigned int i;
   struct S s;
   if (sizeof (unsigned short) != 2)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   for (i = 0; i < 64; i++)
     s.s[i] = i + ((64 - i) << 8);
   foo (&s);
@@ -59,6 +57,6 @@ main ()
     if (s.s[i] != i + ((64 - i) << 8))
       __builtin_abort ();
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

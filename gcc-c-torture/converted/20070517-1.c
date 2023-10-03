@@ -38,6 +38,6 @@ static void example (int arg)
 int main(void)
 {
   example(10);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -11,6 +11,6 @@ main ()
   if ((int) one != 1)
     link_error ();
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

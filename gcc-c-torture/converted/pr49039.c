@@ -23,6 +23,6 @@ main ()
   foo (-2U, 1);
   if (cnt != 2)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -25,6 +25,6 @@ main ()
     __builtin_abort ();
   if (test (2) != -(long)(unsigned)-2)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -70,6 +70,6 @@ main (void)
   foo (&x, &y);
   if (d[0] != 0 || d[1] != 118 || d[2] != 118 || d[3] != 118)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

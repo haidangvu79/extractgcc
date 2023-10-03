@@ -7,9 +7,9 @@ main ()
 {
   signed short s = -1;
   if (sizeof (long long) == sizeof (unsigned int))
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if ((unsigned int) s >= 0x100000000ULL)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

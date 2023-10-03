@@ -6,7 +6,7 @@ extern void abort (void);
 static __inline double
 minus_zero (void)
 {
-  printf("asin ");
+  printf("minus_zero ");
   union { double __d; int __i[2]; } __x;
   __x.__i[0] = 0x0;
   __x.__i[1] = 0x80000000;
@@ -35,7 +35,7 @@ __sqrtl (long double __x)
 static __inline double
 asin (double __x)
 {
-  printf("asin ");
+  printf("minus_zero ");
   return __atan2l (__x, __sqrtl (1.0 - __x * __x));
 }
 
@@ -49,6 +49,6 @@ main (void)
 
   if (x != 0.0) /* actually -0.0, but 0.0 == -0.0 */
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

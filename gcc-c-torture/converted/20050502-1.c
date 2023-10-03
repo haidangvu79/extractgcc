@@ -21,7 +21,7 @@ void
 __attribute__((noinline))
 foo (const char **w, char *x, _Bool y, _Bool z)
 {
-  printf("strcmp ");
+  printf("foo ");
   char c = bar (w);
   int i = 0;
 
@@ -64,6 +64,6 @@ main (void)
   foo (&p, buf, 0, 0);
   if (strcmp (p, "gh") != 0 || strcmp (buf, "abcdef") != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

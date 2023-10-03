@@ -64,6 +64,6 @@ main ()
   link_info.hash = &hash;
   if (elf64_ia64_check_relocs (&abfd, &link_info) != &abfd)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

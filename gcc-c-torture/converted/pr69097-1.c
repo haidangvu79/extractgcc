@@ -10,6 +10,6 @@ main ()
   b = ~(~a + (~d | b));
   a = ~(~c >> b);
   c = a % b;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

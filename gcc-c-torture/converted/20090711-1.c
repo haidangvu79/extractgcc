@@ -17,6 +17,6 @@ int main (void)
   long long d2 = div(d1);
   if (d2 != -30212)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

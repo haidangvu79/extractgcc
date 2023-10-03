@@ -34,6 +34,6 @@ main (void)
   void *ret = build_ref_for_offset ((void *)0, 32);
   if (ret != (void *)0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

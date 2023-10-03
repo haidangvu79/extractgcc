@@ -3,8 +3,7 @@
 __attribute__((noipa)) void
 foo (int *__restrict p, int *__restrict q)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   p[0] = p[0] ^ 1;
   p[1] = p[1] ^ 2;
   p[2] = p[2] ^ q[2];
@@ -20,6 +19,6 @@ main ()
   foo (p, q);
   if (p[0] != 17 || p[1] != 34 || p[2] != 66 || p[3] != 129)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

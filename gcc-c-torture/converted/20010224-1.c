@@ -39,6 +39,6 @@ int main (void)
   ba_compute_psd (0);
 
   if (bndpsd[1] != 140){ printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

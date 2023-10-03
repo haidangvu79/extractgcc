@@ -25,6 +25,6 @@ main (void)
   n++;
   if (n < LIMIT)
     goto lab;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

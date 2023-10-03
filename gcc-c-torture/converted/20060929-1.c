@@ -5,14 +5,14 @@ extern void abort (void);
 void
 foo (int **p, int *q)
 {
-  printf("bar ");
+  printf("foo ");
   *(*p++)++ = *q++;
 }
 
 void
 bar (int **p, int *q)
 {
-  printf("bar ");
+  printf("foo ");
   **p = *q++;
   *(*p++)++;
 }
@@ -20,7 +20,7 @@ bar (int **p, int *q)
 void
 baz (int **p, int *q)
 {
-  printf("bar ");
+  printf("foo ");
   **p = *q++;
   (*p++)++;
 }
@@ -43,6 +43,6 @@ main (void)
   baz (&p, &j);
   if (p - 1 != &i || j != 0 || i != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

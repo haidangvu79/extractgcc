@@ -26,6 +26,6 @@ main ()
   for (b = 0; b < 2; b++)
     while (c)
       foo (a[b] = 0, bar ());
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

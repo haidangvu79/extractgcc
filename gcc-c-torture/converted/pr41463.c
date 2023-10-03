@@ -35,7 +35,7 @@ union tree_node global;
 union tree_node * __attribute__((noinline))
 foo (union tree_node *p, int i)
 {
-  printf("malloc ");
+  printf("foo ");
   union tree_node **q;
   p->vec.a[i] = (union tree_node *) 0;
   q = &p->vec.a[1];
@@ -52,6 +52,6 @@ main()
   union tree_node *p = malloc (sizeof (union tree_node));
   if (foo (p, 1) != &global)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

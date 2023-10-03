@@ -27,7 +27,7 @@ foo (void)
     return 1;
   else if (exponent > 1)
     return 2;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 int
@@ -36,7 +36,7 @@ main (void)
   x.exponent = 1;
   if (foo () != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 #endif
 

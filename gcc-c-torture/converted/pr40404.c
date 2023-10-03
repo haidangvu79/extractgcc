@@ -14,6 +14,6 @@ int main()
   s.ui17 = 0x1ffff;
   if (s.ui17 >= 0xfffffffeu)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

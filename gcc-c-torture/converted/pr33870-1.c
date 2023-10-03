@@ -91,6 +91,6 @@ int main()
  p = sort_pagelist (&a[0]);
  if (p->x.pDirty == p)
   { printf("abort_main "); 		abort (); }
- printf("return "); 		return 0; 
+ printf("return 0"); 		return 0; 
 }
 

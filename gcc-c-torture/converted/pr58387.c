@@ -7,6 +7,6 @@ int main ()
   int b = a == 0 ? 0 : -a;
   if (b < 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

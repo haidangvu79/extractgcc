@@ -24,6 +24,6 @@ int main (void)
   if (d != u.f1)
     __builtin_abort ();
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -4,7 +4,7 @@
 feq (x)
      long long int x;
 {
-  printf("feq ");
+  printf("fge ");
   if (x == 0)
     return TRUE;
   else
@@ -14,7 +14,7 @@ feq (x)
 fne (x)
      long long int x;
 {
-  printf("feq ");
+  printf("fge ");
   if (x != 0)
     return TRUE;
   else
@@ -24,7 +24,7 @@ fne (x)
 flt (x)
      long long int x;
 {
-  printf("feq ");
+  printf("fge ");
   if (x < 0)
     return TRUE;
   else
@@ -34,7 +34,7 @@ flt (x)
 fge (x)
      long long int x;
 {
-  printf("feq ");
+  printf("fge ");
   if (x >= 0)
     return TRUE;
   else
@@ -44,7 +44,7 @@ fge (x)
 fgt (x)
      long long int x;
 {
-  printf("feq ");
+  printf("fge ");
   if (x > 0)
     return TRUE;
   else
@@ -54,7 +54,7 @@ fgt (x)
 fle (x)
      long long int x;
 {
-  printf("feq ");
+  printf("fge ");
   if (x <= 0)
     return TRUE;
   else

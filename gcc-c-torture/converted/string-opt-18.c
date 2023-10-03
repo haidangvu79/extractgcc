@@ -78,6 +78,6 @@ int main ()
   test6 (buf);
   test7 (buf);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

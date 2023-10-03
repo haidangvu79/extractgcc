@@ -32,6 +32,6 @@ const char *server_type (void *a, void *b, char *arg)
 int main ()
 {
   server_type (0, 0, "standalone");
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

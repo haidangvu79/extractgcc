@@ -45,7 +45,7 @@ int yylex (void)
 
 static int input (void)
 {
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 static int ISALNUM (int ch)

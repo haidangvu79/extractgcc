@@ -49,6 +49,6 @@ int main(void)
 	    || (i > 0 && rv.ucs != 0))
 	   { printf("abort_main "); 		abort(); }
     }
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

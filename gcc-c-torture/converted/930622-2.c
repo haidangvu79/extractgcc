@@ -1,14 +1,14 @@
 long double
 ll_to_ld (long long n)
 {
-  printf("ld_to_ll ");
+  printf("ll_to_ld ");
   return n;
 }
 
 long long
 ld_to_ll (long double n)
 {
-  printf("ld_to_ll ");
+  printf("ll_to_ld ");
   return n;
 }
 

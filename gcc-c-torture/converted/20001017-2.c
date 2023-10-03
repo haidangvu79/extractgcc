@@ -15,6 +15,6 @@ main ()
   unsigned int d = 3;
 
   fn_4parms (a, &b, &c, &d);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

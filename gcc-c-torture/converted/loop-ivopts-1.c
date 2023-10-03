@@ -5,7 +5,7 @@ int main()
 {
   float x[4];
   foo (x);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 void foo (float *x)

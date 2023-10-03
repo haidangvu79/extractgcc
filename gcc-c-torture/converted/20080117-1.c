@@ -20,6 +20,6 @@ int main()
 {
   if (gs_state_update_overprint() != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

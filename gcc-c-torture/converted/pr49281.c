@@ -5,14 +5,14 @@ extern void abort (void);
 __attribute__((noinline, noclone)) int
 foo (int x)
 {
-  printf("bar ");
+  printf("foo ");
   return (x << 2) | 4;
 }
 
 __attribute__((noinline, noclone)) int
 bar (int x)
 {
-  printf("bar ");
+  printf("foo ");
   return (x << 2) | 3;
 }
 
@@ -23,6 +23,6 @@ main ()
    { printf("abort_main "); 		abort (); }
   if (bar (43) != 175 || bar (1) != 7 || bar (2) != 11)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

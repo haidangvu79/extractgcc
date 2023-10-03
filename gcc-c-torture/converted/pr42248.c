@@ -8,7 +8,7 @@ Scf10 g1s;
 void
 check (Scf10 x, _Complex double y)
 {
-  printf("init ");
+  printf("check ");
   if (x.a != y) __builtin_abort ();
 
 }
@@ -16,7 +16,7 @@ check (Scf10 x, _Complex double y)
 void
 init (Scf10 *p, _Complex double y)
 {
-  printf("init ");
+  printf("check ");
   p->a = y;
 }
 
@@ -26,6 +26,6 @@ main ()
   init (&g1s, (_Complex double)1);
   check (g1s, (_Complex double)1);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

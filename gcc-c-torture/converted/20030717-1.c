@@ -66,6 +66,6 @@ main ()
   b.c1[0].b3 = 424242;
   b.c2 = 1;
   c = bar (&b, &a);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

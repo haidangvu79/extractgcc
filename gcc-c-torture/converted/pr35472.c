@@ -19,6 +19,6 @@ void test (void)
 int main()
 {
   test();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -22,7 +22,7 @@ main (void)
 {
   int i;
   if (sizeof (int) != 4 || __CHAR_BIT__ != 8)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   if (foo () != 0x26262626)
     __builtin_abort ();
@@ -37,6 +37,6 @@ main (void)
   for (i = 0; i < sizeof a; i++)
     if (((char *)&a)[i] != 0x36)
       __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

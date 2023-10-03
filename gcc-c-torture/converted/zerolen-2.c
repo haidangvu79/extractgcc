@@ -16,6 +16,6 @@ int main()
    { printf("abort_main "); 		abort(); }
   if (__alignof__(word) != __alignof__(struct foo))
    { printf("abort_main "); 		abort(); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

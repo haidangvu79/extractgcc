@@ -6,7 +6,7 @@ struct a {
 int
 a1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct a x = { 1, 2, ~1 }, y = { 65, 2, ~2 };
 
 	return (x.a == (y.a & ~64) && x.b == y.b);
@@ -15,7 +15,7 @@ a1()
 int
 a2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct a x = { 1, 66, ~1 }, y = { 1, 2, ~2 };
 
 	return (x.a == y.a && (x.b & ~64) == y.b);
@@ -24,7 +24,7 @@ a2()
 int
 a3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct a x = { 9, 66, ~1 }, y = { 33, 18, ~2 };
 
 	return ((x.a & ~8) == (y.a & ~32) && (x.b & ~64) == (y.b & ~16));
@@ -38,7 +38,7 @@ struct b {
 int
 b1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct b x = { ~1, 2, 1 }, y = { ~2, 2, 65 };
 
 	return (x.a == (y.a & ~64) && x.b == y.b);
@@ -47,7 +47,7 @@ b1()
 int
 b2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct b x = { ~1, 66, 1 }, y = { ~2, 2, 1 };
 
 	return (x.a == y.a && (x.b & ~64) == y.b);
@@ -56,7 +56,7 @@ b2()
 int
 b3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct b x = { ~1, 66, 9 }, y = { ~2, 18, 33 };
 
 	return ((x.a & ~8) == (y.a & ~32) && (x.b & ~64) == (y.b & ~16));
@@ -69,7 +69,7 @@ struct c {
 int
 c1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct c x = { ~1, 2, 1 }, y = { ~2, 2, 65 };
 
 	return (x.a == (y.a & ~64) && x.b == y.b);
@@ -78,7 +78,7 @@ c1()
 int
 c2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct c x = { ~1, 66, 1 }, y = { ~2, 2, 1 };
 
 	return (x.a == y.a && (x.b & ~64) == y.b);
@@ -87,7 +87,7 @@ c2()
 int
 c3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct c x = { ~1, 66, 9 }, y = { ~2, 18, 33 };
 
 	return ((x.a & ~8) == (y.a & ~32) && (x.b & ~64) == (y.b & ~16));
@@ -100,7 +100,7 @@ struct d {
 int
 d1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct d x = { 1, 2, ~1 }, y = { 65, 2, ~2 };
 
 	return (x.a == (y.a & ~64) && x.b == y.b);
@@ -109,7 +109,7 @@ d1()
 int
 d2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct d x = { 1, 66, ~1 }, y = { 1, 2, ~2 };
 
 	return (x.a == y.a && (x.b & ~64) == y.b);
@@ -118,7 +118,7 @@ d2()
 int
 d3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct d x = { 9, 66, ~1 }, y = { 33, 18, ~2 };
 
 	return ((x.a & ~8) == (y.a & ~32) && (x.b & ~64) == (y.b & ~16));
@@ -131,7 +131,7 @@ struct e {
 int
 e1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct e x = { ~1, -2, -65 }, y = { ~2, -2, -1 };
 
 	return (x.a == (y.a & ~64) && x.b == y.b);
@@ -140,7 +140,7 @@ e1()
 int
 e2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct e x = { ~1, -2, -1 }, y = { ~2, -66, -1 };
 
 	return (x.a == y.a && (x.b & ~64) == y.b);
@@ -149,7 +149,7 @@ e2()
 int
 e3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct e x = { ~1, -18, -33 }, y = { ~2, -66, -9 };
 
 	return ((x.a & ~8) == (y.a & ~32) && (x.b & ~64) == (y.b & ~16));
@@ -158,7 +158,7 @@ e3()
 int
 e4()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct e x = { -1, -1, 0 };
 
 	return x.a == 0 && x.b & 0x2000;
@@ -171,7 +171,7 @@ struct f {
 int
 f1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct f x = { -65, -2, ~1 }, y = { -1, -2, ~2 };
 
 	return (x.a == (y.a & ~64) && x.b == y.b);
@@ -180,7 +180,7 @@ f1()
 int
 f2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct f x = { -1, -2, ~1 }, y = { -1, -66, ~2 };
 
 	return (x.a == y.a && (x.b & ~64) == y.b);
@@ -189,7 +189,7 @@ f2()
 int
 f3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct f x = { -33, -18, ~1 }, y = { -9, -66, ~2 };
 
 	return ((x.a & ~8) == (y.a & ~32) && (x.b & ~64) == (y.b & ~16));
@@ -198,7 +198,7 @@ f3()
 int
 f4()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct f x = { 0, -1, -1 };
 
 	return x.a == 0 && x.b & 0x2000;
@@ -214,7 +214,7 @@ struct gy {
 int
 g1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct gx x = { ~1, -2, -65 };
 	static struct gy y = { -2, -1, ~2 };
 
@@ -224,7 +224,7 @@ g1()
 int
 g2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct gx x = { ~1, -2, -1 };
 	static struct gy y = { -66, -1, ~2 };
 
@@ -234,7 +234,7 @@ g2()
 int
 g3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct gx x = { ~1, -18, -33 };
 	static struct gy y = { -66, -9, ~2 };
 
@@ -244,7 +244,7 @@ g3()
 int
 g4()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct gx x = { ~1, 0x0020, 0x0010 };
 	static struct gy y = { 0x0200, 0x0100, ~2 };
 
@@ -255,7 +255,7 @@ g4()
 int
 g5()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct gx x = { ~1, 0x0200, 0x0100 };
 	static struct gy y = { 0x0020, 0x0010, ~2 };
 
@@ -266,7 +266,7 @@ g5()
 int
 g6()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct gx x = { ~1, 0xfe20, 0xfd10 };
 	static struct gy y = { 0xc22f, 0xc11f, ~2 };
 
@@ -277,7 +277,7 @@ g6()
 int
 g7()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct gx x = { ~1, 0xc22f, 0xc11f };
 	static struct gy y = { 0xfe20, 0xfd10, ~2 };
 
@@ -295,7 +295,7 @@ struct hy {
 int
 h1()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct hx x = { -65, -2, ~1 };
 	static struct hy y = { ~2, -1, -2 };
 
@@ -305,7 +305,7 @@ h1()
 int
 h2()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct hx x = { -1, -2, ~1 };
 	static struct hy y = { ~2, -1, -66 };
 
@@ -315,7 +315,7 @@ h2()
 int
 h3()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct hx x = { -33, -18, ~1 };
 	static struct hy y = { ~2, -9, -66 };
 
@@ -325,7 +325,7 @@ h3()
 int
 h4()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct hx x = { 0x0010, 0x0020, ~1 };
 	static struct hy y = { ~2, 0x0100, 0x0200 };
 
@@ -336,7 +336,7 @@ h4()
 int
 h5()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct hx x = { 0x0100, 0x0200, ~1 };
 	static struct hy y = { ~2, 0x0010, 0x0020 };
 
@@ -347,7 +347,7 @@ h5()
 int
 h6()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct hx x = { 0xfd10, 0xfe20, ~1 };
 	static struct hy y = { ~2, 0xc11f, 0xc22f };
 
@@ -358,7 +358,7 @@ h6()
 int
 h7()
 {
-  printf("g1 ");
+  printf("b1 ");
 	static struct hx x = { 0xc11f, 0xc22f, ~1 };
 	static struct hy y = { ~2, 0xfd10, 0xfe20 };
 

@@ -29,6 +29,6 @@ int main()
     for (j = 0; j < 6; ++j)
       if (tmp[i*6+j] == -1)
        { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

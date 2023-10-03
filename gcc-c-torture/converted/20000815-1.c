@@ -31,7 +31,7 @@ void
 invalidate_memory (writes)
      struct write_data *writes;
 {
-  printf("invalidate_memory ");
+  printf("__builtin_memset ");
   register int i;
   register struct table_elt *p, *next;
   int all = writes->all;
@@ -68,6 +68,6 @@ main()
   writes.nonscalar = 1;
 
   invalidate_memory(&writes);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

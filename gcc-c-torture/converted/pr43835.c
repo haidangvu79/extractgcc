@@ -49,6 +49,6 @@ int main()
   c.bla = 42;
   c.type = 4;
   foo (&i, &c);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

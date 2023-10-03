@@ -26,7 +26,7 @@ foo (struct S *x, int set)
 void __attribute__((noinline,noclone))
 test1 (void)
 {
-  printf("test1 ");
+  printf("test3 ");
   struct S a;
   memset (&a.s, '\0', sizeof (a.s));
   foo (&a, 0);
@@ -40,7 +40,7 @@ test1 (void)
 void __attribute__((noinline,noclone))
 test2 (void)
 {
-  printf("test1 ");
+  printf("test3 ");
   struct S a;
   memset (&a.s, '\0', sizeof (a.s));
   foo (&a, 0);
@@ -54,7 +54,7 @@ test2 (void)
 void __attribute__((noinline,noclone))
 test3 (void)
 {
-  printf("test1 ");
+  printf("test3 ");
   struct S a;
   memset (&a.s, '\0', sizeof (a.s));
   foo (&a, 0);
@@ -71,6 +71,6 @@ main (void)
   test1 ();
   test2 ();
   test3 ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

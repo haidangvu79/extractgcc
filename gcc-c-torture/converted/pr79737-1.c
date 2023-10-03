@@ -21,8 +21,7 @@ static struct S h;
 void
 foo ()
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   for (j = 0; j < 6; j++)
     k = 0;
   for (; k < 3; k++)
@@ -41,6 +40,6 @@ main ()
   foo ();
   if (h.e != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

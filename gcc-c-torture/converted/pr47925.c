@@ -21,6 +21,6 @@ int main (void)
 {
   volatile struct s rec = { &rec };
   foo (&rec, 10);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

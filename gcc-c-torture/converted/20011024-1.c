@@ -20,6 +20,6 @@ static void foo (void)
 int main (void)
 {
   foo ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

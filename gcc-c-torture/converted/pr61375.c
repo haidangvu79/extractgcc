@@ -14,8 +14,7 @@ typedef unsigned long long uint64_t;
 __attribute__ ((noinline, noclone)) uint64_t
 uint128_central_bitsi_ior (unsigned __int128 in1, uint64_t in2)
 {
-  printf("__builtin_abort ");
-
+  printf("uint128_central_bitsi_ior ");
   __int128 mask = (__int128)0xffff << 56;
   return ((in1 & mask) >> 56) | in2;
 }
@@ -28,11 +27,11 @@ main(int argc, char **argv)
   in <<= 64;
 #endif
   if (sizeof (uint64_t) * __CHAR_BIT__ != 64)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if (sizeof (unsigned __int128) * __CHAR_BIT__ != 128)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if (uint128_central_bitsi_ior (in, 2) != 0x102)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

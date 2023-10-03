@@ -35,6 +35,6 @@ main (void)
   x = -38;
   if (foo () != -37)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

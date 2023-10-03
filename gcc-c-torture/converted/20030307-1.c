@@ -24,6 +24,6 @@ int main(void)
   if (vfswrap_lock (0, 1, 2, 3, 4, 5) != 5)
    { printf("abort_main "); 		abort(); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

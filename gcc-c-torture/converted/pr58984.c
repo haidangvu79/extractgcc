@@ -8,8 +8,7 @@ int a, *c = &a, e, n, b, m;
 static int
 foo (struct S p)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   const unsigned short *f[36];
   for (; e < 2; e++)
     {
@@ -27,8 +26,7 @@ foo (struct S p)
 static int
 bar (struct T p)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   const unsigned short *f[36];
   for (; e < 2; e++)
     {
@@ -57,6 +55,6 @@ main ()
   m |= n || p.f0;
   if (a != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

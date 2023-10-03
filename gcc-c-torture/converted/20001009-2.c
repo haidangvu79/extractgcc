@@ -19,6 +19,6 @@ int foo()
 int main()
 {
   foo();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

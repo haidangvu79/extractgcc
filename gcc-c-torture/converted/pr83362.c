@@ -7,8 +7,7 @@ u8 c;
 static u32 __attribute__ ((noinline, noclone))
 foo (u32 p)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   do
     {
       e /= 0xfff;
@@ -27,6 +26,6 @@ main (void)
   u32 x = foo (1164);
   if (x != 0xfd)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

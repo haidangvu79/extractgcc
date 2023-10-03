@@ -23,7 +23,7 @@ void _fputs(const char *str)
 char _fgetc() __attribute__((noinline));
 char _fgetc()
 {
-  printf("_fgetc ");
+  printf("check ");
   char val = buf[i];
   i++;
   if (i > l)
@@ -46,6 +46,6 @@ int main(void)
     check(c, string[i], c == string[i]);
   }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

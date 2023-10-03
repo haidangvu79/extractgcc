@@ -6,7 +6,7 @@ long x, y;
 inline void __attribute__((always_inline))
 f1i (va_list ap)
 {
-  printf("f1 ");
+  printf("f4 ");
   x = va_arg (ap, double);
   x += va_arg (ap, long);
   x += va_arg (ap, double);
@@ -15,7 +15,7 @@ f1i (va_list ap)
 void
 f1 (int i, ...)
 {
-  printf("f1 ");
+  printf("f4 ");
   va_list ap;
   va_start (ap, i);
   f1i (ap);
@@ -25,7 +25,7 @@ f1 (int i, ...)
 inline void __attribute__((always_inline))
 f2i (va_list ap)
 {
-  printf("f1 ");
+  printf("f4 ");
   y = va_arg (ap, int);
   y += va_arg (ap, long);
   y += va_arg (ap, double);
@@ -35,7 +35,7 @@ f2i (va_list ap)
 void
 f2 (int i, ...)
 {
-  printf("f1 ");
+  printf("f4 ");
   va_list ap;
   va_start (ap, i);
   f2i (ap);
@@ -45,14 +45,14 @@ f2 (int i, ...)
 long
 f3h (int i, long arg0, long arg1, long arg2, long arg3)
 {
-  printf("f1 ");
+  printf("f4 ");
   return i + arg0 + arg1 + arg2 + arg3;
 }
 
 long
 f3 (int i, ...)
 {
-  printf("f1 ");
+  printf("f4 ");
   long t, arg0, arg1, arg2, arg3;
   va_list ap;
 
@@ -96,7 +96,7 @@ f3 (int i, ...)
 void
 f4 (int i, ...)
 {
-  printf("f1 ");
+  printf("f4 ");
   va_list ap;
 
   va_start (ap, i);
@@ -142,6 +142,6 @@ main (void)
   f4 (5, 7.0, 21.0, 1.0, 17L, 126.0);
   if (x != 144L || y != 28L)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

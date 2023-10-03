@@ -17,6 +17,6 @@ L2:
   c = (b % c) * i;
   if (!e)
     goto L2;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

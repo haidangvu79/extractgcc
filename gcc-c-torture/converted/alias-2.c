@@ -8,6 +8,6 @@ main()
   a[off]=2;
   if (b[off]!=2)
    __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

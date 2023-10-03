@@ -5,7 +5,7 @@ extern void abort (void);
 __attribute__((noinline, noclone)) int
 foo (int i)
 {
-  printf("bar ");
+  printf("foo ");
   volatile int v[4];
   int *p;
   v[i] = 6;
@@ -16,7 +16,7 @@ foo (int i)
 __attribute__((noinline, noclone)) int
 bar (int i)
 {
-  printf("bar ");
+  printf("foo ");
   volatile int v[4];
   int *p;
   v[i] = 6;
@@ -28,7 +28,7 @@ bar (int i)
 __attribute__((noinline, noclone)) int
 baz (int i)
 {
-  printf("bar ");
+  printf("foo ");
   volatile int v[4];
   int *p;
   v[i] = 6;
@@ -42,6 +42,6 @@ main ()
 {
   if (foo (3) != 6 || bar (2) != 8 || baz (0) != 8 || baz (1) != 6)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

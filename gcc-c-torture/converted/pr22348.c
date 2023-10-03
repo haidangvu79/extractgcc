@@ -12,6 +12,6 @@ int main()
   buflen = 4 + 3 * 16;
   for (i = 4; i < buflen; i+= 3)
     f(i);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -14,21 +14,21 @@ typedef unsigned int V2UHI __attribute__ ((vector_size (4)));
 long long
 test1 (V2SF x)
 {
-  printf("test1 ");
+  printf("test3 ");
   return (long long) (V2SI) x;
 }
 
 long long
 test2 (V2SF x)
 {
-  printf("test1 ");
+  printf("test3 ");
   return (long long) x;
 }
 
 long long
 test3 (V2SI x)
 {
-  printf("test1 ");
+  printf("test3 ");
   return (long long) (V2SF) x;
 }
 
@@ -36,7 +36,7 @@ int
 main (void)
 {
   if (sizeof (short) != 2 || sizeof (int) != 4 || sizeof (long long) != 8)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   V2SF x = { 2.0, 2.0 };
   union { long long l; float f[2]; int i[2]; } u;
@@ -53,6 +53,6 @@ main (void)
   u.l = test3 (z);
   if (u.i[0] != 4 || u.i[1] != 4)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

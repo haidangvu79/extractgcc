@@ -216,6 +216,6 @@ main ()
   double d = foo (78.4);
   if (d < 0.38 || d > 0.42)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

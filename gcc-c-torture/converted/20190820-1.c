@@ -109,6 +109,6 @@ main (void)
 {
   struct printf_spec spec;
   char *s = pointer_string (0, 0, 0, spec);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -16,6 +16,6 @@ int main(void)
   mpy_res = mpy(1,-1);
   if (mpy_res != -1LL)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

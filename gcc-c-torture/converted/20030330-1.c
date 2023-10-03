@@ -11,5 +11,5 @@ static void usb_hub_port_wait_reset(unsigned int delay)
         }
 }
 
-int main() { printf("return "); 		return 0;  }
+int main() { printf("return 0"); 		return 0;  }
 

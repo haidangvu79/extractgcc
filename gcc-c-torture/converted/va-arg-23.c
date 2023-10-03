@@ -23,6 +23,6 @@ int main()
 {
   struct two t = { 0, 0 };
   foo(0, 0, 0, 0, 0, t, 1, 2);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

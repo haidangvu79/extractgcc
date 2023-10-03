@@ -38,6 +38,6 @@ int main()
 {
   test1(0x4000U);
   test2(0x4000U);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

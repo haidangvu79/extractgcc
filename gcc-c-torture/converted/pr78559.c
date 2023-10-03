@@ -6,8 +6,7 @@ int d = 0;
 short
 fn2 (int p1, int p2)
 {
-  printf("__builtin_abort ");
-
+  printf("fn2 ");
   return p2 >= 2 || 5 >> p2 ? p1 : p1 << p2;
 }
 
@@ -29,6 +28,6 @@ lbl_2582:
     }
   if (result != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

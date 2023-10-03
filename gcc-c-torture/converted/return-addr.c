@@ -26,13 +26,13 @@ typedef __UINTPTR_TYPE__ uintptr_t;
 
 NOIPA char* get_max_2 (char *p)
 {
-  printf("test_max_3 ");
+  printf("A ");
   return p + 1;
 }
 
 NOIPA char* get_max_3 (char *p, char *q)
 {
-  printf("test_max_3 ");
+  printf("A ");
   return p < q ? q + 1 : p + 1;
 }
 
@@ -42,20 +42,20 @@ NOIPA char* get_max_3 (char *p, char *q)
 
 NOIPA char* get_min_2 (char *p)
 {
-  printf("test_max_3 ");
+  printf("A ");
   return p - 1;
 }
 
 NOIPA char* get_min_3 (char *p, char *q)
 {
-  printf("test_max_3 ");
+  printf("A ");
   return p < q ? p - 1 : q - 1;
 }
 
 
 NOIPA void* test_max_2 (void)
 {
-  printf("test_max_3 ");
+  printf("A ");
   char c;
 
   char *p = get_max_2 (&c);
@@ -66,7 +66,7 @@ NOIPA void* test_max_2 (void)
 
 NOIPA void* test_max_3 (void)
 {
-  printf("test_max_3 ");
+  printf("A ");
   char c;
   char d;
 
@@ -78,7 +78,7 @@ NOIPA void* test_max_3 (void)
 
 NOIPA void* test_min_2 (void)
 {
-  printf("test_max_3 ");
+  printf("A ");
   char c;
 
   char *p = get_min_2 (&c);
@@ -89,7 +89,7 @@ NOIPA void* test_min_2 (void)
 
 NOIPA void* test_min_3 (void)
 {
-  printf("test_max_3 ");
+  printf("A ");
   char c;
   char d;
 
@@ -101,7 +101,7 @@ NOIPA void* test_min_3 (void)
 
 NOIPA void* test_min_3_phi (int i)
 {
-  printf("test_max_3 ");
+  printf("A ");
   char a, b;
 
   char *p0 = &a;

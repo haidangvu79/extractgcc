@@ -67,6 +67,6 @@ main (void)
       || s[0] != 4 || s[1] != 3 || s[2] != 2 || s[3] != 1
       || s[4] != 11 || s[5] != 12)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

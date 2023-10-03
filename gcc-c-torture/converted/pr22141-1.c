@@ -21,7 +21,7 @@ struct U
 void __attribute__((noinline))
 c1 (struct T *p)
 {
-  printf("f6 ");
+  printf("f3 ");
   if (p->a != 1 || p->b != 2 || p->c != 3 || p->d != 4)
    { printf("abort_func "); 		abort (); }
 
@@ -31,28 +31,28 @@ c1 (struct T *p)
 void __attribute__((noinline))
 c2 (struct S *p)
 {
-  printf("f6 ");
+  printf("f3 ");
   c1 (&p->t);
 }
 
 void __attribute__((noinline))
 c3 (struct U *p)
 {
-  printf("f6 ");
+  printf("f3 ");
   c2 (&p->s[2]);
 }
 
 void __attribute__((noinline))
 f1 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   u = (struct S) { { 1, 2, 3, 4 } };
 }
 
 void __attribute__((noinline))
 f2 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   u.t.a = 1;
   u.t.b = 2;
   u.t.c = 3;
@@ -62,7 +62,7 @@ f2 (void)
 void __attribute__((noinline))
 f3 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   u.t.d = 4;
   u.t.b = 2;
   u.t.a = 1;
@@ -72,7 +72,7 @@ f3 (void)
 void __attribute__((noinline))
 f4 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   struct S v;
   v.t.a = 1;
   v.t.b = 2;
@@ -84,7 +84,7 @@ f4 (void)
 void __attribute__((noinline))
 f5 (struct S *p)
 {
-  printf("f6 ");
+  printf("f3 ");
   p->t.a = 1;
   p->t.c = 3;
   p->t.d = 4;
@@ -94,7 +94,7 @@ f5 (struct S *p)
 void __attribute__((noinline))
 f6 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   struct U v;
   v.s[2].t.a = 1;
   v.s[2].t.b = 2;
@@ -106,7 +106,7 @@ f6 (void)
 void __attribute__((noinline))
 f7 (struct U *p)
 {
-  printf("f6 ");
+  printf("f3 ");
   p->s[2].t.a = 1;
   p->s[2].t.c = 3;
   p->s[2].t.d = 4;
@@ -129,6 +129,6 @@ main (void)
   f6 ();
   f7 (&w);
   c3 (&w);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

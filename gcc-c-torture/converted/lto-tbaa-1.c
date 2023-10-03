@@ -14,8 +14,7 @@ use_a (struct a *a)
 }
 set_b (int **a)
 {
-  printf("__builtin_abort ");
-
+  printf("set_b ");
   *a=&d;
 }
 use_c (struct c *a)
@@ -23,8 +22,7 @@ use_c (struct c *a)
 }
 __attribute__ ((noinline)) int **retme(int **val)
 {
-  printf("__builtin_abort ");
-
+  printf("set_b ");
   return val;
 }
 int e;
@@ -42,6 +40,6 @@ main ()
   if (b3.b != &d)
   __builtin_abort ();
   c= (void *)0;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -45,6 +45,6 @@ main (void)
   a.f1 = 1;
   a.f2 = 0;
   foo (&a);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -10,7 +10,7 @@ unsigned int b[N], d[N];
 __attribute__((noinline, noclone)) void
 f1 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     c[i] = a[i] % 3;
@@ -19,7 +19,7 @@ f1 (void)
 __attribute__((noinline, noclone)) void
 f2 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     d[i] = b[i] % 3;
@@ -28,7 +28,7 @@ f2 (void)
 __attribute__((noinline, noclone)) void
 f3 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     c[i] = a[i] % 18;
@@ -37,7 +37,7 @@ f3 (void)
 __attribute__((noinline, noclone)) void
 f4 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     d[i] = b[i] % 18;
@@ -46,7 +46,7 @@ f4 (void)
 __attribute__((noinline, noclone)) void
 f5 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     c[i] = a[i] % 19;
@@ -55,7 +55,7 @@ f5 (void)
 __attribute__((noinline, noclone)) void
 f6 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     d[i] = b[i] % 19;
@@ -65,7 +65,7 @@ f6 (void)
 __attribute__((noinline, noclone)) void
 f7 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     {
@@ -77,7 +77,7 @@ f7 (void)
 __attribute__((noinline, noclone)) void
 f8 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     {
@@ -89,7 +89,7 @@ f8 (void)
 __attribute__((noinline, noclone)) void
 f9 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     {
@@ -101,7 +101,7 @@ f9 (void)
 __attribute__((noinline, noclone)) void
 f10 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     {
@@ -113,7 +113,7 @@ f10 (void)
 __attribute__((noinline, noclone)) void
 f11 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     {
@@ -125,7 +125,7 @@ f11 (void)
 __attribute__((noinline, noclone)) void
 f12 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int i;
   for (i = 0; i < N; i++)
     {
@@ -182,6 +182,6 @@ main ()
     if (c[i] != a[i] % 19 || d[i] != b[i] % 19)
      { printf("abort_main "); 		abort (); }
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

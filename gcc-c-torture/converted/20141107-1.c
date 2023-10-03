@@ -24,6 +24,6 @@ int main(void)
   checkf(0, 1);
   checkf(1, 1);
   checkf(1, 0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

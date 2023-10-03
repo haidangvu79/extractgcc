@@ -19,6 +19,6 @@ int main()
   char *x = sf (s+2, s);
   if (x != s+1 || __builtin_strcmp (s, "199999") != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

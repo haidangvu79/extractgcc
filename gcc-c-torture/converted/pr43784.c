@@ -29,6 +29,6 @@ int main()
   for (i = 0; i < 256; i++)
     if (q->a[i] != i)
       __builtin_abort();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

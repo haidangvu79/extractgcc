@@ -28,6 +28,6 @@ int main ()
 {
   A a={1};
   bar(&a);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

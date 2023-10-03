@@ -12,7 +12,7 @@
 void __attribute__ ((format (printf, 1, 2), noipa))
 user_print (const char *fmt, ...)
 {
-  printf("fopen ");
+  printf("fclose ");
   va_list va;
   va_start (va, fmt);
   vfprintf (stdout, fmt, va);
@@ -62,6 +62,6 @@ int main (void)
   if (strcmp (buf, "123456789"))
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

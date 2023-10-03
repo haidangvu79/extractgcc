@@ -26,6 +26,6 @@ int main()
 
    if (foo[0].bar[3].c[128] != 'd')
     { printf("abort_main "); 		abort (); }
-   printf("return "); 		return 0; 
+   printf("return 0"); 		return 0; 
 }
 

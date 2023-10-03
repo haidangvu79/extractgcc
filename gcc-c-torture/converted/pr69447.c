@@ -6,8 +6,7 @@ typedef unsigned long long u64;
 u64 __attribute__((noinline, noclone))
 foo(u8 u8_0, u16 u16_0, u64 u64_0, u8 u8_1, u16 u16_1, u64 u64_1, u64 u64_2, u8 u8_3, u64 u64_3)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
 	u64_1 *= 0x7730;
 	u64_3 *= u64_3;
 	u16_1 |= u64_3;

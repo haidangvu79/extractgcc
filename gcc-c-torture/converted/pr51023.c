@@ -15,6 +15,6 @@ main ()
   long int a = 0x4272AL;
   if (foo (a) == a)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

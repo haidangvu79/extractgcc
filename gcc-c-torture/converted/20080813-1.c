@@ -26,10 +26,10 @@ int
 main (void)
 {
   if (sizeof (int) == sizeof (short))
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   foo (-1);
   if (sizeof (short) > 1)
     bar (-1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

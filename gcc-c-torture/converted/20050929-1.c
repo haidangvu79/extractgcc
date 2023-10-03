@@ -16,6 +16,6 @@ main (void)
    { printf("abort_main "); 		abort (); }
   if (e.d->i != 5 || e.d->j != 6)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

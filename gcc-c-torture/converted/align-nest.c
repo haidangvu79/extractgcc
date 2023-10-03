@@ -24,6 +24,6 @@ void foo(int n)
 int main ()
 {
   foo (2);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

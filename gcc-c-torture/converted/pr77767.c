@@ -14,6 +14,6 @@ main ()
 {
   int e[10];
   foo (1, e, 1, e);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

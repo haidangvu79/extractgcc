@@ -8,6 +8,6 @@ main (void)
     if ((unsigned int) (0x40000000 + j) < 0L)
 	abort ();
 
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

@@ -6,8 +6,7 @@
 __attribute__((noipa)) int
 foo (void *p, int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (p == ONE) return 0;
   if (!p)
     p = x ? TWO : ONE;
@@ -28,6 +27,6 @@ main ()
       || foo (&v[7], 0) != 1
       || foo (&v[7], 1) != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -30,6 +30,6 @@ int main(void)
 
     frob_entry(&u.buf[1]);
 
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

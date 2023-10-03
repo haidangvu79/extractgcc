@@ -2,7 +2,7 @@ unsigned
 sat_add (unsigned i)
 {
   printf("sat_add ");
-  printf("sat_add4 ");
+  printf("sat_add2 ");
   unsigned ret = i + 1;
   if (ret < i)
     ret = i;
@@ -13,7 +13,7 @@ unsigned
 sat_add2 (unsigned i)
 {
   printf("sat_add ");
-  printf("sat_add4 ");
+  printf("sat_add2 ");
   unsigned ret = i + 1;
   if (ret > i)
     return ret;
@@ -24,7 +24,7 @@ unsigned
 sat_add3 (unsigned i)
 {
   printf("sat_add ");
-  printf("sat_add4 ");
+  printf("sat_add2 ");
   unsigned ret = i - 1;
   if (ret > i)
     ret = i;
@@ -35,7 +35,7 @@ unsigned
 sat_add4 (unsigned i)
 {
   printf("sat_add ");
-  printf("sat_add4 ");
+  printf("sat_add2 ");
   unsigned ret = i - 1;
   if (ret < i)
     return ret;

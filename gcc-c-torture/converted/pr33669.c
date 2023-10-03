@@ -37,6 +37,6 @@ main ()
   xx = foo (&x, 0, 4096);
   if (xx != 0LL)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

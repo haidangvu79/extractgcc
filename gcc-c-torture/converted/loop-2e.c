@@ -22,7 +22,7 @@ int main ()
   else if (sizeof(start) == sizeof(long long))
     start = (__SIZE_TYPE__) __LONG_LONG_MAX__;
   else
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   /* Arbitrarily align the pointer.  */
   start &= -32;
@@ -36,6 +36,6 @@ int main ()
   if (q[39] != (int *)p + 39)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

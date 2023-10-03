@@ -5,56 +5,56 @@ extern void abort (void);
 __attribute__((noinline, noclone)) int
 f1 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x < 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f2 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x < 0 ? x : ~x;
 }
 
 __attribute__((noinline, noclone)) int
 f3 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x <= 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f4 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x <= 0 ? x : ~x;
 }
 
 __attribute__((noinline, noclone)) int
 f5 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x >= 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f6 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x >= 0 ? x : ~x;
 }
 
 __attribute__((noinline, noclone)) int
 f7 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x > 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f8 (int x)
 {
-  printf("f8 ");
+  printf("f3 ");
   return x > 0 ? x : ~x;
 }
 
@@ -77,6 +77,6 @@ main ()
    { printf("abort_main "); 		abort (); }
   if (f8 (5) != 5 || f8 (-5) != 4 || f8 (0) != -1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

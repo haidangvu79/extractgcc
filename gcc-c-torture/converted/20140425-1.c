@@ -20,6 +20,6 @@ int main (void)
   l = (unsigned long)(2U << i);
   if (l != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
