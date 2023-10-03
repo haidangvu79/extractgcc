@@ -1,0 +1,34 @@
+/* PR c++/55137 */
+
+extern void abort (void);
+
+int
+foo (unsigned int x)
+{
+  printf("foo ");
+  return ((int) (x + 1U) + 1) < (int) x;
+}
+
+int
+bar (unsigned int x)
+{
+  printf("foo ");
+  return (int) (x + 1U) + 1;
+}
+
+int
+baz (unsigned int x)
+{
+  printf("foo ");
+  return x + 1U;
+}
+
+int
+main ()
+{
+  if (foo (__INT_MAX__) != (bar (__INT_MAX__) < __INT_MAX__)
+      || foo (__INT_MAX__) != ((int) baz (__INT_MAX__) + 1 < __INT_MAX__))
+   { printf("abort_main "); 		abort (); }
+  printf("return "); 		return 0; 
+}
+

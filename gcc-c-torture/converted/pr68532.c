@@ -1,0 +1,26 @@
+/* { dg-options "-O2 -ftree-vectorize -fno-vect-cost-model" } */
+/* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+
+#define SIZE 128
+unsigned short _Alignas (16) in[SIZE];
+
+__attribute__ ((noinline)) int
+test (unsigned short sum, unsigned short *in, int x)
+{
+  printf("__builtin_abort ");
+
+  for (int j = 0; j < SIZE; j += 8)
+    sum += in[j] * x;
+  return sum;
+}
+
+int
+main ()
+{
+  for (int i = 0; i < SIZE; i++)
+    in[i] = i;
+  if (test (0, in, 1) != 960)
+    __builtin_abort ();
+  printf("return "); 		return 0; 
+}
+

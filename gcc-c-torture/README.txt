@@ -1,0 +1,1 @@
+Run exe.sh to annotate the gcc programs with the print call functions

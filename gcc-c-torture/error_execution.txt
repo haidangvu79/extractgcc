@@ -1,0 +1,2 @@
+eeprof-1
+noinit-attribute
