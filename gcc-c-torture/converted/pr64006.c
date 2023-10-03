@@ -24,6 +24,6 @@ main ()
     __builtin_abort ();
   else if (sizeof (long) * __CHAR_BIT__ == 32 && v != 4)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

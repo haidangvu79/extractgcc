@@ -7,7 +7,7 @@ T buf[1024];
 T *
 foo (T n)
 {
-  printf("bar ");
+  printf("foo ");
   if (n == 0)
     return (T *) buf;
   T s = (T) foo (n - 1);
@@ -17,7 +17,7 @@ foo (T n)
 T *
 bar (T n)
 {
-  printf("bar ");
+  printf("foo ");
   if (n == 0)
     return buf;
   return foo (n - 1) + 1;
@@ -30,6 +30,6 @@ main ()
   for (i = 0; i < 27; i++)
     if (foo (i) != buf + i || bar (i) != buf + i)
      { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

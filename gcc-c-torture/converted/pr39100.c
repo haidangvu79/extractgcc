@@ -16,8 +16,7 @@ typedef struct C
 __attribute__((noinline)) CP
 foo (CP h, EP x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   EP pl = 0, *pa = &pl;
   EP nl = 0, *na = &nl;
   EP n;
@@ -61,6 +60,6 @@ main (void)
     __builtin_abort ();
   if (e[0].n)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

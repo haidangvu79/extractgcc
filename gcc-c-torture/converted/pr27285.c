@@ -43,6 +43,6 @@ main (void)
   if (x.d[0] != y.d[0] || x.d[1] != y.d[1]
       || x.d[2] != y.d[2] || (x.d[3] & 0x80) != y.d[3])
    { printf("abort_main "); 		abort (); }
-   printf("return "); 		return 0; 
+   printf("return 0"); 		return 0; 
 }
 

@@ -23,6 +23,6 @@ void foo (int x)
 int main()
 {
   foo (1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

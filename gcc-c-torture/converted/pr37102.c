@@ -23,6 +23,6 @@ main ()
   if (e)
     e = (e << 1) ^ 1;
   foo (e);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

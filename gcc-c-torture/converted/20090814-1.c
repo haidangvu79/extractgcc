@@ -20,6 +20,6 @@ int main()
   i = 1;
   if (foo (&a) != 42)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

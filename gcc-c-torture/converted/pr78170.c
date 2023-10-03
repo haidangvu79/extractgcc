@@ -35,6 +35,6 @@ int main ()
   fn1 ();
   if (c.f7 != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

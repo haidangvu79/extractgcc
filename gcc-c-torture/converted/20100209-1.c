@@ -9,6 +9,6 @@ int main()
   if (sizeof (long long) > sizeof (int)
       && bar(-1) != -1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

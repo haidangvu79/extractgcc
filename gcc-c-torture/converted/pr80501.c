@@ -21,6 +21,6 @@ main ()
 {
   if (sizeof (int) > sizeof (char) && bar () != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

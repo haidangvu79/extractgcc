@@ -22,6 +22,6 @@ main (void)
       || s.d.r[3] != 11 || s.d.r[4] != 12 || s.d.r[5] != 13
       || s.d.r[6] != 14 || s.d.r[7] != 15)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -6,6 +6,6 @@ int main(void)
 {
   if (ReadyFlag_NotProperlyInitialized != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

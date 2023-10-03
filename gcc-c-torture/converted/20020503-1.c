@@ -28,6 +28,6 @@ main ()
   p = inttostr (-1, buf);
   if (*p != '-')
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

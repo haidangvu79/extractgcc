@@ -6,8 +6,7 @@ const char a[] = STRING;
 void f(char *a) __attribute__((noinline));
 void f(char *a)
 {
-  printf("__builtin_abort ");
-
+  printf("f ");
   __builtin_strcpy (a, STRING);
 }
 
@@ -22,6 +21,6 @@ int main(void)
       if (a[i] != b[i])
 	__builtin_abort ();
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

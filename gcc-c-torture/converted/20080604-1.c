@@ -28,6 +28,6 @@ int main()
   baz(0);
   if (!x.some_string)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

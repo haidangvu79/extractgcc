@@ -30,6 +30,6 @@ int main()
    { printf("abort_main "); 		abort (); }
 #endif
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

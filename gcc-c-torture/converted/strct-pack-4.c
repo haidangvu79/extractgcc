@@ -7,14 +7,14 @@ typedef struct
 unsigned char
 my_set_a (void)
 {
-  printf("my_set_b ");
+  printf("my_set_a ");
   return 0xab;
 }
 
 unsigned short
 my_set_b (void)
 {
-  printf("my_set_b ");
+  printf("my_set_a ");
   return 0x1234;
 }
 

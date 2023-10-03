@@ -27,6 +27,6 @@ main ()
   asm volatile ("" : : : "memory");
   foo (&b);
   asm volatile ("" : : : "memory");
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

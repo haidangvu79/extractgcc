@@ -57,6 +57,6 @@ main ()
    { printf("abort_main "); 		abort (); }
   if (foo (28) != 105 || foo (27) != 102 || foo (29) != 111)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

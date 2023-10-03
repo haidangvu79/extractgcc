@@ -18,6 +18,6 @@ int main(void)
   Timer_Queue.succ = &Timer_Queue;
   if (time_enqueue (&Timer_Queue) != (void*)0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -15,7 +15,7 @@ int main()
     case X3: y(3); break;
     case X4: y(4); break;
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 static void y(int x) {{ printf("abort_main "); 		abort (); } }

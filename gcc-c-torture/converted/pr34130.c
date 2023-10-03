@@ -9,6 +9,6 @@ int main()
   if (foo(1) != -2
       || foo(3) != -2)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

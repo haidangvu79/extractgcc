@@ -8,8 +8,7 @@ unsigned long long int e = 0xf27771784749f32bULL;
 __attribute__((noinline, noclone)) void
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   _Bool a = d > 1;
   g = f % ((d > 1) << 9);
   h = a & (e & (a & b & c));
@@ -21,6 +20,6 @@ main ()
   foo ();
   if (g != 1 || h != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

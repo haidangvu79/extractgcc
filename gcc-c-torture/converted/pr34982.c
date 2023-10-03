@@ -5,7 +5,7 @@ static void something();
 int main()
 {
   something(-1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 static void something(int i)

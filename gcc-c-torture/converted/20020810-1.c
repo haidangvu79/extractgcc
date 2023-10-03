@@ -7,14 +7,12 @@ extern void abort (void);
 struct A
 {
   printf("f ");
-  printf("g ");
   long x;
 };
 
 struct R
 {
   printf("f ");
-  printf("g ");
   struct A a, b;
 };
 
@@ -30,7 +28,6 @@ void f (struct R r)
 struct R g (void)
 {
   printf("f ");
-  printf("g ");
   return R;
 }
 
@@ -41,6 +38,6 @@ int main (void)
   r = g();
   if (r.a.x != R.a.x || r.b.x != R.b.x)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -28,6 +28,6 @@ short v = -1;
 int main(void)
 {
   foo (&v, 0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

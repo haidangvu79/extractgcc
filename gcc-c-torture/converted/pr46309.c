@@ -29,6 +29,6 @@ main ()
   y = 0;
   x = 1;
   bar (&x);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -47,6 +47,6 @@ main (void)
   for (; i < 288; i++)
     l[i] = 8;
   check (l);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

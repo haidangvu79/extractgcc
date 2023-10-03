@@ -29,6 +29,6 @@ main ()
    { printf("abort_main "); 		abort (); }
   if (q - p > 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

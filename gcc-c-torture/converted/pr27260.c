@@ -30,6 +30,6 @@ main (void)
      { printf("abort_main "); 		abort (); }
   if (buf[64] != 2)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

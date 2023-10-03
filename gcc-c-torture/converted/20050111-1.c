@@ -3,7 +3,7 @@
 unsigned int
 foo (unsigned long long x)
 {
-  printf("bar ");
+  printf("foo ");
   unsigned int u;
 
   if (x == 0)
@@ -15,7 +15,7 @@ foo (unsigned long long x)
 unsigned long long
 bar (unsigned short x)
 {
-  printf("bar ");
+  printf("foo ");
   return (unsigned long long) x << 32;
 }
 
@@ -25,7 +25,7 @@ int
 main (void)
 {
   if (sizeof (long long) != 8)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   if (foo (0) != 0)
    { printf("abort_main "); 		abort (); }
@@ -37,6 +37,6 @@ main (void)
    { printf("abort_main "); 		abort (); }
   if (bar (0x25) != 0x2500000000ULL)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

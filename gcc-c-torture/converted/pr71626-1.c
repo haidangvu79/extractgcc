@@ -5,8 +5,7 @@ typedef __INTPTR_TYPE__ V __attribute__((__vector_size__(sizeof (__INTPTR_TYPE__
 __attribute__((noinline, noclone)) V
 foo ()
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   V v = { (__INTPTR_TYPE__) foo };
   return v;
 }
@@ -17,6 +16,6 @@ main ()
   V v = foo ();
   if (v[0] != (__INTPTR_TYPE__) foo)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

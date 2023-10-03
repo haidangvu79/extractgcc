@@ -97,7 +97,7 @@ main (void)
 
 #include "20040629-1.c"
 #undef T
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 #else

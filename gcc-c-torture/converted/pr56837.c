@@ -18,6 +18,6 @@ main ()
   for (i = 0; i < 1024; i++)
     if (a[i] != -1)
      { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -6,8 +6,7 @@ typedef long long W __attribute__((vector_size (2 * sizeof (long long))));
 __attribute__((noipa)) void
 foo (V *r)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   V y = { 1.0, 2.0 };
   W m = { 10000000001LL, 0LL };
   *r = __builtin_shuffle (y, m);
@@ -20,6 +19,6 @@ main ()
   foo (&r);
   if (r[0] != 2.0 || r[1] != 1.0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

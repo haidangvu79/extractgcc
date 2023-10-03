@@ -62,7 +62,7 @@ int main ()
   ASSERT (entry_calls == 3 && exit_calls == 3);
   ASSERT (last_fn_entered == foo);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 void __cyg_profile_func_enter (void*, void*) NOCHK;

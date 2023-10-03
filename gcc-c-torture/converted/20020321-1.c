@@ -18,6 +18,6 @@ float f (void *a, void *b, int c, float d)
 int main ()
 {
   f (0, 0, 1, 1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

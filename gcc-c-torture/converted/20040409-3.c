@@ -133,6 +133,6 @@ int main()
   testu(0xffff,0x8000);
 #endif
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

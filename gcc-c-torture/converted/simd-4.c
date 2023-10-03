@@ -18,6 +18,6 @@ int main()
   s64 = __ev_convert_s64 ((v2si){1,0xffffffff});
   if (s64 != (little_endian ? 0xffffffff00000001LL : 0x1ffffffffLL))
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

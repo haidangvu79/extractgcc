@@ -33,6 +33,6 @@ main ()
   bar (9, s);
   v = 17; s.a = v - 1; s.b = v; s.c = v + 1;
   bar (9, s);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

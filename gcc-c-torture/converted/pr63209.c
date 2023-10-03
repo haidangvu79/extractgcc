@@ -20,7 +20,7 @@ int main(void) {
   const unsigned left = 0xff7b7b7b;
   const unsigned pred = Predictor(left, top /*+ 1*/);
   if (pred == left)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   return 1;
 }
 

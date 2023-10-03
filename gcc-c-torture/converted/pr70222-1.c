@@ -8,7 +8,7 @@ int d = 0;
 void
 foo ()
 {
-  printf("bar ");
+  printf("foo ");
   int e = ((-(c >= c)) < b) > ((int) (-1ULL >> ((a / a) * 15)));
   d = -e;
 }
@@ -16,7 +16,7 @@ foo ()
 __attribute__((noinline, noclone)) void
 bar (int x)
 {
-  printf("bar ");
+  printf("foo ");
   if (x != -1)
     __builtin_abort ();
 
@@ -29,6 +29,6 @@ main ()
   foo ();
   bar (d);
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -19,6 +19,6 @@ main ()
   for (i = -10; i < 10; i++)
     if (foo (i) != 1 - 2 * (i == 4))
      { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -12,6 +12,6 @@ int main()
   p = &q[-1];
   if (p >= &a[9])
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

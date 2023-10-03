@@ -36,6 +36,6 @@ int main()
   unit_flags f;
   f.status = STATUS_UNSPECIFIED;
   new_unit (&f);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

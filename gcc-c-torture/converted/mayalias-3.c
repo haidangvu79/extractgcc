@@ -9,8 +9,7 @@ int g(int *a)
 
 int f()
 {
-  printf("__builtin_abort ");
-
+  printf("f ");
   int a;
   g(&a);
   a = 10;
@@ -22,6 +21,6 @@ int f()
 int main() {
   if (f() == 10)
     __builtin_abort();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

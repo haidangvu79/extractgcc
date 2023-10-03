@@ -18,6 +18,6 @@ int main()
   a.x.d = 0.0;
   if (f (&a.x, &a.y) != 2.0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

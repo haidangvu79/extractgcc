@@ -9,6 +9,6 @@ int main()
     x &= 0xff;
   if (x & ~0xff)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

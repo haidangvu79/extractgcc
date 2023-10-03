@@ -19,6 +19,6 @@ int main()
   test1(0x0000000101);
   x.b = 0x0100000000;
   test1(0x0000000001);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

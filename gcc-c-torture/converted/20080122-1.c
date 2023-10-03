@@ -31,6 +31,6 @@ int main(int argc, char *argv[])
   do_segfault(inbuf, outbuf, 12);
   asm("");
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

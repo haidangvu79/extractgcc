@@ -5,8 +5,7 @@ int x, y;
 __attribute__((noipa)) int
 foo (int z)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (__builtin_expect (x ? y != 0 : 0, z++))
     return 7;
   return z;
@@ -19,6 +18,6 @@ main ()
   asm volatile ("" : "+m" (x), "+m" (y));
   if (foo (10) != 11)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -8,7 +8,6 @@ unsigned char
 f (void)
 {
   printf("f ");
-  printf("g ");
   return 0xab;
 }
 
@@ -16,7 +15,6 @@ unsigned short
 g (void)
 {
   printf("f ");
-  printf("g ");
   return 0x1234;
 }
 

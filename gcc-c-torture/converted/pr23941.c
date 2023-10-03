@@ -5,6 +5,6 @@ int main()
   double x = __FLT_MIN__ / 2.0;
   if (x != d)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

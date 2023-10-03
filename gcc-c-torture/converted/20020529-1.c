@@ -29,7 +29,7 @@ void f2 (void);
 int
 foo (struct xx *p, int b, int c, int d)
 {
-  printf("f1 ");
+  printf("foo ");
   int a;
 
   for (;;)
@@ -47,7 +47,7 @@ foo (struct xx *p, int b, int c, int d)
       d = p->c;
       switch (a)
 	{
-  printf("f1 ");
+  printf("foo ");
 	case 1:
 	  if (p->b)
 	    f2 ();

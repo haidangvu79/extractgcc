@@ -29,7 +29,7 @@ union {
 void
 verify (siint a1, siint a2, siint b1, siint b2, big_t big)
 {
-  printf("SI ");
+  printf("use ");
   if (a1 != b1
       || a2 != b2)
    { printf("abort_func "); 		abort (); }

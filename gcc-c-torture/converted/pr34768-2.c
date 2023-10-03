@@ -25,6 +25,6 @@ int main()
   x = 1;
   if (test (1) != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

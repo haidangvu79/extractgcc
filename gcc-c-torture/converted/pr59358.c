@@ -3,8 +3,7 @@
 __attribute__((noinline, noclone)) int
 foo (int *x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int z = *x;
   if (y > z && y <= 16)
     while (y > z)
@@ -42,6 +41,6 @@ main ()
       if (j != k)
 	__builtin_abort ();
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

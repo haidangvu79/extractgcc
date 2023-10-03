@@ -22,6 +22,6 @@ int main (void)
   unsigned long tmp;
   tmp = (ReadNumber() & 0x00ff0000L) >> 16;
   DisplayNumber (tmp);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

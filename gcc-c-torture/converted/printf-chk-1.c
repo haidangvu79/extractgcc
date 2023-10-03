@@ -49,6 +49,6 @@ main (void)
   test (1, 1, "%c", 'x');
   test (7, 1, "%s\n", "hello\n");
   test (2, 0, "%d\n", 0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

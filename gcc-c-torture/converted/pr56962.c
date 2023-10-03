@@ -28,6 +28,6 @@ int
 main ()
 {
   foo (v, 24, 1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

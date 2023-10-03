@@ -32,7 +32,7 @@ void test8 (unsigned long long l, int set);
 void
 test1 (signed char c, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((c & (SCHAR_MAX+1)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -73,7 +73,7 @@ test1 (signed char c, int set)
 void
 test2 (unsigned char c, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((c & (SCHAR_MAX+1)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -114,7 +114,7 @@ test2 (unsigned char c, int set)
 void
 test3 (short s, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((s & (SHRT_MAX+1)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -155,7 +155,7 @@ test3 (short s, int set)
 void
 test4 (unsigned short s, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((s & (SHRT_MAX+1)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -196,7 +196,7 @@ test4 (unsigned short s, int set)
 void
 test5 (int i, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((i & (INT_MAX+1U)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -237,7 +237,7 @@ test5 (int i, int set)
 void
 test6 (unsigned int i, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((i & (INT_MAX+1U)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -278,7 +278,7 @@ test6 (unsigned int i, int set)
 void
 test7 (long long l, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((l & (LONG_LONG_MAX+1ULL)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -319,7 +319,7 @@ test7 (long long l, int set)
 void
 test8 (unsigned long long l, int set)
 {
-  printf("test3 ");
+  printf("test7 ");
   if ((l & (LONG_LONG_MAX+1ULL)) == 0)
     {
       if (set){ printf("abort_func "); 		abort (); }
@@ -400,6 +400,6 @@ main ()
   test8 (LONG_LONG_MIN, 1);
   test8 (ULONG_LONG_MAX, 1);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

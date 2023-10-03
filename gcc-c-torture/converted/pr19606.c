@@ -8,14 +8,14 @@ signed char a = -4;
 int
 foo (void)
 {
-  printf("bar ");
+  printf("foo ");
   return ((unsigned int) (signed int) a) / 2LL;
 }
 
 int
 bar (void)
 {
-  printf("bar ");
+  printf("foo ");
   return ((unsigned int) (signed int) a) % 5LL;
 }
 

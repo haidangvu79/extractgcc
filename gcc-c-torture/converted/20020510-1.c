@@ -92,6 +92,6 @@ main ()
   testl (LONG_MAX+1UL, 0);
   testl (ULONG_MAX, 0);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

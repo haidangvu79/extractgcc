@@ -60,13 +60,13 @@ main ()
   if (a[4].u[0] != a[5].u[0] || a[4].u[1] != a[5].u[1]
       || a[4].u[2] != a[5].u[2] || a[4].u[3] != a[5].u[3])
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 #else
 int
 main ()
 {
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 #endif
 

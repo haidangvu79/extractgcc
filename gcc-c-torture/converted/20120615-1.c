@@ -15,5 +15,5 @@ void __attribute__((noinline,noclone))
     }
 }
 
-int main() { test1 (15); printf("return "); 		return 0;  }
+int main() { test1 (15); printf("return 0"); 		return 0;  }
 

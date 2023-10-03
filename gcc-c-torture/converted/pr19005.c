@@ -37,6 +37,6 @@ main (void)
 {
   for (v = -10; v < 266; v++)
     foo (v);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

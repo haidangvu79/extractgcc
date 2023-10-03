@@ -18,6 +18,6 @@ int main() {
     if ((int)df != 1023 || (int)f1 != 1023)
      { printf("abort_main "); 		abort (); }
 
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

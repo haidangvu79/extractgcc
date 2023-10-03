@@ -156,6 +156,6 @@ int main()
   bitmap_element elem = { (void *)0, (void *)0, 0, { 1, 1 } };
   bitmap_head live_throughout = { &elem, &elem, 0, (void *)0 };
   foobar (&live_throughout);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -41,6 +41,6 @@ main (void)
 
   t0 (to_input, from_input);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

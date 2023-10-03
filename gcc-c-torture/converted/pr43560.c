@@ -25,6 +25,6 @@ main ()
   struct S *p;
   asm ("" : "=r" (p) : "0" (&s));
   test (p);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

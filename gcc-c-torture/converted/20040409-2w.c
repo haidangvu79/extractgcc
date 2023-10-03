@@ -110,6 +110,6 @@ int main()
   test(0xffff,0x6dcb);
 #endif
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

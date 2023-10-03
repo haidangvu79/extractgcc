@@ -29,6 +29,6 @@ void bug(int q, long bcount)
 int main(void)
 {
   bug(5, 36863);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

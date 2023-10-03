@@ -14,7 +14,7 @@ volatile int v;
 void
 foo (int var)
 {
-  printf("link_failure ");
+  printf("foo ");
   if (!(var <= 0
         || ((long unsigned) (unsigned) (var - 1) < UINT_MAX)))
     link_failure ();
@@ -24,7 +24,7 @@ int
 main (int argc, char **argv)
 {
   foo (v);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 #ifndef __OPTIMIZE__

@@ -58,6 +58,6 @@ int main()
   gfc_array_i4 array = { adata, 266, { { 1, 1, 3 }, { 3, 1, 3 } } };
   int dim = 2;
   msum_i4 (&retarray, &array, &dim);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

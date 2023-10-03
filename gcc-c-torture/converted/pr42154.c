@@ -15,6 +15,6 @@ int main ()
   for (i = 0; i < 1; ++i)
     a.x[i] = 'a';
   foo (a);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

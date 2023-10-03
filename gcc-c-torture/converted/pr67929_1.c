@@ -1,8 +1,7 @@
 int __attribute__ ((noinline, noclone))
 foo (float a)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return a * 4.9f;
 }
 
@@ -13,6 +12,6 @@ main (void)
   if (foo (10.0f) != 49)
     __builtin_abort ();
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

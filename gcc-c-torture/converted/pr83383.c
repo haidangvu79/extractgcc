@@ -11,8 +11,7 @@ unsigned long long int g = 5052410635626804928ULL;
 void
 foo ()
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   a = ((signed char) a) < b;
   c = (d ? e[0] : 0) - (f[1] * a ? 1 : g);
 }
@@ -23,6 +22,6 @@ main()
   foo ();
   if (a != 1 || c != 3625445792498952485ULL)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

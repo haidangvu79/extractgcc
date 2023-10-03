@@ -58,6 +58,6 @@ main ()
       || bar ((-1LL << 31) | 0x801) != 0)
     __builtin_abort ();
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

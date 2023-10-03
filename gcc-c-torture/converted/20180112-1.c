@@ -29,6 +29,6 @@ int main(void)
   u32 off = bug(&l);
   if (off != 0x7fffffff)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

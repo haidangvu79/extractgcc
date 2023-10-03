@@ -46,7 +46,7 @@ main()
   if (sizeof (float) != sizeof (int)
       || offsetof (struct R, a) != sizeof (int)
       || offsetof (struct Q, a) != sizeof (int))
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   s.a.i = 1;
   s.a.j = 2;
   if (test1 ((void *)&s) != 3)
@@ -59,6 +59,6 @@ main()
   s.a.j = 2;
   if (test3 ((void *)&s) != 3)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -19,6 +19,6 @@ main ()
   test ();
   if (i != 3)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

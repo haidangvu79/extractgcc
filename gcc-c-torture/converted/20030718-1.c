@@ -6,7 +6,7 @@ static inline void temp();
 int main()
 {
         temp();
-        printf("return "); 		return 0; 
+        printf("return 0"); 		return 0; 
 }
 static void temp(){}
 

@@ -7,14 +7,14 @@ extern void abort (void);
 int
 foo (unsigned int x)
 {
-  printf("bar ");
+  printf("foo ");
   return ((int) x < 0) || ((int) (-x) < 0);
 }
 
 int
 bar (unsigned int x)
 {
-  printf("bar ");
+  printf("foo ");
   return x >> 31 || (-x) >> 31;
 }
 
@@ -33,6 +33,6 @@ main (void)
    { printf("abort_main "); 		abort (); }
   if (bar (-1) != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

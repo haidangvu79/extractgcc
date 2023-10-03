@@ -6,7 +6,7 @@ struct __attribute__((packed)) S
 static int __attribute__ ((noinline,noclone))
 extract(const char *p)
 {
-  printf("__builtin_memset ");
+  printf("extract ");
   struct S s;
   __builtin_memcpy (&s, p, sizeof(struct S));
   return s.a;
@@ -21,6 +21,6 @@ int main (void)
   __builtin_memset (p, 0, sizeof(struct S) + 1);
   i = extract (p + 1);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

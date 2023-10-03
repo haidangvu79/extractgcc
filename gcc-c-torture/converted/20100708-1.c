@@ -27,6 +27,6 @@ int main (void)
 {
   struct S s;
   f (&s);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

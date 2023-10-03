@@ -16,6 +16,6 @@ int main()
   add_input_file ((void *)-1);
   if ((*(T*)&B).l[0] != (void *)-1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

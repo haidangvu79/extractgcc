@@ -19,6 +19,6 @@ int main()
 {
   if (foo((void *)0, (void *)0, 1, 1) != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

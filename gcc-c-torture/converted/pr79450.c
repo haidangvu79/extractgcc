@@ -3,8 +3,7 @@
 unsigned int
 foo (unsigned char x, unsigned long long y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   do
     {
       x &= !y;
@@ -20,6 +19,6 @@ main (void)
   unsigned int x = foo (1, 0);
   if (x != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

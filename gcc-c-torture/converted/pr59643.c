@@ -5,8 +5,7 @@
 __attribute__((noinline, noclone)) void
 foo (double *a, double *b, double *c, double d, double e, int n)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int i;
   for (i = 1; i < n - 1; i++)
     a[i] = d * (b[i] + c[i] + a[i - 1] + a[i + 1]) + e * a[i];
@@ -26,7 +25,7 @@ main ()
   int i;
   double a[N], b[N], c[N];
   if (__DBL_MANT_DIG__ <= 35)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   for (i = 0; i < N; i++)
     {
       a[i] = (i & 3) * 2.0;
@@ -37,6 +36,6 @@ main ()
   for (i = 0; i < N; i++)
     if (a[i] != expected[i])
       __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

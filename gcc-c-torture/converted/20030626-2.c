@@ -9,6 +9,6 @@ int main()
   int l = sprintf (buf, "%s", i++ ? "string" : "other string");
   if (l != sizeof ("other string") - 1 || i != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

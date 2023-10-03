@@ -7,8 +7,7 @@ unsigned char g = 1;
 void
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   _Bool c = a != b;
   if (c)
     f = 0;
@@ -22,6 +21,6 @@ main ()
   foo ();
   if (f || g != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

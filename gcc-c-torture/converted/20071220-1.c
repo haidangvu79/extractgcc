@@ -40,6 +40,6 @@ main (void)
 {
   if (f1 () != 17 || f1 () != 17 || f2 () != 17 || f2 () != 17)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

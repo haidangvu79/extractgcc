@@ -24,7 +24,7 @@ fn1 (unsigned p1) { return -p1; }
 void
 fn2 (char p1)
 {
-  printf("fn1 ");
+  printf("fn2 ");
   a = p1;
   e[0];
 }
@@ -50,6 +50,6 @@ main ()
   if ((a & 0xff) != 0xff)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

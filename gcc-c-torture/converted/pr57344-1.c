@@ -30,6 +30,6 @@ main ()
   s[1] = t;
   for (; i < 1; i++)
     foo (s[1].b);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

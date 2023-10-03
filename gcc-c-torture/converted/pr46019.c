@@ -10,6 +10,6 @@ main (void)
   for (n = 0; n < 8; n++)
     if (l / (0x200000000ULL << n) != (0x200 >> n))
      { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

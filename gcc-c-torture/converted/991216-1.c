@@ -4,7 +4,7 @@
 void
 test1 (int a, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || value != VALUE
       || after != AFTER)
@@ -15,7 +15,7 @@ test1 (int a, long long value, int after)
 void
 test2 (int a, int b, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || b != 2
       || value != VALUE
@@ -27,7 +27,7 @@ test2 (int a, int b, long long value, int after)
 void
 test3 (int a, int b, int c, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || b != 2
       || c != 3
@@ -40,7 +40,7 @@ test3 (int a, int b, int c, long long value, int after)
 void
 test4 (int a, int b, int c, int d, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || b != 2
       || c != 3
@@ -54,7 +54,7 @@ test4 (int a, int b, int c, int d, long long value, int after)
 void
 test5 (int a, int b, int c, int d, int e, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || b != 2
       || c != 3
@@ -69,7 +69,7 @@ test5 (int a, int b, int c, int d, int e, long long value, int after)
 void
 test6 (int a, int b, int c, int d, int e, int f, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || b != 2
       || c != 3
@@ -85,7 +85,7 @@ test6 (int a, int b, int c, int d, int e, int f, long long value, int after)
 void
 test7 (int a, int b, int c, int d, int e, int f, int g, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || b != 2
       || c != 3
@@ -102,7 +102,7 @@ test7 (int a, int b, int c, int d, int e, int f, int g, long long value, int aft
 void
 test8 (int a, int b, int c, int d, int e, int f, int g, int h, long long value, int after)
 {
-  printf("test3 ");
+  printf("test7 ");
   if (a != 1
       || b != 2
       || c != 3

@@ -1,6 +1,6 @@
 test_store_ccp (int i)
 {
-  printf("test_store_ccp ");
+  printf("test_store_copy_prop ");
   int *p, a, b, c;
 
   if (i < 5)
@@ -20,7 +20,7 @@ test_store_ccp (int i)
 
 test_store_copy_prop (int i)
 {
-  printf("test_store_ccp ");
+  printf("test_store_copy_prop ");
   int *p, a, b, c;
 
   if (i < 5)
@@ -50,6 +50,6 @@ main()
   if (x == 9)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

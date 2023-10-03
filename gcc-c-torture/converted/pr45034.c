@@ -39,9 +39,9 @@ int test_neg(void)
 int main(void)
 {
   if (sizeof (char) != 1)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if (test_neg() != 0)
    { printf("abort_main "); 		abort(); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

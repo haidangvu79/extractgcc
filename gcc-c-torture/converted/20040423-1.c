@@ -27,6 +27,6 @@ main ()
   if (sub1 (20, 3) != sizeof (c)*3)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

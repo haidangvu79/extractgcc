@@ -21,7 +21,7 @@ main (void)
   int h = 0, i = 0, j = 0;
 
   if (sizeof (unsigned long) < 4)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   for (g = a; g < b; g += 0x1000)
     if (g < c)
@@ -31,6 +31,6 @@ main (void)
     else if (g < f)
       i++;
   foo (i, j, h);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

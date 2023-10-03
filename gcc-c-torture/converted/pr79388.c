@@ -6,8 +6,7 @@ unsigned int a, c;
 __attribute__ ((noinline, noclone)) unsigned int
 foo (unsigned int p)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   p |= 1;
   p &= 0xfffe;
   p %= 0xffff;
@@ -21,6 +20,6 @@ main (void)
   int x = foo (6);
   if (x != 6)
     __builtin_abort();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

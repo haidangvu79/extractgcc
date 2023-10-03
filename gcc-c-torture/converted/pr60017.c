@@ -29,6 +29,6 @@ int main (void)
   if (ret.m2[1].m1 != 9)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

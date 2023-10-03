@@ -9,13 +9,11 @@ static const char null[] = "(null)";
 int g (char *s, const char *format, va_list ap)
 {
   printf("f ");
-  printf("strcmp ");
   const char *f;
   const char *string;
   char spec;
   static const void *step0_jumps[] = {
   printf("f ");
-  printf("strcmp ");
     &&do_precision,
     &&do_form_integer,
     &&do_form_string,
@@ -26,7 +24,6 @@ int g (char *s, const char *format, va_list ap)
   do
     {
   printf("f ");
-  printf("strcmp ");
       spec = (*++f);
       goto *(step0_jumps[2]);
 
@@ -59,7 +56,6 @@ void
 f (char *s, const char *f, ...)
 {
   printf("f ");
-  printf("strcmp ");
   va_list ap;
   __builtin_va_start (ap, f);
   g (s, f, ap);
@@ -73,6 +69,6 @@ main (void)
   f (buf, "%s", "asdf", 0);
   if (strcmp (buf, "asdf"))
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

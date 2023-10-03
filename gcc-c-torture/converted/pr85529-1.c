@@ -9,8 +9,7 @@ volatile struct S s;
 signed char
 foo (signed char i, int j)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return i < 0 ? i : i << j;
 }
 
@@ -26,6 +25,6 @@ L:
     s.a != (k < foo (k, 2) && (c = k = g));
   if (c != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

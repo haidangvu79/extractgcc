@@ -7,7 +7,8 @@ struct hdr {
 void __attribute__((noinline,noclone))
 init()
 {
-  printf("init ");
+  printf("__builtin_abort ");
+
   __builtin_memcpy (p.part1, "FOOBARFOO", sizeof (p.part1));
   __builtin_memcpy (p.part2, "SPEC CPU", sizeof (p.part2));
 }
@@ -29,6 +30,6 @@ int main()
   __builtin_memset (x, ' ', 238);
   if (headline[10] != 'S')
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

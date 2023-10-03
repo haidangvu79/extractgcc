@@ -39,7 +39,7 @@ main (void)
   inner args;
 #include "vfprintf-1.c"
 #undef test
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 #else

@@ -21,6 +21,6 @@ main ()
 {
   foo (LONG_MIN);
   foo (LONG_MIN + 10000);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

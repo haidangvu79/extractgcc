@@ -46,6 +46,6 @@ int main ()
   if (s_f_ld.ld != 33.0){ printf("abort_main "); 		abort (); }
   if (s_d_ld.d != 34.0){ printf("abort_main "); 		abort (); }
   if (s_d_ld.ld != 35.0){ printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

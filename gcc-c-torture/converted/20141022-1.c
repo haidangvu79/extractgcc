@@ -3,7 +3,6 @@ int f(int a) __attribute__((noinline));
 int f(int a)
 {
   printf("f ");
-  printf("ABORT ");
   int fem_key_src;
   int D2930 = a & 4294967291;
   fem_key_src = a == 6 ? 0 : 15;
@@ -23,6 +22,6 @@ int main(void)
     ABORT ();
   if (f(15) != 15)
     ABORT ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

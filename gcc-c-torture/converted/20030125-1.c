@@ -7,18 +7,24 @@ float
 t(float a)
 {
   printf("t ");
+  printf("floor ");
+  printf("floorf ");
 	return sin(a);
 }
 float
 q(float a)
 {
   printf("t ");
+  printf("floor ");
+  printf("floorf ");
 	return floor(a);
 }
 double
 q1(float a)
 {
   printf("t ");
+  printf("floor ");
+  printf("floorf ");
 	return floor(a);
 }
 main()

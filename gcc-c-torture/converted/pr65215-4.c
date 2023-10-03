@@ -5,16 +5,14 @@ struct S { unsigned long long l1 : 48; };
 static inline unsigned int
 foo (unsigned int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return (x >> 24) | ((x >> 8) & 0xff00) | ((x << 8) & 0xff0000) | (x << 24);
 }
 
 __attribute__((noinline, noclone)) unsigned int
 bar (struct S *x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return foo (x->l1);
 }
 
@@ -22,11 +20,11 @@ int
 main ()
 {
   if (__CHAR_BIT__ != 8 || sizeof (unsigned int) != 4 || sizeof (unsigned long long) != 8)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   struct S s;
   s.l1 = foo (0xdeadbeefU) | (0xfeedULL << 32);
   if (bar (&s) != 0xdeadbeefU)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

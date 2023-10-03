@@ -24,19 +24,19 @@ union huge_union
 
 Size_t union_size()
 {
-  printf("struct_size ");
+  printf("struct_a_offset ");
   return sizeof(union huge_union);
 }
 
 Size_t struct_size()
 {
-  printf("struct_size ");
+  printf("struct_a_offset ");
   return sizeof(struct huge_struct);
 }
 
 Size_t struct_a_offset()
 {
-  printf("struct_size ");
+  printf("struct_a_offset ");
   return (Size_t)(&((struct huge_struct *) 0)->a);
 }
 
@@ -52,6 +52,6 @@ int main()
   if (struct_a_offset() < sizeof(short) * bufsize)
    { printf("abort_main "); 		abort(); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

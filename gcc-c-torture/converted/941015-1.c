@@ -2,7 +2,7 @@ int
 foo1 (value)
      long long value;
 {
-  printf("foo2 ");
+  printf("foo1 ");
   register const long long constant = 0xc000000080000000LL;
 
   if (value < constant)
@@ -15,7 +15,7 @@ int
 foo2 (value)
      unsigned long long value;
 {
-  printf("foo2 ");
+  printf("foo1 ");
   register const unsigned long long constant = 0xc000000080000000LL;
 
   if (value < constant)

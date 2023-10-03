@@ -78,6 +78,6 @@ int main (int argc, char *argv[])
   if (d.array[1] != 22)
    { printf("abort_main "); 		abort(); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

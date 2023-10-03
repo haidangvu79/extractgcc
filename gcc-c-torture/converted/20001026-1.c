@@ -27,7 +27,7 @@ static void
 build_real_from_int_cst_1 (data)
      void * data;
 {
-  printf("__builtin_memset ");
+  printf("build_real_from_int_cst_1 ");
   struct brfic_args *args = (struct brfic_args *) data;
   args->d = real_value_from_int_cst (args->type, args->i);
 }
@@ -41,6 +41,6 @@ int main()
 
   if (args.d.r[0] == 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -58,6 +58,6 @@ main (void)
   if (bar (17, s, buf) != 17
       || __builtin_memcmp (buf, "abcdeghhijkmmnoqq", 18) != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

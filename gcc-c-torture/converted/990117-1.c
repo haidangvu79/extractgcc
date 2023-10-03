@@ -12,6 +12,6 @@ main ()
 {
   if (foo (2, 24, 3, 4) == 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

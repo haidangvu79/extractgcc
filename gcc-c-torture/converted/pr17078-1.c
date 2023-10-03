@@ -21,6 +21,6 @@ int main()
   test(&i);
   if (i)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

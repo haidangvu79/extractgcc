@@ -79,6 +79,6 @@ int main()
     deferred_access_stack->base.num = 2;
     deferred_access_stack->base.vec[0].deferring_access_checks_kind = 1;
     pop_to_parent_deferring_access_checks ();
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

@@ -10,6 +10,6 @@ int main()
     nStyle |= 65536;
   if (nStyle != (32768 | 65536))
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

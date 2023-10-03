@@ -4,7 +4,7 @@ extern void abort (void);
 void
 check (int *p)
 {
-  printf("abs ");
+  printf("check ");
   int i;
   for (i = 0; i < 5; ++i)
     if (p[i])
@@ -25,6 +25,6 @@ main (void)
   for (i = -5; i < 0; i++)
     a[abs (i - 10) - 11] = 0;
   check (a);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

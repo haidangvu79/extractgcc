@@ -12,6 +12,6 @@ main (void)
   if (((int)(long long)(V2SI){ 2, 2 }) != 2)
    { printf("abort_main "); 		abort (); }
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -14,6 +14,6 @@ main ()
 {
   if (foo (0x40) != 0x3fc0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -8,7 +8,7 @@ main ()
 {
   unsigned int x = (short)y;
   if (sizeof (0LL) == sizeof (0U))
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if (0LL > (0U ^ (short)-0x8000))
    { printf("abort_main "); 		abort (); }
   if (0LL > (0U ^ x))
@@ -21,6 +21,6 @@ main ()
    { printf("abort_main "); 		abort (); }
   if ((0U ^ (short)y) < 0LL)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

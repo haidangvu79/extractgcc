@@ -9,8 +9,7 @@ int c;
 __attribute__((noinline, noclone)) void
 foo (int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   static int b[] = { &&lab1 - &&lab0, &&lab2 - &&lab0 };
   void *a = &&lab0 + b[x];
   goto *a;
@@ -31,6 +30,6 @@ main ()
   foo (1);
   if (c != 4)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -27,6 +27,6 @@ int main()
   if (b != 0x01020304
       && b != 0x04030201)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

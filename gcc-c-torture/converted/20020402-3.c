@@ -77,6 +77,6 @@ int main(void)
 
   ret = blockvector_for_pc_sect(0x500, &s);
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -6,14 +6,14 @@ int count = 0;
 
 int foo1(void)
 {
-  printf("foo2 ");
+  printf("foo1 ");
   count++;
   return 0;
 }
 
 int foo2(void)
 {
-  printf("foo2 ");
+  printf("foo1 ");
   count++;
   return 0;
 }
@@ -26,6 +26,6 @@ int main(void)
   if (count != 2)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

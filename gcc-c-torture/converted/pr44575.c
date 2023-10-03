@@ -46,6 +46,6 @@ main ()
   check (1, a[2], a[2]);
   if (fails)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

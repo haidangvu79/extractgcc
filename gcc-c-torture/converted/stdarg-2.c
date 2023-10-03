@@ -46,7 +46,7 @@ bar (int v)
 void
 f1 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_start (gap, i);
   x = va_arg (gap, long);
   va_end (gap);
@@ -55,7 +55,7 @@ f1 (int i, ...)
 void
 f2 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_start (gap, i);
   bar (i);
   va_end (gap);
@@ -64,7 +64,7 @@ f2 (int i, ...)
 void
 f3 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list aps[10];
   va_start (aps[4], i);
   x = va_arg (aps[4], long);
@@ -74,7 +74,7 @@ f3 (int i, ...)
 void
 f4 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list aps[10];
   va_start (aps[4], i);
   bar (i);
@@ -84,7 +84,7 @@ f4 (int i, ...)
 void
 f5 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list aps[10];
   va_start (aps[4], i);
   foo (i, aps[4]);
@@ -96,7 +96,7 @@ struct A { int i; va_list g; va_list h[2]; };
 void
 f6 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   struct A a;
   va_start (a.g, i);
   x = va_arg (a.g, long);
@@ -106,7 +106,7 @@ f6 (int i, ...)
 void
 f7 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   struct A a;
   va_start (a.g, i);
   bar (i);
@@ -116,7 +116,7 @@ f7 (int i, ...)
 void
 f8 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   struct A a;
   va_start (a.g, i);
   foo (i, a.g);
@@ -126,7 +126,7 @@ f8 (int i, ...)
 void
 f10 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   struct A a;
   va_start (a.h[1], i);
   x = va_arg (a.h[1], long);
@@ -136,7 +136,7 @@ f10 (int i, ...)
 void
 f11 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   struct A a;
   va_start (a.h[1], i);
   bar (i);
@@ -146,7 +146,7 @@ f11 (int i, ...)
 void
 f12 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   struct A a;
   va_start (a.h[1], i);
   foo (i, a.h[1]);
@@ -189,6 +189,6 @@ main (void)
   f12 (11, 2030, 12.0L);
   if (foo_arg != 2042)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

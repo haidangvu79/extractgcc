@@ -5,8 +5,7 @@ long int a;
 __attribute__((noinline, noclone)) long int
 foo (long int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   long int b;
   while (a < 1)
     {
@@ -36,6 +35,6 @@ main ()
   a = -64;
   if (foo (25) != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

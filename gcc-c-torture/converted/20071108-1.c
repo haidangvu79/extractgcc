@@ -50,6 +50,6 @@ main (void)
   struct S *z = test ((void *) &a, (void *) &b);
   if (z == 0 || z->s1 != (void *) &a || z->s2 != (void *) &b || z->s3 || z->s4)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

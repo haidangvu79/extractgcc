@@ -15,8 +15,7 @@ bar (char **p)
 static struct S
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   struct S ret;
   char r, s, c1, c2;
   char *p = &r;
@@ -36,6 +35,6 @@ int main (void)
   struct S s = foo ();
   if (s.c1 != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

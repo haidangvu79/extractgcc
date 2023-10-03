@@ -46,6 +46,6 @@ main()
   static char addr[] = "10.11.12.13:/hello";
   u32 result = root_nfs_parse_addr(addr);
   if (result != 0x0a0b0c0d) {{ printf("abort_main "); 		abort(); } }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

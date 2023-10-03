@@ -11,6 +11,6 @@ int f() {
 int main() {
   if (f() == 10)
     __builtin_abort();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

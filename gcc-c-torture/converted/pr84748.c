@@ -17,8 +17,7 @@ store (unsigned long long a0, unsigned long long a1)
 void
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   b += a;
   c = d != 84347;
   b /= c;
@@ -32,6 +31,6 @@ main (void)
   foo ();
   if (g0 != 0 || g1 != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

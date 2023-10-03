@@ -19,6 +19,6 @@ main (void)
 {
   if (x.a != -123U || x.b != -456U)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

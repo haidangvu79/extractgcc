@@ -10,6 +10,6 @@ main ()
   s.f = v < 0;
   if ((unsigned int) s.f != -1U)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

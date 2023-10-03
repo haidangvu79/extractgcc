@@ -14,8 +14,7 @@ union U
 __attribute__((noipa)) unsigned int
 foo (unsigned int x)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   union U u;
   u.r = 0;
   u.f.c = x;
@@ -28,10 +27,10 @@ main ()
 {
   union U u;
   if (__CHAR_BIT__ * __SIZEOF_INT__ != 32 || sizeof (u.r) != sizeof (u.f))
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   u.r = foo (0x72);
   if (u.f.a != 0 || u.f.b != 0xe || u.f.c != 0x72)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

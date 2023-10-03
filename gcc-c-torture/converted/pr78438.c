@@ -14,10 +14,10 @@ main ()
 {
   asm volatile ("" : : : "memory");
   if (__CHAR_BIT__ != 8 || sizeof (short) != 2 || sizeof (int) < 4)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   foo ();
   if (a != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

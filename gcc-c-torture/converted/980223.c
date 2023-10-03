@@ -29,6 +29,6 @@ main()
   object x = {(char *) &cons2, 64};
   object y = {(char *) &nil, 0};
   object three = foo(x,y);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

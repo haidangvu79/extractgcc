@@ -5,7 +5,7 @@ extern void abort (void);
 int
 f1 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   int a = 128;
   return (a & 0x80) ? 0x80 : 0;
 }
@@ -13,7 +13,7 @@ f1 (void)
 int
 f2 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   unsigned char a = 128;
   return (a & 0x80) ? 0x80 : 0;
 }
@@ -21,7 +21,7 @@ f2 (void)
 int
 f3 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   unsigned char a = 128;
   return (a & 0x80) ? 0x380 : 0;
 }
@@ -29,7 +29,7 @@ f3 (void)
 int
 f4 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   unsigned char a = 128;
   return (a & 0x80) ? -128 : 0;
 }
@@ -37,7 +37,7 @@ f4 (void)
 long long
 f5 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   long long a = 0x80000000LL;
   return (a & 0x80000000) ? 0x80000000LL : 0LL;
 }
@@ -45,7 +45,7 @@ f5 (void)
 long long
 f6 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   unsigned int a = 0x80000000;
   return (a & 0x80000000) ? 0x80000000LL : 0LL;
 }
@@ -53,7 +53,7 @@ f6 (void)
 long long
 f7 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   unsigned int a = 0x80000000;
   return (a & 0x80000000) ? 0x380000000LL : 0LL;
 }
@@ -61,7 +61,7 @@ f7 (void)
 long long
 f8 (void)
 {
-  printf("f8 ");
+  printf("f3 ");
   unsigned int a = 0x80000000;
   return (a & 0x80000000) ? -2147483648LL : 0LL;
 }
@@ -70,7 +70,7 @@ int
 main (void)
 {
   if ((char) 128 != -128 || (int) 0x80000000 != -2147483648)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if (f1 () != 128)
    { printf("abort_main "); 		abort (); }
   if (f2 () != 128)
@@ -87,6 +87,6 @@ main (void)
    { printf("abort_main "); 		abort (); }
   if (f8 () != -2147483648LL)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

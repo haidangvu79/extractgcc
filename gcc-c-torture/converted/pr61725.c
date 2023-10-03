@@ -10,6 +10,6 @@ main ()
       if (x == 0 && a != 0)
         __builtin_abort ();
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

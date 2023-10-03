@@ -42,6 +42,6 @@ int main (void)
 {
   vafunction( "", 1, 2, 3, 4, 5, 6, 7, 8, 9 );
   exit(0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

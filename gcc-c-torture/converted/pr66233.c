@@ -5,8 +5,7 @@ unsigned int v[8];
 __attribute__((noinline, noclone)) void
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int i;
   for (i = 0; i < 8; i++)
     v[i] = (float) i;
@@ -20,6 +19,6 @@ main ()
   for (i = 0; i < 8; i++)
     if (v[i] != i)
       __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

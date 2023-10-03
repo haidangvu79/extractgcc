@@ -18,6 +18,6 @@ main ()
 {
   s.f = (v & 1) > 0;
   foo (s.f);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

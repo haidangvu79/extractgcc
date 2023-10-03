@@ -27,6 +27,6 @@ main ()
   struct S s = { &t.b[5], 27 };
   if (bar (&t.a[2], (void *) 0, (void *) 0, s, 17, &t) != 29)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -19,8 +19,7 @@ typedef struct le t_le;
 
 int a_or_b_different(t_be *x,t_le *y)
 {
-  printf("__builtin_abort ");
-
+  printf("a_or_b_different ");
    return (x->a != y->a) || (x->b != y->b);
 }
 
@@ -32,6 +31,6 @@ int main (void)
    if (a_or_b_different(&x,&y))
        __builtin_abort ();
 
-   printf("return "); 		return 0; 
+   printf("return 0"); 		return 0; 
 }
 

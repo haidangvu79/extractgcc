@@ -22,6 +22,6 @@ main ()
 {
   if (!f (s, 0x87654321u))
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

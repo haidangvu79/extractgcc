@@ -21,6 +21,6 @@ main ()
 {
   int i = 0;
   foo (&i);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

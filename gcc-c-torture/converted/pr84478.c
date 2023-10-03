@@ -42,10 +42,10 @@ main ()
 {
   strpool = __builtin_malloc (4000);
   if (!strpool)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   asm volatile ("" : : : "memory");
   volatile int r = loadpoolstrings (4000);
   __builtin_free (strpool);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

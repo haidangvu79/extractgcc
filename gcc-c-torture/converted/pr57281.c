@@ -22,6 +22,6 @@ main ()
       *e = 0;
       *e = foo (h);
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

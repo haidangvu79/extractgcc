@@ -28,6 +28,6 @@ int main(void)
   func_32(0);
   if (g_261 != -1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

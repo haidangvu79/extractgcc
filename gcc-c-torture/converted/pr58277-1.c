@@ -100,6 +100,6 @@ main ()
   if (!a[a[a[a[a[a[a[a[a[a[a[a[a[a[a[u]]]]]]]]]]]]]]])
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

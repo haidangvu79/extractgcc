@@ -31,6 +31,6 @@ int main()
   a.a1 = 1.0f;
   b = 3384;
   foo ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -25,6 +25,6 @@ main ()
   foo (&b.a);
   foo (&c.a);
   foo (&d.a);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

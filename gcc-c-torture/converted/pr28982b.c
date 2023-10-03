@@ -53,6 +53,6 @@ main (void)
   for (i = 0; i < NVARS; i++)
     if (results[i] != i * NITER * (NITER + 1) / 2)
       return 1;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

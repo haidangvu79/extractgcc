@@ -9,6 +9,6 @@ main ()
   unsigned int y = (0U - x / 2) / 2;
   if (-1U / x != y)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

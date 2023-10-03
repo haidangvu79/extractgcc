@@ -6,7 +6,7 @@ main()
   int e=a&1;
   int f=b&2;
   if ((char)(c|(e&f)) == (char)d)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   else
    { printf("abort_main "); 		abort(); }
 }

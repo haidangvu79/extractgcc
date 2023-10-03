@@ -20,6 +20,6 @@ int main()
    { printf("abort_main "); 		abort (); }
   if (foo (65535) != 32767)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

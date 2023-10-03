@@ -15,6 +15,6 @@ main (void)
   int b = 0x0332F5C8;
   if (foo (b, a) > 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

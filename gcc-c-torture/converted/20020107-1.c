@@ -9,7 +9,7 @@ extern void exit (int);
 static void
 bar (int x)
 {
-  printf("bar ");
+  printf("foo ");
   if (!x)
    { printf("abort_func "); 		abort (); }
 
@@ -20,7 +20,7 @@ char buf[10];
 inline char *
 foo (char *tmp)
 {
-  printf("bar ");
+  printf("foo ");
   asm ("" : "=r" (tmp) : "0" (tmp));
   return tmp + 2;
 }

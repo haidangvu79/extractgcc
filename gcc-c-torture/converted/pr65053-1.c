@@ -5,8 +5,7 @@ int i;
 __attribute__ ((noinline, noclone))
 unsigned int foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return 0;
 }
 
@@ -30,6 +29,6 @@ main ()
 
   if (i)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -3,8 +3,7 @@
 __attribute__((noipa)) unsigned long
 f1 (unsigned long a, unsigned long b)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   unsigned long i = __builtin_add_overflow (a, b, &a);
   return a + i;
 }
@@ -12,8 +11,7 @@ f1 (unsigned long a, unsigned long b)
 __attribute__((noipa)) unsigned long
 f2 (unsigned long a, unsigned long b)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   unsigned long i = __builtin_add_overflow (a, b, &a);
   return a - i;
 }
@@ -21,8 +19,7 @@ f2 (unsigned long a, unsigned long b)
 __attribute__((noipa)) unsigned long
 f3 (unsigned int a, unsigned int b)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   unsigned int i = __builtin_add_overflow (a, b, &a);
   return a + i;
 }
@@ -30,8 +27,7 @@ f3 (unsigned int a, unsigned int b)
 __attribute__((noipa)) unsigned long
 f4 (unsigned int a, unsigned int b)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   unsigned int i = __builtin_add_overflow (a, b, &a);
   return a - i;
 }
@@ -56,6 +52,6 @@ main ()
       || f4 (35U, -35U) != -1U
       || f4 (35U, -34U) != 0U)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

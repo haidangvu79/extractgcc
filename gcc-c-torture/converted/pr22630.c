@@ -19,6 +19,6 @@ int main (void)
   bla (0);
   if (!j)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

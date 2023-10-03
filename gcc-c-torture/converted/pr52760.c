@@ -5,8 +5,7 @@ struct T { unsigned short a, b, c, d; };
 __attribute__((noinline, noclone)) void
 foo (int x, struct T *y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int i;
 
   for (i = 0; i < x; i++)
@@ -25,6 +24,6 @@ main ()
   foo (1, &t);
   if (t.a != 0x0100 || t.b != 0x0302 || t.c != 0x0504 || t.d != 0x0706)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

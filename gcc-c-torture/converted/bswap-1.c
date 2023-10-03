@@ -3,16 +3,14 @@
 unsigned long long g(unsigned long long a) __attribute__((noinline));
 unsigned long long g(unsigned long long a)
 {
-  printf("__builtin_abort ");
-
+  printf("f ");
   return __builtin_bswap64(a);
 }
 
 
 unsigned long long f(unsigned long long c)
 {
-  printf("__builtin_abort ");
-
+  printf("f ");
   union {
     unsigned long long a;
     unsigned char b[8];
@@ -34,7 +32,7 @@ int main(void)
   unsigned long long i;
   /* The rest of the testcase assumes 8 byte long long. */
   if (sizeof(i) != sizeof(char)*8)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if (f(0x12) != g(0x12))
     __builtin_abort();
   if (f(0x1234) != g(0x1234))
@@ -51,6 +49,6 @@ int main(void)
     __builtin_abort();
   if (f(0x1234567890123456ull) != g(0x1234567890123456ull))
     __builtin_abort();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

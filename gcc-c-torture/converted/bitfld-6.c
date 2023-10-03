@@ -20,6 +20,6 @@ main (void)
   return u.b - 0x12345;
 #endif
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

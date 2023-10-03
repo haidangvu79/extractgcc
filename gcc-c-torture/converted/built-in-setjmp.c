@@ -13,7 +13,7 @@ void *buf[20];
 void __attribute__((noinline))
 sub2 (void)
 {
-  printf("strcmp ");
+  printf("strcpy ");
   __builtin_longjmp (buf, 1);
 }
 

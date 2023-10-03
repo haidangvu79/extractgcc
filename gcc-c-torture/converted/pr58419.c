@@ -40,6 +40,6 @@ main ()
       g = foo (*m = k && *d, 1 > i) || bar ();
     }
   dummy();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

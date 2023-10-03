@@ -1,8 +1,7 @@
 static int __attribute__ ((noinline, noclone))
 swap (int x)
 {
-  printf("__builtin_abort ");
-
+  printf("swap ");
   return (unsigned short) ((unsigned short) x << 8 | (unsigned short) x >> 8);
 }
 
@@ -16,6 +15,6 @@ main (void)
     __builtin_abort ();
   if (swap (b) != 0x3412)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

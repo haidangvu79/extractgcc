@@ -44,6 +44,6 @@ int main (void)
   if (fails)
    { printf("abort_main "); 		abort (); }
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

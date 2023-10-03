@@ -33,6 +33,6 @@ main ()
   struct s t = {1, 2, 3};
   f (s, 10);
   f (t, 0x10000000002);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

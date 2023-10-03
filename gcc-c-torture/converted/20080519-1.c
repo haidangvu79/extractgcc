@@ -56,6 +56,6 @@ int main()
   reg_class_contents[1][0] = 0;
   reg_class_contents[1][1] = 0;
   regrename_optimize (&du0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -203,10 +203,10 @@ main (void)
   /* The test above assumes little endian and long being the same size
      as pointer.  */
   if (sizeof (long int) != sizeof (void *) || sizeof (long int) < 4)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   u.l = 0x12345678L;
   if (u.c[0] != 0x78 || u.c[1] != 0x56 || u.c[2] != 0x34 || u.c[3] != 0x12)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 
   p = buf + 16 - (((long int) buf) & 15);
   __builtin_memcpy (p + 9,
@@ -215,6 +215,6 @@ main (void)
 "\x1\x37\x82\xa7\x55\x49\xd0\xf3\xb7\x2a\x6d\x23\x71\x49\x6a", 15);
   if (mymemcmp (p + 9, p + 128 + 24, 33) != -51)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -60,7 +60,7 @@ callee_af6 (struct et6 ap6, double bp6, long long int cp6, int dp6)
 static void
 caller_bf6 (void)
 {
-  printf("caller_bf7 ");
+  printf("caller_bf6 ");
   union at6 bav6;
   bav6 = callee_af6 (wv6, xv6, yv6, zv6);
 }
@@ -120,7 +120,7 @@ callee_af7 (float ap7, double bp7, union ct7 cp7, struct et7 dp7,
 static void
 caller_bf7 (void)
 {
-  printf("caller_bf7 ");
+  printf("caller_bf6 ");
   unsigned char bev7;
 
   bev7 = callee_af7 (vv7, wv7, xv7, yv7, zv7, bav7, bbv7, bcv7, bdv7);
@@ -132,6 +132,6 @@ main ()
 {
   caller_bf6 ();
   caller_bf7 ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -93,6 +93,6 @@ main ()
     {
       TESTS
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

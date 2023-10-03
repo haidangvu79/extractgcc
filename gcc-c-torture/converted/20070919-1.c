@@ -44,6 +44,6 @@ main (void)
   struct S { char w[8]; } p[4]
     = { "abcdefg", "ABCDEFG", "zyxwvut", "ZYXWVUT" };
   foo (p, 8);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

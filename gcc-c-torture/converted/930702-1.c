@@ -2,7 +2,6 @@ fp (double a, int b)
 {
   printf("int ");
   printf("f ");
-  printf("fp ");
   if (a != 33 || b != 11)
    { printf("abort_func "); 		abort (); }
 

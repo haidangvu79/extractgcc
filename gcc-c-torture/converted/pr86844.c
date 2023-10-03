@@ -3,8 +3,7 @@
 __attribute__((noipa)) void
 foo (int *p)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   *p = 0;
   *((char *)p + 3) = 1;
   *((char *)p + 1) = 2;
@@ -16,12 +15,12 @@ main ()
 {
   int a[2] = { -1, 0 };
   if (sizeof (int) != 4)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   ((char *)a)[6] = 3;
   foo (a);
   if (((char *)a)[0] != 0 || ((char *)a)[1] != 2
       || ((char *)a)[2] != 3 || ((char *)a)[3] != 1)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

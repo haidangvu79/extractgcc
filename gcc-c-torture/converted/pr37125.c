@@ -19,6 +19,6 @@ void func_44 (unsigned int p_45)
 int main (void)
 {
   func_44 (2);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

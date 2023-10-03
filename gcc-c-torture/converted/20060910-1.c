@@ -35,6 +35,6 @@ int main (void)
    { printf("abort_main "); 		abort(); }
   if (s.buffer_position != s.buffer_end)
    { printf("abort_main "); 		abort(); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -29,12 +29,12 @@ main ()
 {
   union U a, b, c;
   if ((unsigned char) ~0 != 255 || sizeof (unsigned) != 4)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   a.c = (struct S) { 255, 255, 255, 0 };
   b.c = (struct S) { 255, 255, 255, 255 };
   c.v = bar (&a, &b);
   if (c.c.b != 255 || c.c.g != 255 || c.c.r != 255 || c.c.a != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

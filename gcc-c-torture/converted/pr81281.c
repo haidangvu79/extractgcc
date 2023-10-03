@@ -33,6 +33,6 @@ main ()
 {
   foo (-1U, 1U + __INT_MAX__, 1U);
   bar (-1U, 1U + __INT_MAX__);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

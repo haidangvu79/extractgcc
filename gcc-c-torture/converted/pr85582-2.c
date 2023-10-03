@@ -11,8 +11,7 @@ typedef unsigned long long U;
 __attribute__((noipa)) S
 f1 (S x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   x = x << (y & 5);
   x += y;
   return x;
@@ -21,8 +20,7 @@ f1 (S x, int y)
 __attribute__((noipa)) S
 f2 (S x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   x = x >> (y & 5);
   x += y;
   return x;
@@ -31,8 +29,7 @@ f2 (S x, int y)
 __attribute__((noipa)) U
 f3 (U x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   x = x >> (y & 5);
   x += y;
   return x;
@@ -53,6 +50,6 @@ main ()
   U f = f3 (c, 12);
   if (f != ((U) 1 << (sizeof (U) * __CHAR_BIT__ - 5)) + 12)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

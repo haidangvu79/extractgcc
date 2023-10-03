@@ -6,8 +6,7 @@ V a, b, c, d, e, f;
 __attribute__((noinline, noclone)) void
 foo (int x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   do
     {
       if (x)
@@ -32,6 +31,6 @@ main ()
   foo (1, 0);
   if (__builtin_memcmp (&d, &f, sizeof (V)) != 0)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

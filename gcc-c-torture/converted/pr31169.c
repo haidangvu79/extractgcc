@@ -49,6 +49,6 @@ int main()
   t.precision = 1;
   if (!sign_bit_p (&t, 0, -1))
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -13,6 +13,6 @@ main (void)
   s.name = "";
   if (s.name [s.len] != 0)
     s.name [s.len] = 0;
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -44,6 +44,6 @@ int main (int argc, char *argv[]) {
     d1 = d0 * 2;  d2 = d0 * dvec_2; veccompare (double, 2, d1, d2);
     d1 = d0 / 2;  d2 = d0 / dvec_2; veccompare (double, 2, d1, d2);
 
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
 }
 

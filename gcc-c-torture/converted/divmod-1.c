@@ -1,62 +1,62 @@
 div1 (signed char x)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x / -1;
 }
 
 div2 (signed short x)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x / -1;
 }
 
 div3 (signed char x, signed char y)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x / y;
 }
 
 div4 (signed short x, signed short y)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x / y;
 }
 
 mod1 (signed char x)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x % -1;
 }
 
 mod2 (signed short x)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x % -1;
 }
 
 mod3 (signed char x, signed char y)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x % y;
 }
 
 mod4 (signed short x, signed short y)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x % y;
 }
 
 signed long
 mod5 (signed long x, signed long y)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x % y;
 }
 
 unsigned long
 mod6 (unsigned long x, unsigned long y)
 {
-  printf("div1 ");
+  printf("div4 ");
   return x % y;
 }
 

@@ -32,6 +32,6 @@ void test4 (void)
 
 int main (void)
 {
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

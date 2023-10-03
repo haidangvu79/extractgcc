@@ -7,8 +7,7 @@
 int
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int e = 0, f;
   C C B B B B B A A A A A A
   return e;
@@ -19,6 +18,6 @@ main (void)
 {
   if (foo ())
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

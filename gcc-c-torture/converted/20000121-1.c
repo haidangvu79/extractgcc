@@ -10,6 +10,6 @@ void doit(unsigned int a,unsigned int b,char *id)
 int main(void)
 {
   doit(1,1,"\n");
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

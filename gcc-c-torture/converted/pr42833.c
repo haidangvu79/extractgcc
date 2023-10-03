@@ -169,6 +169,6 @@ int main()
   uint32_t r = helper_neon_rshl_s8 (0x05050505, 0x01010101);
   if (r != 0x0a0a0a0a)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

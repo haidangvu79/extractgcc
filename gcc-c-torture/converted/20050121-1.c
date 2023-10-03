@@ -59,6 +59,6 @@ main (void)
   T (int, int)
   T (long, long)
   T (long long, llong)
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

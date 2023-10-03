@@ -14,6 +14,6 @@ static __attribute__((noinline)) void foo (int a)
 int main (void)
 {
   foo (1);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

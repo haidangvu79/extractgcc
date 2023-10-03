@@ -10,7 +10,7 @@ print_longlong(x,buf)
      long long x;
      char *buf;
 {
-  printf("proc1 ");
+  printf("proc2 ");
   unsigned long l;
   l= (x >> 32) & 0xffffffff;
   if (l != 0)

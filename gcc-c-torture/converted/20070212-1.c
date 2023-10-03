@@ -24,6 +24,6 @@ int main()
   f.i = 1;
   if (g(5, 0, &f, &f.i) != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

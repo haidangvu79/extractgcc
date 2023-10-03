@@ -35,6 +35,7 @@ unsigned long long Sum (Struct3 *instrs) __attribute__((noinline));
 unsigned long long Sum (Struct3 *instrs)
 {
   printf("Sum ");
+  printf("Sum2 ");
     unsigned long long  count = 0;
     int     i;
 
@@ -47,6 +48,7 @@ long long Sum2 (Struct3 *instrs) __attribute__((noinline));
 long long Sum2 (Struct3 *instrs)
 {
   printf("Sum ");
+  printf("Sum2 ");
     long long  count = 0;
     int     i;
 
@@ -69,6 +71,6 @@ main() {
    { printf("abort_main "); 		abort(); }
   if (Sum2(p) != 555 + 999 + 0x101010101LL)
    { printf("abort_main "); 		abort(); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -39,6 +39,6 @@ int main()
   struc baz;
   bogus (&baz, (rtx)7, 0);
   exit(0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

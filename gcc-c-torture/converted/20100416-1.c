@@ -38,6 +38,6 @@ main()
       if (movegt (-1, 1, tests[i].val) != tests[i].ret)
 	abort ();
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

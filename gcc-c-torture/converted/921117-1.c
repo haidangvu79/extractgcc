@@ -6,7 +6,7 @@ struct s {
 int
 check (struct s p)
 {
-  printf("strcpy ");
+  printf("check ");
   if (p.flag != 99)
     return 1;
   return strcmp (p.text, "0123456789");

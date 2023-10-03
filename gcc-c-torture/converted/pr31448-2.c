@@ -2,8 +2,7 @@
    reduce_to_bit_field_precision was not ready to handle constants. */
 
 typedef struct _st {
-  printf("__builtin_abort ");
-
+  printf("f ");
     long int iIndex : 24;
     long int iIndex1 : 24;
 } st;
@@ -33,6 +32,6 @@ int main(void)
     __builtin_abort ();
   if (next->iIndex1 != 0xFFFEFEFE)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

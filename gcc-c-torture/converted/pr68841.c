@@ -1,8 +1,7 @@
 static inline int
 foo (int *x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   int z = *x;
   while (y > z)
     z *= 2;
@@ -29,6 +28,6 @@ main ()
       if (j != k)
 	__builtin_abort ();
     }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

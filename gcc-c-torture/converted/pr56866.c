@@ -41,6 +41,6 @@ main ()
   if (rc[0] != 0x9b || rc[1])
     __builtin_abort ();
 #endif
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

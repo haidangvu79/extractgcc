@@ -14,6 +14,6 @@ int main(void)
   while (*ptr && (*ptr == 13 || *ptr == 32))
     ptr++;
 
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

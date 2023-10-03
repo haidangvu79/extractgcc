@@ -10,7 +10,7 @@ extern void exit (int);
 static inline struct A *
 bar (void)
 {
-  printf("bar ");
+  printf("foo ");
   struct A *r;
 
   switch (8)
@@ -33,7 +33,7 @@ bar (void)
 void
 foo (unsigned long *x, int y)
 {
-  printf("bar ");
+  printf("foo ");
   if (y != 12)
    { printf("abort_func "); 		abort (); }
 

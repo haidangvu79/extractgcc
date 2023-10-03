@@ -3,7 +3,6 @@ typedef struct {int dims[0]; } *A;
 f(unsigned long obj)
 {
   printf("f ");
-  printf("g ");
   unsigned char y = obj >> 24;
   y &= ~4;
 
@@ -17,7 +16,6 @@ f(unsigned long obj)
 
   {
   printf("f ");
-  printf("g ");
     unsigned char t = obj >> 24;
     if (!(t==0)&&(t<=0x03))
       return 0;

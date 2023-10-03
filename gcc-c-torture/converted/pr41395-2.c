@@ -15,7 +15,7 @@ struct VEC_char_base
 short __attribute__((noinline))
 foo (struct VEC_char_base *p, int i)
 {
-  printf("malloc ");
+  printf("foo ");
   short *q;
   p->u.vec[i] = 0;
   q = &p->u.vec[16];
@@ -32,6 +32,6 @@ main()
   struct VEC_char_base *p = malloc (sizeof (struct VEC_char_base) + 256);
   if (foo (p, 16) != 1)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

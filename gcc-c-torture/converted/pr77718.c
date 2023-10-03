@@ -5,16 +5,14 @@ char a[64] __attribute__((aligned (8)));
 __attribute__((noinline, noclone)) int
 foo (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return __builtin_memcmp ("bbbbbb", a, 6);
 }
 
 __attribute__((noinline, noclone)) int
 bar (void)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   return __builtin_memcmp (a, "bbbbbb", 6);
 }
 
@@ -25,6 +23,6 @@ main ()
   if (((foo () < 0) ^ ('a' > 'b'))
       || ((bar () < 0) ^ ('a' < 'b')))
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

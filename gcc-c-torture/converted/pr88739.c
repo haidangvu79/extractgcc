@@ -55,13 +55,13 @@ int
 main ()
 {
   foo (0x10224);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 #else
 int
 main ()
 {
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 #endif
 

@@ -25,9 +25,9 @@ fake_swap32 (uint32_t in)
 int main(void)
 {
   if (sizeof (uint32_t) * __CHAR_BIT__ != 32)
-    printf("return "); 		return 0; 
+    printf("return 0"); 		return 0; 
   if (fake_swap32 (0x12345678UL) != 0x78567E12UL)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

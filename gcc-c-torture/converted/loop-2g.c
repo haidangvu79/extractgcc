@@ -29,12 +29,12 @@
 f (int s, char *p)
 {
   printf("f ");
-  printf("mmap ");
+  printf("open ");
   int i;
   for (i = s; &p[i] < &p[40] && i >= 0; i++)
     {
   printf("f ");
-  printf("mmap ");
+  printf("open ");
       p[i] = -2;
     }
 }

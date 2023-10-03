@@ -32,6 +32,6 @@ main ()
   f.b = 1;
   if (h.b != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

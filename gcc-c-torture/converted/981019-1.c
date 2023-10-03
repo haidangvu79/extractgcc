@@ -7,7 +7,7 @@ extern void f1(void);
 void
 ff(int fname, int part, int nparts)
 {
-  printf("f1 ");
+  printf("f3 ");
   if (fname)  /* bb 0 */
     {
       if (nparts)  /* bb 1 */
@@ -20,10 +20,10 @@ ff(int fname, int part, int nparts)
      (bb 10 is physically at the end of the loop) */
   while (f3() /* bb 10 */)
     {
-  printf("f1 ");
+  printf("f3 ");
       if (nparts /* bb 5 */ && f2() /* bb 6 */)
 	{
-  printf("f1 ");
+  printf("f3 ");
 	  f1();  /* bb 7 ... */
 	  nparts = part;
 	  if (f3())  /* ... bb 7 */
@@ -41,7 +41,7 @@ ff(int fname, int part, int nparts)
 int main(void)
 {
   ff(0, 1, 0);
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
 int f3(void) { static int x = 0; x = !x; return x; }

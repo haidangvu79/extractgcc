@@ -23,6 +23,6 @@ int main() {
     for (; h;)
       goto L;
   }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

@@ -76,6 +76,6 @@ main (void)
   d.fragment = 1;
   if (__builtin_memcmp (&d, &c[1].attr, sizeof d))
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

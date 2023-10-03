@@ -3,8 +3,7 @@
 __attribute__ ((noinline, noclone)) int
 foo (unsigned char b)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (0x0 <= b && b <= 0x8)
     goto lab;
   if (b == 0x0b)
@@ -21,8 +20,7 @@ lab:
 __attribute__ ((noinline, noclone)) int
 bar (unsigned char b)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (0x0 <= b && b <= 0x8)
     goto lab;
   if (b == 0x0b)
@@ -54,6 +52,6 @@ main ()
   for (i = 0; i < 256; i++)
     if (bar (i) != (i < 64 ? tab2[i] : 0))
       __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

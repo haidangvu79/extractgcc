@@ -5,7 +5,7 @@ typedef unsigned char v8qi __attribute__((vector_size(8)));
 
 v8qi foo(v8qi x, v8qi y)
 {
-  printf("memcmp ");
+  printf("foo ");
   return x * y;
 }
 
@@ -19,6 +19,6 @@ int main()
   r = foo (a, b);
   if (memcmp (&r, &c, 8) != 0)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

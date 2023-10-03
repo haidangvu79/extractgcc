@@ -20,6 +20,6 @@ main (void)
    { printf("abort_main "); 		abort (); }
   if (foo (5, 4) != 5)
    { printf("abort_main "); 		abort (); }
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 

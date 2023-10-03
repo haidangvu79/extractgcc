@@ -20,7 +20,7 @@ T bar (U, unsigned int);
 
 T foo (T x)
 {
-  printf("baz ");
+  printf("foo ");
   U d, u;
 
   memcpy (&u, &x->d[1], sizeof u);
@@ -30,7 +30,7 @@ T foo (T x)
 
 T baz (T x)
 {
-  printf("baz ");
+  printf("foo ");
   U d, u;
 
   d.r[0] = 0x123456789;

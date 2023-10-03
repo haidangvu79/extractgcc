@@ -14,8 +14,7 @@ static unsigned a = 1, b = 1;
 static inline void
 foo (unsigned char x, unsigned y)
 {
-  printf("__builtin_abort ");
-
+  printf("foo ");
   if (!y)
     return;
   unsigned c = (0x7000U / (x - 2)) ^ a;
@@ -30,6 +29,6 @@ main (void)
   foo (-1, 1);
   if (b && ((unsigned char) -1) == 255)
     __builtin_abort ();
-  printf("return "); 		return 0; 
+  printf("return 0"); 		return 0; 
 }
 
