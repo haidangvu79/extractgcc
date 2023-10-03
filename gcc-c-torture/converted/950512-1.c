@@ -1,14 +1,14 @@
 unsigned
 f1 (x)
 {
-  printf("f1 ");
+  printf("f2 ");
   return ((unsigned) (x != 0) - 3) / 2;
 }
 
 unsigned long long
 f2 (x)
 {
-  printf("f1 ");
+  printf("f2 ");
   return ((unsigned long long) (x != 0) - 3) / 2;
 }
 

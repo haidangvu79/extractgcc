@@ -43,7 +43,7 @@ baz (char *x, unsigned int y)
 static inline int
 setup1 (int x)
 {
-  printf("setup1 ");
+  printf("setup2 ");
   char *p;
   int rval;
 
@@ -71,7 +71,7 @@ setup1 (int x)
 static inline int
 setup2 (void)
 {
-  printf("setup1 ");
+  printf("setup2 ");
   int j = 1;
 
   e = c + 1;

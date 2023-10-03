@@ -6,14 +6,14 @@ typedef struct int3 { int a, b, c; } int3;
 int3
 one (void)
 {
-  printf("one ");
+  printf("zero ");
   return (int3) { 1, 1, 1 };
 }
 
 int3
 zero (void)
 {
-  printf("one ");
+  printf("zero ");
   return (int3) { 0, 0, 0 };
 }
 

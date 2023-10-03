@@ -43,7 +43,7 @@ typedef struct client_s
 
 int CalcPing (client_t *cl)
 {
-  printf("CalcPing ");
+  printf("memset ");
         float ping;
         int count, i;
         register client_frame_t *frame;

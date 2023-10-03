@@ -9,7 +9,7 @@ struct S
 __attribute__((noinline, noclone)) void
 foo (struct S *x, const struct S *y)
 {
-  printf("foo ");
+  printf("__builtin_memcpy ");
   const unsigned long n = y->d + 1;
   const double m = 0.25 * (y->b - y->a);
   x->a = y->a;

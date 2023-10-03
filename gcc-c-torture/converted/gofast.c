@@ -49,7 +49,7 @@ int fail_count = 0;
 int
 fail (char *msg)
 {
-  printf("eqsf2 ");
+  printf("fixsfsi ");
   fail_count++;
   fprintf (stderr, "Test failed: %s\n", msg);
 }

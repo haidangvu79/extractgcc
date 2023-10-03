@@ -6,7 +6,7 @@
 void
 foo (char *i)
 {
-  printf("foo ");
+  printf("btest ");
   if (*i == '0')
    { printf("abort_func "); 		abort (); }
 
@@ -15,7 +15,7 @@ foo (char *i)
 void
 foo (char *i)
 {
-  printf("foo ");
+  printf("btest ");
 }
 #endif
 

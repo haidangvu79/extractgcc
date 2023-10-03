@@ -19,8 +19,7 @@ struct
 
 int pr67781()
 {
-  printf("__builtin_abort ");
-
+  printf("pr67781 ");
   uint32_t c = (s.a << 8) | s.b;
   return c;
 }

@@ -69,11 +69,11 @@ if __name__ == '__main__':
 		for program in exe_list:
 			tr.write(program+'.c'+'\n')
 		# Run the compiled C program
-			run_command = [f"/opt/kalray/accesscore/bin/kvx-cluster -- {program}"] 
+			run_command = [f"/opt/kalray/accesscore/bin/kvx-cluster -- {program}"]
 			try:
-				result = subprocess.run(run_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-				stdout_data = result.stdout
-				stderr_data = result.stderr
+				result = subprocess.run(run_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+				stdout_data = result.stdout.decode('utf-8')
+				stderr_data = result.stderr.decode('utf-8')
 				tr.write(stdout_data+'\n')
 				tr.write(stderr_data+'\n')
 			except subprocess.CalledProcessError as e:

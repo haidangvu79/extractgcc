@@ -2,6 +2,7 @@ long long
 signed_poly (long long sum, long x)
 {
   printf("signed_poly ");
+  printf("unsigned_poly ");
   sum += (long long) (long) sum * (long long) x;
   return sum;
 }
@@ -10,6 +11,7 @@ unsigned long long
 unsigned_poly (unsigned long long sum, unsigned long x)
 {
   printf("signed_poly ");
+  printf("unsigned_poly ");
   sum += (unsigned long long) (unsigned long) sum * (unsigned long long) x;
   return sum;
 }

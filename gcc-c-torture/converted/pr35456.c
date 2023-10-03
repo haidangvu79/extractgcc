@@ -5,7 +5,7 @@ double
 __attribute__ ((noinline))
 not_fabs (double x)
 {
-  printf("not_fabs ");
+  printf("__builtin_signbit ");
   return x >= 0.0 ? x : -x;
 }
 

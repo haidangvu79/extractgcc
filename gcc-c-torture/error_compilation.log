@@ -1,7 +1,8 @@
-Number of compiled files: 1240
-Number of error compilation files: 24/1264
+Number of compiled files: 1227
+Number of error compilation files: 37/1264
 Error list: 
 20000223-1.c
+20000822-1.c
 20001009-1.c
 20020215-1.c
 20020810-1.c
@@ -10,18 +11,30 @@ Error list:
 20100708-1.c
 920501-7.c
 920721-4.c
+921215-1.c
 930406-1.c
+931002-1.c
+990413-2.c
 builtin-prefetch-5.c
 comp-goto-2.c
 divconst-2.c
+loop-2f.c
+loop-2g.c
 memcpy-2.c
 memset-1.c
 memset-2.c
 memset-3.c
+nestfunc-1.c
+nestfunc-2.c
+nestfunc-3.c
+nestfunc-5.c
+nestfunc-6.c
 pr15296.c
 pr22141-2.c
 pr24135.c
 pr31448-2.c
+pr49218.c
+pr80692.c
 pr88904.c
 strcpy-1.c
 strlen-1.c

@@ -26,7 +26,7 @@ struct S *ptr_str = &str;
 void
 simple_global ()
 {
-  printf("simple_static_local ");
+  printf("simple_global ");
   __builtin_prefetch (glob_int_arr, 0, 0);
   __builtin_prefetch (glob_ptr_int, 0, 0);
   __builtin_prefetch (&glob_int, 0, 0);
@@ -37,7 +37,7 @@ simple_global ()
 void
 simple_file ()
 {
-  printf("simple_static_local ");
+  printf("simple_global ");
   __builtin_prefetch (stat_int_arr, 0, 0);
   __builtin_prefetch (stat_ptr_int, 0, 0);
   __builtin_prefetch (&stat_int, 0, 0);
@@ -48,7 +48,7 @@ simple_file ()
 void
 simple_static_local ()
 {
-  printf("simple_static_local ");
+  printf("simple_global ");
   static int gx[100];
   static int *hx = gx;
   static int ix;
@@ -62,7 +62,7 @@ simple_static_local ()
 void
 simple_local ()
 {
-  printf("simple_static_local ");
+  printf("simple_global ");
   int gx[100];
   int *hx = gx;
   int ix;
@@ -76,7 +76,7 @@ simple_local ()
 void
 simple_arg (int g[100], int *h, int i)
 {
-  printf("simple_static_local ");
+  printf("simple_global ");
   __builtin_prefetch (g, 0, 0);
   __builtin_prefetch (h, 0, 0);
   __builtin_prefetch (&i, 0, 0);
@@ -87,7 +87,7 @@ simple_arg (int g[100], int *h, int i)
 void
 expr_global (void)
 {
-  printf("simple_static_local ");
+  printf("simple_global ");
   __builtin_prefetch (&str, 0, 0);
   __builtin_prefetch (ptr_str, 0, 0);
   __builtin_prefetch (&str.b, 0, 0);
@@ -114,7 +114,7 @@ expr_global (void)
 void
 expr_local (void)
 {
-  printf("simple_static_local ");
+  printf("simple_global ");
   int b[10];
   int *pb = b;
   struct S t;

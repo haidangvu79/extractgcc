@@ -4,8 +4,7 @@
 
 feq (int x, int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x == y)
     return T;
   else
@@ -14,8 +13,7 @@ feq (int x, int y)
 
 fne (int x, int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x != y)
     return T;
   else
@@ -24,8 +22,7 @@ fne (int x, int y)
 
 flt (int x, int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x < y)
     return T;
   else
@@ -34,8 +31,7 @@ flt (int x, int y)
 
 fge (int x, int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x >= y)
     return T;
   else
@@ -44,8 +40,7 @@ fge (int x, int y)
 
 fgt (int x, int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x > y)
     return T;
   else
@@ -54,8 +49,7 @@ fgt (int x, int y)
 
 fle (int x, int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x <= y)
     return T;
   else
@@ -64,8 +58,7 @@ fle (int x, int y)
 
 fltu (unsigned int x, unsigned int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x < y)
     return T;
   else
@@ -74,8 +67,7 @@ fltu (unsigned int x, unsigned int y)
 
 fgeu (unsigned int x, unsigned int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x >= y)
     return T;
   else
@@ -84,8 +76,7 @@ fgeu (unsigned int x, unsigned int y)
 
 fgtu (unsigned int x, unsigned int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x > y)
     return T;
   else
@@ -94,8 +85,7 @@ fgtu (unsigned int x, unsigned int y)
 
 fleu (unsigned int x, unsigned int y)
 {
-  printf("fle ");
-  printf("fleu ");
+  printf("feq ");
   if (x <= y)
     return T;
   else

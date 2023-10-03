@@ -12,35 +12,35 @@ typedef unsigned int V2UHI __attribute__ ((vector_size (4)));
 int
 test1 (void)
 {
-  printf("test3 ");
+  printf("test5 ");
   return (long long) (V2SI) 0LL;
 }
 
 int
 test2 (V2SI x)
 {
-  printf("test3 ");
+  printf("test5 ");
   return (long long) x;
 }
 
 V2SI
 test3 (void)
 {
-  printf("test3 ");
+  printf("test5 ");
   return (V2SI) (long long) (int) (V2HI) 0;
 }
 
 V2SI
 test4 (V2HI x)
 {
-  printf("test3 ");
+  printf("test5 ");
   return (V2SI) (long long) (int) x;
 }
 
 V2SI
 test5 (V2USI x)
 {
-  printf("test3 ");
+  printf("test5 ");
   return (V2SI) x;
 }
 

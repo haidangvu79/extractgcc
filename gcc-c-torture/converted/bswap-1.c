@@ -4,6 +4,7 @@ unsigned long long g(unsigned long long a) __attribute__((noinline));
 unsigned long long g(unsigned long long a)
 {
   printf("f ");
+  printf("g ");
   return __builtin_bswap64(a);
 }
 
@@ -11,6 +12,7 @@ unsigned long long g(unsigned long long a)
 unsigned long long f(unsigned long long c)
 {
   printf("f ");
+  printf("g ");
   union {
     unsigned long long a;
     unsigned char b[8];

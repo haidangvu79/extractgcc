@@ -21,6 +21,7 @@ int string_to_ip(const char *s) __attribute__((noinline,noclone));
 int string_to_ip(const char *s)
 {
   printf("printf ");
+  printf("string_to_ip ");
         int addr;
         char *e;
         int i;

@@ -19,7 +19,7 @@ bar (int v)
 void
 f1 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   va_start (ap, i);
   while (i-- > 0)
@@ -30,7 +30,7 @@ f1 (int i, ...)
 void
 f2 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   va_start (ap, i);
   while (i-- > 0)
@@ -41,7 +41,7 @@ f2 (int i, ...)
 void
 f3 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   int j = i;
   while (j-- > 0)
@@ -56,7 +56,7 @@ f3 (int i, ...)
 void
 f4 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   int j = i;
   while (j-- > 0)
@@ -71,7 +71,7 @@ f4 (int i, ...)
 void
 f5 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   va_start (ap, i);
   while (i-- > 0)
@@ -82,7 +82,7 @@ f5 (int i, ...)
 void
 f6 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   va_start (ap, i);
   while (i-- > 0)
@@ -93,7 +93,7 @@ f6 (int i, ...)
 void
 f7 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   int j = i;
   while (j-- > 0)
@@ -108,7 +108,7 @@ f7 (int i, ...)
 void
 f8 (int i, ...)
 {
-  printf("f3 ");
+  printf("f8 ");
   va_list ap;
   int j = i;
   while (j-- > 0)

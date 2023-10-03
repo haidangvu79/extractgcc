@@ -7,8 +7,7 @@ unsigned short _Alignas (16) in[SIZE];
 __attribute__ ((noinline)) int
 test (unsigned short sum, unsigned short *in, int x)
 {
-  printf("__builtin_abort ");
-
+  printf("test ");
   for (int j = 0; j < SIZE; j += 8)
     sum += in[j] * x;
   return sum;

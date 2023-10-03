@@ -1,7 +1,7 @@
 f1 (a)
      long a;
 {
-  printf("f3 ");
+  printf("f6 ");
   int i;
   for (i = 0; i < 10; i++)
     {
@@ -14,7 +14,7 @@ f1 (a)
 f2 (a)
      long a;
 {
-  printf("f3 ");
+  printf("f6 ");
   int i;
   for (i = 0; i < 10; i++)
     {
@@ -27,7 +27,7 @@ f2 (a)
 f3 (a)
      long a;
 {
-  printf("f3 ");
+  printf("f6 ");
   int i;
   for (i = 0; i < 10; i++)
     {
@@ -40,7 +40,7 @@ f3 (a)
 f4 (a)
      long a;
 {
-  printf("f3 ");
+  printf("f6 ");
   int i;
   for (i = 0; i < 10; i++)
     {
@@ -53,7 +53,7 @@ f4 (a)
 f5 (a)
      long a;
 {
-  printf("f3 ");
+  printf("f6 ");
   int i;
   for (i = 0; i < 10; i++)
     {
@@ -66,7 +66,7 @@ f5 (a)
 f6 (a)
      long a;
 {
-  printf("f3 ");
+  printf("f6 ");
   int i;
   for (i = 0; i < 10; i++)
     {

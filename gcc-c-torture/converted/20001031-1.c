@@ -11,7 +11,7 @@ void t1 (int x)
 
 int t2 (void)
 {
-  printf("t4 ");
+  printf("t2 ");
   int i;
   t1 ((i = 4096) + 4);
   return i;
@@ -26,7 +26,7 @@ void t3 (long long x)
 
 long long t4 (void)
 {
-  printf("t4 ");
+  printf("t2 ");
   long long i;
   t3 ((i = 4096) + 0x7fffffffULL);
   return i;

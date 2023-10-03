@@ -16,7 +16,7 @@ int arrindex = 4;
 int
 assign_arg_ptr (int *p)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   __builtin_prefetch ((q = p), 0, 0);
   return q == p;
@@ -25,7 +25,7 @@ assign_arg_ptr (int *p)
 int
 assign_glob_ptr (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   __builtin_prefetch ((q = ptr), 0, 0);
   return q == ptr;
@@ -34,7 +34,7 @@ assign_glob_ptr (void)
 int
 assign_arg_idx (int *p, int i)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j;
   __builtin_prefetch (&p[j = i], 0, 0);
   return j == i;
@@ -43,7 +43,7 @@ assign_arg_idx (int *p, int i)
 int
 assign_glob_idx (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j;
   __builtin_prefetch (&ptr[j = arrindex], 0, 0);
   return j == arrindex;
@@ -55,7 +55,7 @@ assign_glob_idx (void)
 int
 preinc_arg_ptr (int *p)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = p + 1;
   __builtin_prefetch (++p, 0, 0);
@@ -65,7 +65,7 @@ preinc_arg_ptr (int *p)
 int
 preinc_glob_ptr (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = ptr + 1;
   __builtin_prefetch (++ptr, 0, 0);
@@ -75,7 +75,7 @@ preinc_glob_ptr (void)
 int
 postinc_arg_ptr (int *p)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = p + 1;
   __builtin_prefetch (p++, 0, 0);
@@ -85,7 +85,7 @@ postinc_arg_ptr (int *p)
 int
 postinc_glob_ptr (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = ptr + 1;
   __builtin_prefetch (ptr++, 0, 0);
@@ -95,7 +95,7 @@ postinc_glob_ptr (void)
 int
 predec_arg_ptr (int *p)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = p - 1;
   __builtin_prefetch (--p, 0, 0);
@@ -105,7 +105,7 @@ predec_arg_ptr (int *p)
 int
 predec_glob_ptr (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = ptr - 1;
   __builtin_prefetch (--ptr, 0, 0);
@@ -115,7 +115,7 @@ predec_glob_ptr (void)
 int
 postdec_arg_ptr (int *p)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = p - 1;
   __builtin_prefetch (p--, 0, 0);
@@ -125,7 +125,7 @@ postdec_arg_ptr (int *p)
 int
 postdec_glob_ptr (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int *q;
   q = ptr - 1;
   __builtin_prefetch (ptr--, 0, 0);
@@ -135,7 +135,7 @@ postdec_glob_ptr (void)
 int
 preinc_arg_idx (int *p, int i)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = i + 1;
   __builtin_prefetch (&p[++i], 0, 0);
   return i == j;
@@ -145,7 +145,7 @@ preinc_arg_idx (int *p, int i)
 int
 preinc_glob_idx (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = arrindex + 1;
   __builtin_prefetch (&ptr[++arrindex], 0, 0);
   return arrindex == j;
@@ -154,7 +154,7 @@ preinc_glob_idx (void)
 int
 postinc_arg_idx (int *p, int i)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = i + 1;
   __builtin_prefetch (&p[i++], 0, 0);
   return i == j;
@@ -163,7 +163,7 @@ postinc_arg_idx (int *p, int i)
 int
 postinc_glob_idx (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = arrindex + 1;
   __builtin_prefetch (&ptr[arrindex++], 0, 0);
   return arrindex == j;
@@ -172,7 +172,7 @@ postinc_glob_idx (void)
 int
 predec_arg_idx (int *p, int i)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = i - 1;
   __builtin_prefetch (&p[--i], 0, 0);
   return i == j;
@@ -181,7 +181,7 @@ predec_arg_idx (int *p, int i)
 int
 predec_glob_idx (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = arrindex - 1;
   __builtin_prefetch (&ptr[--arrindex], 0, 0);
   return arrindex == j;
@@ -190,7 +190,7 @@ predec_glob_idx (void)
 int
 postdec_arg_idx (int *p, int i)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = i - 1;
   __builtin_prefetch (&p[i--], 0, 0);
   return i == j;
@@ -199,7 +199,7 @@ postdec_arg_idx (int *p, int i)
 int
 postdec_glob_idx (void)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   int j = arrindex - 1;
   __builtin_prefetch (&ptr[arrindex--], 0, 0);
   return arrindex == j;
@@ -220,7 +220,7 @@ getptr (int *p)
 int
 funccall_arg_ptr (int *p)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   __builtin_prefetch (getptr (p), 0, 0);
   return getptrcnt == 1;
 }
@@ -237,7 +237,7 @@ getint (int i)
 int
 funccall_arg_idx (int *p, int i)
 {
-  printf("predec_arg_idx ");
+  printf("postinc_arg_ptr ");
   __builtin_prefetch (&p[getint (i)], 0, 0);
   return getintcnt == 1;
 }

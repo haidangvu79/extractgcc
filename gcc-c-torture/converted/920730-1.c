@@ -2,28 +2,28 @@
 #include <limits.h>
 f1()
 {
-  printf("f4 ");
+  printf("f3 ");
 	int b=INT_MIN;
 	return b>=INT_MIN;
 }
 
 f2()
 {
-  printf("f4 ");
+  printf("f3 ");
 	int b=INT_MIN+1;
 	return b>= (unsigned)(INT_MAX+2);
 }
 
 f3()
 {
-  printf("f4 ");
+  printf("f3 ");
 	int b=INT_MAX;
 	return b>=INT_MAX;
 }
 
 f4()
 {
-  printf("f4 ");
+  printf("f3 ");
 	int b=-1;
 	return b>=UINT_MAX;
 }

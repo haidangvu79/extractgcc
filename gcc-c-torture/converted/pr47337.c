@@ -8,21 +8,21 @@ static long long e = 0;
 static short
 foo (long long x, long long y)
 {
-  printf("bar ");
+  printf("fnx ");
   return x / y;
 }
 
 static char
 bar (char x, char y)
 {
-  printf("bar ");
+  printf("fnx ");
   return x - y;
 }
 
 static int
 baz (int x, int y)
 {
-  printf("bar ");
+  printf("fnx ");
   *f = (y != (short) (y * 3));
   for (c = 0; c < 2; c++)
     {
@@ -47,7 +47,7 @@ baz (int x, int y)
 static void
 fnx (unsigned long long x, int y)
 {
-  printf("bar ");
+  printf("fnx ");
   if (!y)
     {
       b = a[b & 1];

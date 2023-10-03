@@ -5,7 +5,7 @@
 
 foo (int *p)
 {
-  printf("foo ");
+  printf("alloca ");
   *p = 10;
 }
 

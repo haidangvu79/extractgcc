@@ -1,28 +1,28 @@
 sub1 (i)
      int i;
 {
-  printf("sub3 ");
+  printf("sub2 ");
   return i - (5 - i);
 }
 
 sub2 (i)
      int i;
 {
-  printf("sub3 ");
+  printf("sub2 ");
   return i + (5 + i);
 }
 
 sub3 (i)
      int i;
 {
-  printf("sub3 ");
+  printf("sub2 ");
   return i - (5 + i);
 }
 
 sub4 (i)
      int i;
 {
-  printf("sub3 ");
+  printf("sub2 ");
   return i + (5 - i);
 }
 

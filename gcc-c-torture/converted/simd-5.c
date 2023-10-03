@@ -31,7 +31,7 @@ func1 (void)
 void __attribute__((__noinline__))
 func2 (void)
 {
-  printf("memcmp ");
+  printf("func2 ");
   Q a, b;
   a = q1 + q2;
   b = q3 - q4;

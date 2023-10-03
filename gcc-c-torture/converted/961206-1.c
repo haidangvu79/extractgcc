@@ -1,7 +1,7 @@
 int
 sub1 (unsigned long long i)
 {
-  printf("sub3 ");
+  printf("sub2 ");
   if (i < 0x80000000)
     return 1;
   else
@@ -11,7 +11,7 @@ sub1 (unsigned long long i)
 int
 sub2 (unsigned long long i)
 {
-  printf("sub3 ");
+  printf("sub2 ");
   if (i <= 0x7FFFFFFF)
     return 1;
   else
@@ -21,7 +21,7 @@ sub2 (unsigned long long i)
 int
 sub3 (unsigned long long i)
 {
-  printf("sub3 ");
+  printf("sub2 ");
   if (i >= 0x80000000)
     return 0;
   else
@@ -31,7 +31,7 @@ sub3 (unsigned long long i)
 int
 sub4 (unsigned long long i)
 {
-  printf("sub3 ");
+  printf("sub2 ");
   if (i > 0x7FFFFFFF)
     return 0;
   else

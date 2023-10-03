@@ -5,7 +5,7 @@
 
 feq (float x, float y)
 {
-  printf("fge ");
+  printf("feq ");
   if (x == y)
     return T;
   else
@@ -14,7 +14,7 @@ feq (float x, float y)
 
 fne (float x, float y)
 {
-  printf("fge ");
+  printf("feq ");
   if (x != y)
     return T;
   else
@@ -23,7 +23,7 @@ fne (float x, float y)
 
 flt (float x, float y)
 {
-  printf("fge ");
+  printf("feq ");
   if (x < y)
     return T;
   else
@@ -32,7 +32,7 @@ flt (float x, float y)
 
 fge (float x, float y)
 {
-  printf("fge ");
+  printf("feq ");
   if (x >= y)
     return T;
   else
@@ -41,7 +41,7 @@ fge (float x, float y)
 
 fgt (float x, float y)
 {
-  printf("fge ");
+  printf("feq ");
   if (x > y)
     return T;
   else
@@ -50,7 +50,7 @@ fgt (float x, float y)
 
 fle (float x, float y)
 {
-  printf("fge ");
+  printf("feq ");
   if (x <= y)
     return T;
   else

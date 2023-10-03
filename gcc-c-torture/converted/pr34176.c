@@ -22,7 +22,7 @@ struct mult_index_list
 int __attribute__((noinline))
 hash_find_entry (size_t *result)
 {
-  printf("foo ");
+  printf("hash_find_entry ");
     *result = 2;
     return 0;
 }
@@ -31,7 +31,7 @@ extern void abort (void);
 struct mult_index * __attribute__((noinline))
 foo (size_t n)
 {
-  printf("foo ");
+  printf("hash_find_entry ");
   static count = 0;
   if (count++ > 0)
    { printf("abort_func "); 		abort (); }

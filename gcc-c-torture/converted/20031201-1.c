@@ -18,7 +18,7 @@ extern void f0 (void) __attribute__ ((__noinline__));
 int
 f1 (void *port)
 {
-  printf("f1 ");
+  printf("f0 ");
   int fail_count = 0;
   unsigned long tlen;
   s1 x0 = {0};
@@ -35,7 +35,7 @@ f1 (void *port)
   test ();
   if (m)
     {
-  printf("f1 ");
+  printf("f0 ");
       unsigned long e = 1000000000 / 460800 * test_length;
       tlen = test_t1 - test_t0;
       if (((tlen-e) & 0x7FFFFFFF) > 1000)
@@ -43,7 +43,7 @@ f1 (void *port)
     }
   if (d)
     {
-  printf("f1 ");
+  printf("f0 ");
       unsigned long e = 1000000000 / 460800 * test_length;
       tlen = test_t1 - test_t0;
       if (((tlen - e) & 0x7FFFFFFF) > 1000)

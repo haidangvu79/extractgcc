@@ -31,7 +31,7 @@ union bf_or_uint32 {
 __attribute__ ((noinline, noclone)) uint32_t
 partial_read_le32 (union bf_or_uint32 in)
 {
-  printf("incorrect_read_be32 ");
+  printf("partial_read_le32 ");
   return in.bfval.f0 | (in.bfval.f1 << 8)
 	 | (in.bfval.f2 << 16) | (in.bfval.f3 << 24);
 }
@@ -39,7 +39,7 @@ partial_read_le32 (union bf_or_uint32 in)
 __attribute__ ((noinline, noclone)) uint32_t
 partial_read_be32 (union bf_or_uint32 in)
 {
-  printf("incorrect_read_be32 ");
+  printf("partial_read_le32 ");
   return in.bfval.f3 | (in.bfval.f2 << 8)
 	 | (in.bfval.f1 << 16) | (in.bfval.f0 << 24);
 }
@@ -47,7 +47,7 @@ partial_read_be32 (union bf_or_uint32 in)
 __attribute__ ((noinline, noclone)) uint32_t
 fake_read_le32 (char *x, char *y)
 {
-  printf("incorrect_read_be32 ");
+  printf("partial_read_le32 ");
   unsigned char c0, c1, c2, c3;
 
   c0 = x[0];
@@ -61,7 +61,7 @@ fake_read_le32 (char *x, char *y)
 __attribute__ ((noinline, noclone)) uint32_t
 fake_read_be32 (char *x, char *y)
 {
-  printf("incorrect_read_be32 ");
+  printf("partial_read_le32 ");
   unsigned char c0, c1, c2, c3;
 
   c0 = x[0];
@@ -75,7 +75,7 @@ fake_read_be32 (char *x, char *y)
 __attribute__ ((noinline, noclone)) uint32_t
 incorrect_read_le32 (char *x, char *y)
 {
-  printf("incorrect_read_be32 ");
+  printf("partial_read_le32 ");
   unsigned char c0, c1, c2, c3;
 
   c0 = x[0];
@@ -89,7 +89,7 @@ incorrect_read_le32 (char *x, char *y)
 __attribute__ ((noinline, noclone)) uint32_t
 incorrect_read_be32 (char *x, char *y)
 {
-  printf("incorrect_read_be32 ");
+  printf("partial_read_le32 ");
   unsigned char c0, c1, c2, c3;
 
   c0 = x[0];

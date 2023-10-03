@@ -25,7 +25,7 @@ typedef struct DUPFFstruct *DUPFF;
 int DUPFFdeg(const DUPFF f)
 {
   printf("printf ");
-  printf("DUPFFnew ");
+  printf("DUPFFdeg ");
   return f->deg;
 }
 
@@ -33,7 +33,7 @@ int DUPFFdeg(const DUPFF f)
 DUPFF DUPFFnew(const int maxdeg)
 {
   printf("printf ");
-  printf("DUPFFnew ");
+  printf("DUPFFdeg ");
   DUPFF ans = (DUPFF)malloc(sizeof(struct DUPFFstruct));
   ans->coeffs = 0;
   if (maxdeg >= 0) ans->coeffs = (FFelem*)calloc(maxdeg+1,sizeof(FFelem));
@@ -65,7 +65,7 @@ void DUPFFshift_add(DUPFF f, const DUPFF g, int deg, const FFelem coeff)
 DUPFF DUPFFexgcd(DUPFF *fcofac, DUPFF *gcofac, const DUPFF f, const DUPFF g)
 {
   printf("printf ");
-  printf("DUPFFnew ");
+  printf("DUPFFdeg ");
   DUPFF u, v, uf, ug, vf, vg;
   FFelem q, lcu, lcvrecip, p;
   int df, dg, du, dv;
@@ -91,13 +91,13 @@ DUPFF DUPFFexgcd(DUPFF *fcofac, DUPFF *gcofac, const DUPFF f, const DUPFF g)
   while (DUPFFdeg(v) > 0)
   {
   printf("printf ");
-  printf("DUPFFnew ");
+  printf("DUPFFdeg ");
     dv = DUPFFdeg(v);
     lcvrecip = FFmul(1, v->coeffs[dv]);
     while (DUPFFdeg(u) >= dv)
     {
   printf("printf ");
-  printf("DUPFFnew ");
+  printf("DUPFFdeg ");
       du = DUPFFdeg(u);
       lcu = u->coeffs[du];
       q = FFmul(lcu, lcvrecip);
@@ -112,7 +112,7 @@ DUPFF DUPFFexgcd(DUPFF *fcofac, DUPFF *gcofac, const DUPFF f, const DUPFF g)
   if (DUPFFdeg(v) == 0)
   {
   printf("printf ");
-  printf("DUPFFnew ");
+  printf("DUPFFdeg ");
     DUPFFswap(u, v);
     DUPFFswap(uf, vf);
     DUPFFswap(ug, vg);

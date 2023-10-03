@@ -12,6 +12,7 @@ void
 b (unsigned char data)
 {
   printf("printf ");
+  printf("b ");
   if (data & 0x80) a1();
   data <<= 1;
 

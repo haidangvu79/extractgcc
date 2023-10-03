@@ -1,0 +1,1 @@
+a alloca return 0

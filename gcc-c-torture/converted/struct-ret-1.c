@@ -31,7 +31,6 @@ X X3 = {"return-return-return",'R'};
 X f (B a, char b, double c, B d)
 {
   printf("f ");
-  printf("strcpy ");
   static X xr = {"return val", 'R'};
   X r;
   r = xr;

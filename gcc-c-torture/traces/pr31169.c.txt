@@ -1,0 +1,1 @@
+sign_bit_p return 0

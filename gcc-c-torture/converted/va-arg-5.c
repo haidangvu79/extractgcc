@@ -2,7 +2,7 @@
 
 va_double (int n, ...)
 {
-  printf("va_double ");
+  printf("va_long_double ");
   va_list args;
 
   va_start (args, n);
@@ -25,7 +25,7 @@ va_double (int n, ...)
 
 va_long_double (int n, ...)
 {
-  printf("va_double ");
+  printf("va_long_double ");
   va_list args;
 
   va_start (args, n);

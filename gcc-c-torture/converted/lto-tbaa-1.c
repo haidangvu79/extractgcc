@@ -14,7 +14,7 @@ use_a (struct a *a)
 }
 set_b (int **a)
 {
-  printf("set_b ");
+  printf("retme ");
   *a=&d;
 }
 use_c (struct c *a)
@@ -22,7 +22,7 @@ use_c (struct c *a)
 }
 __attribute__ ((noinline)) int **retme(int **val)
 {
-  printf("set_b ");
+  printf("retme ");
   return val;
 }
 int e;

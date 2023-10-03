@@ -12,8 +12,7 @@ foo (unsigned char a, unsigned char b)
 __attribute__((noinline, noclone)) unsigned
 bar (union U *x, union U *y)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   union U z;
   unsigned char v = x->c.a;
   unsigned char w = foo (y->c.a, 255 - v);

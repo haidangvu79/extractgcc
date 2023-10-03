@@ -10,7 +10,7 @@ int
 __attribute__((noinline))
 __fprintf_chk (FILE *f, int flag, const char *fmt, ...)
 {
-  printf("__fprintf_chk ");
+  printf("test ");
   va_list ap;
   int ret;
 #ifdef __OPTIMIZE__

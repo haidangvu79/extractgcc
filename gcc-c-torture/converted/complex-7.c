@@ -26,7 +26,7 @@ __attribute__((noinline)) void
 check_float (int a, _Complex float a1, _Complex float a2,
 	     _Complex float a3, _Complex float a4, _Complex float a5)
 {
-  printf("check_double ");
+  printf("check_float ");
   if (a1 != f1 || a2 != f2 || a3 != f3 || a4 != f4 || a5 != f5)
    { printf("abort_func "); 		abort (); }
 
@@ -36,7 +36,7 @@ __attribute__((noinline)) void
 check_double (int a, _Complex double a1, _Complex double a2,
 	     _Complex double a3, _Complex double a4, _Complex double a5)
 {
-  printf("check_double ");
+  printf("check_float ");
   if (a1 != d1 || a2 != d2 || a3 != d3 || a4 != d4 || a5 != d5)
    { printf("abort_func "); 		abort (); }
 
@@ -47,7 +47,7 @@ check_long_double (int a, _Complex long double a1, _Complex long double a2,
 	     _Complex long double a3, _Complex long double a4,
 		   _Complex long double a5)
 {
-  printf("check_double ");
+  printf("check_float ");
   if (a1 != ld1 || a2 != ld2 || a3 != ld3 || a4 != ld4 || a5 != ld5)
    { printf("abort_func "); 		abort (); }
 

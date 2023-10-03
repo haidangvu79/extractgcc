@@ -15,8 +15,6 @@ fn1 (char *x, char *y)
 __attribute__((noinline, noclone)) int
 fn2 (char *x)
 {
-  printf("__builtin_abort ");
-
   asm volatile ("" : "+g" (x) : : "memory");
   return x == &v[0];
 }
@@ -32,8 +30,6 @@ fn3 (const char *x)
 static struct A
 foo (const char *x, struct A y, struct A z)
 {
-  printf("__builtin_abort ");
-
   struct A r = { 0, 0, 0 };
   if (y.b && z.b)
     {
@@ -53,8 +49,7 @@ foo (const char *x, struct A y, struct A z)
 __attribute__((noinline, noclone)) int
 bar (int x, struct A *y)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   switch (x)
     {
     case 219:

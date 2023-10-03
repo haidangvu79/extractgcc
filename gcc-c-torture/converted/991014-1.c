@@ -24,19 +24,19 @@ union huge_union
 
 Size_t union_size()
 {
-  printf("struct_a_offset ");
+  printf("union_size ");
   return sizeof(union huge_union);
 }
 
 Size_t struct_size()
 {
-  printf("struct_a_offset ");
+  printf("union_size ");
   return sizeof(struct huge_struct);
 }
 
 Size_t struct_a_offset()
 {
-  printf("struct_a_offset ");
+  printf("union_size ");
   return (Size_t)(&((struct huge_struct *) 0)->a);
 }
 

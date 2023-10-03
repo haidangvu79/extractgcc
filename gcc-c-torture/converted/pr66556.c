@@ -24,7 +24,7 @@ fn1 (unsigned p1) { return -p1; }
 void
 fn2 (char p1)
 {
-  printf("fn2 ");
+  printf("fn1 ");
   a = p1;
   e[0];
 }

@@ -6,13 +6,13 @@ extern void abort (void);
 
 int f1()
 {
-  printf("f1 ");
+  printf("f2 ");
   return (int)2147483648.0f;
 }
 
 int f2()
 {
-  printf("f1 ");
+  printf("f2 ");
   return (int)(float)(2147483647);
 }
 

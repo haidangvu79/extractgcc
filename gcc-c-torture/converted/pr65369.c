@@ -8,7 +8,7 @@ static const char data[] =
 __attribute__ ((noinline))
 static void foo (const unsigned int *buf)
 {
-  printf("bar ");
+  printf("__builtin_memcpy ");
   if (__builtin_memcmp (buf, data, 64))
     __builtin_abort ();
 
@@ -17,7 +17,7 @@ static void foo (const unsigned int *buf)
 __attribute__ ((noinline))
 static void bar (const unsigned char *block)
 {
-  printf("bar ");
+  printf("__builtin_memcpy ");
   uint32_t buf[16];
   __builtin_memcpy (buf +  0, block +  0, 4);
   __builtin_memcpy (buf +  1, block +  4, 4);

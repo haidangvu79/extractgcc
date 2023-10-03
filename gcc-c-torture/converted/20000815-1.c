@@ -31,7 +31,7 @@ void
 invalidate_memory (writes)
      struct write_data *writes;
 {
-  printf("__builtin_memset ");
+  printf("invalidate_memory ");
   register int i;
   register struct table_elt *p, *next;
   int all = writes->all;

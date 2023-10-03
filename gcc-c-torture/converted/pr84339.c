@@ -5,14 +5,14 @@ struct S { int a; char b[1]; };
 __attribute__((noipa)) int
 foo (struct S *p)
 {
-  printf("bar ");
+  printf("__builtin_strcpy ");
   return __builtin_strlen (&p->b[0]);
 }
 
 __attribute__((noipa)) int
 bar (struct S *p)
 {
-  printf("bar ");
+  printf("__builtin_strcpy ");
   return __builtin_strlen (p->b);
 }
 

@@ -26,7 +26,7 @@ struct tmp
 sub (struct tmp tmp)
 {
   printf("sub ");
-  printf("sub3 ");
+  printf("sub2 ");
   tmp.field ^= 0x0008765412345678LL;
   return tmp;
 }
@@ -35,7 +35,7 @@ struct tmp2
 sub2 (struct tmp2 tmp2)
 {
   printf("sub ");
-  printf("sub3 ");
+  printf("sub2 ");
   tmp2.field ^= 0x0008765412345678LL;
   return tmp2;
 }
@@ -44,7 +44,7 @@ struct tmp3
 sub3 (struct tmp3 tmp3)
 {
   printf("sub ");
-  printf("sub3 ");
+  printf("sub2 ");
   tmp3.field ^= 0x0018765412345678LL;
   return tmp3;
 }
@@ -53,7 +53,7 @@ struct tmp4
 sub4 (struct tmp4 tmp4)
 {
   printf("sub ");
-  printf("sub3 ");
+  printf("sub2 ");
   tmp4.field ^= 0x0018765412345678LL;
   return tmp4;
 }

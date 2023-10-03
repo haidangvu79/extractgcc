@@ -73,7 +73,7 @@ ldnear (long double x, long double y)
 
 test_integer_to_float()
 {
-  printf("test_float_to_integer ");
+  printf("test_integer_to_float ");
   if (u2f(0U) != (float) 0U)				/* 0 */
     abort();
 
@@ -198,7 +198,7 @@ sll2ld(s)
 
 test_longlong_integer_to_float()
 {
-  printf("test_float_to_integer ");
+  printf("test_integer_to_float ");
   if (ull2f(0ULL) != (float) 0ULL)			/* 0 */
     abort();
 
@@ -328,7 +328,7 @@ ld2s(long double d)
 
 test_float_to_integer()
 {
-  printf("test_float_to_integer ");
+  printf("test_integer_to_float ");
   if (f2u(0.0) != 0)
     abort();
 
@@ -537,7 +537,7 @@ ld2sll(long double d)
 
 test_float_to_longlong_integer()
 {
-  printf("test_float_to_integer ");
+  printf("test_integer_to_float ");
   if (f2ull(0.0) != 0LL)
     abort();
 

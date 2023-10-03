@@ -8,8 +8,7 @@ foo (void)
 int __attribute__ ((noinline))
 bar (void)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   int c = 1;
   c |= 4294967295 ^ (foo () | 4073709551608);
   return c;

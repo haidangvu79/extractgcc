@@ -5,7 +5,7 @@ extern void abort (void);
 __attribute ((noinline)) void
 broken_longjmp (void *p)
 {
-  printf("__builtin_setjmp ");
+  printf("__builtin_alloca ");
   void *buf[32];
   __builtin_memcpy (buf, p, 5 * sizeof (void*));
   __builtin_memset (p, 0, 5 * sizeof (void*));

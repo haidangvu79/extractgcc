@@ -8,8 +8,7 @@
 
 unsigned test(unsigned n, unsigned p)
 {
-  printf("test ");
-  printf("test2 ");
+  printf("__attribute__ ");
   static struct { char __attribute__((__aligned__(ALIGNMENT))) c; } s;
   unsigned x;
 
@@ -21,8 +20,7 @@ unsigned test(unsigned n, unsigned p)
 
 unsigned test2(unsigned n, unsigned p)
 {
-  printf("test ");
-  printf("test2 ");
+  printf("__attribute__ ");
   static struct { char c; } s;
   unsigned x;
 

@@ -17,7 +17,7 @@ extern int fn4 (const char *fmt, ...) __attribute__ ((format (printf, 1, 2)));
 unsigned long
 test (struct S *x)
 {
-  printf("fn4 ");
+  printf("test ");
   signed int arg1 = x->arg[0];
   long int arg2 = x->arg[1];
 

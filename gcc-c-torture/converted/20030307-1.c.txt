@@ -1,0 +1,1 @@
+vfswrap_lock return 0

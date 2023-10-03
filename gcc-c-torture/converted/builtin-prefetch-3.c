@@ -36,7 +36,7 @@ volatile struct S * volatile vol_ptr_vol_str = &vol_str;
 void
 simple_vol_global ()
 {
-  printf("expr_vol_global ");
+  printf("simple_vol_file ");
   __builtin_prefetch (glob_vol_int_arr, 0, 0);
   __builtin_prefetch (glob_vol_ptr_int, 0, 0);
   __builtin_prefetch (glob_ptr_vol_int, 0, 0);
@@ -49,7 +49,7 @@ simple_vol_global ()
 void
 simple_vol_file ()
 {
-  printf("expr_vol_global ");
+  printf("simple_vol_file ");
   __builtin_prefetch (stat_vol_int_arr, 0, 0);
   __builtin_prefetch (stat_vol_ptr_int, 0, 0);
   __builtin_prefetch (stat_ptr_vol_int, 0, 0);
@@ -62,7 +62,7 @@ simple_vol_file ()
 void
 expr_vol_global (void)
 {
-  printf("expr_vol_global ");
+  printf("simple_vol_file ");
   __builtin_prefetch (&vol_str, 0, 0);
   __builtin_prefetch (ptr_vol_str, 0, 0);
   __builtin_prefetch (vol_ptr_str, 0, 0);

@@ -3,8 +3,7 @@ unsigned p;
 long __attribute__((noinline, noclone))
 test (unsigned a)
 {
-  printf("__builtin_abort ");
-
+  printf("test ");
   return (long)(p + a) - (long)p;
 }
 

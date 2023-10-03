@@ -9,8 +9,7 @@ foo (unsigned long *x)
 __attribute__((noipa)) unsigned long
 bar (unsigned long *x)
 {
-  printf("__builtin_abort ");
-
+  printf("bar ");
   unsigned long c, d = 1, e, *f, g, h = 0, i;
   for (e = *x - 1; e > 0; e--)
     {

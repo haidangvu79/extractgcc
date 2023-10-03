@@ -11,7 +11,7 @@ extern void abort (void);
 int
 foo (void)
 {
-  printf("long ");
+  printf("foo ");
  { printf("exit_func "); 		exit (0); }
 
   return 0;

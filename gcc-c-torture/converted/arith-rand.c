@@ -10,7 +10,7 @@ simple_rand ()
 unsigned long int
 random_bitstring ()
 {
-  printf("random_bitstring ");
+  printf("ABS ");
   unsigned long int x;
   int n_bits;
   long ran;

@@ -35,8 +35,7 @@ static const u32 cfb_tab32[] = {
 
 const u32 *xxx(int bpp)
 {
-  printf("__builtin_abort ");
-
+  printf("xxx ");
  const u32 *tab;
 
 if (0) return &deadfish;

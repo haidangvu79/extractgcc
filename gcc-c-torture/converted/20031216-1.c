@@ -13,7 +13,7 @@ void DisplayNumber (unsigned long v)
 
 unsigned long ReadNumber (void)
 {
-  printf("ReadNumber ");
+  printf("DisplayNumber ");
   return 0x009a0000L;
 }
 

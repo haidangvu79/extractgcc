@@ -1,0 +1,1 @@
+init return 0

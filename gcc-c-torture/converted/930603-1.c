@@ -2,7 +2,7 @@ float fx (x)
      float x;
 {
   printf("f ");
-  printf("fx ");
+  printf("inita ");
   return 1.0 + 3.0 / (2.302585093 * x);
 }
 

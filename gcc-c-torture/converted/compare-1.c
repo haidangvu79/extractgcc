@@ -8,7 +8,7 @@ extern void abort (void);
 
 int ieq (int x, int y, int ok)
 {
-  printf("ieq ");
+  printf("ine ");
   if ((x<=y) && (x>=y))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -48,7 +48,7 @@ int ieq (int x, int y, int ok)
 
 int ine (int x, int y, int ok)
 {
-  printf("ieq ");
+  printf("ine ");
   if ((x<y) || (x>y))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -61,7 +61,7 @@ int ine (int x, int y, int ok)
 
 int ilt (int x, int y, int ok)
 {
-  printf("ieq ");
+  printf("ine ");
   if ((x<y) && (x!=y))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -74,7 +74,7 @@ int ilt (int x, int y, int ok)
 
 int ile (int x, int y, int ok)
 {
-  printf("ieq ");
+  printf("ine ");
   if ((x<y) || (x==y))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -87,7 +87,7 @@ int ile (int x, int y, int ok)
 
 int igt (int x, int y, int ok)
 {
-  printf("ieq ");
+  printf("ine ");
   if ((x>y) && (x!=y))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -100,7 +100,7 @@ int igt (int x, int y, int ok)
 
 int ige (int x, int y, int ok)
 {
-  printf("ieq ");
+  printf("ine ");
   if ((x>y) || (x==y))
     {
       if (!ok){ printf("abort_func "); 		abort (); }

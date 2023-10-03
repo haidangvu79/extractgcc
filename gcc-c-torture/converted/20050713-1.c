@@ -32,21 +32,21 @@ foo3 (struct S x, struct S y, struct S z)
 int
 bar2 (struct S x, struct S y)
 {
-  printf("bar3 ");
+  printf("baz3 ");
   return foo2 (y, x);
 }
 
 int
 bar3 (struct S x, struct S y, struct S z)
 {
-  printf("bar3 ");
+  printf("baz3 ");
   return foo3 (y, x, z);
 }
 
 int
 baz3 (struct S x, struct S y, struct S z)
 {
-  printf("bar3 ");
+  printf("baz3 ");
   return foo3 (y, z, x);
 }
 

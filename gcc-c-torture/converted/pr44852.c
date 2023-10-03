@@ -1,7 +1,7 @@
 __attribute__ ((__noinline__))
 char *sf(char *s, char *s0)
 {
-  printf("sf ");
+  printf("__builtin_strcmp ");
   asm ("");
   while (*--s == '9')
     if (s == s0)

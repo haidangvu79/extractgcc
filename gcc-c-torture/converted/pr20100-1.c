@@ -42,7 +42,7 @@ ring_empty (void)
 char
 frob (unsigned short a, unsigned short b)
 {
-  printf("get_n ");
+  printf("frob ");
   g = a;
   p = b;
   inc_g ();
@@ -52,7 +52,7 @@ frob (unsigned short a, unsigned short b)
 unsigned short
 get_n (void)
 {
-  printf("get_n ");
+  printf("frob ");
   unsigned short n = 0;
   unsigned short org_g;
   org_g = curr_g ();

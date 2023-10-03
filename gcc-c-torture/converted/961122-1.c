@@ -2,13 +2,13 @@ long long acc;
 
 addhi (short a)
 {
-  printf("addhi ");
+  printf("subhi ");
   acc += (long long) a << 32;
 }
 
 subhi (short a)
 {
-  printf("addhi ");
+  printf("subhi ");
   acc -= (long long) a << 32;
 }
 

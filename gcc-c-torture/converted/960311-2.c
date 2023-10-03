@@ -12,6 +12,7 @@ void
 b (unsigned short data)
 {
   printf("printf ");
+  printf("b ");
   if (data & 0x8000) a1();
   data <<= 1;
 

@@ -36,8 +36,7 @@ bar (struct S *out, struct S const *in, int shift)
 __attribute__((noipa)) static void
 baz (struct S *r, struct S *a, struct S *b, struct S *c, struct S *d)
 {
-  printf("__builtin_abort ");
-
+  printf("baz ");
   struct S x, y;
   bar (&x, a, 1);
   foo (&y, c, 1);

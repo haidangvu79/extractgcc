@@ -22,7 +22,7 @@ makestring (void)
 __attribute__((noipa)) long
 loadpoolstrings (long spare_size)
 {
-  printf("__builtin_free ");
+  printf("__builtin_malloc ");
   const char *s;
   long g = 0;
   int i = 0, j = 0;

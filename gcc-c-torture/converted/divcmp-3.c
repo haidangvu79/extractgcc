@@ -3,73 +3,85 @@ extern void abort(void);
 
 int test1(char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 == 3;
 }
 
 int test1u(unsigned char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 == 3;
 }
 
 int test2(char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 != 3;
 }
 
 int test2u(unsigned char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 != 3;
 }
 
 int test3(char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 < 3;
 }
 
 int test3u(unsigned char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 < 3;
 }
 
 int test4(char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 <= 3;
 }
 
 int test4u(unsigned char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 <= 3;
 }
 
 int test5(char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 > 3;
 }
 
 int test5u(unsigned char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 > 3;
 }
 
 int test6(char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 >= 3;
 }
 
 int test6u(unsigned char x)
 {
-  printf("test3 ");
+  printf("test2 ");
+  printf("test2u ");
   return x/100 >= 3;
 }
 

@@ -32,7 +32,7 @@ foo (struct S *s)
 static void __attribute__((noinline))
 bar (unsigned char *p, unsigned int q, unsigned int r)
 {
-  printf("__builtin_memcmp ");
+  printf("bar ");
   struct S s;
   unsigned int i;
   unsigned int *c = s.c;

@@ -46,7 +46,7 @@ extern void *memset(void *, int, __SIZE_TYPE__);
 struct type *
 create_array_type (struct type *result_type, struct type *element_type)
 {
-  printf("create_array_type ");
+  printf("memset ");
   long long low_bound, high_bound;
   if (result_type == ((void *)0))
     {

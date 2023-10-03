@@ -1,0 +1,1 @@
+InitCache return 0

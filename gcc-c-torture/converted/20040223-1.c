@@ -6,6 +6,7 @@ void
 a(void *x,int y)
 {
   printf("a ");
+  printf("alloca ");
   if (y != 1234)
    { printf("abort_func "); 		abort (); }
 

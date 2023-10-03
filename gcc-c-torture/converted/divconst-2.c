@@ -1,18 +1,16 @@
 long
 f (long x)
 {
-  printf("f ");
   printf("r ");
-  printf("std_eqn ");
+  printf("f ");
   return x / (-0x7fffffffL - 1L);
 }
 
 long
 r (long x)
 {
-  printf("f ");
   printf("r ");
-  printf("std_eqn ");
+  printf("f ");
   return x % (-0x7fffffffL - 1L);
 }
 
@@ -21,9 +19,8 @@ r (long x)
 long
 std_eqn (long num, long denom, long quot, long rem)
 {
-  printf("f ");
   printf("r ");
-  printf("std_eqn ");
+  printf("f ");
   /* For completeness, a check for "ABS (rem) < ABS (denom)" belongs here,
      but causes trouble on 32-bit machines and isn't worthwhile.  */
   return quot * (-0x7fffffffL - 1L) + rem == num;
@@ -31,9 +28,8 @@ std_eqn (long num, long denom, long quot, long rem)
 
 long nums[] =
 {
-  printf("f ");
   printf("r ");
-  printf("std_eqn ");
+  printf("f ");
   -1L, 0x7fffffffL, -0x7fffffffL - 1L
 };
 

@@ -6,8 +6,7 @@ typedef __UINT32_TYPE__ u32;
 static u32
 b (u8 d, u32 e, u32 g)
 {
-  printf("__builtin_abort ");
-
+  printf("b ");
   do
     {
       e += g + 1;

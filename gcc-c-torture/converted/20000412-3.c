@@ -6,7 +6,6 @@ typedef struct {
 int z (void)
 {
   printf("f ");
-  printf("z ");
   X xxx;
   xxx.x[0] =
   xxx.x[31] = '0';

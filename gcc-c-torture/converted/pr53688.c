@@ -7,8 +7,7 @@ struct hdr {
 void __attribute__((noinline,noclone))
 init()
 {
-  printf("__builtin_abort ");
-
+  printf("init ");
   __builtin_memcpy (p.part1, "FOOBARFOO", sizeof (p.part1));
   __builtin_memcpy (p.part2, "SPEC CPU", sizeof (p.part2));
 }

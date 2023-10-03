@@ -8,7 +8,7 @@ struct spurious
 
 int first(char *buf, char *fmt, ...)
 {
-  printf("second ");
+  printf("first ");
   int pos, number;
   va_list args;
   int dummy;

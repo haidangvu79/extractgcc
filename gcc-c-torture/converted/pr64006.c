@@ -5,8 +5,7 @@ int v;
 long __attribute__ ((noinline, noclone))
 test (long *x, int y)
 {
-  printf("__builtin_abort ");
-
+  printf("test ");
   int i;
   long s = 1;
   for (i = 0; i < y; i++)

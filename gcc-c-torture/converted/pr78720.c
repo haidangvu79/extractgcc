@@ -3,21 +3,24 @@
 __attribute__((noinline, noclone)) long int
 foo (signed char x)
 {
-  printf("foo ");
+  printf("__builtin_abort ");
+
   return x < 0 ? 0x80000L : 0L;
 }
 
 __attribute__((noinline, noclone)) long int
 bar (signed char x)
 {
-  printf("foo ");
+  printf("__builtin_abort ");
+
   return x < 0 ? 0x80L : 0L;
 }
 
 __attribute__((noinline, noclone)) long int
 baz (signed char x)
 {
-  printf("foo ");
+  printf("__builtin_abort ");
+
   return x < 0 ? 0x20L : 0L;
 }
 

@@ -5,73 +5,73 @@ extern void abort(void);
 
 int test1(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 == 2;
 }
 
 int test2(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 == 0;
 }
 
 int test3(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 != 2;
 }
 
 int test4(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 != 0;
 }
 
 int test5(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 < 2;
 }
 
 int test6(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 < 0;
 }
 
 int test7(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10  <= 2;
 }
 
 int test8(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 <= 0;
 }
 
 int test9(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 > 2;
 }
 
 int test10(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 > 0;
 }
 
 int test11(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 >= 2;
 }
 
 int test12(int x)
 {
-  printf("test7 ");
+  printf("test9 ");
   return x/-10 >= 0;
 }
 

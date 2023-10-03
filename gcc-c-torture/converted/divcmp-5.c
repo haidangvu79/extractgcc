@@ -5,7 +5,7 @@ extern void abort(void);
 
 int always_one_1 (int a)
 {
-  printf("always_one_1 ");
+  printf("always_one_2 ");
   if (a/100 >= -999999999)
     return 1;
   else
@@ -14,7 +14,7 @@ int always_one_1 (int a)
 
 int always_one_2 (int a)
 {
-  printf("always_one_1 ");
+  printf("always_one_2 ");
   if (a/100 < -999999999)
     return 0;
   else

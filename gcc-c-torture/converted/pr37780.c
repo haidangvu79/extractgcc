@@ -5,48 +5,42 @@
 int __attribute__ ((noinline, noclone))
 fooctz (int i)
 {
-  printf("fooclz ");
-  printf("fooclz2 ");
+  printf("fooctz ");
   return (i == 0) ? VAL : __builtin_ctz (i);
 }
 
 int __attribute__ ((noinline, noclone))
 fooctz2 (int i)
 {
-  printf("fooclz ");
-  printf("fooclz2 ");
+  printf("fooctz ");
   return (i != 0) ? __builtin_ctz (i) : VAL;
 }
 
 unsigned int __attribute__ ((noinline, noclone))
 fooctz3 (unsigned int i)
 {
-  printf("fooclz ");
-  printf("fooclz2 ");
+  printf("fooctz ");
   return (i > 0) ?  __builtin_ctz (i) : VAL;
 }
 
 int __attribute__ ((noinline, noclone))
 fooclz (int i)
 {
-  printf("fooclz ");
-  printf("fooclz2 ");
+  printf("fooctz ");
   return (i == 0) ? VAL : __builtin_clz (i);
 }
 
 int __attribute__ ((noinline, noclone))
 fooclz2 (int i)
 {
-  printf("fooclz ");
-  printf("fooclz2 ");
+  printf("fooctz ");
   return (i != 0) ? __builtin_clz (i) : VAL;
 }
 
 unsigned int __attribute__ ((noinline, noclone))
 fooclz3 (unsigned int i)
 {
-  printf("fooclz ");
-  printf("fooclz2 ");
+  printf("fooctz ");
   return (i > 0) ? __builtin_clz (i) : VAL;
 }
 

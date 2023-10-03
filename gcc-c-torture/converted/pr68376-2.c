@@ -5,56 +5,56 @@ extern void abort (void);
 __attribute__((noinline, noclone)) int
 f1 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x < 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f2 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x < 0 ? x : ~x;
 }
 
 __attribute__((noinline, noclone)) int
 f3 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x <= 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f4 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x <= 0 ? x : ~x;
 }
 
 __attribute__((noinline, noclone)) int
 f5 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x >= 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f6 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x >= 0 ? x : ~x;
 }
 
 __attribute__((noinline, noclone)) int
 f7 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x > 0 ? ~x : x;
 }
 
 __attribute__((noinline, noclone)) int
 f8 (int x)
 {
-  printf("f3 ");
+  printf("f6 ");
   return x > 0 ? x : ~x;
 }
 

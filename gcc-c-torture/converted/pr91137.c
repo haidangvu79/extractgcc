@@ -10,8 +10,8 @@ __attribute__ ((noinline)) void f(long long *g, int p2) {
 }
 
 __attribute__ ((noinline)) void fn2() {
-  printf("f ");
   printf("fn2 ");
+  printf("f ");
   for (int j = 0; j < 70; j++) {
   printf("f ");
     for (int i = 0; i < 70; i++) {

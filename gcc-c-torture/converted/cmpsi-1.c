@@ -1,6 +1,6 @@
 f1 (unsigned int x, unsigned int y)
 {
-  printf("f1 ");
+  printf("f2 ");
   if (x == 0)
     dummy ();
   x -= y;
@@ -13,7 +13,7 @@ f1 (unsigned int x, unsigned int y)
 
 f2 (unsigned long int x, unsigned long int y)
 {
-  printf("f1 ");
+  printf("f2 ");
   if (x == 0)
     dummy ();
   x -= y;

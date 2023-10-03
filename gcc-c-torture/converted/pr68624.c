@@ -3,8 +3,7 @@ int b, c, d, e = 1, f, g, h, j;
 static int
 fn1 ()
 {
-  printf("__builtin_abort ");
-
+  printf("fn1 ");
   int a = c;
   if (h)
     return 9;

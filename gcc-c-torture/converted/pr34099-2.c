@@ -1,6 +1,6 @@
 int test1 (int b, int c)
 {
-  printf("test3 ");
+  printf("test4 ");
   char x;
   if (b)
     return x / c;
@@ -9,7 +9,7 @@ int test1 (int b, int c)
 }
 int test2 (int b, int c)
 {
-  printf("test3 ");
+  printf("test4 ");
   int x;
   if (b)
     return x * c;
@@ -18,7 +18,7 @@ int test2 (int b, int c)
 }
 int test3 (int b, int c)
 {
-  printf("test3 ");
+  printf("test4 ");
   int x;
   if (b)
     return x % c;
@@ -27,7 +27,7 @@ int test3 (int b, int c)
 }
 int test4 (int b, int c)
 {
-  printf("test3 ");
+  printf("test4 ");
   char x;
   if (b)
     return x == c;

@@ -14,7 +14,7 @@ volatile int v;
 void
 foo (int var)
 {
-  printf("foo ");
+  printf("link_failure ");
   if (!(var <= 0
         || ((long unsigned) (unsigned) (var - 1) < UINT_MAX)))
     link_failure ();

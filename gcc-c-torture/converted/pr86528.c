@@ -4,7 +4,7 @@
 void __attribute__((noinline, noclone))
 test(char *data, __SIZE_TYPE__ len)
 {
-  printf("__builtin_strlen ");
+  printf("test ");
     static char const appended[] = "/./";
     char *buf = __builtin_alloca (len + sizeof appended);
     __builtin_memcpy (buf, data, len);

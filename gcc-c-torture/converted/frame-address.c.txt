@@ -1,0 +1,1 @@
+__builtin_alloca __builtin_alloca __builtin_alloca __builtin_alloca return 0

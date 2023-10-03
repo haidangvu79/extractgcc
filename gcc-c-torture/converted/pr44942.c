@@ -5,7 +5,7 @@
 void
 test1 (int a, int b, int c, int d, int e, int f, int g, long double h, ...)
 {
-  printf("test3 ");
+  printf("test4 ");
   int i;
   va_list ap;
 
@@ -21,7 +21,7 @@ void
 test2 (int a, int b, int c, int d, int e, int f, int g, long double h, int i,
        long double j, int k, long double l, int m, long double n, ...)
 {
-  printf("test3 ");
+  printf("test4 ");
   int o;
   va_list ap;
 
@@ -37,7 +37,7 @@ void
 test3 (double a, double b, double c, double d, double e, double f,
        double g, long double h, ...)
 {
-  printf("test3 ");
+  printf("test4 ");
   double i;
   va_list ap;
 
@@ -54,7 +54,7 @@ test4 (double a, double b, double c, double d, double e, double f, double g,
        long double h, double i, long double j, double k, long double l,
        double m, long double n, ...)
 {
-  printf("test3 ");
+  printf("test4 ");
   double o;
   va_list ap;
 

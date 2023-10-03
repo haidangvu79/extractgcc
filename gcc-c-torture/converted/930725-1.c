@@ -10,7 +10,6 @@ char *
 f ()
 {
   printf("f ");
-  printf("strcmp ");
   return (v == 0 ? g () : "abc");
 }
 

@@ -10,7 +10,7 @@ extern void link_error (void);
 void
 utest (unsigned int x)
 {
-  printf("link_error ");
+  printf("utest ");
   if (x >> 0 != x)
     link_error ();
 
@@ -33,7 +33,7 @@ utest (unsigned int x)
 void
 stest (int x)
 {
-  printf("link_error ");
+  printf("utest ");
   if (x >> 0 != x)
     link_error ();
 
