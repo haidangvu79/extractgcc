@@ -17,11 +17,18 @@ fi
 cd converted
 rm *
 cd ..
-python3 gcc_convert.py
-cp run.py converted/
+python3 gcc_convert.py 
+
+# Run on MPPA
+./compilerun.sh
 cd converted
-chmod +x run.py
-python3 run.py
 find -type f ! -name "*.c" -exec rm -f {} \;
+
+## run gcc
+#cp run.py converted/
+#cd converted
+#chmod +x run.py
+#python3 run.py
+#find -type f ! -name "*.c" -exec rm -f {} \;
 
 echo "Done!!!"
