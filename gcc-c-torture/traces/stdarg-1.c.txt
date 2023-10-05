@@ -1,1 +1,1 @@
-f8 f8 f8 f8 f8 f8 f8 f8 f8 return 0
+f3 f3 f3 f3 f3 f3 f3 f3 f3 return 0

@@ -1,1 +1,1 @@
-link_error return 0
+foo return 0

@@ -1,11 +1,11 @@
-test hellotest hellohello
-test hello
-atest atest test hellotest hellohello
-test hello
-atest atest xtest xhello
+__printf_chk hello__printf_chk hellohello
+__printf_chk hello
+a__printf_chk a__printf_chk __printf_chk hello__printf_chk hellohello
+__printf_chk hello
+a__printf_chk a__printf_chk x__printf_chk xhello
 
-test hello
+__printf_chk hello
 
-test 0
-test 0
+__printf_chk 0
+__printf_chk 0
 return 0

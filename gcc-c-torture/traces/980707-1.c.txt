@@ -1,1 +1,1 @@
-strcpy exit_main 
+buildargv exit_main 

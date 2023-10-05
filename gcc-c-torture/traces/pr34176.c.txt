@@ -1,1 +1,1 @@
-hash_find_entry hash_find_entry hash_find_entry return 0
+foo foo foo return 0

@@ -1,1 +1,1 @@
-mod6 mod6 mod6 mod6 mod6 mod6 mod6 mod6 mod6 mod6 exit_main 
+mod2 mod2 mod2 mod2 mod2 mod2 mod2 mod2 mod2 mod2 exit_main 

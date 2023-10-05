@@ -1,1 +1,1 @@
-fnx fnx fnx fnx fnx return 0
+foo foo foo foo foo return 0

@@ -1,1 +1,1 @@
-a alloca return 0
+strcpy return 0

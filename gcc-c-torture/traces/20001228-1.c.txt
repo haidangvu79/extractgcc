@@ -1,1 +1,1 @@
-foo1 foo1 exit_main 
+foo2 foo2 exit_main 

@@ -1,1 +1,1 @@
-sub sub2 sub sub2 exit_main 
+sub sub exit_main 

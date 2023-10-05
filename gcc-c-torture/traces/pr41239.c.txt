@@ -1,1 +1,1 @@
-test exit_main 
+fn3 exit_main 

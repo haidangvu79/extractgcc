@@ -1,1 +1,1 @@
-__builtin_alloca __builtin_alloca __builtin_alloca __builtin_alloca return 0
+how_much how_much how_much how_much return 0

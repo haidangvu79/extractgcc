@@ -1,1 +1,1 @@
-all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests all_tests return 0
+link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 link_error0 return 0

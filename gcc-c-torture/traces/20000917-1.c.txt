@@ -1,1 +1,1 @@
-zero zero exit_main 
+one one exit_main 

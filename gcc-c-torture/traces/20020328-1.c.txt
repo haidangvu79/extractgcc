@@ -1,1 +1,1 @@
-testit exit_main 
+func exit_main 

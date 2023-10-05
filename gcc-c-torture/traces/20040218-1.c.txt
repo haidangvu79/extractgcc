@@ -1,1 +1,1 @@
-xb xb xb exit_main 
+xw xw xw exit_main 

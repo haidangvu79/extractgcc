@@ -1,1 +1,1 @@
-inlined_wrong inlined_wrong inlined_wrong inlined_wrong return 0
+init init init init return 0

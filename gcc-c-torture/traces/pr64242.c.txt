@@ -1,1 +1,1 @@
-__builtin_alloca return 0
+__builtin_setjmp return 0

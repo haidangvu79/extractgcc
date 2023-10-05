@@ -1,1 +1,1 @@
-__builtin_strcpy __builtin_strcpy return 0
+foo foo return 0

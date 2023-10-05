@@ -1,1 +1,1 @@
-prefetch_for_read prefetch_for_read prefetch_for_read exit_main 
+prefetch_for_write prefetch_for_write prefetch_for_write exit_main 

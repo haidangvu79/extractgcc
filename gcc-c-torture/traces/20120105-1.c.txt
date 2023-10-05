@@ -1,1 +1,1 @@
-__builtin_memset return 0
+extract return 0

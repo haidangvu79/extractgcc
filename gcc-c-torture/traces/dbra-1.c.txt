@@ -1,1 +1,1 @@
-f6 f6 f6 f6 f6 f6 f6 f6 f6 exit_main 
+f3 f3 f3 f3 f3 f3 f3 f3 f3 exit_main 

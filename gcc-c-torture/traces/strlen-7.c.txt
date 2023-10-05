@@ -1,1 +1,1 @@
-__builtin_malloc return 0
+test_dynamic_type return 0

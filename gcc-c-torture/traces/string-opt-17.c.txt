@@ -1,1 +1,1 @@
-memcmp memcmp exit_main 
+test1 test1 exit_main 

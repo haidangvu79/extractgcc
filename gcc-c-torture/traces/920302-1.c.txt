@@ -1,1 +1,1 @@
-strcmp strcmp exit_main 
+execute execute exit_main 

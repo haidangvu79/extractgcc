@@ -1,1 +1,1 @@
-test_endianness test_endianness_vol test_endianness test_endianness_vol exit_main 
+test_endianness test_endianness exit_main 

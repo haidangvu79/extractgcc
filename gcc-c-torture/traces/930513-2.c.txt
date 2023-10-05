@@ -1,1 +1,1 @@
-eq eq eq eq eq eq eq eq exit_main 
+sub3 sub3 sub3 sub3 sub3 sub3 sub3 sub3 exit_main 

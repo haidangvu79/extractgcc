@@ -1,1 +1,1 @@
-ll_to_ld ll_to_ld exit_main 
+ld_to_ll ld_to_ll exit_main 

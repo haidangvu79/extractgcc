@@ -1,1 +1,1 @@
-tu tu exit_main 
+ts ts exit_main 

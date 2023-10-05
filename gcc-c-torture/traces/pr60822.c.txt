@@ -1,1 +1,1 @@
-Avg return 0
+__builtin_abort return 0

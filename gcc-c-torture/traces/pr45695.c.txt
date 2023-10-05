@@ -1,1 +1,1 @@
-f f return 0
+f asm f asm return 0

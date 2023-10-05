@@ -1,1 +1,1 @@
-check return 0
+abs return 0

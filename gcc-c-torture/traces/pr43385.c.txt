@@ -1,1 +1,1 @@
-foo foo foo foo foo foo foo foo foo foo foo foo return 0
+asm asm asm asm asm asm asm asm asm asm asm asm return 0
