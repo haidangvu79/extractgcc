@@ -1,1 +1,0 @@
-bar5 bar5 bar5 bar5 bar5 bar5 return 0

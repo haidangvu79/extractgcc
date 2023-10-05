@@ -1,1 +1,0 @@
-baz3 baz3 baz3 return 0

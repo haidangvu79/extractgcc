@@ -1,1 +1,0 @@
-call_func1 call_func1 call_func1 call_func1 call_func1 call_func1 exit_main 

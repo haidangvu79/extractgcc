@@ -1,1 +1,0 @@
-asm return 0

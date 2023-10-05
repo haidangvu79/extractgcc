@@ -1,1 +1,0 @@
-elf64_ia64_check_relocs return 0

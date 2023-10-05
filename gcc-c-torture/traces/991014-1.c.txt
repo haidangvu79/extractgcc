@@ -1,1 +1,0 @@
-struct_a_offset struct_a_offset struct_a_offset return 0

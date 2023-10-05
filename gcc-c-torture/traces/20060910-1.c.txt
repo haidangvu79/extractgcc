@@ -1,1 +1,0 @@
-check_header return 0

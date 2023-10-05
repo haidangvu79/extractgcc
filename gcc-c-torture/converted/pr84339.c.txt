@@ -1,1 +1,0 @@
-__builtin_strcpy __builtin_strcpy return 0

@@ -1,1 +1,0 @@
-inlined_wrong inlined_wrong inlined_wrong inlined_wrong return 0

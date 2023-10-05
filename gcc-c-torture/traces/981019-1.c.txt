@@ -1,1 +1,0 @@
-ff ff return 0

@@ -1,1 +1,0 @@
-attr_eq exit_main 

@@ -1,1 +1,0 @@
-simple_global simple_global simple_global simple_global simple_global simple_global simple_global exit_main 

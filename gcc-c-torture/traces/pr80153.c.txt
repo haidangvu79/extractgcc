@@ -1,1 +1,0 @@
-_fgetc _fgetc _fgetc _fgetc _fgetc _fgetc return 0

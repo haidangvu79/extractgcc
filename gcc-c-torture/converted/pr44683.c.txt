@@ -1,1 +1,0 @@
-copysign_bug return 0

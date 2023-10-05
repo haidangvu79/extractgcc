@@ -1,1 +1,0 @@
-ld_to_ll ld_to_ll exit_main 

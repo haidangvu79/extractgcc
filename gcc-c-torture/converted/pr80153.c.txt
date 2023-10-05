@@ -1,1 +1,0 @@
-_fputs _fputs _fputs _fputs _fputs _fputs return 0

@@ -1,4 +1,0 @@
-printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg calling DUPFFexgcd on degrees 1 and 2
-printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg DUPFFexgcd called on degrees 1 and 2
-printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg DUPFFexgcd called on degrees 2 and 1
-printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg printf DUPFFdeg return 0

@@ -1,1 +1,0 @@
-InitCache return 0

@@ -1,1 +1,0 @@
-fn3 fn3 return 0

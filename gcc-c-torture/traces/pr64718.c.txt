@@ -1,1 +1,0 @@
-swap swap return 0

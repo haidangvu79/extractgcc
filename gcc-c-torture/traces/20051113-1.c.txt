@@ -1,1 +1,0 @@
-memset memset return 0

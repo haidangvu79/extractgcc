@@ -1,1 +1,0 @@
-load_data exit_main 

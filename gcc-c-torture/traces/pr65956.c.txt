@@ -1,1 +1,0 @@
-__builtin_abort __builtin_abort __builtin_abort return 0

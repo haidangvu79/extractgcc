@@ -1,1 +1,0 @@
-FATAL [dev.mppa_base] - Error when loading ELF - Current simulator architecture is 'kv3' 
