@@ -4,7 +4,7 @@
 __attribute__((noinline, noclone)) void
 f1 (int v)
 {
-  printf("f3 ");
+  printf("f1 ");
   int x = -214748365 * (v - 1);
   if (x != -1932735285)
     __builtin_abort ();
@@ -14,7 +14,7 @@ f1 (int v)
 __attribute__((noinline, noclone)) void
 f2 (int v)
 {
-  printf("f3 ");
+  printf("f1 ");
   int x = 214748365 * (v + 1);
   if (x != -1932735285)
     __builtin_abort ();
@@ -24,7 +24,7 @@ f2 (int v)
 __attribute__((noinline, noclone)) void
 f3 (unsigned int v)
 {
-  printf("f3 ");
+  printf("f1 ");
   unsigned int x = -214748365U * (v - 1);
   if (x != -1932735285U)
     __builtin_abort ();
@@ -34,7 +34,7 @@ f3 (unsigned int v)
 __attribute__((noinline, noclone)) void
 f4 (unsigned int v)
 {
-  printf("f3 ");
+  printf("f1 ");
   unsigned int x = 214748365U * (v + 1);
   if (x != -1932735285U)
     __builtin_abort ();

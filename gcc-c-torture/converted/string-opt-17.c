@@ -14,7 +14,7 @@ extern void exit (int);
 size_t
 test1 (char *s, size_t i)
 {
-  printf("memcmp ");
+  printf("test1 ");
   strcpy (s, "foobarbaz" + i++);
   return i;
 }
@@ -32,7 +32,7 @@ check2 (void)
 void
 test2 (char *s)
 {
-  printf("memcmp ");
+  printf("test1 ");
   strcpy (s, "foobarbaz" + check2 ());
 }
 

@@ -12,7 +12,7 @@ extern void abort (void);
 void
 testc (unsigned char c, int ok)
 {
-  printf("testc ");
+  printf("tests ");
   if ((c>=1) && (c<=SCHAR_MAX))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -26,7 +26,7 @@ testc (unsigned char c, int ok)
 void
 tests (unsigned short s, int ok)
 {
-  printf("testc ");
+  printf("tests ");
   if ((s>=1) && (s<=SHRT_MAX))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -40,7 +40,7 @@ tests (unsigned short s, int ok)
 void
 testi (unsigned int i, int ok)
 {
-  printf("testc ");
+  printf("tests ");
   if ((i>=1) && (i<=INT_MAX))
     {
       if (!ok){ printf("abort_func "); 		abort (); }
@@ -54,7 +54,7 @@ testi (unsigned int i, int ok)
 void
 testl (unsigned long l, int ok)
 {
-  printf("testc ");
+  printf("tests ");
   if ((l>=1) && (l<=LONG_MAX))
     {
       if (!ok){ printf("abort_func "); 		abort (); }

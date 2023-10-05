@@ -12,6 +12,7 @@ __attribute__((noinline)) int
 f (int a, int b, int d)
 {
   printf("f ");
+  printf("asm ");
   int r = -1;
   b += d;
   if (d == a)

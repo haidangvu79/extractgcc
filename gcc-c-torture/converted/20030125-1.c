@@ -7,21 +7,21 @@ float
 t(float a)
 {
   printf("t ");
-  printf("q ");
+  printf("__attribute__ ");
 	return sin(a);
 }
 float
 q(float a)
 {
   printf("t ");
-  printf("q ");
+  printf("__attribute__ ");
 	return floor(a);
 }
 double
 q1(float a)
 {
   printf("t ");
-  printf("q ");
+  printf("__attribute__ ");
 	return floor(a);
 }
 main()

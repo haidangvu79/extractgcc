@@ -4,7 +4,7 @@
 char **
 buildargv (char *input)
 {
-  printf("strcpy ");
+  printf("buildargv ");
   static char *arglist[256];
   int numargs = 0;
 

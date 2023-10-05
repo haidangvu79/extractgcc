@@ -9,7 +9,8 @@ unsigned short foo (unsigned short v)
 unsigned short __attribute__ ((noinline, noclone, hot))
 bar (unsigned char *x)
 {
-  printf("bar ");
+  printf("__builtin_abort ");
+
   unsigned int a;
   unsigned short b;
   __builtin_memcpy (&a, &x[0], sizeof (a));

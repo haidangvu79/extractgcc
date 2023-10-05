@@ -9,14 +9,14 @@ typedef unsigned int V2UHI __attribute__ ((vector_size (4)));
 V2USI
 test1 (V2SI x)
 {
-  printf("test2 ");
+  printf("test1 ");
   return (V2USI) (V2SI) (long long) x;
 }
 
 long long
 test2 (V2SI x)
 {
-  printf("test2 ");
+  printf("test1 ");
   return (long long) (V2USI) (V2SI) (long long) x;
 }
 

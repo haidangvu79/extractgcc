@@ -3,7 +3,6 @@
 f (void (*func) ())
 {
   printf("f ");
-  printf("t0 ");
   func ();
 }
 

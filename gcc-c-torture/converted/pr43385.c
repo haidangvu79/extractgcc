@@ -7,7 +7,7 @@ int e;
 __attribute__((noinline)) void
 foo (int x, int y)
 {
-  printf("foo ");
+  printf("asm ");
   if (__builtin_expect (x, 0) && y != 0)
     e++;
 }
@@ -15,7 +15,7 @@ foo (int x, int y)
 __attribute__((noinline)) int
 bar (int x, int y)
 {
-  printf("foo ");
+  printf("asm ");
   if (__builtin_expect (x, 0) && y != 0)
     return 1;
   else

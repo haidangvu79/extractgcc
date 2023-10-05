@@ -45,7 +45,7 @@ void
 f0 (char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start (ap, format);
@@ -57,7 +57,7 @@ void
 f1 (int a1, char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -69,7 +69,7 @@ void
 f2 (int a1, int a2, char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -81,7 +81,7 @@ void
 f3 (int a1, int a2, int a3, char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -93,7 +93,7 @@ void
 f4 (int a1, int a2, int a3, int a4, char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -106,7 +106,7 @@ f5 (int a1, int a2, int a3, int a4, int a5,
     char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -120,7 +120,7 @@ f6 (int a1, int a2, int a3, int a4, int a5,
     char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -134,7 +134,7 @@ f7 (int a1, int a2, int a3, int a4, int a5,
     char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -148,7 +148,7 @@ f8 (int a1, int a2, int a3, int a4, int a5,
     char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -162,7 +162,7 @@ f9 (int a1, int a2, int a3, int a4, int a5,
     char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -176,7 +176,7 @@ f10 (int a1, int a2, int a3, int a4, int a5,
      char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -191,7 +191,7 @@ f11 (int a1, int a2, int a3, int a4, int a5,
      char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -206,7 +206,7 @@ f12 (int a1, int a2, int a3, int a4, int a5,
      char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -221,7 +221,7 @@ f13 (int a1, int a2, int a3, int a4, int a5,
      char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -236,7 +236,7 @@ f14 (int a1, int a2, int a3, int a4, int a5,
      char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);
@@ -251,7 +251,7 @@ f15 (int a1, int a2, int a3, int a4, int a5,
      char* format, ...)
 {
   printf("f1 ");
-  printf("f14 ");
+  printf("f11 ");
   va_list ap;
 
   va_start(ap, format);

@@ -6,7 +6,8 @@ char h;
 void
 fn1 ()
 {
-  printf("fn1 ");
+  printf("__builtin_abort ");
+
   for (; k; k++)
     {
       m = b || c < 0 || c > 1 ? : c;

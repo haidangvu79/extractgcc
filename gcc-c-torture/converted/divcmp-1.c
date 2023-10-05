@@ -3,155 +3,133 @@ extern void abort(void);
 
 int test1(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 == 2;
 }
 
 int test1u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U == 2;
 }
 
 int test2(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 == 0;
 }
 
 int test2u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U == 0;
 }
 
 int test3(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 != 2;
 }
 
 int test3u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U != 2;
 }
 
 int test4(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 != 0;
 }
 
 int test4u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U != 0;
 }
 
 int test5(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 < 2;
 }
 
 int test5u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U < 2;
 }
 
 int test6(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 < 0;
 }
 
 int test7(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10  <= 2;
 }
 
 int test7u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U <= 2;
 }
 
 int test8(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 <= 0;
 }
 
 int test8u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U <= 0;
 }
 
 int test9(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 > 2;
 }
 
 int test9u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U > 2;
 }
 
 int test10(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 > 0;
 }
 
 int test10u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U > 0;
 }
 
 int test11(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 >= 2;
 }
 
 int test11u(unsigned int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10U >= 2;
 }
 
 int test12(int x)
 {
-  printf("test8 ");
-  printf("test8u ");
+  printf("test4 ");
   return x/10 >= 0;
 }
 

@@ -9,7 +9,8 @@ struct X {
 int __attribute__((noinline,noclone))
 Avg(struct X *p, int s)
 {
-  printf("Avg ");
+  printf("__builtin_abort ");
+
     return (s * (long long)(p->a + p->b)) >> 17;
 }
 

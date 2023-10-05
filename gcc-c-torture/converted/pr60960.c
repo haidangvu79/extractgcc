@@ -5,24 +5,21 @@ typedef unsigned char v4qi __attribute__ ((vector_size (4)));
 __attribute__((noinline, noclone)) v4qi
 f1 (v4qi v)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   return v / 2;
 }
 
 __attribute__((noinline, noclone)) v4qi
 f2 (v4qi v)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   return v / (v4qi) { 2, 2, 2, 2 };
 }
 
 __attribute__((noinline, noclone)) v4qi
 f3 (v4qi x, v4qi y)
 {
-  printf("__builtin_abort ");
-
+  printf("f3 ");
   return x / y;
 }
 

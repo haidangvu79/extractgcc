@@ -29,12 +29,10 @@
 f (int s, char *p)
 {
   printf("f ");
-  printf("open ");
   int i;
   for (i = s; i >= 0 && &p[i] < &p[40]; i++)
     {
   printf("f ");
-  printf("open ");
       p[i] = -2;
     }
 }

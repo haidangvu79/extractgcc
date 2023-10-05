@@ -17,7 +17,7 @@ test1 (int x, int y)
 void
 test2 (int x, int y)
 {
-  printf("all_tests ");
+  printf("link_error0 ");
   if ((x<y) && (x>y))
     link_error0();
 }
@@ -25,7 +25,7 @@ test2 (int x, int y)
 void
 test3 (int x, int y)
 {
-  printf("all_tests ");
+  printf("link_error0 ");
   if ((x<y) && (y<x))
     link_error0();
 }
@@ -33,7 +33,7 @@ test3 (int x, int y)
 void
 test4 (int x, int y)
 {
-  printf("all_tests ");
+  printf("link_error0 ");
   if ((x==y) || (x!=y))
     {
     }
@@ -44,7 +44,7 @@ test4 (int x, int y)
 void
 test5 (int x, int y)
 {
-  printf("all_tests ");
+  printf("link_error0 ");
   if ((x>=y) || (x<y))
     {
     }
@@ -55,7 +55,7 @@ test5 (int x, int y)
 void
 test6 (int x, int y)
 {
-  printf("all_tests ");
+  printf("link_error0 ");
   if ((x<=y) || (y<x))
     {
     }
@@ -66,7 +66,7 @@ test6 (int x, int y)
 void
 all_tests (int x, int y)
 {
-  printf("all_tests ");
+  printf("link_error0 ");
   test1 (x, y);
   test2 (x, y);
   test3 (x, y);

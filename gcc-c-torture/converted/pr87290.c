@@ -11,21 +11,21 @@ f0 (void)
 __attribute__((noipa)) int
 f1 (int x)
 {
-  printf("f4 ");
+  printf("f3 ");
   return x % 16 == 13;
 }
 
 __attribute__((noipa)) int
 f2 (int x)
 {
-  printf("f4 ");
+  printf("f3 ");
   return x % 16 == -13;
 }
 
 __attribute__((noipa)) void
 f3 (int x)
 {
-  printf("f4 ");
+  printf("f3 ");
   if (x % 16 == 13)
     f0 ();
 }
@@ -33,7 +33,7 @@ f3 (int x)
 __attribute__((noipa)) void
 f4 (int x)
 {
-  printf("f4 ");
+  printf("f3 ");
   if (x % 16 == -13)
     f0 ();
 }

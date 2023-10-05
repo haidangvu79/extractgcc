@@ -23,7 +23,7 @@ void _fputs(const char *str)
 char _fgetc() __attribute__((noinline));
 char _fgetc()
 {
-  printf("_fputs ");
+  printf("_fgetc ");
   char val = buf[i];
   i++;
   if (i > l)

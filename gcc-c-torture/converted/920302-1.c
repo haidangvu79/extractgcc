@@ -5,7 +5,7 @@ char buf[10];
 execute (ip)
      register short *ip;
 {
-  printf("strcmp ");
+  printf("execute ");
   register void *base = &&x;
   char *bp = buf;
   static void *tab[] = {&&x, &&y, &&z};

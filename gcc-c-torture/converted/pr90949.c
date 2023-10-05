@@ -18,7 +18,7 @@ struct Node * __attribute__ ((noipa, noinline)) my_malloc (int bytes)
 void
 walk (struct Node *module, int cleanup)
 {
-  printf("walk ");
+  printf("my_malloc ");
   if (module == 0)
     {
       return;
@@ -30,7 +30,7 @@ walk (struct Node *module, int cleanup)
   walk (module->child, cleanup);
   if (cleanup)
     {
-  printf("walk ");
+  printf("my_malloc ");
       my_free (module);
     }
 }

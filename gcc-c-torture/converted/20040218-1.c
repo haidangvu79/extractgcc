@@ -8,21 +8,21 @@ short int yb (short int *y) __attribute__ ((__noinline__));
 
 long int xb (long int *y)
 {
-  printf("xb ");
+  printf("xw ");
   long int xx = *y & 255;
   return xx + y[1];
 }
 
 long int xw (long int *y)
 {
-  printf("xb ");
+  printf("xw ");
   long int xx = *y & 65535;
   return xx + y[1];
 }
 
 short int yb (short int *y)
 {
-  printf("xb ");
+  printf("xw ");
   short int xx = *y & 255;
   return xx + y[1];
 }

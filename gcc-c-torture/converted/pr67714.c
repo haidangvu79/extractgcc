@@ -4,7 +4,8 @@ int c;
 signed char
 fn1 ()
 {
-  printf("fn1 ");
+  printf("__builtin_abort ");
+
   signed char d;
   for (int i = 0; i < 1; i++)
     d = -15;

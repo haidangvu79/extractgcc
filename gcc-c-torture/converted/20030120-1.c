@@ -4,7 +4,7 @@
 unsigned short
 test1 (unsigned short w)
 {
-  printf("test2 ");
+  printf("test1 ");
   if ((w & 0xff00) == 0)
     {
       if (w == 0)
@@ -16,7 +16,7 @@ test1 (unsigned short w)
 unsigned long
 test2 (unsigned long w)
 {
-  printf("test2 ");
+  printf("test1 ");
   if ((w & 0xffff0000) == 0)
     {
       if (w == 0)
@@ -28,7 +28,7 @@ test2 (unsigned long w)
 int
 test3 (unsigned short a)
 {
-  printf("test2 ");
+  printf("test1 ");
   if (a & 1)
     return 1;
   else if (a)

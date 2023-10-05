@@ -5,35 +5,30 @@ extern void abort ();
 int test1(int x)
 {
   printf("test ");
-  printf("testu ");
   return ~(x ^ INT_MIN);
 }
 
 unsigned int test1u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return ~(x ^ (unsigned int)INT_MIN);
 }
 
 unsigned int test2u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return ~(x + (unsigned int)INT_MIN);
 }
 
 unsigned int test3u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return ~(x - (unsigned int)INT_MIN);
 }
 
 int test4(int x)
 {
   printf("test ");
-  printf("testu ");
   int y = INT_MIN;
   return ~(x ^ y);
 }
@@ -41,7 +36,6 @@ int test4(int x)
 unsigned int test4u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = (unsigned int)INT_MIN;
   return ~(x ^ y);
 }
@@ -49,7 +43,6 @@ unsigned int test4u(unsigned int x)
 unsigned int test5u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = (unsigned int)INT_MIN;
   return ~(x + y);
 }
@@ -57,7 +50,6 @@ unsigned int test5u(unsigned int x)
 unsigned int test6u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = (unsigned int)INT_MIN;
   return ~(x - y);
 }
@@ -77,7 +69,6 @@ void test(int a, int b)
 void testu(unsigned int a, unsigned int b)
 {
   printf("test ");
-  printf("testu ");
   if (test1u(a) != b)
     abort();
 

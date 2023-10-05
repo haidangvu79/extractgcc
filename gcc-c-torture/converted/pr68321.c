@@ -7,7 +7,8 @@ char n, t;
 int
 fn1 (int p1)
 {
-  printf("fn1 ");
+  printf("__builtin_abort ");
+
   int g[1];
   for (;;)
     {

@@ -12,7 +12,7 @@
 void __attribute__ ((format (printf, 1, 2), noipa))
 user_print (const char *fmt, ...)
 {
-  printf("freopen ");
+  printf("fclose ");
   va_list va;
   va_start (va, fmt);
   vfprintf (stdout, fmt, va);

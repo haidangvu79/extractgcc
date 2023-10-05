@@ -1,6 +1,6 @@
 int foo1(void)
 {
-  printf("foo1 ");
+  printf("foo2 ");
   union {
     char a[sizeof (unsigned)];
     unsigned b;
@@ -12,7 +12,7 @@ int foo1(void)
 
 int foo2(void)
 {
-  printf("foo1 ");
+  printf("foo2 ");
   volatile union {
     char a[sizeof (unsigned)];
     unsigned b;

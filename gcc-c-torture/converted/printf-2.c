@@ -11,7 +11,7 @@
 __attribute__ ((noipa)) void
 write_file (void)
 {
-  printf("write_file ");
+  printf("fclose ");
   printf ("1");
   printf ("%c", '2');
   printf ("%c%c", '3', '4');

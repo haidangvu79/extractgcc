@@ -6,7 +6,7 @@ short o, j;
 static int __attribute__((noinline, noclone))
 fn1 (int *p1, int **p2)
 {
-  printf("fn1 ");
+  printf("fn2 ");
   int **e = &b;
   for (; p; p++)
     *p1 = 1;
@@ -20,7 +20,7 @@ fn1 (int *p1, int **p2)
 static int ** __attribute__((noinline, noclone))
 fn2 (void)
 {
-  printf("fn1 ");
+  printf("fn2 ");
   for (f = 0; f != 42; f++)
     {
       int *g[3] = {0, 0, 0};

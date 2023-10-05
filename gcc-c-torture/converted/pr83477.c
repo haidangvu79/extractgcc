@@ -3,7 +3,8 @@ int yf = 0;
 void
 pl (int q5, int nd)
 {
-  printf("pl ");
+  printf("__builtin_abort ");
+
   unsigned int hp = q5;
   int zx = (q5 == 0) ? hp : (hp / q5);
 

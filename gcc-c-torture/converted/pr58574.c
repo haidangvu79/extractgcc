@@ -3,7 +3,7 @@
 __attribute__((noinline, noclone)) double
 foo (double x)
 {
-  printf("foo ");
+  printf("__asm ");
   double t;
   switch ((int) x)
     {

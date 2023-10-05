@@ -11,21 +11,21 @@ typedef unsigned long long U;
 __attribute__((noipa)) U
 f1 (U x, int y)
 {
-  printf("f3 ");
+  printf("f1 ");
   return x << (y & -2);
 }
 
 __attribute__((noipa)) S
 f2 (S x, int y)
 {
-  printf("f3 ");
+  printf("f1 ");
   return x >> (y & -2);
 }
 
 __attribute__((noipa)) U
 f3 (U x, int y)
 {
-  printf("f3 ");
+  printf("f1 ");
   return x >> (y & -2);
 }
 

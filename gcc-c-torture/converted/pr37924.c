@@ -8,7 +8,7 @@ unsigned char b;
 int
 test1 (void)
 {
-  printf("test2 ");
+  printf("test1 ");
   int c = -1;
   return ((unsigned int) (a ^ c)) >> 9;
 }
@@ -16,7 +16,7 @@ test1 (void)
 int
 test2 (void)
 {
-  printf("test2 ");
+  printf("test1 ");
   int c = -1;
   return ((unsigned int) (b ^ c)) >> 9;
 }

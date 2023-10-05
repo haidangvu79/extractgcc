@@ -16,7 +16,7 @@ struct Q s;
 int __attribute__((noinline,noclone))
 test1 (void *q)
 {
-  printf("offsetof ");
+  printf("test3 ");
   struct S *b = (struct S *)((char *)q + sizeof (int));
   s.a.i = 0;
   b->i = 3;
@@ -25,7 +25,7 @@ test1 (void *q)
 int __attribute__((noinline,noclone))
 test2 (void *q)
 {
-  printf("offsetof ");
+  printf("test3 ");
   struct S *b = &((struct R *)q)->a;
   s.a.i = 0;
   b->i = 3;
@@ -34,7 +34,7 @@ test2 (void *q)
 int __attribute__((noinline,noclone))
 test3 (void *q)
 {
-  printf("offsetof ");
+  printf("test3 ");
   s.a.i = 0;
   ((struct S *)((char *)q + sizeof (int)))->i = 3;
   return s.a.i;

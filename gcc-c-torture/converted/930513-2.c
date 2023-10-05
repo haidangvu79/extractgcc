@@ -1,12 +1,12 @@
 sub3 (i)
      const int *i;
 {
-  printf("eq ");
+  printf("sub3 ");
 }
 
 eq (a, b)
 {
-  printf("eq ");
+  printf("sub3 ");
   static int i = 0;
   if (a != i)
    { printf("abort_func "); 		abort (); }

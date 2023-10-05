@@ -1,7 +1,7 @@
 
 int * foo (int *x, int b)
 {
-  printf("foo ");
+  printf("memset ");
 
   *(x++) = 55;
   if (b)

@@ -14,7 +14,8 @@ typedef unsigned long long uint64_t;
 __attribute__ ((noinline, noclone)) uint64_t
 uint128_central_bitsi_ior (unsigned __int128 in1, uint64_t in2)
 {
-  printf("uint128_central_bitsi_ior ");
+  printf("__builtin_abort ");
+
   __int128 mask = (__int128)0xffff << 56;
   return ((in1 & mask) >> 56) | in2;
 }

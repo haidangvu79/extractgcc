@@ -5,7 +5,7 @@ func () { }
 void
 testit(int x)
 {
-  printf("testit ");
+  printf("func ");
   if (x != 20)
    { printf("abort_func "); 		abort (); }
 

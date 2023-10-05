@@ -7,7 +7,7 @@ int e, f, g, j, q;
 void
 fn1 (void)
 {
-  printf("fn1 ");
+  printf("fn2 ");
   int p = b || a;
   n = o > 0 || d > 1 >> o ? d : d << o;
   for (; j; j++)
@@ -20,7 +20,7 @@ fn1 (void)
 __attribute__((noinline, noclone)) void
 fn2 (int k)
 {
-  printf("fn1 ");
+  printf("fn2 ");
   if (k != 1)
     __builtin_abort ();
 

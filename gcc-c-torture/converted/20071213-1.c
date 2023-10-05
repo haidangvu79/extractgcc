@@ -28,7 +28,7 @@ h (int x, va_list ap)
 void
 f1 (int i, long long int j, ...)
 {
-  printf("f2 ");
+  printf("f1 ");
   va_list ap;
   va_start (ap, j);
   h (i, ap);
@@ -41,7 +41,7 @@ f1 (int i, long long int j, ...)
 void
 f2 (int i, int j, int k, long long int l, ...)
 {
-  printf("f2 ");
+  printf("f1 ");
   va_list ap;
   va_start (ap, l);
   h (i, ap);

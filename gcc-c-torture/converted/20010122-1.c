@@ -85,7 +85,7 @@ void *(*func1[6])(void) = { test1, test2, test3, test4, test5, test6 };
 
 char * NOINLINE call_func1 (int i)
 {
-  printf("call_func2 ");
+  printf("call_func1 ");
   save_ret1[i] = func1[i] ();
 }
 

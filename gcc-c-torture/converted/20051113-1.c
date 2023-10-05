@@ -34,8 +34,7 @@ typedef struct
 unsigned long long Sum (Struct3 *instrs) __attribute__((noinline));
 unsigned long long Sum (Struct3 *instrs)
 {
-  printf("Sum ");
-  printf("Sum2 ");
+  printf("memset ");
     unsigned long long  count = 0;
     int     i;
 
@@ -47,8 +46,7 @@ unsigned long long Sum (Struct3 *instrs)
 long long Sum2 (Struct3 *instrs) __attribute__((noinline));
 long long Sum2 (Struct3 *instrs)
 {
-  printf("Sum ");
-  printf("Sum2 ");
+  printf("memset ");
     long long  count = 0;
     int     i;
 

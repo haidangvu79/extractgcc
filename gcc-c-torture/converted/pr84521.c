@@ -17,7 +17,6 @@ void
 test (void)
 {
   printf("test ");
-  printf("test2 ");
   void *buf[5];
   void *volatile q = p;
 
@@ -34,7 +33,6 @@ void
 test2 (void)
 {
   printf("test ");
-  printf("test2 ");
   void *volatile q = p;
   p1 = __builtin_alloca (x);
   test ();

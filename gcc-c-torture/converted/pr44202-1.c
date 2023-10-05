@@ -6,7 +6,7 @@ __attribute__ ((__noinline__))
 int
 add512(int a, int *b)
 {
-  printf("add512 ");
+  printf("add513 ");
   int c = a + 512;
   if (c != 0)
     *b = a;
@@ -17,7 +17,7 @@ __attribute__ ((__noinline__))
 int
 add513(int a, int *b)
 {
-  printf("add512 ");
+  printf("add513 ");
   int c = a + 513;
   if (c == 0)
     *b = a;

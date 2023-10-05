@@ -2,37 +2,37 @@ extern void abort (void);
 
 int test1(int x)
 {
-  printf("test2 ");
+  printf("test5 ");
   return x/10 == 2;
 }
 
 int test2(int x)
 {
-  printf("test2 ");
+  printf("test5 ");
   return x/10 == 0;
 }
 
 int test3(int x)
 {
-  printf("test2 ");
+  printf("test5 ");
   return x/10 == -2;
 }
 
 int test4(int x)
 {
-  printf("test2 ");
+  printf("test5 ");
   return x/-10 == 2;
 }
 
 int test5(int x)
 {
-  printf("test2 ");
+  printf("test5 ");
   return x/-10 == 0;
 }
 
 int test6(int x)
 {
-  printf("test2 ");
+  printf("test5 ");
   return x/-10 == -2;
 }
 

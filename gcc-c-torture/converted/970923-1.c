@@ -2,7 +2,7 @@ int
 ts(a)
      int a;
 {
-  printf("tu ");
+  printf("ts ");
   if (a < 1000 && a > 2000)
     return 1;
   else
@@ -13,7 +13,7 @@ int
 tu(a)
      unsigned int a;
 {
-  printf("tu ");
+  printf("ts ");
   if (a < 1000 && a > 2000)
     return 1;
   else

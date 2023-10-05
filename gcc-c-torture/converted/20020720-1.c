@@ -11,7 +11,7 @@ extern void link_error (void);
 void
 foo (double x)
 {
-  printf("link_error ");
+  printf("foo ");
   double p, q;
 
   p = fabs (x);

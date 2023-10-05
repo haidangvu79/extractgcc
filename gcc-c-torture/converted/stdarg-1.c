@@ -43,13 +43,13 @@ bar (int v)
 void
 f0 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
 }
 
 void
 f1 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   va_end (ap);
@@ -58,7 +58,7 @@ f1 (int i, ...)
 void
 f2 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   bar (d);
@@ -70,7 +70,7 @@ f2 (int i, ...)
 void
 f3 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   d = va_arg (ap, double);
@@ -80,7 +80,7 @@ f3 (int i, ...)
 void
 f4 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   x = va_arg (ap, double);
@@ -91,7 +91,7 @@ f4 (int i, ...)
 void
 f5 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   va_copy (gap, ap);
@@ -103,7 +103,7 @@ f5 (int i, ...)
 void
 f6 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   bar (d);
@@ -117,7 +117,7 @@ f6 (int i, ...)
 void
 f7 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   pap = &ap;
@@ -128,7 +128,7 @@ f7 (int i, ...)
 void
 f8 (int i, ...)
 {
-  printf("f8 ");
+  printf("f3 ");
   va_list ap;
   va_start (ap, i);
   pap = &ap;

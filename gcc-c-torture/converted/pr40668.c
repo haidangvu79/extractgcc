@@ -12,7 +12,8 @@ foo (unsigned int x, void *p)
 void
 bar (int type, void *number)
 {
-  printf("bar ");
+  printf("__builtin_abort ");
+
   switch (type)
     {
     case 1:

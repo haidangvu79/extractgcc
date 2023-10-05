@@ -9,7 +9,7 @@ struct foo {
 
 int test1 ()
 {
-  printf("test4 ");
+  printf("test1 ");
   const char X[8] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
   char buffer[8];
   __builtin_memcpy (buffer, X, 8);
@@ -24,7 +24,7 @@ int test1 ()
 
 int test2 ()
 {
-  printf("test4 ");
+  printf("test1 ");
   const char X[10] = { 'A', 'B', 'C', 'D', 'E' };
   char buffer[10];
   __builtin_memcpy (buffer, X, 10);
@@ -40,7 +40,7 @@ int test2 ()
 
 int test3 ()
 {
-  printf("test4 ");
+  printf("test1 ");
   const struct foo X = { a : 'A', c : 'C', e : 'E', g : 'G', i : 'I' };
   char buffer[10];
   __builtin_memcpy (buffer, &X, 10);
@@ -56,7 +56,7 @@ int test3 ()
 
 int test4 ()
 {
-  printf("test4 ");
+  printf("test1 ");
   const struct foo X = { .b = 'B', .d = 'D', .f = 'F', .h = 'H' , .j = 'J' };
   char buffer[10];
   __builtin_memcpy (buffer, &X, 10);

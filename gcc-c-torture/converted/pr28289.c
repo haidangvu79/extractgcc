@@ -14,7 +14,7 @@ extern void ix86_split_ashr (int);
 void
 ix86_split_ashr (int mode)
 {
-  printf("ok ");
+  printf("ix86_split_ashr ");
           (mode != 0
                       ? ok
                       : gen_x86_64_shrd) (0);

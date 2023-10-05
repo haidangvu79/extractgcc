@@ -11,7 +11,7 @@ static int foo1 (int x)
 __attribute__ ((noinline))
 unsigned int bar1 (int x)
 {
-  printf("bar5 ");
+  printf("bar2 ");
   return foo1 (x + 6);
 }
 
@@ -26,7 +26,7 @@ static short int foo2 (int x)
 __attribute__ ((noinline))
 unsigned short int bar2 (int x)
 {
-  printf("bar5 ");
+  printf("bar2 ");
   return foo2 (x + 6);
 }
 
@@ -41,7 +41,7 @@ static signed char foo3 (int x)
 __attribute__ ((noinline))
 unsigned char bar3 (int x)
 {
-  printf("bar5 ");
+  printf("bar2 ");
   return foo3 (x + 6);
 }
 
@@ -56,7 +56,7 @@ static unsigned int foo4 (int x)
 __attribute__ ((noinline))
 int bar4 (int x)
 {
-  printf("bar5 ");
+  printf("bar2 ");
   return foo4 (x + 6);
 }
 
@@ -71,7 +71,7 @@ static unsigned short int foo5 (int x)
 __attribute__ ((noinline))
 short int bar5 (int x)
 {
-  printf("bar5 ");
+  printf("bar2 ");
   return foo5 (x + 6);
 }
 
@@ -86,7 +86,7 @@ static unsigned char foo6 (int x)
 __attribute__ ((noinline))
 signed char bar6 (int x)
 {
-  printf("bar5 ");
+  printf("bar2 ");
   return foo6 (x + 6);
 }
 

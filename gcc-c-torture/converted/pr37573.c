@@ -32,7 +32,8 @@ foo (struct S *s)
 static void __attribute__((noinline))
 bar (unsigned char *p, unsigned int q, unsigned int r)
 {
-  printf("bar ");
+  printf("__builtin_abort ");
+
   struct S s;
   unsigned int i;
   unsigned int *c = s.c;

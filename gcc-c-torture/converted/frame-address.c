@@ -6,7 +6,7 @@ int how_much (void) __attribute__((noinline));
 
 int check_fa_work (const char *c, const char *f)
 {
-  printf("__builtin_alloca ");
+  printf("how_much ");
   const char d = 0;
 
   if (c >= &d)
@@ -17,7 +17,7 @@ int check_fa_work (const char *c, const char *f)
 
 int check_fa_mid (const char *c)
 {
-  printf("__builtin_alloca ");
+  printf("how_much ");
   const char *f = __builtin_frame_address (0);
 
   /* Prevent a tail call to check_fa_work, eliding the current stack frame.  */
@@ -26,7 +26,7 @@ int check_fa_mid (const char *c)
 
 int check_fa (char *unused)
 {
-  printf("__builtin_alloca ");
+  printf("how_much ");
   const char c = 0;
 
   /* Prevent a tail call to check_fa_mid, eliding the current stack frame.  */
@@ -35,7 +35,7 @@ int check_fa (char *unused)
 
 int how_much (void)
 {
-  printf("__builtin_alloca ");
+  printf("how_much ");
 	return 8;
 }
 

@@ -19,7 +19,7 @@ int arr[10];
 void
 good_const (const int *p)
 {
-  printf("good_enum ");
+  printf("good_expr ");
   __builtin_prefetch (p, 0, 0);
   __builtin_prefetch (p, 0, 1);
   __builtin_prefetch (p, 0, 2);
@@ -33,7 +33,7 @@ good_const (const int *p)
 void
 good_enum (const int *p)
 {
-  printf("good_enum ");
+  printf("good_expr ");
     __builtin_prefetch (p, read, none);
     __builtin_prefetch (p, read, low);
     __builtin_prefetch (p, read, moderate);
@@ -47,7 +47,7 @@ good_enum (const int *p)
 void
 good_expr (const int *p)
 {
-  printf("good_enum ");
+  printf("good_expr ");
   __builtin_prefetch (p, 1 - 1, 6 - (2 * 3));
   __builtin_prefetch (p, 1 + 0, 1 + 2);
 }
@@ -55,7 +55,7 @@ good_expr (const int *p)
 void
 good_vararg (const int *p)
 {
-  printf("good_enum ");
+  printf("good_expr ");
   __builtin_prefetch (p, 0, 3);
   __builtin_prefetch (p, 0);
   __builtin_prefetch (p, 1);

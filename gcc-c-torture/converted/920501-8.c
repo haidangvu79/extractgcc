@@ -7,7 +7,7 @@ char buf[50];
 int
 va (int a, double b, int c, ...)
 {
-  printf("va ");
+  printf("strcmp ");
   va_list ap;
   int d, e, f, g, h, i, j, k, l, m, n, o, p;
   va_start (ap, c);

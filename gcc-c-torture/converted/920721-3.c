@@ -4,7 +4,7 @@ static inline fu (unsigned short data)
 }
 ru(i)
 {
-  printf("ru ");
+  printf("rs ");
    if(fu(i++)!=5)abort();
 
    if(fu(++i)!=7)abort();
@@ -16,7 +16,7 @@ static inline fs (signed short data)
 }
 rs(i)
 {
-  printf("ru ");
+  printf("rs ");
    if(fs(i++)!=5)abort();
 
    if(fs(++i)!=7)abort();

@@ -21,7 +21,7 @@ extern void free (void *);
 static int __attribute__((noinline))
 foo (int fail, union both *agg)
 {
-  printf("free ");
+  printf("foo ");
   int r;
   if (fail)
     r = agg->big.data[999999];

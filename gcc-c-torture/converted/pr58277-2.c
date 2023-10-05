@@ -12,7 +12,7 @@ char n;
 static void
 fn1 ()
 {
-  printf("fn1 ");
+  printf("fn3 ");
   b = a[a[a[a[a[a[a[a[b]]]]]]]];
   b = a[a[a[a[a[a[a[a[b]]]]]]]];
   b = a[a[b]];
@@ -54,7 +54,7 @@ fn2 ()
 static void
 fn3 ()
 {
-  printf("fn1 ");
+  printf("fn3 ");
   int *y[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
   for (; i; i++)
     x = 0;

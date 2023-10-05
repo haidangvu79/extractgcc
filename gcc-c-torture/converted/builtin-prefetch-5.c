@@ -7,7 +7,7 @@
    is OK.  */
 
 struct S {
-  printf("arg_idx ");
+  printf("glob_ptr ");
   short a;
   short b;
   char c[8];
@@ -20,28 +20,28 @@ int idx = 3;
 void
 arg_ptr (char *p)
 {
-  printf("arg_idx ");
+  printf("glob_ptr ");
   __builtin_prefetch (p, 0, 0);
 }
 
 void
 arg_idx (char *p, int i)
 {
-  printf("arg_idx ");
+  printf("glob_ptr ");
   __builtin_prefetch (&p[i], 0, 0);
 }
 
 void
 glob_ptr (void)
 {
-  printf("arg_idx ");
+  printf("glob_ptr ");
   __builtin_prefetch (ptr, 0, 0);
 }
 
 void
 glob_idx (void)
 {
-  printf("arg_idx ");
+  printf("glob_ptr ");
   __builtin_prefetch (&ptr[idx], 0, 0);
 }
 

@@ -5,63 +5,54 @@ extern void abort ();
 int test1(int x)
 {
   printf("test ");
-  printf("testu ");
   return (x ^ INT_MIN) ^ 0x1234;
 }
 
 unsigned int test1u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return (x ^ (unsigned int)INT_MIN) ^ 0x1234;
 }
 
 int test2(int x)
 {
   printf("test ");
-  printf("testu ");
   return (x ^ 0x1234) ^ INT_MIN;
 }
 
 unsigned int test2u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return (x ^ 0x1234) ^ (unsigned int)INT_MIN;
 }
 
 unsigned int test3u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return (x + (unsigned int)INT_MIN) ^ 0x1234;
 }
 
 unsigned int test4u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return (x ^ 0x1234) + (unsigned int)INT_MIN;
 }
 
 unsigned int test5u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return (x - (unsigned int)INT_MIN) ^ 0x1234;
 }
 
 unsigned int test6u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   return (x ^ 0x1234) - (unsigned int)INT_MIN;
 }
 
 int test7(int x)
 {
   printf("test ");
-  printf("testu ");
   int y = INT_MIN;
   int z = 0x1234;
   return (x ^ y) ^ z;
@@ -70,7 +61,6 @@ int test7(int x)
 unsigned int test7u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = (unsigned int)INT_MIN;
   unsigned int z = 0x1234;
   return (x ^ y) ^ z;
@@ -79,7 +69,6 @@ unsigned int test7u(unsigned int x)
 int test8(int x)
 {
   printf("test ");
-  printf("testu ");
   int y = 0x1234;
   int z = INT_MIN;
   return (x ^ y) ^ z;
@@ -88,7 +77,6 @@ int test8(int x)
 unsigned int test8u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = 0x1234;
   unsigned int z = (unsigned int)INT_MIN;
   return (x ^ y) ^ z;
@@ -97,7 +85,6 @@ unsigned int test8u(unsigned int x)
 unsigned int test9u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = (unsigned int)INT_MIN;
   unsigned int z = 0x1234;
   return (x + y) ^ z;
@@ -106,7 +93,6 @@ unsigned int test9u(unsigned int x)
 unsigned int test10u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = 0x1234;
   unsigned int z = (unsigned int)INT_MIN;
   return (x ^ y) + z;
@@ -115,7 +101,6 @@ unsigned int test10u(unsigned int x)
 unsigned int test11u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = (unsigned int)INT_MIN;
   unsigned int z = 0x1234;
   return (x - y) ^ z;
@@ -124,7 +109,6 @@ unsigned int test11u(unsigned int x)
 unsigned int test12u(unsigned int x)
 {
   printf("test ");
-  printf("testu ");
   unsigned int y = 0x1234;
   unsigned int z = (unsigned int)INT_MIN;
   return (x ^ y) - z;
@@ -150,7 +134,6 @@ void test(int a, int b)
 void testu(unsigned int a, unsigned int b)
 {
   printf("test ");
-  printf("testu ");
   if (test1u(a) != b)
     abort();
 

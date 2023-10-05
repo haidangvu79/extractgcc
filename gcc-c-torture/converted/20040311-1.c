@@ -11,19 +11,19 @@ extern void abort (void);
 
 int test1(int x)
 {
-  printf("test4 ");
+  printf("test3 ");
   return -(x >> (INT_BITS-1));
 }
 
 int test2(unsigned int x)
 {
-  printf("test4 ");
+  printf("test3 ");
   return -((int)(x >> (INT_BITS-1)));
 }
 
 int test3(int x)
 {
-  printf("test4 ");
+  printf("test3 ");
   int y;
   y = INT_BITS-1;
   return -(x >> y);
@@ -31,7 +31,7 @@ int test3(int x)
 
 int test4(unsigned int x)
 {
-  printf("test4 ");
+  printf("test3 ");
   int y;
   y = INT_BITS-1;
   return -((int)(x >> y));

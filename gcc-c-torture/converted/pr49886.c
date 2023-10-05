@@ -28,7 +28,7 @@ static void mark_cell(int * interp, Pcc_cell *c)
 static void
 mark_cell(int * interp, Pcc_cell *c)
 {
-  printf("bar_2 ");
+  printf("foo ");
   if (!cond)
     return;
 
@@ -64,7 +64,7 @@ mark_cell(int * interp, Pcc_cell *c)
 static void
 foo(int * interp, Pcc_cell *c)
 {
-  printf("bar_2 ");
+  printf("foo ");
   mark_cell(interp, c);
 }
 
@@ -72,7 +72,7 @@ static struct Pcc_cell *
 __attribute__((noinline,noclone))
 getnull(void)
 {
-  printf("bar_2 ");
+  printf("foo ");
   return (struct Pcc_cell *) 0;
 }
 

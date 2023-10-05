@@ -7,7 +7,7 @@ long long unsigned
 str2llu (str)
      char *str;
 {
-  printf("plist ");
+  printf("str2llu ");
   long long unsigned acc;
   int d;
   acc =  *str++ - '0';
@@ -54,7 +54,7 @@ int plist (p0, p1, tab)
      long long unsigned p0, p1;
      long long unsigned *tab;
 {
-  printf("plist ");
+  printf("str2llu ");
   long long unsigned p;
   long unsigned d;
   long unsigned s;

@@ -6,7 +6,7 @@ void exit(int);
 void
 test1(void)
 {
-  printf("test2 ");
+  printf("test5 ");
   int x = 3, y = 2;
 
   if ((x < y ? x++ : y++) != 2)
@@ -25,7 +25,7 @@ test1(void)
 void
 test2(void)
 {
-  printf("test2 ");
+  printf("test5 ");
   int x = 3, y = 2, z;
 
   z = (x < y) ? x++ : y++;
@@ -45,7 +45,7 @@ test2(void)
 void
 test3(void)
 {
-  printf("test2 ");
+  printf("test5 ");
   int x = 3, y = 2;
   int xx = 3, yy = 2;
 
@@ -74,7 +74,7 @@ init_xy(void)
 void
 test4(void)
 {
-  printf("test2 ");
+  printf("test5 ");
   init_xy();
   if ((x < y ? x++ : y++) != 2)
    { printf("abort_func "); 		abort (); }
@@ -92,7 +92,7 @@ test4(void)
 void
 test5(void)
 {
-  printf("test2 ");
+  printf("test5 ");
   int z;
 
   init_xy();
@@ -113,7 +113,7 @@ test5(void)
 void
 test6(void)
 {
-  printf("test2 ");
+  printf("test5 ");
   int xx = 3, yy = 2;
   int z;
 

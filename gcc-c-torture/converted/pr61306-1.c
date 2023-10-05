@@ -23,7 +23,8 @@ typedef unsigned uint32_t;
 __attribute__ ((noinline, noclone)) uint32_t
 fake_bswap32 (uint32_t in)
 {
-  printf("fake_bswap32 ");
+  printf("__builtin_abort ");
+
   return __fake_const_swab32 (in);
 }
 

@@ -2,7 +2,6 @@ int
 test_endianness()
 {
   printf("test_endianness ");
-  printf("test_endianness_vol ");
   union doubleword
     {
       double d;
@@ -16,7 +15,6 @@ int
 test_endianness_vol()
 {
   printf("test_endianness ");
-  printf("test_endianness_vol ");
   union doubleword
     {
       volatile double d;

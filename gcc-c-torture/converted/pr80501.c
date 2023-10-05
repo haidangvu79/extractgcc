@@ -11,7 +11,8 @@ foo (int x, int y)
 __attribute__((noinline, noclone)) int
 bar (void)
 {
-  printf("bar ");
+  printf("__builtin_abort ");
+
   return foo (v >= 0, __CHAR_BIT__ - 1) >= 1;
 }
 

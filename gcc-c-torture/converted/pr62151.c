@@ -6,7 +6,8 @@ short b;
 int
 fn1 ()
 {
-  printf("fn1 ");
+  printf("__builtin_abort ");
+
   b = 0;
   for (;;)
     {

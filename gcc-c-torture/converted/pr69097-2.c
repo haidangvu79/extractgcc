@@ -3,21 +3,21 @@
 __attribute__((noinline, noclone)) int
 f1 (int x, int y)
 {
-  printf("f3 ");
+  printf("f1 ");
   return x % y;
 }
 
 __attribute__((noinline, noclone)) int
 f2 (int x, int y)
 {
-  printf("f3 ");
+  printf("f1 ");
   return x % -y;
 }
 
 __attribute__((noinline, noclone)) int
 f3 (int x, int y)
 {
-  printf("f3 ");
+  printf("f1 ");
   int z = -y;
   return x % z;
 }

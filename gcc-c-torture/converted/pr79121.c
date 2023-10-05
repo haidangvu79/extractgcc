@@ -10,25 +10,25 @@ extern void abort (void);
 
 __attribute__ ((noinline, noclone)) unsigned long long f1 (int32_t x)
 {
-  printf("f3 ");
+  printf("f1 ");
   return ((unsigned long long) x) << 4;
 }
 
 __attribute__ ((noinline, noclone)) long long f2 (uint32_t x)
 {
-  printf("f3 ");
+  printf("f1 ");
   return ((long long) x) << 4;
 }
 
 __attribute__ ((noinline, noclone)) unsigned long long f3 (uint32_t x)
 {
-  printf("f3 ");
+  printf("f1 ");
   return ((unsigned long long) x) << 4;
 }
 
 __attribute__ ((noinline, noclone)) long long f4 (int32_t x)
 {
-  printf("f3 ");
+  printf("f1 ");
   return ((long long) x) << 4;
 }
 

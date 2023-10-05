@@ -10,56 +10,56 @@ unsigned int d = 0x80000000;
 int
 f1 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (a & 0x80) ? 0x80 : 0;
 }
 
 int
 f2 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (b & 0x80) ? 0x80 : 0;
 }
 
 int
 f3 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (b & 0x80) ? 0x380 : 0;
 }
 
 int
 f4 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (b & 0x80) ? -128 : 0;
 }
 
 long long
 f5 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (c & 0x80000000) ? 0x80000000LL : 0LL;
 }
 
 long long
 f6 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (d & 0x80000000) ? 0x80000000LL : 0LL;
 }
 
 long long
 f7 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (d & 0x80000000) ? 0x380000000LL : 0LL;
 }
 
 long long
 f8 (void)
 {
-  printf("f6 ");
+  printf("f3 ");
   return (d & 0x80000000) ? -2147483648LL : 0LL;
 }
 

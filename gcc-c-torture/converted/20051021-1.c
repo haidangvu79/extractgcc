@@ -6,14 +6,14 @@ int count = 0;
 
 int foo1(void)
 {
-  printf("foo1 ");
+  printf("foo2 ");
   count++;
   return 0;
 }
 
 int foo2(void)
 {
-  printf("foo1 ");
+  printf("foo2 ");
   count++;
   return 0;
 }

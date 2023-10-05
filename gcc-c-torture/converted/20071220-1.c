@@ -24,14 +24,14 @@ addr:
 int __attribute__((noinline))
 f1 (void)
 {
-  printf("f2 ");
+  printf("f1 ");
   return bar ();
 }
 
 int __attribute__((noinline))
 f2 (void)
 {
-  printf("f2 ");
+  printf("f1 ");
   return bar ();
 }
 

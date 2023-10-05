@@ -16,7 +16,7 @@ struct B b;
 __attribute__ ((noipa)) void
 test_dynamic_type (struct A *p)
 {
-  printf("__builtin_malloc ");
+  printf("test_dynamic_type ");
   /* The following call is undefined because it writes past the end
      of the p->a subobject, but the corresponding GIMPLE considers
      it valid and there's apparently no way to distinguish invalid
