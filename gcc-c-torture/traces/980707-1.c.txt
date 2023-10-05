@@ -1,0 +1,1 @@
+strcmp exit_main 

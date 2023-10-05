@@ -31,7 +31,7 @@ if __name__ == '__main__':
 	# Iterate through the list of C programs
 	for program in gcc_list:
 	# Compile the C program
-		compile_command = ["gcc", program, "-o", program.split(".")[0]]
+		compile_command = ["/opt/kalray/accesscore/bin/kvx-cos-gcc", program, "-o", program.split(".")[0]]
 		try:
 			subprocess.run(compile_command, check=True)
 			exe_list.append(program.split(".")[0])
@@ -48,9 +48,9 @@ if __name__ == '__main__':
 	# Execute the program
 	for program in exe_list:
 	# Run the compiled C program
-		run_command = [f"./{program}"]
+		run_command = [f"/opt/kalray/accesscore/bin/kvx-cluster -- {program}"]
 		try:
-			subprocess.run(run_command, check=True)
+			subprocess.run(run_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 		except subprocess.CalledProcessError as e:
 			print(f"Error running {program}: {e}")	
 			error_execution.append(program)

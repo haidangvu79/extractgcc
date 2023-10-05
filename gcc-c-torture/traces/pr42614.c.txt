@@ -1,0 +1,1 @@
+expect_func expect_func expect_func expect_func return 0

@@ -1,0 +1,1 @@
+div return 0

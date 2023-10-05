@@ -1,0 +1,1 @@
+link_failure return 0

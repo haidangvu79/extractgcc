@@ -22,7 +22,7 @@ python3 gcc_convert.py
 # Run on MPPA
 ./compilerun.sh
 cd converted
-find -type f ! -name "*.c" -exec rm -f {} \;
+find -type f ! -name "*.c " -exec rm -f {} \;
 
 ## run gcc
 #cp run.py converted/
