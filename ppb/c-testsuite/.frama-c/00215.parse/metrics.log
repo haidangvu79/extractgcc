@@ -1,0 +1,35 @@
+[metrics] Defined functions (7)
+=====================
+ kb_wait_1 (1 call); kb_wait_2 (1 call); kb_wait_2_1 (1 call);
+ kb_wait_2_2 (1 call); kb_wait_3 (1 call); kb_wait_4 (1 call); main (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 74
+Decision point = 11
+Global variables = 0
+If = 9
+Loop = 6
+Goto = 2
+Assignment = 16
+Exit point = 7
+Function = 7
+Function call = 18
+Pointer dereferencing = 0
+Cyclomatic complexity = 18

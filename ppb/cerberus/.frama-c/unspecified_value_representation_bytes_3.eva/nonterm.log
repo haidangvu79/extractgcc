@@ -1,0 +1,2 @@
+unspecified_value_representation_bytes_3.c:9:[nonterm:stmt] warning: non-terminating function call
+stack: main

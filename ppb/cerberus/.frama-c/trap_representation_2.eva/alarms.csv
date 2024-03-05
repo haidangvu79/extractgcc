@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	trap_representation_2.c	3	main	initialization	Invalid or unreachable	\initialized(&i)

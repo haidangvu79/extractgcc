@@ -1,0 +1,22 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wno-empty-body",
+            "-Wno-missing-field-initializers",
+            "-Wno-misleading-indentation",
+            "-Wno-unknown-warning-option",
+            "-O3",
+            "-o",
+            "prog",
+            "prog.c"
+        ],
+        "directory": ".",
+        "file": "prog.c"
+    }
+]

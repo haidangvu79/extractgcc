@@ -1,0 +1,9 @@
+library/bignum.c:409:[variadic:typing] warning: Incorrect type for argument 3. The argument will be cast from int to unsigned int.
+library/bignum.c:2120:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+library/debug.c:81:[variadic:typing] warning: Incorrect type for argument 8. The argument will be cast from int to unsigned int.
+library/debug.c:98:[variadic:typing] warning: Incorrect type for argument 7. The argument will be cast from size_t to int.
+library/x509parse.c:2395:[variadic:typing] warning: Incorrect type for argument 4. The argument will be cast from int to unsigned int.
+library/x509parse.c:2410:[variadic:typing] warning: Incorrect type for argument 4. The argument will be cast from int to unsigned int.
+library/x509parse.c:2462:[variadic:typing] warning: Incorrect type for argument 4. The argument will be cast from int to unsigned int.
+library/x509parse.c:2609:[variadic:typing] warning: Incorrect type for argument 4. The argument will be cast from unsigned int to int.
+library/x509parse.c:3235:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.

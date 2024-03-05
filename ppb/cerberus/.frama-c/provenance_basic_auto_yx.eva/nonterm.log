@@ -1,0 +1,2 @@
+provenance_basic_auto_yx.c:7:[nonterm:stmt] warning: non-terminating statement
+stack: main

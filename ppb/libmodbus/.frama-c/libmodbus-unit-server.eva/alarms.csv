@@ -1,0 +1,107 @@
+directory	file	line	function	property kind	status	property
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_15	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	string.c	146	strcmp	mem_access	Unknown	\valid_read(s1 + i)
+FRAMAC_SHARE/libc	string.c	149	strcmp	mem_access	Unknown	\valid_read((unsigned char *)s1 + i)
+FRAMAC_SHARE/libc	string.h	95	memcpy	precondition	Unknown	valid_dest: valid_or_empty(dest, n)
+FRAMAC_SHARE/libc	string.h	96	memcpy	precondition	Unknown	valid_src: valid_read_or_empty(src, n)
+FRAMAC_SHARE/libc	time.h	300	nanosleep	precondition	Unknown	valid_nanosecs: 0 ≤ rqtp->tv_nsec < 1000000000
+FRAMAC_SHARE/libc	unistd.h	1015	read	precondition	Unknown	buf_has_room: \valid((char *)buf + (0 .. count - 1))
+FRAMAC_SHARE/libc	unistd.h	1160	write	precondition	Unknown	buf_has_room: \valid_read((char *)buf + (0 .. count - 1))
+FRAMAC_SHARE/libc/sys	socket.h	306	accept	precondition	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+FRAMAC_SHARE/libc/sys	socket.h	441	recv	precondition	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+FRAMAC_SHARE/libc/sys	socket.h	442	recv	precondition	Unknown	valid_buffer_length: \valid((char *)buf + (0 .. len - 1))
+FRAMAC_SHARE/libc/sys	socket.h	498	send	precondition	Unknown	buf_len_ok: \valid_read((char *)buf + (0 .. len - 1))
+src	modbus-data.c	89	modbus_set_bits_from_bytes	initialization	Unknown	\initialized(tab_byte + (unsigned int)((unsigned int)(i - (unsigned int)idx) / 8))
+src	modbus-data.c	89	modbus_set_bits_from_bytes	mem_access	Unknown	\valid(dest + i)
+src	modbus-data.c	89	modbus_set_bits_from_bytes	mem_access	Unknown	\valid_read(tab_byte + (unsigned int)((unsigned int)(i - (unsigned int)idx) / 8))
+src	modbus-rtu.c	140	crc16	initialization	Unknown	\initialized(tmp)
+src	modbus-rtu.c	140	crc16	mem_access	Unknown	\valid_read(tmp)
+src	modbus-rtu.c	150	_modbus_rtu_prepare_response_tid	signed_overflow	Unknown	-2147483648 ≤ *req_length - 2
+src	modbus-rtu.c	158	_modbus_rtu_send_msg_pre	signed_overflow	Unknown	req_length + 1 ≤ 2147483647
+src	modbus-rtu.c	158	_modbus_rtu_send_msg_pre	mem_access	Unknown	\valid(req + tmp_0)
+src	modbus-rtu.c	159	_modbus_rtu_send_msg_pre	signed_overflow	Unknown	req_length + 1 ≤ 2147483647
+src	modbus-rtu.c	159	_modbus_rtu_send_msg_pre	mem_access	Unknown	\valid(req + tmp_1)
+src	modbus-rtu.c	297	_modbus_rtu_send	precondition of write	Unknown	buf_has_room: \valid_read((char *)buf + (0 .. count - 1))
+src	modbus-rtu.c	332	_modbus_rtu_recv	precondition of read	Unknown	buf_has_room: \valid((char *)buf + (0 .. count - 1))
+src	modbus-rtu.c	364	_modbus_rtu_check_integrity	initialization	Unknown	\initialized(msg + 0)
+src	modbus-rtu.c	376	_modbus_rtu_check_integrity	signed_overflow	Unknown	-2147483648 ≤ msg_length - 2
+src	modbus-rtu.c	377	_modbus_rtu_check_integrity	initialization	Unknown	\initialized(msg + (int)(msg_length - 1))
+src	modbus-rtu.c	377	_modbus_rtu_check_integrity	initialization	Unknown	\initialized(msg + (int)(msg_length - 2))
+src	modbus-rtu.c	377	_modbus_rtu_check_integrity	mem_access	Unknown	\valid_read(msg + (int)(msg_length - 1))
+src	modbus-rtu.c	377	_modbus_rtu_check_integrity	mem_access	Unknown	\valid_read(msg + (int)(msg_length - 2))
+src	modbus-tcp.c	152	_modbus_tcp_prepare_response_tid	initialization	Unknown	\initialized(req + 0)
+src	modbus-tcp.c	152	_modbus_tcp_prepare_response_tid	initialization	Unknown	\initialized(req + 1)
+src	modbus-tcp.c	158	_modbus_tcp_send_msg_pre	signed_overflow	Unknown	-2147483648 ≤ req_length - 6
+src	modbus-tcp.c	172	_modbus_tcp_send	precondition of send	Unknown	buf_len_ok: \valid_read((char *)buf + (0 .. len - 1))
+src	modbus-tcp.c	180	_modbus_tcp_recv	precondition of recv	Unknown	valid_buffer_length: \valid((char *)buf + (0 .. len - 1))
+src	modbus-tcp.c	180	_modbus_tcp_recv	precondition of recv	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+src	modbus-tcp.c	472	_modbus_tcp_flush	signed_overflow	Unknown	rc_sum + rc ≤ 2147483647
+src	modbus-tcp.c	663	modbus_tcp_accept	precondition of accept	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+src	modbus-tcp.c	693	modbus_tcp_pi_accept	precondition of accept	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+src	modbus.c	105	_sleep_response_timeout	precondition of nanosleep	Unknown	valid_nanosecs: 0 ≤ rqtp->tv_nsec < 1000000000
+src	modbus.c	176	send_msg	initialization	Unknown	\initialized(msg + i)
+src	modbus.c	176	send_msg	mem_access	Unknown	\valid_read(msg + i)
+src	modbus.c	296	compute_data_length_after_meta	initialization	Unknown	\initialized(msg + (ctx->backend)->header_length)
+src	modbus.c	303	compute_data_length_after_meta	initialization	Unknown	\initialized(msg + (unsigned int)((ctx->backend)->header_length + 5))
+src	modbus.c	306	compute_data_length_after_meta	initialization	Unknown	\initialized(msg + (unsigned int)((ctx->backend)->header_length + 9))
+src	modbus.c	316	compute_data_length_after_meta	initialization	Unknown	\initialized(msg + (unsigned int)((ctx->backend)->header_length + 1))
+src	modbus.c	422	_modbus_receive_msg	initialization	Unknown	\initialized(msg + (int)(msg_length + i))
+src	modbus.c	422	_modbus_receive_msg	mem_access	Unknown	\valid_read(msg + (int)(msg_length + i))
+src	modbus.c	422	_modbus_receive_msg	signed_overflow	Unknown	msg_length + i ≤ 2147483647
+src	modbus.c	426	_modbus_receive_msg	signed_overflow	Unknown	-2147483648 ≤ msg_length + rc
+src	modbus.c	426	_modbus_receive_msg	signed_overflow	Unknown	msg_length + rc ≤ 2147483647
+src	modbus.c	428	_modbus_receive_msg	signed_overflow	Unknown	-2147483648 ≤ length_to_read - rc
+src	modbus.c	428	_modbus_receive_msg	signed_overflow	Unknown	length_to_read - rc ≤ 2147483647
+src	modbus.c	434	_modbus_receive_msg	initialization	Unknown	\initialized(msg + (ctx->backend)->header_length)
+src	modbus.c	444	_modbus_receive_msg	signed_overflow	Unknown	msg_length + length_to_read ≤ 2147483647
+src	modbus.c	645	response_io_status	mem_access	Unknown	\valid_read(tab_io_status + i)
+src	modbus.c	715	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset - 1))
+src	modbus.c	716	modbus_reply	initialization	Unknown	\initialized(req + offset)
+src	modbus.c	717	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 1))
+src	modbus.c	717	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 2))
+src	modbus.c	732	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	732	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	763	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	763	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	799	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	799	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	803	modbus_reply	precondition of memcpy	Unknown	valid_dest: valid_or_empty(dest, n)
+src	modbus.c	803	modbus_reply	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+src	modbus.c	825	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	825	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	828	modbus_reply	precondition of memcpy	Unknown	valid_dest: valid_or_empty(dest, n)
+src	modbus.c	828	modbus_reply	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+src	modbus.c	834	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	834	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	865	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	865	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	884	modbus_reply	initialization	Unknown	\initialized(req + (int)((int)(offset + j) + 1))
+src	modbus.c	884	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + j))
+src	modbus.c	928	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	928	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	929	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 5))
+src	modbus.c	929	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 6))
+src	modbus.c	933	modbus_reply	precondition of memcpy	Unknown	valid_dest: valid_or_empty(dest, n)
+src	modbus.c	933	modbus_reply	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+src	modbus.c	939	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 3))
+src	modbus.c	939	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 4))
+src	modbus.c	940	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 5))
+src	modbus.c	940	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 6))
+src	modbus.c	941	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 7))
+src	modbus.c	941	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 8))
+src	modbus.c	942	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + 9))
+src	modbus.c	972	modbus_reply	initialization	Unknown	\initialized(req + (int)((int)(offset + j_0) + 1))
+src	modbus.c	972	modbus_reply	initialization	Unknown	\initialized(req + (int)(offset + j_0))
+src	modbus.c	972	modbus_reply	mem_access	Unknown	\valid(mb_mapping->tab_registers + i_1)
+src	modbus.c	972	modbus_reply	mem_access	Unknown	\valid_read(req + (int)((int)(offset + j_0) + 1))
+src	modbus.c	972	modbus_reply	mem_access	Unknown	\valid_read(req + (int)(offset + j_0))
+src	modbus.c	1012	modbus_reply_exception	initialization	Unknown	\initialized(req + (int)(offset - 1))
+src	modbus.c	1013	modbus_reply_exception	initialization	Unknown	\initialized(req + offset)
+tests	unit-test-server.c	44	main	mem_access	Unknown	\valid_read(argv + 1)
+tests	unit-test-server.c	51	main	precondition of printf_va_15	Unknown	valid_read_string(param0)
+tests	unit-test-server.c	127	main	initialization	Unknown	\initialized(query + header_length)
+tests	unit-test-server.c	130	main	initialization	Unknown	\initialized(query + (int)((int)(header_length + 3) + 1))
+tests	unit-test-server.c	130	main	initialization	Unknown	\initialized(query + (int)(header_length + 3))
+tests	unit-test-server.c	135	main	initialization	Unknown	\initialized(query + (int)((int)(header_length + 1) + 1))
+tests	unit-test-server.c	135	main	initialization	Unknown	\initialized(query + (int)(header_length + 1))
+tests	unit-test-server.c	170	main	initialization	Unknown	\initialized(query + 1)

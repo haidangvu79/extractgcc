@@ -1,0 +1,10 @@
+src/modbus-rtu.c:384:[variadic:typing] warning: Incorrect type for argument 3. The argument will be cast from int to unsigned int.
+src/modbus-rtu.c:384:[variadic:typing] warning: Incorrect type for argument 4. The argument will be cast from int to unsigned int.
+src/modbus-tcp.c:194:[variadic:typing] warning: Incorrect type for argument 3. The argument will be cast from int to unsigned int.
+src/modbus-tcp.c:194:[variadic:typing] warning: Incorrect type for argument 4. The argument will be cast from int to unsigned int.
+src/modbus-tcp.c:204:[variadic:typing] warning: Incorrect type for argument 3. The argument will be cast from int to unsigned int.
+src/modbus.c:176:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+src/modbus.c:422:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+src/modbus.c:556:[variadic:typing] warning: Incorrect type for argument 3. The argument will be cast from int to unsigned int.
+src/modbus.c:556:[variadic:typing] warning: Incorrect type for argument 4. The argument will be cast from int to unsigned int.
+tests/unit-test-server.c:172:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.

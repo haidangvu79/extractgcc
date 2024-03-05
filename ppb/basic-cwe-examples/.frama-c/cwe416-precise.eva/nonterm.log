@@ -1,0 +1,2 @@
+cwe416.c:27:[nonterm:stmt] warning: non-terminating function call
+stack: main

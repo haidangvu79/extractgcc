@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	effective_type_7.c	3	main	precondition of __FC_assert	Unknown	nonnull_c: c ≢ 0
+.	effective_type_7.c	6	main	initialization	Invalid or unreachable	\initialized(&((st1 *)p)->f1)
+FRAMAC_SHARE/libc	assert.h	31	__FC_assert	precondition	Unknown	nonnull_c: c ≢ 0

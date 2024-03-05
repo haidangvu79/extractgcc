@@ -1,0 +1,2 @@
+tkn-3-commented.c:34:[nonterm:stmt] warning: non-terminating loop
+stack: alloc :: tkn-3-commented.c:77 <- main

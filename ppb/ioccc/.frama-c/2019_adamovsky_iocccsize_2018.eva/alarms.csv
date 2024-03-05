@@ -1,0 +1,65 @@
+directory	file	line	function	property kind	status	property
+2019/adamovsky	iocccsize_2018.c	275	find_member	precondition of strncmp	Unknown	valid_string_s1: valid_read_nstring(s1, n)
+2019/adamovsky	iocccsize_2018.c	276	find_member	initialization	Unknown	\initialized(string + w->length)
+2019/adamovsky	iocccsize_2018.c	276	find_member	mem_access	Unknown	\valid_read(string + w->length)
+2019/adamovsky	iocccsize_2018.c	276	find_member	precondition of isalnum	Unknown	c_uchar_or_eof_or_EOF: (0 ≤ c ≤ 255) ∨ c ≡ -1
+2019/adamovsky	iocccsize_2018.c	298	read_line	precondition of fgetc	Unknown	valid_stream: \valid(stream)
+2019/adamovsky	iocccsize_2018.c	305	read_line	signed_overflow	Unknown	xbcount + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	309	read_line	initialization	Unknown	\initialized(buf + (size_t)(length - 2))
+2019/adamovsky	iocccsize_2018.c	309	read_line	initialization	Unknown	\initialized(buf + (size_t)(length - 1))
+2019/adamovsky	iocccsize_2018.c	314	read_line	signed_overflow	Unknown	xbcount + 2 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	318	read_line	initialization	Unknown	\initialized(buf + (size_t)(length - 1))
+2019/adamovsky	iocccsize_2018.c	322	read_line	signed_overflow	Unknown	xbcount + 2 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	323	read_line	signed_overflow	Unknown	xwcount + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	324	read_line	signed_overflow	Unknown	xlcount + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	334	read_line	mem_access	Unknown	\valid(buf + length)
+2019/adamovsky	iocccsize_2018.c	385	count	precondition of strspn	Unknown	valid_string_s: valid_read_string(s)
+2019/adamovsky	iocccsize_2018.c	388	count	initialization	Unknown	\initialized(&buf[(unsigned long)(1 + span)])
+2019/adamovsky	iocccsize_2018.c	388	count	index_bound	Unknown	(unsigned long)(1 + span) < 521
+2019/adamovsky	iocccsize_2018.c	388	count	initialization	Unknown	\initialized(&buf[(unsigned long)(2 + span)])
+2019/adamovsky	iocccsize_2018.c	388	count	index_bound	Unknown	(unsigned long)(2 + span) < 521
+2019/adamovsky	iocccsize_2018.c	389	count	precondition of ungetc	Unknown	valid_stream: \valid(stream)
+2019/adamovsky	iocccsize_2018.c	396	count	initialization	Unknown	\initialized(&buf[(unsigned long)(2 + span)])
+2019/adamovsky	iocccsize_2018.c	396	count	index_bound	Unknown	(unsigned long)(2 + span) < 521
+2019/adamovsky	iocccsize_2018.c	400	count	initialization	Unknown	\initialized(&buf[(unsigned long)(2 + span)])
+2019/adamovsky	iocccsize_2018.c	400	count	index_bound	Unknown	(unsigned long)(2 + span) < 521
+2019/adamovsky	iocccsize_2018.c	406	count	initialization	Unknown	\initialized(p)
+2019/adamovsky	iocccsize_2018.c	406	count	mem_access	Unknown	\valid_read(p)
+2019/adamovsky	iocccsize_2018.c	430	count	initialization	Unknown	\initialized(p + 1)
+2019/adamovsky	iocccsize_2018.c	431	count	precondition of ungetc	Unknown	valid_stream: \valid(stream)
+2019/adamovsky	iocccsize_2018.c	436	count	initialization	Unknown	\initialized(p + 1)
+2019/adamovsky	iocccsize_2018.c	443	count	precondition of strspn	Unknown	valid_string_s: valid_read_string(s)
+2019/adamovsky	iocccsize_2018.c	454	count	initialization	Unknown	\initialized(p + 1)
+2019/adamovsky	iocccsize_2018.c	455	count	precondition of ungetc	Unknown	valid_stream: \valid(stream)
+2019/adamovsky	iocccsize_2018.c	460	count	initialization	Unknown	\initialized(p + 1)
+2019/adamovsky	iocccsize_2018.c	468	count	initialization	Unknown	\initialized(p + 1)
+2019/adamovsky	iocccsize_2018.c	480	count	initialization	Unknown	\initialized(p + (int)(-1))
+2019/adamovsky	iocccsize_2018.c	480	count	precondition of isalnum	Unknown	c_uchar_or_eof_or_EOF: (0 ≤ c ≤ 255) ∨ c ≡ -1
+2019/adamovsky	iocccsize_2018.c	482	count	signed_overflow	Unknown	keywords + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	487	count	signed_overflow	Unknown	wcount + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	497	count	signed_overflow	Unknown	count_0 + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	509	count	initialization	Unknown	\initialized(p)
+2019/adamovsky	iocccsize_2018.c	509	count	mem_access	Unknown	\valid_read(p)
+2019/adamovsky	iocccsize_2018.c	509	count	precondition of fputc	Unknown	valid_stream: \valid(stream)
+2019/adamovsky	iocccsize_2018.c	512	count	signed_overflow	Unknown	bcount + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	513	count	initialization	Unknown	\initialized(p)
+2019/adamovsky	iocccsize_2018.c	513	count	mem_access	Unknown	\valid_read(p)
+2019/adamovsky	iocccsize_2018.c	514	count	signed_overflow	Unknown	lcount + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	521	count	precondition of isspace	Unknown	c_uchar_or_eof: (0 ≤ c ≤ 255) ∨ c ≡ -1
+2019/adamovsky	iocccsize_2018.c	523	count	signed_overflow	Unknown	saved + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	527	count	signed_overflow	Unknown	wcount + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	533	count	initialization	Unknown	\initialized(p + 1)
+2019/adamovsky	iocccsize_2018.c	533	count	mem_access	Unknown	\valid_read(p + 1)
+2019/adamovsky	iocccsize_2018.c	533	count	precondition of isspace	Unknown	c_uchar_or_eof: (0 ≤ c ≤ 255) ∨ c ≡ -1
+2019/adamovsky	iocccsize_2018.c	534	count	signed_overflow	Unknown	saved + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	539	count	signed_overflow	Unknown	count_0 + 1 ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	556	count	signed_overflow	Unknown	lcount + xlcount ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	556	count	signed_overflow	Unknown	wcount + xwcount ≤ 2147483647
+2019/adamovsky	iocccsize_2018.c	556	count	signed_overflow	Unknown	bcount + xbcount ≤ 2147483647
+FRAMAC_SHARE/libc	ctype.h	41	isalnum	precondition	Unknown	c_uchar_or_eof_or_EOF: (0 ≤ c ≤ 255) ∨ c ≡ -1
+FRAMAC_SHARE/libc	ctype.h	161	isspace	precondition	Unknown	c_uchar_or_eof: (0 ≤ c ≤ 255) ∨ c ≡ -1
+FRAMAC_SHARE/libc	stdio.h	260	fgetc	precondition	Unknown	valid_stream: \valid(stream)
+FRAMAC_SHARE/libc	stdio.h	283	fputc	precondition	Unknown	valid_stream: \valid(stream)
+FRAMAC_SHARE/libc	stdio.h	345	ungetc	precondition	Unknown	valid_stream: \valid(stream)
+FRAMAC_SHARE/libc	string.h	160	strncmp	precondition	Unknown	valid_string_s1: valid_read_nstring(s1, n)
+FRAMAC_SHARE/libc	string.h	220	strspn	precondition	Unknown	valid_string_s: valid_read_string(s)

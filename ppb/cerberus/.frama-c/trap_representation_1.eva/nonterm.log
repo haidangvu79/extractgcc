@@ -1,0 +1,2 @@
+trap_representation_1.c:4:[nonterm:stmt] warning: non-terminating statement
+stack: main

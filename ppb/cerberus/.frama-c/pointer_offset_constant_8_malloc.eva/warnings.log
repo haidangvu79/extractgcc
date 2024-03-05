@@ -1,0 +1,12 @@
+pointer_offset_constant_8_malloc.c:4:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+pointer_offset_constant_8_malloc.c:5:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+pointer_offset_constant_8_malloc.c:12:[eva:garbled-mix:assigns] warning: The specification of function printf_va_1 has generated a garbled mix for assigns clause __fc_stdout->__fc_FILE_data.
+pointer_offset_constant_8_malloc.c:14:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{__malloc_main_l2}
+  (origin: Misaligned {pointer_offset_constant_8_malloc.c:13}) }}
+{{ garbled mix of &{__malloc_main_l3}
+  (origin: Misaligned {pointer_offset_constant_8_malloc.c:13}) }}

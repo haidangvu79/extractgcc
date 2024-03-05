@@ -1,0 +1,7 @@
+directory	file	line	function	property kind	status	property
+2020/kurdyukov2	prog.ppm.c	17	main	mem_access	Unknown	\valid_read(V)
+2020/kurdyukov2	prog.ppm.c	17	main	precondition of atoi	Unknown	valid_nptr: \valid_read(nptr)
+2020/kurdyukov2	prog.ppm.c	18	main	mem_access	Invalid or unreachable	\valid_read(V)
+FRAMAC_SHARE/libc	stdio.h	150	fopen	precondition	Unknown	valid_filename: valid_read_string(filename)
+FRAMAC_SHARE/libc	stdio.h	151	fopen	precondition	Unknown	valid_mode: valid_read_string(mode)
+FRAMAC_SHARE/libc	stdlib.h	78	atoi	precondition	Unknown	valid_nptr: \valid_read(nptr)

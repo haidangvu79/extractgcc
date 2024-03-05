@@ -1,0 +1,36 @@
+[metrics] Defined functions (5)
+=====================
+ main (0 call); packet_get_size_t_ok (1 call);
+ packet_get_size_t_problem (1 call); packet_get_string (2 calls);
+ random_size_t (2 calls); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 42
+Decision point = 8
+Global variables = 1
+If = 8
+Loop = 2
+Goto = 0
+Assignment = 19
+Exit point = 5
+Function = 5
+Function call = 12
+Pointer dereferencing = 2
+Cyclomatic complexity = 13

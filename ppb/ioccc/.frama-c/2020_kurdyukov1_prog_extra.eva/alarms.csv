@@ -1,0 +1,5 @@
+directory	file	line	function	property kind	status	property
+2020/kurdyukov1	prog.extra.c	25	main	index_bound	Unknown	(int64_t)((int64_t)(tmp / 4) + 4) < 20
+2020/kurdyukov1	prog.extra.c	25	main	signed_overflow	Unknown	n + 1 ≤ 9223372036854775807
+2020/kurdyukov1	prog.extra.c	26	main	signed_overflow	Unknown	g + 8 ≤ 9223372036854775807
+2020/kurdyukov1	prog.extra.c	31	main	float_to_int	Unknown	\mul_double(tmp_9, (double)8) * (double)((int)(8 << 26)) < 4294967296

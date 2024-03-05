@@ -1,0 +1,2 @@
+pointer_offset_from_subtraction_1_malloc.c:6:[nonterm:stmt] warning: non-terminating statement
+stack: main

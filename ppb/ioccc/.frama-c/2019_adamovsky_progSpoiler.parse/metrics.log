@@ -1,0 +1,53 @@
+[metrics] Defined functions (49)
+======================
+ Apply (address taken) (0 call); Apply1 (2 calls); Apply2 (2 calls);
+ ApplyExit (address taken) (0 call); ApplyInit (address taken) (0 call);
+ Char (address taken) (0 call); Create (address taken) (25 calls);
+ Dereference (45 calls); E (3 calls); F (5 calls); I (9 calls);
+ NewLine (address taken) (0 call); Next (4 calls); Output (8 calls);
+ Reference (29 calls); X (3 calls); fA (address taken) (3 calls);
+ fA1 (2 calls); fA2 (2 calls); fC (address taken) (0 call);
+ fCh (address taken) (0 call); fCont (address taken) (0 call);
+ fD (address taken) (0 call); fD0 (address taken) (0 call); fD1 (2 calls);
+ fE (address taken) (0 call); fI (address taken) (0 call);
+ fK0 (address taken) (0 call); fK1 (address taken) (0 call);
+ fP (address taken) (0 call); fR (address taken) (0 call);
+ fS0 (address taken) (0 call); fS1 (address taken) (0 call);
+ fS2 (address taken) (0 call); fS21 (2 calls); fS22 (2 calls);
+ fV (address taken) (0 call); fW (address taken) (0 call); main (0 call);
+ rA1 (address taken) (0 call); rA2 (address taken) (0 call);
+ rApply1 (address taken) (0 call); rApply2 (address taken) (0 call);
+ rC (address taken) (0 call); rCont (address taken) (0 call);
+ rD (address taken) (0 call); rE (address taken) (0 call);
+ rS1 (address taken) (0 call); rS2 (address taken) (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 561
+Decision point = 78
+Global variables = 5
+If = 78
+Loop = 5
+Goto = 28
+Assignment = 239
+Exit point = 49
+Function = 49
+Function call = 210
+Pointer dereferencing = 191
+Cyclomatic complexity = 127

@@ -1,0 +1,88 @@
+directory	file	line	function	property kind	status	property
+2019/yang	violet.c	16	s	mem_access	Unknown	\valid_read(U + x)
+2019/yang	violet.c	17	s	mem_access	Unknown	\valid(U + x)
+2019/yang	violet.c	17	s	mem_access	Unknown	\valid_read(U + y)
+2019/yang	violet.c	17	s	mem_access	Unknown	\valid(U + y)
+2019/yang	violet.c	18	m	signed_overflow	Unknown	H + q_0 ≤ 2147483647
+2019/yang	violet.c	19	m	initialization	Unknown	\initialized(&(U + i)->y)
+2019/yang	violet.c	19	m	initialization	Unknown	\initialized(&(U + o)->y)
+2019/yang	violet.c	19	m	mem_access	Unknown	\valid_read(&(U + i)->y)
+2019/yang	violet.c	19	m	mem_access	Unknown	\valid_read(&(U + o)->y)
+2019/yang	violet.c	19	m	initialization	Unknown	\initialized(&(U + i)->x)
+2019/yang	violet.c	19	m	initialization	Unknown	\initialized(&(U + o)->x)
+2019/yang	violet.c	19	m	mem_access	Unknown	\valid_read(&(U + i)->x)
+2019/yang	violet.c	19	m	mem_access	Unknown	\valid_read(&(U + o)->x)
+2019/yang	violet.c	20	m	signed_overflow	Unknown	o + 1 ≤ 2147483647
+2019/yang	violet.c	20	m	signed_overflow	Unknown	x + 1 ≤ 2147483647
+2019/yang	violet.c	21	v	signed_overflow	Unknown	I[tmp] + l ≤ 2147483647
+2019/yang	violet.c	21	v	signed_overflow	Unknown	o + I[i] ≤ 2147483647
+2019/yang	violet.c	22	v	signed_overflow	Unknown	2 + x ≤ 2147483647
+2019/yang	violet.c	22	a	signed_overflow	Unknown	H + 2 ≤ 2147483647
+2019/yang	violet.c	23	a	signed_overflow	Unknown	2 * t ≤ 2147483647
+2019/yang	violet.c	23	a	signed_overflow	Unknown	t * 2 ≤ 2147483647
+2019/yang	violet.c	23	a	mem_access	Unknown	\valid(&(U + H)->x)
+2019/yang	violet.c	23	a	mem_access	Unknown	\valid(&(U + H)->y)
+2019/yang	violet.c	23	a	mem_access	Unknown	\valid(&(U + tmp_0)->z)
+2019/yang	violet.c	24	Q	precondition of abs	Unknown	abs_representable: j > -2147483647 - 1
+2019/yang	violet.c	26	P	shift	Unknown	0 ≤ o < 32
+2019/yang	violet.c	26	P	index_bound	Unknown	tmp < 4
+2019/yang	violet.c	26	P	index_bound	Unknown	o < 4
+2019/yang	violet.c	27	P	precondition of fputc	Unknown	valid_stream: \valid(stream)
+2019/yang	violet.c	28	r	precondition of fopen	Unknown	valid_filename: valid_read_string(filename)
+2019/yang	violet.c	28	r	precondition of perror	Unknown	valid_string_s: valid_read_string(s)
+2019/yang	violet.c	29	main	signed_overflow	Unknown	-2147483648 ≤ O - 1
+2019/yang	violet.c	30	main	mem_access	Unknown	\valid_read(*Z)
+2019/yang	violet.c	30	main	mem_access	Unknown	\valid_read(Z)
+2019/yang	violet.c	30	main	mem_access	Unknown	\valid_read(*Z + 01)
+2019/yang	violet.c	31	main	precondition of fgetc	Unknown	valid_stream: \valid(stream)
+2019/yang	violet.c	33	main	signed_overflow	Unknown	-2147483648 ≤ y + l
+2019/yang	violet.c	33	main	signed_overflow	Unknown	y + l ≤ 2147483647
+2019/yang	violet.c	34	main	signed_overflow	Unknown	l + x ≤ 2147483647
+2019/yang	violet.c	34	main	signed_overflow	Unknown	(_)(l * 10) + e ≤ 2147483647
+2019/yang	violet.c	34	main	signed_overflow	Unknown	-2147483648 ≤ l * 10
+2019/yang	violet.c	34	main	signed_overflow	Unknown	l * 10 ≤ 2147483647
+2019/yang	violet.c	35	main	shift	Unknown	0 ≤ l
+2019/yang	violet.c	35	main	signed_overflow	Unknown	l << 6 ≤ 2147483647
+2019/yang	violet.c	37	main	signed_overflow	Unknown	y + 1 ≤ 2147483647
+2019/yang	violet.c	38	main	signed_overflow	Unknown	x + 8 ≤ 2147483647
+2019/yang	violet.c	38	main	signed_overflow	Unknown	x + 1 ≤ 2147483647
+2019/yang	violet.c	38	main	signed_overflow	Unknown	V + (_)((_)(V + e) << 10) ≤ 2147483647
+2019/yang	violet.c	39	main	signed_overflow	Unknown	(_)(V + e) << 10 ≤ 2147483647
+2019/yang	violet.c	39	main	signed_overflow	Unknown	V + e ≤ 2147483647
+2019/yang	violet.c	40	main	mem_access	Unknown	\valid(&(U + H)->x)
+2019/yang	violet.c	41	main	initialization	Unknown	\initialized(&(U + h)->y)
+2019/yang	violet.c	41	main	mem_access	Unknown	\valid_read(&(U + h)->y)
+2019/yang	violet.c	42	main	initialization	Unknown	\initialized(&(U + h)->x)
+2019/yang	violet.c	42	main	mem_access	Unknown	\valid_read(&(U + h)->x)
+2019/yang	violet.c	42	main	initialization	Unknown	\initialized(&(U + h)->y)
+2019/yang	violet.c	42	main	mem_access	Unknown	\valid_read(&(U + h)->y)
+2019/yang	violet.c	42	main	initialization	Unknown	\initialized(&(U + h)->x)
+2019/yang	violet.c	42	main	mem_access	Unknown	\valid_read(&(U + h)->x)
+2019/yang	violet.c	43	main	initialization	Unknown	\initialized(&(U + (_)(h - 1))->z)
+2019/yang	violet.c	43	main	mem_access	Unknown	\valid_read(&(U + (_)(h - 1))->z)
+2019/yang	violet.c	45	main	mem_access	Unknown	\valid_read(Z)
+2019/yang	violet.c	46	main	signed_overflow	Unknown	q + 1 ≤ 2147483647
+2019/yang	violet.c	46	main	precondition of fclose	Unknown	valid_stream: \valid(stream)
+2019/yang	violet.c	47	main	mem_access	Unknown	\valid_read(Z)
+2019/yang	violet.c	48	main	signed_overflow	Unknown	(_)(q - p) + 2 ≤ 2147483647
+2019/yang	violet.c	48	main	signed_overflow	Unknown	q - p ≤ 2147483647
+2019/yang	violet.c	49	main	signed_overflow	Unknown	H * (_)(-((_)(~t))) ≤ 2147483647
+2019/yang	violet.c	49	main	initialization	Unknown	\initialized(&(U + tmp_17)->y)
+2019/yang	violet.c	49	main	mem_access	Unknown	\valid_read(&(U + tmp_17)->y)
+2019/yang	violet.c	49	main	initialization	Unknown	\initialized(&(U + h)->y)
+2019/yang	violet.c	49	main	mem_access	Unknown	\valid_read(&(U + h)->y)
+2019/yang	violet.c	49	main	signed_overflow	Unknown	(U + h)->y - y ≤ 2147483647
+2019/yang	violet.c	49	main	signed_overflow	Unknown	-2147483648 ≤ (U + h)->y - y
+2019/yang	violet.c	50	main	initialization	Unknown	\initialized(&(U + h)->x)
+2019/yang	violet.c	50	main	mem_access	Unknown	\valid_read(&(U + h)->x)
+2019/yang	violet.c	50	main	signed_overflow	Unknown	-2147483648 ≤ x - (U + h)->x
+2019/yang	violet.c	50	main	signed_overflow	Unknown	x - (U + h)->x ≤ 2147483647
+2019/yang	violet.c	50	main	initialization	Unknown	\initialized(&(U + h)->z)
+2019/yang	violet.c	50	main	mem_access	Unknown	\valid_read(&(U + h)->z)
+2019/yang	violet.c	51	main	signed_overflow	Unknown	q - y ≤ 2147483647
+FRAMAC_SHARE/libc	stdio.h	120	fclose	precondition	Unknown	valid_stream: \valid(stream)
+FRAMAC_SHARE/libc	stdio.h	150	fopen	precondition	Unknown	valid_filename: valid_read_string(filename)
+FRAMAC_SHARE/libc	stdio.h	260	fgetc	precondition	Unknown	valid_stream: \valid(stream)
+FRAMAC_SHARE/libc	stdio.h	283	fputc	precondition	Unknown	valid_stream: \valid(stream)
+FRAMAC_SHARE/libc	stdio.h	486	perror	precondition	Unknown	valid_string_s: valid_read_string(s)
+FRAMAC_SHARE/libc	stdlib.h	599	abs	precondition	Unknown	abs_representable: j > -2147483647 - 1

@@ -1,0 +1,3 @@
+directory	file	line	function	property kind	status	property
+.	cwe20.c	34	main	signed_overflow	Unknown	-2147483648 ≤ m * n
+.	cwe20.c	34	main	signed_overflow	Unknown	m * n ≤ 2147483647

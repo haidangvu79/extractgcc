@@ -1,0 +1,2 @@
+provenance_basic_mixed_global_offset-64.c:12:[nonterm:stmt] warning: non-terminating statement
+stack: main

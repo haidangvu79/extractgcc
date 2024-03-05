@@ -1,0 +1,6 @@
+directory	file	line	function	property kind	status	property
+2020/kurdyukov3	prog.extra.c	13	main	initialization	Unknown	\initialized(&a)
+2020/kurdyukov3	prog.extra.c	14	main	initialization	Unknown	\initialized(&a)
+2020/kurdyukov3	prog.extra.c	14	main	initialization	Unknown	\initialized(&t[j])
+2020/kurdyukov3	prog.extra.c	15	main	initialization	Unknown	\initialized(&t[i])
+2020/kurdyukov3	prog.extra.c	15	main	index_bound	Unknown	i < 256

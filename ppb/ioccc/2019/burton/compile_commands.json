@@ -1,0 +1,38 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-include",
+            "stdio.h",
+            "-O3",
+            "-o",
+            "prog.clean",
+            "prog.clean.c"
+        ],
+        "directory": ".",
+        "file": "prog.clean.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wno-implicit-int",
+            "-Wno-missing-variable-declarations",
+            "-Wno-parentheses",
+            "-include",
+            "stdio.h",
+            "-O3",
+            "-o",
+            "prog",
+            "prog.c"
+        ],
+        "directory": ".",
+        "file": "prog.c"
+    }
+]

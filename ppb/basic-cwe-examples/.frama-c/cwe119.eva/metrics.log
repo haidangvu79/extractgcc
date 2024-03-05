@@ -1,0 +1,15 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 7 (out of 7)
+Semantically reached functions = 7
+Coverage estimation = 100.0%
+[metrics] Statements analyzed by Eva
+--------------------------
+54 stmts in analyzed functions, 48 stmts analyzed (88.9%)
+my_inet_addr: 10 stmts out of 10 (100.0%)
+my_strcmp: 12 stmts out of 12 (100.0%)
+nonzero_uint32_t: 9 stmts out of 9 (100.0%)
+validate_addr_form: 7 stmts out of 7 (100.0%)
+host_lookup: 4 stmts out of 5 (80.0%)
+my_gethostbyaddr: 4 stmts out of 5 (80.0%)
+main: 2 stmts out of 6 (33.3%)

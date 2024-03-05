@@ -1,0 +1,8 @@
+directory	file	line	function	property kind	status	property
+.	pointer_offset_from_subtraction_1_auto.c	3	main	pointer_downcast	Unknown	(unsigned int)(&x) ≤ 2147483647
+.	pointer_offset_from_subtraction_1_auto.c	4	main	pointer_downcast	Unknown	(unsigned int)(&y) ≤ 2147483647
+.	pointer_offset_from_subtraction_1_auto.c	5	main	signed_overflow	Unknown	-2147483648 ≤ uy - ux
+.	pointer_offset_from_subtraction_1_auto.c	5	main	signed_overflow	Unknown	uy - ux ≤ 2147483647
+.	pointer_offset_from_subtraction_1_auto.c	8	main	signed_overflow	Unknown	-2147483648 ≤ ux + offset
+.	pointer_offset_from_subtraction_1_auto.c	8	main	signed_overflow	Unknown	ux + offset ≤ 2147483647
+.	pointer_offset_from_subtraction_1_auto.c	11	main	mem_access	Unknown	\valid(p)

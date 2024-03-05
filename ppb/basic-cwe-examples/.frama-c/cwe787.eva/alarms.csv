@@ -1,0 +1,19 @@
+directory	file	line	function	property kind	status	property
+.	cwe787.c	22	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	22	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_1)
+.	cwe787.c	23	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	23	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_2)
+.	cwe787.c	24	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	24	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_3)
+.	cwe787.c	25	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	25	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_4)
+.	cwe787.c	26	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	26	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_5)
+.	cwe787.c	29	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	29	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_6)
+.	cwe787.c	30	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	30	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_7)
+.	cwe787.c	31	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	31	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_8)
+.	cwe787.c	33	copy_input	signed_overflow	Unknown	dst_index + 1 ≤ 2147483647
+.	cwe787.c	33	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_9)

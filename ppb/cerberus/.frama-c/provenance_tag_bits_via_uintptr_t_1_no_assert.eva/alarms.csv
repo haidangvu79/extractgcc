@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	provenance_tag_bits_via_uintptr_t_1_no_assert.c	17	main	mem_access	Unknown	\valid(r)

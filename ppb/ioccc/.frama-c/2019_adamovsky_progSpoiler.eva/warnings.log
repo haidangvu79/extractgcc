@@ -1,0 +1,102 @@
+2019/adamovsky/progSpoiler.c:315:[eva] warning: Using specification of function I for recursive calls. Analysis of function I
+is thus incomplete and its soundness relies on the written specification.
+2019/adamovsky/progSpoiler.c:61:[eva] warning: Using specification of function Dereference for recursive calls.
+Analysis of function Dereference is thus incomplete and its soundness
+relies on the written specification.
+2019/adamovsky/progSpoiler.c:62:[eva] warning: Using specification of function Dereference for recursive calls.
+Analysis of function Dereference is thus incomplete and its soundness
+relies on the written specification.
+2019/adamovsky/progSpoiler.c:63:[eva] warning: Using specification of function Dereference for recursive calls.
+Analysis of function Dereference is thus incomplete and its soundness
+relies on the written specification.
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{fW}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fCh}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fR}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fC}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fD0}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fI}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fK0}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fS0}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fV}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fP}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:76}) }}
+{{ garbled mix of &{fW}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fCh}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fR}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fC}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fD0}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fI}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fK0}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fS0}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fV}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fP}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:77}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:509}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:510}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:513}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:514}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:517}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:521}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:522}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:523}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:528}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:529}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:532}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:533}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:534}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:535}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:536}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:539}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:543}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:61}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:61}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:62}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:63}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:63}) }}
+{{ garbled mix of &{fW; fCh; fD0; fK0; fS0; fI; fV; fR; fP; fC; fE}
+  (origin: Misaligned {2019/adamovsky/progSpoiler.c:63}) }}

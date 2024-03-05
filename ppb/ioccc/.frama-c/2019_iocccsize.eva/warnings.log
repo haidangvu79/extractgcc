@@ -1,0 +1,5 @@
+2019/iocccsize.c:570:[eva:garbled-mix:assigns] warning: The specification of function getopt has generated a garbled mix for assigns clause \result.
+2019/iocccsize.c:570:[eva:garbled-mix:assigns] warning: The specification of function getopt has generated a garbled mix for assigns clause *optarg.
+2019/iocccsize.c:570:[eva:garbled-mix:assigns] warning: The specification of function getopt has generated a garbled mix for assigns clause optind.
+2019/iocccsize.c:570:[eva:garbled-mix:assigns] warning: The specification of function getopt has generated a garbled mix for assigns clause opterr.
+2019/iocccsize.c:570:[eva:garbled-mix:assigns] warning: The specification of function getopt has generated a garbled mix for assigns clause optopt.

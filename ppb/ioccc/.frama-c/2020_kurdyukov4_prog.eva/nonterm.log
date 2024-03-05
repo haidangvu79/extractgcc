@@ -1,0 +1,2 @@
+2020/kurdyukov4/prog.c:9:[nonterm:stmt] warning: non-terminating function call
+stack: main

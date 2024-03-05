@@ -1,0 +1,1 @@
+2019/lynn/prog.c:27:[variadic] warning: Call to function printf with non-static format argument: assuming that parameters are coherent with the format, and that no %n specifiers are present in the actual string.

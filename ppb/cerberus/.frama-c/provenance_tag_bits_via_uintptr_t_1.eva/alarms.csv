@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	provenance_tag_bits_via_uintptr_t_1.c	8	main	precondition of __FC_assert	Unknown	nonnull_c: c ≢ 0
+.	provenance_tag_bits_via_uintptr_t_1.c	18	main	mem_access	Unknown	\valid(r)
+FRAMAC_SHARE/libc	assert.h	31	__FC_assert	precondition	Unknown	nonnull_c: c ≢ 0

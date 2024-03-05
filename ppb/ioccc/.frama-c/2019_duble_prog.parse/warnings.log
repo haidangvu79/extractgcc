@@ -1,0 +1,14 @@
+2019/duble/prog.c:18:[kernel:CERT:MSC:37] warning: Body of function t falls-through. Adding a return statement
+2019/duble/prog.c:23:[kernel:typing:incompatible-types-call] warning: expected 'struct sockaddr const *' but got argument of type 'struct sockaddr_un *': tmp_0
+2019/duble/prog.c:23:[kernel:CERT:MSC:37] warning: Body of function O falls-through. Adding a return statement
+2019/duble/prog.c:24:[kernel:typing:incompatible-types-call] warning: expected 'struct sockaddr *' but got argument of type 'struct sockaddr_un *': & A
+2019/duble/prog.c:24:[kernel:CERT:MSC:37] warning: Body of function H falls-through. Adding a return statement
+2019/duble/prog.c:26:[kernel:CERT:MSC:37] warning: Body of function Q falls-through. Adding a return statement
+2019/duble/prog.c:26:[kernel:CERT:MSC:37] warning: Body of function P falls-through. Adding a return statement
+2019/duble/prog.c:27:[kernel:typing:incompatible-types-call] warning: expected 'struct sockaddr const *' but got argument of type 'struct sockaddr_un *': D
+2019/duble/prog.c:39:[kernel:CERT:EXP:46] warning: operand of bitwise operator is a logical relation
+2019/duble/prog.c:39:[kernel:CERT:EXP:46] warning: operand of bitwise operator is a logical relation
+2019/duble/prog.c:40:[kernel:CERT:EXP:46] warning: operand of bitwise operator is a logical relation
+2019/duble/prog.c:40:[kernel:CERT:EXP:46] warning: operand of bitwise operator is a logical relation
+2019/duble/prog.c:44:[kernel:typing:incompatible-types-call] warning: expected 'struct sockaddr const *' but got argument of type 'struct sockaddr_un *': & A
+2019/duble/prog.c:51:[variadic] warning: Call to function printf with non-static format argument: assuming that parameters are coherent with the format, and that no %n specifiers are present in the actual string.

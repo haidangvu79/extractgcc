@@ -1,0 +1,58 @@
+[metrics] Defined functions (52)
+======================
+ a (2 calls); b (address taken) (0 call); main (0 call); v (5 calls);
+ x0a (address taken) (0 call); x20 (address taken) (0 call);
+ x21 (address taken) (0 call); x22 (address taken) (0 call);
+ x23 (address taken) (0 call); x25 (address taken) (0 call);
+ x28 (address taken) (0 call); x29 (address taken) (0 call);
+ x2a (address taken) (0 call); x2b (address taken) (0 call);
+ x2c (address taken) (0 call); x2d (address taken) (0 call);
+ x2f (address taken) (0 call); x30 (address taken) (0 call);
+ x31 (address taken) (0 call); x32 (address taken) (0 call);
+ x33 (address taken) (0 call); x34 (address taken) (0 call);
+ x35 (address taken) (0 call); x36 (address taken) (0 call);
+ x37 (address taken) (0 call); x38 (address taken) (0 call);
+ x39 (address taken) (0 call); x3a (address taken) (0 call);
+ x3b (address taken) (0 call); x3d (address taken) (0 call);
+ x3f (address taken) (0 call); x5b (address taken) (0 call);
+ x5c (address taken) (0 call); x5d (address taken) (0 call);
+ x61 (address taken) (0 call); x62 (address taken) (0 call);
+ x63 (address taken) (0 call); x64 (address taken) (0 call);
+ x65 (address taken) (0 call); x66 (address taken) (0 call);
+ x68 (address taken) (0 call); x69 (address taken) (0 call);
+ x6d (address taken) (0 call); x6e (address taken) (0 call);
+ x6f (address taken) (0 call); x71 (address taken) (0 call);
+ x72 (address taken) (0 call); x74 (address taken) (0 call);
+ x76 (address taken) (0 call); x78 (address taken) (0 call);
+ x7b (address taken) (0 call); x7d (address taken) (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 343
+Decision point = 8
+Global variables = 7
+If = 8
+Loop = 3
+Goto = 0
+Assignment = 146
+Exit point = 52
+Function = 52
+Function call = 57
+Pointer dereferencing = 121
+Cyclomatic complexity = 60

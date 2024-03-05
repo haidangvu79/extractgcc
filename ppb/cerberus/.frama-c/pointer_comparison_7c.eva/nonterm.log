@@ -1,0 +1,2 @@
+pointer_comparison_7c.c:14:[nonterm:stmt] warning: non-terminating statement
+stack: main

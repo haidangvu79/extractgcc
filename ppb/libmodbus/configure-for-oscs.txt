@@ -1,0 +1,6 @@
+These are the commands used to prepare this case study:
+
+./autogen.sh
+./configure --without-documentation CPPFLAGS="-DIPTOS_LOWDELAY=0x10"
+
+Note: running these commands will erase OSCS' Makefile.

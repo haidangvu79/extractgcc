@@ -1,0 +1,35 @@
+[metrics] Defined functions (5)
+=====================
+ main (0 call); myfunc (2 calls); qfunc (1 call); vfunc (1 call);
+ zfunc (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (2)
+==========================
+ main; zfunc; 
+
+Global metrics
+============== 
+Sloc = 16
+Decision point = 0
+Global variables = 0
+If = 0
+Loop = 0
+Goto = 0
+Assignment = 4
+Exit point = 5
+Function = 5
+Function call = 9
+Pointer dereferencing = 1
+Cyclomatic complexity = 5

@@ -1,0 +1,35 @@
+[metrics] Defined functions (5)
+=====================
+ botline (1 call); main (0 call); midline (1 call); print_led (1 call);
+ topline (1 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 150
+Decision point = 13
+Global variables = 1
+If = 6
+Loop = 4
+Goto = 0
+Assignment = 84
+Exit point = 5
+Function = 5
+Function call = 5
+Pointer dereferencing = 23
+Cyclomatic complexity = 18

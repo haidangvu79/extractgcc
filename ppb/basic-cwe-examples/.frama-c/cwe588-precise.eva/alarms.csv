@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	cwe588.c	10	main	mem_access	Invalid or unreachable	\valid(&foo->i)

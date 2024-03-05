@@ -1,0 +1,3 @@
+00214.c:52:[kernel:CERT:MSC:37] warning: Body of function chk falls-through. Adding a return statement
+[variadic:libc:frama-c] warning: Unable to locate ACSL predicate valid_read_string which should be in the Frama-C LibC. Correct specifications can't be generated.
+[variadic:libc:frama-c] warning: Unable to locate global __fc_stdout which should be in the Frama-C LibC. Correct specifications can't be generated.

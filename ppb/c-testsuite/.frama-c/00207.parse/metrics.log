@@ -1,0 +1,34 @@
+[metrics] Defined functions (4)
+=====================
+ f1 (1 call); f2 (1 call); f3 (1 call); main (0 call); 
+
+Specified-only functions (2)
+============================
+ __fc_vla_alloc (1 call); __fc_vla_free (1 call); 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 33
+Decision point = 2
+Global variables = 0
+If = 2
+Loop = 0
+Goto = 3
+Assignment = 8
+Exit point = 4
+Function = 6
+Function call = 10
+Pointer dereferencing = 0
+Cyclomatic complexity = 6

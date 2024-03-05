@@ -1,0 +1,3 @@
+directory	file	line	function	property kind	status	property
+02_wo_Defects	uninit_memory_access.c	354	uninit_memory_access_011_func_001	precondition of printf_va_29	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_29	precondition	Unknown	valid_read_string(param0)

@@ -1,0 +1,5 @@
+directory	file	line	function	property kind	status	property
+2020/kurdyukov1	prog.c	19	main	index_bound	Unknown	0 ≤ (int64_t)(4 + (int64_t)(n / 4))
+2020/kurdyukov1	prog.c	20	main	signed_overflow	Unknown	-9223372036854775808 ≤ n - 1
+2020/kurdyukov1	prog.c	20	main	signed_overflow	Unknown	g + 8 ≤ 9223372036854775807
+2020/kurdyukov1	prog.c	21	main	shift	Invalid or unreachable	0 ≤ (int64_t)(~e)

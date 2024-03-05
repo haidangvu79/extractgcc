@@ -1,0 +1,1 @@
+effective_type_10.c:6:[variadic:typing] warning: Incorrect type for argument 3. The argument will be cast from int to unsigned int.

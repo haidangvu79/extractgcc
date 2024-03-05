@@ -1,0 +1,3 @@
+padding_struct_members_copy.c:12:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+padding_struct_members_copy.c:16:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+padding_struct_members_copy.c:19:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.

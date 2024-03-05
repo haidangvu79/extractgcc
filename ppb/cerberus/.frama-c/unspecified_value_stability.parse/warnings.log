@@ -1,0 +1,4 @@
+unspecified_value_stability.c:8:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+unspecified_value_stability.c:9:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+unspecified_value_stability.c:10:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+unspecified_value_stability.c:11:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.

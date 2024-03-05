@@ -1,0 +1,34 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-O3",
+            "-o",
+            "clock",
+            "clock.c"
+        ],
+        "directory": ".",
+        "file": "clock.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-O3",
+            "-o",
+            "prog",
+            "prog.c"
+        ],
+        "directory": ".",
+        "file": "prog.c"
+    }
+]

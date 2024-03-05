@@ -1,0 +1,2 @@
+pointer_from_concrete_address_2.c:8:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main

@@ -1,0 +1,2 @@
+null_pointer_4.c:5:[nonterm:stmt] warning: non-terminating statement
+stack: main

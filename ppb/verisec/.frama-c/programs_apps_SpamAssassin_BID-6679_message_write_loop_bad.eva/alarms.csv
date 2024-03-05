@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+programs/apps/SpamAssassin/BID-6679/message_write	loop_bad.c	23	message_write	index_bound	Invalid or unreachable	j < (int)(2 + 2)

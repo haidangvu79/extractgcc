@@ -1,0 +1,2 @@
+[variadic:libc:frama-c] warning: Unable to locate ACSL predicate valid_read_string which should be in the Frama-C LibC. Correct specifications can't be generated.
+[variadic:libc:frama-c] warning: Unable to locate global __fc_stdout which should be in the Frama-C LibC. Correct specifications can't be generated.

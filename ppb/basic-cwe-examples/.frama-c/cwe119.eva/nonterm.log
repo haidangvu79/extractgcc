@@ -1,0 +1,3 @@
+cwe119.c:65:[nonterm:stmt] warning: non-terminating function call
+stack: host_lookup :: cwe119.c:70 <- main
+cwe119.c:73:[nonterm:unreachable] warning: unreachable return

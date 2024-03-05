@@ -1,0 +1,2 @@
+padding_struct_copy_3.c:20:[nonterm:stmt] warning: non-terminating function call
+stack: main

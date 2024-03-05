@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	pointer_arith_algebraic_properties_3_auto.c	6	main	mem_access	Unknown	\valid(p)
+.	pointer_arith_algebraic_properties_3_auto.c	8	main	initialization	Unknown	\initialized(&x[1])
+.	pointer_arith_algebraic_properties_3_auto.c	8	main	initialization	Unknown	\initialized(p)

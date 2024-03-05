@@ -1,0 +1,43 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 8 (out of 8)
+Semantically reached functions = 2
+Coverage estimation = 25.0% 
+
+Unreached functions (6) =
+  <2019/duble/prog.c>: G; H; O; Q; r; t;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function main calls t (at 2019/duble/prog.c:30)
+Function main calls O (at 2019/duble/prog.c:32)
+Function main calls Q (at 2019/duble/prog.c:32)
+Function main calls G (at 2019/duble/prog.c:32)
+Function main calls G (at 2019/duble/prog.c:36)
+Function main calls r (at 2019/duble/prog.c:36)
+Function main calls G (at 2019/duble/prog.c:38)
+Function main calls G (at 2019/duble/prog.c:39)
+Function main calls G (at 2019/duble/prog.c:41)
+Function main calls G (at 2019/duble/prog.c:42)
+Function main calls G (at 2019/duble/prog.c:42)
+Function main calls r (at 2019/duble/prog.c:42)
+Function main calls H (at 2019/duble/prog.c:42)
+Function main calls G (at 2019/duble/prog.c:43)
+Function main calls G (at 2019/duble/prog.c:43)
+Function main calls O (at 2019/duble/prog.c:44)
+Function main calls G (at 2019/duble/prog.c:45)
+Function main calls r (at 2019/duble/prog.c:45)
+Function main calls H (at 2019/duble/prog.c:45)
+Function main calls G (at 2019/duble/prog.c:45)
+Function main calls G (at 2019/duble/prog.c:46)
+Function main calls G (at 2019/duble/prog.c:47)
+Function main calls G (at 2019/duble/prog.c:50)
+Function main calls H (at 2019/duble/prog.c:51)
+Function main calls G (at 2019/duble/prog.c:51)
+Function main calls Q (at 2019/duble/prog.c:61)
+Function main calls G (at 2019/duble/prog.c:63)
+Function main calls G (at 2019/duble/prog.c:64)
+[metrics] Statements analyzed by Eva
+--------------------------
+302 stmts in analyzed functions, 4 stmts analyzed (1.3%)
+P: 2 stmts out of 4 (50.0%)
+main: 2 stmts out of 298 (0.7%)

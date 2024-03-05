@@ -1,0 +1,133 @@
+directory	file	line	function	property kind	status	property
+.	fc_stubs.h	20	aes_setkey_enc	postcondition	Unknown	\initialized(&\old(ctx)->rk)
+.	fc_stubs.h	21	aes_setkey_enc	postcondition	Unknown	\old(ctx)->nr ≡ 10 ∨ \old(ctx)->nr ≡ 12 ∨ \old(ctx)->nr ≡ 14
+.	fc_stubs.h	32	aes_setkey_dec	postcondition	Unknown	\old(ctx)->nr ≡ 10 ∨ \old(ctx)->nr ≡ 12 ∨ \old(ctx)->nr ≡ 14
+.	fc_stubs.h	37	aes_crypt_cbc	precondition	Unknown	length % 16 ≡ 0
+.	fc_stubs.h	39	aes_crypt_cbc	precondition	Unknown	\valid(output + (0 .. length - 1))
+.	fc_stubs.h	40	aes_crypt_cbc	precondition	Unknown	\valid_read(input + (0 .. length - 1))
+.	fc_stubs.h	88	sha1_process	precondition	Unknown	\valid_read(data + (0 .. 63))
+.	fc_stubs.h	104	sha1_finish	postcondition	Unknown	\initialized(\old(output) + (0 .. 19))
+.	fc_stubs.h	110	sha4	precondition	Unknown	\initialized(input + (0 .. ilen - 1))
+.	fc_stubs.h	113	sha4	postcondition	Unknown	\initialized(\old(output) + (0 .. 63))
+.	fc_stubs.h	130	md5_process	precondition	Unknown	\valid_read(data + (0 .. 63))
+.	fc_stubs.h	141	md5_finish	precondition	Unknown	\valid(output + (0 .. 15))
+.	fc_stubs.h	150	ctr_drbg_random	postcondition	Unknown	\initialized(\old(output) + (0 .. \old(output_len) - 1))
+.	fc_stubs.h	166	dhm_make_params	postcondition	Unknown	\initialized(\old(olen))
+.	fc_stubs.h	167	dhm_make_params	postcondition	Unknown	\old(ctx)->len ≡ 128
+.	fc_stubs.h	181	mpi_exp_mod	postcondition	Unknown	\old(X)->s ≡ 1 ∨ \old(X)->s ≡ -1
+.	fc_stubs.h	205	mpi_write_binary	postcondition	Unknown	\initialized(\old(buf) + (0 .. \old(buflen) - 1))
+.	fc_stubs.h	236	mpi_sub_mpi	postcondition	Unknown	\old(X)->s ≡ 1 ∨ \old(X)->s ≡ -1
+.	fc_stubs.h	245	mpi_mul_mpi	postcondition	Unknown	\old(X)->s ≡ 1 ∨ \old(X)->s ≡ -1
+.	fc_stubs.h	254	mpi_mod_mpi	postcondition	Unknown	\old(R)->s ≡ 1 ∨ \old(R)->s ≡ -1
+.	fc_stubs.h	263	mpi_add_abs	postcondition	Unknown	\old(X)->s ≡ 1 ∨ \old(X)->s ≡ -1
+.	fc_stubs.h	272	mpi_sub_abs	postcondition	Unknown	\old(X)->s ≡ 1 ∨ \old(X)->s ≡ -1
+.	fc_stubs.h	290	mpi_read_string	postcondition	Unknown	\old(X)->s ≡ 1 ∨ \old(X)->s ≡ -1
+.	fc_stubs.h	295	mpi_read_binary	precondition	Unknown	\valid_read(buf + (0 .. buflen - 1))
+.	fc_stubs.h	298	mpi_read_binary	postcondition	Unknown	\old(X)->s ≡ 1 ∨ \old(X)->s ≡ -1
+.	fc_stubs.h	304	arc4_crypt	precondition	Unknown	\valid_read(input + (0 .. length - 1))
+.	fc_stubs.h	305	arc4_crypt	precondition	Unknown	\valid(output + (0 .. length - 1))
+.	fc_stubs.h	307	arc4_crypt	postcondition	Unknown	\initialized(\old(output) + (0 .. \old(length) - 1))
+.	fc_stubs.h	318	camellia_crypt_cbc	precondition	Unknown	length % 16 ≡ 0
+.	fc_stubs.h	320	camellia_crypt_cbc	precondition	Unknown	\valid(output + (0 .. length - 1))
+.	fc_stubs.h	321	camellia_crypt_cbc	precondition	Unknown	\valid_read(input + (0 .. length - 1))
+.	fc_stubs.h	351	des3_crypt_cbc	postcondition	Unknown	\result ≡ -0x0032
+.	fc_stubs.h	355	des3_crypt_cbc	precondition	Unknown	\valid_read(input + (0 .. length - 1))
+.	fc_stubs.h	356	des3_crypt_cbc	precondition	Unknown	\initialized(input + (0 .. length - 1))
+.	fc_stubs.h	361	des3_crypt_cbc	postcondition	Unknown	\initialized(\old(output) + (0 .. \old(length) - 1))
+.	fc_stubs.h	362	des3_crypt_cbc	postcondition	Unknown	\result ≡ 0
+FRAMAC_SHARE/libc	string.h	95	memcpy	precondition	Unknown	valid_dest: valid_or_empty(dest, n)
+FRAMAC_SHARE/libc	string.h	96	memcpy	precondition	Unknown	valid_src: valid_read_or_empty(src, n)
+FRAMAC_SHARE/libc	string.h	120	memmove	precondition	Unknown	valid_dest: valid_or_empty(dest, n)
+FRAMAC_SHARE/libc	string.h	121	memmove	precondition	Unknown	valid_src: valid_read_or_empty(src, n)
+FRAMAC_SHARE/libc	string.h	131	memset	precondition	Unknown	valid_s: valid_or_empty(s, n)
+FRAMAC_SHARE/libc	unistd.h	1014	read	precondition	Unknown	valid_fd: 0 ≤ fd < 1024
+FRAMAC_SHARE/libc	unistd.h	1015	read	precondition	Unknown	buf_has_room: \valid((char *)buf + (0 .. count - 1))
+FRAMAC_SHARE/libc	unistd.h	1159	write	precondition	Unknown	valid_fd: 0 ≤ fd < 1024
+FRAMAC_SHARE/libc	unistd.h	1160	write	precondition	Unknown	buf_has_room: \valid_read((char *)buf + (0 .. count - 1))
+FRAMAC_SHARE/libc/sys	socket.h	306	accept	precondition	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+FRAMAC_SHARE/libc/sys	socket.h	556	shutdown	precondition	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+library	ctr_drbg.c	154	block_cipher_df	mem_access	Unknown	\valid_read(p + i)
+library	des.c	384	des_setkey	postcondition	Unknown	\initialized(\old(SK) + (0 .. 31))
+library	dhm.c	210	dhm_read_public	signed_overflow	Unknown	-2147483648 ≤ (int)(-0x3200) + ret
+library	dhm.c	276	dhm_calc_secret	user assertion	Unknown	0 ≤ *olen ≤ 256
+library	dhm.c	283	dhm_calc_secret	signed_overflow	Unknown	-2147483648 ≤ (int)(-0x3300) + ret
+library	entropy.c	94	entropy_update	precondition of sha4	Unknown	\initialized(input + (0 .. ilen - 1))
+library	entropy.c	167	entropy_func	signed_overflow	Unknown	count + 1 ≤ 2147483647
+library	error.c	142	error_strerror	signed_overflow	Unknown	-ret ≤ 2147483647
+library	md5.c	233	md5_update	precondition of md5_process	Unknown	\valid_read(data + (0 .. 63))
+library	md5.c	240	md5_update	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+library	md5.c	350	md5_hmac_starts	initialization	Unknown	\initialized(key + i)
+library	md5.c	350	md5_hmac_starts	mem_access	Unknown	\valid_read(key + i)
+library	md5.c	379	md5_hmac_finish	precondition of md5_finish	Unknown	\valid(output + (0 .. 15))
+library	net.c	246	net_accept	precondition of accept	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+library	net.c	303	net_recv	precondition of read	Unknown	buf_has_room: \valid((char *)buf + (0 .. count - 1))
+library	net.c	303	net_recv	precondition of read	Unknown	valid_fd: 0 ≤ fd < 1024
+library	net.c	332	net_send	precondition of write	Unknown	buf_has_room: \valid_read((char *)buf + (0 .. count - 1))
+library	net.c	332	net_send	precondition of write	Unknown	valid_fd: 0 ≤ fd < 1024
+library	net.c	361	net_close	precondition of shutdown	Unknown	valid_sockfd: 0 ≤ sockfd < 1024
+library	rsa.c	259	rsa_private	precondition of mpi_read_binary	Unknown	\valid_read(buf + (0 .. buflen - 1))
+library	rsa.c	301	rsa_private	signed_overflow	Unknown	-2147483648 ≤ (int)(-0x4300) + ret
+library	rsa.c	517	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(tmp_1)
+library	rsa.c	520	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(tmp_2)
+library	rsa.c	529	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(p)
+library	rsa.c	530	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(tmp_3)
+library	rsa.c	539	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(tmp_5)
+library	rsa.c	548	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(p)
+library	rsa.c	549	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(tmp_6)
+library	rsa.c	558	rsa_pkcs1_decrypt	initialization	Unknown	\initialized(tmp_8)
+library	rsa.c	629	rsa_pkcs1_decrypt	user assertion	Unknown	0 ≤ *olen ≤ output_max_len
+library	rsa.c	630	rsa_pkcs1_decrypt	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+library	rsa.c	707	rsa_pkcs1_sign	mem_access	Unknown	\valid(tmp)
+library	rsa.c	708	rsa_pkcs1_sign	mem_access	Unknown	\valid(tmp_0)
+library	rsa.c	709	rsa_pkcs1_sign	precondition of memset	Unknown	valid_s: valid_or_empty(s, n)
+library	rsa.c	711	rsa_pkcs1_sign	mem_access	Unknown	\valid(tmp_1)
+library	rsa.c	716	rsa_pkcs1_sign	precondition of memcpy	Unknown	valid_dest: valid_or_empty(dest, n)
+library	sha1.c	257	sha1_update	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+library	sha1.c	267	sha1_update	precondition of sha1_process	Unknown	\valid_read(data + (0 .. 63))
+library	sha1.c	274	sha1_update	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+library	sha1.c	385	sha1_hmac_starts	initialization	Unknown	\initialized(key + i)
+library	sha1.c	385	sha1_hmac_starts	mem_access	Unknown	\valid_read(key + i)
+library	ssl_srv.c	169	ssl_parse_client_hello	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+library	ssl_srv.c	173	ssl_parse_client_hello	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+library	ssl_srv.c	180	ssl_parse_client_hello	mem_access	Unknown	\valid_read(p + 0)
+library	ssl_srv.c	182	ssl_parse_client_hello	mem_access	Unknown	\valid_read(p + 2)
+library	ssl_srv.c	632	ssl_write_server_key_exchange	mem_access	Unknown	\valid(ssl->out_msg + (size_t)(4 + n))
+library	ssl_srv.c	633	ssl_write_server_key_exchange	mem_access	Unknown	\valid(ssl->out_msg + (size_t)(5 + n))
+library	ssl_srv.c	823	ssl_parse_client_key_exchange	initialization	Unknown	\initialized(&ssl->premaster[0])
+library	ssl_srv.c	824	ssl_parse_client_key_exchange	initialization	Unknown	\initialized(&ssl->premaster[1])
+library	ssl_tls.c	74	tls1_prf	user assertion	Unknown	secret ≤ S2 ≤ secret + slen / 2
+library	ssl_tls.c	461	ssl_mac_md5	precondition of md5_finish	Unknown	\valid(output + (0 .. 15))
+library	ssl_tls.c	559	ssl_encrypt_buf	precondition of arc4_crypt	Unknown	\valid(output + (0 .. length - 1))
+library	ssl_tls.c	559	ssl_encrypt_buf	precondition of arc4_crypt	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	577	ssl_encrypt_buf	mem_access	Unknown	\valid(ssl->out_msg + (size_t)(ssl->out_msglen + i))
+library	ssl_tls.c	600	ssl_encrypt_buf	precondition of memmove	Unknown	valid_dest: valid_or_empty(dest, n)
+library	ssl_tls.c	600	ssl_encrypt_buf	precondition of memmove	Unknown	valid_src: valid_read_or_empty(src, n)
+library	ssl_tls.c	622	ssl_encrypt_buf	precondition of des3_crypt_cbc	Unknown	\initialized(input + (0 .. length - 1))
+library	ssl_tls.c	622	ssl_encrypt_buf	precondition of des3_crypt_cbc	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	635	ssl_encrypt_buf	precondition of aes_crypt_cbc	Unknown	\valid(output + (0 .. length - 1))
+library	ssl_tls.c	635	ssl_encrypt_buf	precondition of aes_crypt_cbc	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	635	ssl_encrypt_buf	precondition of aes_crypt_cbc	Unknown	length % 16 ≡ 0
+library	ssl_tls.c	648	ssl_encrypt_buf	precondition of camellia_crypt_cbc	Unknown	\valid(output + (0 .. length - 1))
+library	ssl_tls.c	648	ssl_encrypt_buf	precondition of camellia_crypt_cbc	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	648	ssl_encrypt_buf	precondition of camellia_crypt_cbc	Unknown	length % 16 ≡ 0
+library	ssl_tls.c	683	ssl_decrypt_buf	precondition of arc4_crypt	Unknown	\valid(output + (0 .. length - 1))
+library	ssl_tls.c	683	ssl_decrypt_buf	precondition of arc4_crypt	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	743	ssl_decrypt_buf	precondition of des3_crypt_cbc	Unknown	\initialized(input + (0 .. length - 1))
+library	ssl_tls.c	743	ssl_decrypt_buf	precondition of des3_crypt_cbc	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	756	ssl_decrypt_buf	precondition of aes_crypt_cbc	Unknown	\valid(output + (0 .. length - 1))
+library	ssl_tls.c	756	ssl_decrypt_buf	precondition of aes_crypt_cbc	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	756	ssl_decrypt_buf	precondition of aes_crypt_cbc	Unknown	length % 16 ≡ 0
+library	ssl_tls.c	769	ssl_decrypt_buf	precondition of camellia_crypt_cbc	Unknown	\valid(output + (0 .. length - 1))
+library	ssl_tls.c	769	ssl_decrypt_buf	precondition of camellia_crypt_cbc	Unknown	\valid_read(input + (0 .. length - 1))
+library	ssl_tls.c	769	ssl_decrypt_buf	precondition of camellia_crypt_cbc	Unknown	length % 16 ≡ 0
+library	ssl_tls.c	780	ssl_decrypt_buf	user assertion	Unknown	ssl->in_msglen > 0
+library	ssl_tls.c	781	ssl_decrypt_buf	mem_access	Unknown	\valid_read(ssl->in_msg + (size_t)(ssl->in_msglen - 1))
+library	ssl_tls.c	816	ssl_decrypt_buf	mem_access	Unknown	\valid_read(ssl->in_msg + (size_t)(padding_idx + i))
+library	ssl_tls.c	820	ssl_decrypt_buf	mem_access	Unknown	\valid_read(ssl->in_msg + (size_t)(padding_idx + i))
+library	ssl_tls.c	839	ssl_decrypt_buf	user assertion	Unknown	0 ≤ ssl->in_msglen ≤ 16384
+library	ssl_tls.c	929	ssl_decrypt_buf	signed_overflow	Unknown	ssl->nb_zero + 1 ≤ 2147483647
+library	ssl_tls.c	1092	ssl_read_record	precondition of memmove	Unknown	valid_dest: valid_or_empty(dest, n)
+library	ssl_tls.c	1092	ssl_read_record	precondition of memmove	Unknown	valid_src: valid_read_or_empty(src, n)
+library	ssl_tls.c	1353	ssl_write_certificate	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+library	ssl_tls.c	2327	ssl_write	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+programs/ssl	ssl_server.c	133	my_get_session	postcondition	Unknown	\result ≡ 0 ∨ \result ≡ 1

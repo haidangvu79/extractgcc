@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	00041.c	13	main	signed_overflow	Unknown	t * t ≤ 2147483647
+.	00041.c	16	main	signed_overflow	Unknown	t + 1 ≤ 2147483647
+.	00041.c	20	main	signed_overflow	Unknown	c + 1 ≤ 2147483647

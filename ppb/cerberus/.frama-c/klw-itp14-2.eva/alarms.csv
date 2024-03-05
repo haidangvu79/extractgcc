@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	klw-itp14-2.c	5	main	ptr_comparison	Unknown	\pointer_comparable((void *)p, (void *)q)

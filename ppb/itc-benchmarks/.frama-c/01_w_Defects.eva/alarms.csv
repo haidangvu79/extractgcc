@@ -1,0 +1,432 @@
+directory	file	line	function	property kind	status	property
+.	fc_stubs.h	5	titcb_pow	precondition	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+.	fc_stubs.h	6	titcb_pow	precondition	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	bit_shift.c	21	bit_shift_001	shift	Invalid or unreachable	0 ≤ 32 < 32
+01_w_Defects	bit_shift.c	33	bit_shift_002	shift	Invalid or unreachable	0 ≤ 32 < 32
+01_w_Defects	bit_shift.c	45	bit_shift_003	shift	Invalid or unreachable	0 ≤ 32 < 32
+01_w_Defects	bit_shift.c	57	bit_shift_004	shift	Invalid or unreachable	0 ≤ 32 < 32
+01_w_Defects	bit_shift.c	69	bit_shift_005	shift	Invalid or unreachable	0 ≤ (int)(-1) < 32
+01_w_Defects	bit_shift.c	81	bit_shift_006	shift	Invalid or unreachable	0 ≤ 32 < 32
+01_w_Defects	bit_shift.c	93	bit_shift_007	shift	Invalid or unreachable	0 ≤ (int)(-1) < 32
+01_w_Defects	bit_shift.c	106	bit_shift_008	shift	Invalid or unreachable	0 ≤ shift < 32
+01_w_Defects	bit_shift.c	120	bit_shift_009	signed_overflow	Unknown	a_0 << shift ≤ 2147483647
+01_w_Defects	bit_shift.c	120	bit_shift_009	shift	Unknown	0 ≤ shift < 32
+01_w_Defects	bit_shift.c	133	bit_shift_010	shift	Invalid or unreachable	0 ≤ (int)((int)(5 * shift) + 2) < 32
+01_w_Defects	bit_shift.c	146	bit_shift_011	shift	Invalid or unreachable	0 ≤ (int)((int)(shift * shift) + 7) < 32
+01_w_Defects	bit_shift.c	163	bit_shift_012	shift	Invalid or unreachable	0 ≤ tmp < 32
+01_w_Defects	bit_shift.c	175	bit_shift_013_func_001	shift	Invalid or unreachable	0 ≤ shift < 32
+01_w_Defects	bit_shift.c	193	bit_shift_014	shift	Invalid or unreachable	0 ≤ shifts[3] < 32
+01_w_Defects	bit_shift.c	208	bit_shift_015	shift	Invalid or unreachable	0 ≤ shift1 < 32
+01_w_Defects	bit_shift.c	225	bit_shift_016	shift	Invalid or unreachable	0 ≤ shift2 < 32
+01_w_Defects	bit_shift.c	236	bit_shift_017	shift	Invalid or unreachable	0 ≤ 32 < 32
+01_w_Defects	buffer_overrun_dynamic.c	26	dynamic_buffer_overrun_001	mem_access	Unknown	\valid(buf + i)
+01_w_Defects	buffer_overrun_dynamic.c	41	dynamic_buffer_overrun_002	mem_access	Invalid or unreachable	\valid(buf + 5)
+01_w_Defects	buffer_overrun_dynamic.c	61	dynamic_buffer_overrun_003	mem_access	Invalid or unreachable	\valid_read(buf + 5)
+01_w_Defects	buffer_overrun_dynamic.c	76	dynamic_buffer_overrun_004	mem_access	Invalid or unreachable	\valid(buf + 5)
+01_w_Defects	buffer_overrun_dynamic.c	93	dynamic_buffer_overrun_005	mem_access	Unknown	\valid(buf + i)
+01_w_Defects	buffer_overrun_dynamic.c	111	dynamic_buffer_overrun_006	mem_access	Unknown	\valid(buf + i)
+01_w_Defects	buffer_overrun_dynamic.c	129	dynamic_buffer_overrun_007	mem_access	Unknown	\valid(buf + i)
+01_w_Defects	buffer_overrun_dynamic.c	151	dynamic_buffer_overrun_008	mem_access	Unknown	\valid(*(buf + i) + j)
+01_w_Defects	buffer_overrun_dynamic.c	173	dynamic_buffer_overrun_009	mem_access	Invalid or unreachable	\valid(*(pbuf[i]) + j)
+01_w_Defects	buffer_overrun_dynamic.c	197	dynamic_buffer_overrun_010	mem_access	Invalid or unreachable	\valid(&(sbuf + 5)->a)
+01_w_Defects	buffer_overrun_dynamic.c	217	dynamic_buffer_overrun_011	mem_access	Invalid or unreachable	\valid(&(s_0 + 5)->buf[4])
+01_w_Defects	buffer_overrun_dynamic.c	232	dynamic_buffer_overrun_012	mem_access	Invalid or unreachable	\valid(buf + index_0)
+01_w_Defects	buffer_overrun_dynamic.c	247	dynamic_buffer_overrun_013	mem_access	Invalid or unreachable	\valid(buf + index_0)
+01_w_Defects	buffer_overrun_dynamic.c	262	dynamic_buffer_overrun_014	mem_access	Invalid or unreachable	\valid(buf + (int)((int)(2 * index_0) + 1))
+01_w_Defects	buffer_overrun_dynamic.c	277	dynamic_buffer_overrun_015	mem_access	Invalid or unreachable	\valid(buf + (int)((int)(index_0 * index_0) + 1))
+01_w_Defects	buffer_overrun_dynamic.c	297	dynamic_buffer_overrun_016	mem_access	Invalid or unreachable	\valid(buf + tmp_0)
+01_w_Defects	buffer_overrun_dynamic.c	311	dynamic_buffer_overrun_017_func_001	mem_access	Invalid or unreachable	\valid(buf + index_0)
+01_w_Defects	buffer_overrun_dynamic.c	332	dynamic_buffer_overrun_018	index_bound	Invalid or unreachable	index_0 < 4
+01_w_Defects	buffer_overrun_dynamic.c	349	dynamic_buffer_overrun_019	mem_access	Invalid or unreachable	\valid(buf + index1)
+01_w_Defects	buffer_overrun_dynamic.c	368	dynamic_buffer_overrun_020	mem_access	Invalid or unreachable	\valid(buf + index2)
+01_w_Defects	buffer_overrun_dynamic.c	386	dynamic_buffer_overrun_021	mem_access	Invalid or unreachable	\valid(p2 + 5)
+01_w_Defects	buffer_overrun_dynamic.c	402	dynamic_buffer_overrun_022	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	buffer_overrun_dynamic.c	421	dynamic_buffer_overrun_023	mem_access	Unknown	\valid(p)
+01_w_Defects	buffer_overrun_dynamic.c	434	dynamic_buffer_overrun_024_func_001	mem_access	Invalid or unreachable	\valid(buf + 5)
+01_w_Defects	buffer_overrun_dynamic.c	461	dynamic_buffer_overrun_025	mem_access	Unknown	\valid(buf + i)
+01_w_Defects	buffer_overrun_dynamic.c	479	dynamic_buffer_overrun_026	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	buffer_overrun_dynamic.c	495	dynamic_buffer_overrun_027	mem_access	Invalid or unreachable	\valid(p + 30)
+01_w_Defects	buffer_overrun_dynamic.c	513	dynamic_buffer_overrun_028	mem_access	Invalid or unreachable	\valid_read(buf1 + 5)
+01_w_Defects	buffer_overrun_dynamic.c	531	dynamic_buffer_overrun_029	mem_access	Invalid or unreachable	\valid(buf + (int)(i + 1))
+01_w_Defects	buffer_overrun_dynamic.c	558	dynamic_buffer_overrun_030	mem_access	Unknown	\valid(*(doubleptr + i) + j)
+01_w_Defects	buffer_overrun_dynamic.c	579	dynamic_buffer_overrun_031	mem_access	Unknown	\valid(ptr1 + i)
+01_w_Defects	buffer_overrun_dynamic.c	606	dynamic_buffer_overrun_032	index_bound	Unknown	i < 10
+01_w_Defects	buffer_underrun_dynamic.c	28	dynamic_buffer_underrun_001	mem_access	Unknown	\valid(buf + i)
+01_w_Defects	buffer_underrun_dynamic.c	44	dynamic_buffer_underrun_002	mem_access	Invalid or unreachable	\valid(buf - 5)
+01_w_Defects	buffer_underrun_dynamic.c	64	dynamic_buffer_underrun_003	mem_access	Invalid or unreachable	\valid_read(buf + (int)(-1))
+01_w_Defects	buffer_underrun_dynamic.c	79	dynamic_buffer_underrun_004	mem_access	Invalid or unreachable	\valid(buf - 5)
+01_w_Defects	buffer_underrun_dynamic.c	96	dynamic_buffer_underrun_005	mem_access	Invalid or unreachable	\valid(buf + i)
+01_w_Defects	buffer_underrun_dynamic.c	114	dynamic_buffer_underrun_006	mem_access	Invalid or unreachable	\valid(buf + i)
+01_w_Defects	buffer_underrun_dynamic.c	132	dynamic_buffer_underrun_007	mem_access	Invalid or unreachable	\valid(buf + i)
+01_w_Defects	buffer_underrun_dynamic.c	154	dynamic_buffer_underrun_008	mem_access	Invalid or unreachable	\valid_read(buf + i)
+01_w_Defects	buffer_underrun_dynamic.c	177	dynamic_buffer_underrun_009	index_bound	Invalid or unreachable	0 ≤ (int)(i - 3)
+01_w_Defects	buffer_underrun_dynamic.c	201	dynamic_buffer_underrun_010	mem_access	Invalid or unreachable	\valid(&(sbuf + (int)(-1))->a)
+01_w_Defects	buffer_underrun_dynamic.c	221	dynamic_buffer_underrun_011	mem_access	Invalid or unreachable	\valid(&(s_0 - 5)->buf[4])
+01_w_Defects	buffer_underrun_dynamic.c	236	dynamic_buffer_underrun_012	mem_access	Invalid or unreachable	\valid(buf - index_0)
+01_w_Defects	buffer_underrun_dynamic.c	252	dynamic_buffer_underrun_013	mem_access	Unknown	\valid(buf + (int)(-index_0))
+01_w_Defects	buffer_underrun_dynamic.c	267	dynamic_buffer_underrun_014	mem_access	Invalid or unreachable	\valid(buf + (int)((int)((int)(-2) * index_0) + 1))
+01_w_Defects	buffer_underrun_dynamic.c	282	dynamic_buffer_underrun_015	mem_access	Invalid or unreachable	\valid(buf + (int)((int)(index_0 * index_0) - 5))
+01_w_Defects	buffer_underrun_dynamic.c	302	dynamic_buffer_underrun_016	mem_access	Invalid or unreachable	\valid(buf + tmp_0)
+01_w_Defects	buffer_underrun_dynamic.c	316	dynamic_buffer_underrun_017_func_001	mem_access	Invalid or unreachable	\valid(buf - index_0)
+01_w_Defects	buffer_underrun_dynamic.c	337	dynamic_buffer_underrun_018	mem_access	Invalid or unreachable	\valid(buf - indexes[index_0])
+01_w_Defects	buffer_underrun_dynamic.c	354	dynamic_buffer_underrun_019	mem_access	Invalid or unreachable	\valid(buf + index1)
+01_w_Defects	buffer_underrun_dynamic.c	373	dynamic_buffer_underrun_020	mem_access	Invalid or unreachable	\valid(buf + index2)
+01_w_Defects	buffer_underrun_dynamic.c	391	dynamic_buffer_underrun_021	mem_access	Invalid or unreachable	\valid(p2 - 5)
+01_w_Defects	buffer_underrun_dynamic.c	407	dynamic_buffer_underrun_022	mem_access	Invalid or unreachable	\valid(p - 5)
+01_w_Defects	buffer_underrun_dynamic.c	426	dynamic_buffer_underrun_023	mem_access	Unknown	\valid(p + i)
+01_w_Defects	buffer_underrun_dynamic.c	438	dynamic_buffer_underrun_024_func_001	mem_access	Invalid or unreachable	\valid(buf - 5)
+01_w_Defects	buffer_underrun_dynamic.c	465	dynamic_buffer_underrun_025	mem_access	Unknown	\valid(buf + i)
+01_w_Defects	buffer_underrun_dynamic.c	483	dynamic_buffer_underrun_026	mem_access	Invalid or unreachable	\valid(p - 10)
+01_w_Defects	buffer_underrun_dynamic.c	499	dynamic_buffer_underrun_027	mem_access	Invalid or unreachable	\valid(p - 10)
+01_w_Defects	buffer_underrun_dynamic.c	518	dynamic_buffer_underrun_028	mem_access	Invalid or unreachable	\valid(buf2 - *(buf1 + 4))
+01_w_Defects	buffer_underrun_dynamic.c	531	dynamic_buffer_underrun_029	mem_access	Invalid or unreachable	\valid(buf + (int)(-1))
+01_w_Defects	buffer_underrun_dynamic.c	558	dynamic_buffer_underrun_030	mem_access	Unknown	\valid(*(doubleptr + i) + j)
+01_w_Defects	buffer_underrun_dynamic.c	581	dynamic_buffer_underrun_031	mem_access	Unknown	\valid(ptr1 + i)
+01_w_Defects	buffer_underrun_dynamic.c	607	dynamic_buffer_underrun_032	index_bound	Invalid or unreachable	0 ≤ i
+01_w_Defects	buffer_underrun_dynamic.c	624	dynamic_buffer_underrun_033	mem_access	Unknown	\valid_read(message + len)
+01_w_Defects	buffer_underrun_dynamic.c	651	dynamic_buffer_underrun_034	mem_access	Invalid or unreachable	\valid_read(srcbuf + i)
+01_w_Defects	buffer_underrun_dynamic.c	679	dynamic_buffer_underrun_035	mem_access	Invalid or unreachable	\valid_read(doubleptr + loc1)
+01_w_Defects	buffer_underrun_dynamic.c	706	dynamic_buffer_underrun_036	mem_access	Invalid or unreachable	\valid_read(newTest + (int)(-10))
+01_w_Defects	buffer_underrun_dynamic.c	726	dynamic_buffer_underrun_037	mem_access	Invalid or unreachable	\valid(doubleptr + (int)(i - 10))
+01_w_Defects	buffer_underrun_dynamic.c	756	dynamic_buffer_underrun_038	mem_access	Invalid or unreachable	\valid(&(new_s + loc)->arr[i])
+01_w_Defects	buffer_underrun_dynamic.c	787	dynamic_buffer_underrun_039	precondition of memset	Invalid or unreachable	valid_s: valid_or_empty(s_0, n)
+01_w_Defects	data_lost.c	21	data_lost_001	signed_downcast	Invalid or unreachable	a_0 ≤ 127
+01_w_Defects	data_lost.c	33	data_lost_002	signed_downcast	Invalid or unreachable	a_0 ≤ 32767
+01_w_Defects	data_lost.c	45	data_lost_003	signed_downcast	Invalid or unreachable	a_0 ≤ 32767
+01_w_Defects	data_lost.c	57	data_lost_004	float_to_int	Invalid or unreachable	a_0 < 2147483648
+01_w_Defects	data_lost.c	69	data_lost_005	float_to_int	Invalid or unreachable	a_0 < 2147483648
+01_w_Defects	data_lost.c	84	data_lost_006	is_nan_or_infinite	Invalid or unreachable	\is_finite((float)a_0)
+01_w_Defects	data_lost.c	100	data_lost_007	unsigned_downcast	Invalid or unreachable	a_0 ≤ 255
+01_w_Defects	data_lost.c	112	data_lost_008	unsigned_downcast	Invalid or unreachable	a_0 ≤ 65535
+01_w_Defects	data_lost.c	124	data_lost_009	unsigned_downcast	Invalid or unreachable	a_0 ≤ 65535
+01_w_Defects	data_lost.c	141	data_lost_010	signed_downcast	Invalid or unreachable	s_0.a ≤ 15
+01_w_Defects	data_lost.c	151	data_lost_011	signed_downcast	Invalid or unreachable	0x8000 ≤ 32767
+01_w_Defects	data_lost.c	174	data_lost_012	signed_downcast	Unknown	a_0 ≤ 32767
+01_w_Defects	data_lost.c	186	data_lost_013	signed_downcast	Invalid or unreachable	(int)((int)(254 * a_0) + 2) ≤ 32767
+01_w_Defects	data_lost.c	198	data_lost_014	signed_downcast	Invalid or unreachable	(int)((int)(a_0 * a_0) + 7) ≤ 32767
+01_w_Defects	data_lost.c	214	data_lost_015	signed_downcast	Invalid or unreachable	tmp ≤ 32767
+01_w_Defects	data_lost.c	225	data_lost_016_func_001	signed_downcast	Invalid or unreachable	a_0 ≤ 32767
+01_w_Defects	data_lost.c	242	data_lost_017	signed_downcast	Invalid or unreachable	buf[3] ≤ 32767
+01_w_Defects	data_lost.c	256	data_lost_018	signed_downcast	Invalid or unreachable	a1 ≤ 32767
+01_w_Defects	data_lost.c	272	data_lost_019	signed_downcast	Invalid or unreachable	a2 ≤ 32767
+01_w_Defects	data_overflow.c	47	data_overflow_001	signed_downcast	Invalid or unreachable	(int)((int)max + 1) ≤ 127
+01_w_Defects	data_overflow.c	59	data_overflow_002	signed_downcast	Invalid or unreachable	(int)((int)max + 1) ≤ 32767
+01_w_Defects	data_overflow.c	71	data_overflow_003	signed_overflow	Invalid or unreachable	max + 1 ≤ 2147483647
+01_w_Defects	data_overflow.c	83	data_overflow_004	signed_overflow	Invalid or unreachable	max + 1 ≤ 2147483647
+01_w_Defects	data_overflow.c	95	data_overflow_005	unsigned_downcast	Invalid or unreachable	(int)((int)max + 1) ≤ 255
+01_w_Defects	data_overflow.c	107	data_overflow_006	unsigned_downcast	Invalid or unreachable	(int)((int)max + 1) ≤ 65535
+01_w_Defects	data_overflow.c	119	data_overflow_007	unsigned_overflow	Invalid or unreachable	max + 1 ≤ 4294967295
+01_w_Defects	data_overflow.c	131	data_overflow_008	unsigned_overflow	Invalid or unreachable	max + 1 ≤ 4294967295
+01_w_Defects	data_overflow.c	148	data_overflow_009	signed_downcast	Invalid or unreachable	(int)((int)s_0.max + 1) ≤ 15
+01_w_Defects	data_overflow.c	164	data_overflow_010	unsigned_downcast	Invalid or unreachable	(int)((int)s_0.max + 1) ≤ 31
+01_w_Defects	data_overflow.c	176	data_overflow_011	signed_overflow	Invalid or unreachable	max + 1 ≤ 2147483647
+01_w_Defects	data_overflow.c	189	data_overflow_012	signed_overflow	Invalid or unreachable	max + 128 ≤ 2147483647
+01_w_Defects	data_overflow.c	201	data_overflow_013	signed_overflow	Invalid or unreachable	max * 2 ≤ 2147483647
+01_w_Defects	data_overflow.c	214	data_overflow_014	signed_overflow	Invalid or unreachable	max + d ≤ 2147483647
+01_w_Defects	data_overflow.c	228	data_overflow_015	signed_overflow	Unknown	max + d ≤ 2147483647
+01_w_Defects	data_overflow.c	240	data_overflow_016	signed_overflow	Invalid or unreachable	(int)(5 * max) + 3 ≤ 2147483647
+01_w_Defects	data_overflow.c	252	data_overflow_017	signed_overflow	Invalid or unreachable	(int)(max * max) + 88048 ≤ 2147483647
+01_w_Defects	data_overflow.c	269	data_overflow_018	signed_overflow	Invalid or unreachable	max + tmp ≤ 2147483647
+01_w_Defects	data_overflow.c	281	data_overflow_019_func_001	signed_overflow	Invalid or unreachable	max + d ≤ 2147483647
+01_w_Defects	data_overflow.c	299	data_overflow_020	signed_overflow	Invalid or unreachable	max + dlist[1] ≤ 2147483647
+01_w_Defects	data_overflow.c	314	data_overflow_021	signed_overflow	Invalid or unreachable	max + d1 ≤ 2147483647
+01_w_Defects	data_overflow.c	331	data_overflow_022	signed_overflow	Invalid or unreachable	max + d2 ≤ 2147483647
+01_w_Defects	data_overflow.c	342	data_overflow_023	signed_overflow	Invalid or unreachable	0x7fffffff + 1 ≤ 2147483647
+01_w_Defects	data_overflow.c	364	data_overflow_024	is_nan_or_infinite	Invalid or unreachable	\is_finite(\add_float(max, 2.02824096e+31F))
+01_w_Defects	data_overflow.c	385	data_overflow_025	is_nan_or_infinite	Invalid or unreachable	\is_finite(\add_double(max, (double)1.9958403095347198e+292))
+01_w_Defects	data_underflow.c	20	data_underflow_001	signed_overflow	Invalid or unreachable	-2147483648 ≤ min - 2
+01_w_Defects	data_underflow.c	32	data_underflow_002	unsigned_overflow	Invalid or unreachable	0 ≤ min - 1
+01_w_Defects	data_underflow.c	46	data_underflow_003	signed_overflow	Invalid or unreachable	-2147483648 ≤ min - 1
+01_w_Defects	data_underflow.c	59	data_underflow_004	signed_overflow	Invalid or unreachable	-2147483648 ≤ min - 128
+01_w_Defects	data_underflow.c	71	data_underflow_005	signed_overflow	Invalid or unreachable	-2147483648 ≤ min * 2
+01_w_Defects	data_underflow.c	82	data_underflow_006	signed_overflow	Invalid or unreachable	-2147483648 ≤ (int)(-2147483647) - 2
+01_w_Defects	data_underflow.c	132	data_underflow_009	signed_downcast	Invalid or unreachable	-128 ≤ (int)((int)min - 2)
+01_w_Defects	data_underflow.c	149	data_underflow_010	signed_overflow	Invalid or unreachable	-2147483648 ≤ min - tmp
+01_w_Defects	data_underflow.c	161	data_underflow_011_func_001	signed_overflow	Invalid or unreachable	-2147483648 ≤ min - d
+01_w_Defects	data_underflow.c	184	data_underflow_012	signed_overflow	Invalid or unreachable	-2147483648 ≤ min + dlist[2]
+01_w_Defects	double_free.c	22	double_free_001	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	43	double_free_002	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	64	double_free_003	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	87	double_free_004	dangling_pointer	Unknown	¬\dangling(&ptr)
+01_w_Defects	double_free.c	102	double_free_005	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	117	double_free_006	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	133	double_free_007	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	151	double_free_008	dangling_pointer	Invalid or unreachable	¬\dangling(&double_free_function_008_gbl_ptr)
+01_w_Defects	double_free.c	170	double_free_009	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	189	double_free_010	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	double_free.c	206	double_free_011	dangling_pointer	Unknown	¬\dangling(&ptr)
+01_w_Defects	double_free.c	224	double_free_012	dangling_pointer	Unknown	¬\dangling(&ptr)
+01_w_Defects	endless_loop.c	24	endless_loop_001	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	41	endless_loop_002	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	57	endless_loop_003	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	74	endless_loop_004	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	95	endless_loop_005	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	111	endless_loop_006_func_001	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	133	endless_loop_007	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	150	endless_loop_008	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	endless_loop.c	166	endless_loop_009	signed_overflow	Unknown	a_0 + 1 ≤ 2147483647
+01_w_Defects	free_nondynamic_allocated_memory.c	22	free_nondynamic_allocated_memory_001	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	36	free_nondynamic_allocated_memory_002	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	50	free_nondynamic_allocated_memory_003	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	64	free_nondynamic_allocated_memory_004	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	88	free_nondynamic_allocated_memory_005	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	105	free_nondynamic_allocated_memory_006	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	117	free_nondynamic_allocated_memory_007	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	130	free_nondynamic_allocated_memory_008	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	143	free_nondynamic_allocated_memory_009	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	157	free_nondynamic_allocated_memory_010	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	172	free_nondynamic_allocated_memory_011	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	189	free_nondynamic_allocated_memory_012	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	213	free_nondynamic_allocated_memory_013	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	233	free_nondynamic_allocated_memory_014	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	243	free_nondynamic_allocated_memory_015_func_001	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	free_nondynamic_allocated_memory.c	266	free_nondynamic_allocated_memory_016_func_002	precondition of free	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+01_w_Defects	invalid_memory_access.c	45	invalid_memory_access_001	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	invalid_memory_access.c	84	invalid_memory_access_002	dangling_pointer	Invalid or unreachable	¬\dangling(&dptr)
+01_w_Defects	invalid_memory_access.c	105	invalid_memory_access_003	dangling_pointer	Invalid or unreachable	¬\dangling(&buf)
+01_w_Defects	invalid_memory_access.c	135	invalid_memory_access_004	dangling_pointer	Invalid or unreachable	¬\dangling(&buf)
+01_w_Defects	invalid_memory_access.c	190	invalid_memory_access_006	dangling_pointer	Invalid or unreachable	¬\dangling(pbuf[1])
+01_w_Defects	invalid_memory_access.c	212	invalid_memory_access_007	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	invalid_memory_access.c	226	invalid_memory_access_008	dangling_pointer	Invalid or unreachable	¬\dangling(&buf)
+01_w_Defects	invalid_memory_access.c	272	invalid_memory_access_009	dangling_pointer	Invalid or unreachable	¬\dangling(&p)
+01_w_Defects	invalid_memory_access.c	296	invalid_memory_access_010	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr1)
+01_w_Defects	invalid_memory_access.c	322	invalid_memory_access_011	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	invalid_memory_access.c	373	invalid_memory_access_012_func_001	dangling_pointer	Invalid or unreachable	¬\dangling(&s_0)
+01_w_Defects	invalid_memory_access.c	434	invalid_memory_access_013_func_002	dangling_pointer	Invalid or unreachable	¬\dangling(&invalid_memory_access_013_s_001_s_gbl)
+01_w_Defects	invalid_memory_access.c	480	invalid_memory_access_014	dangling_pointer	Invalid or unreachable	¬\dangling(&ptr)
+01_w_Defects	invalid_memory_access.c	521	invalid_memory_access_015_func_001	dangling_pointer	Invalid or unreachable	¬\dangling(&str_rev)
+01_w_Defects	invalid_memory_access.c	573	invalid_memory_access_016_func_003	dangling_pointer	Invalid or unreachable	¬\dangling(&invalid_memory_access_016_doubleptr_gbl)
+01_w_Defects	invalid_memory_access.c	627	invalid_memory_access_017_func_004	dangling_pointer	Invalid or unreachable	¬\dangling(&invalid_memory_access_017_doubleptr_gbl)
+01_w_Defects	littlemem_st.c	36	littlemem_st_001	mem_access	Invalid or unreachable	\valid_read(&p->c)
+01_w_Defects	littlemem_st.c	55	littlemem_st_002	mem_access	Invalid or unreachable	\valid(&p->c)
+01_w_Defects	littlemem_st.c	73	littlemem_st_003	mem_access	Invalid or unreachable	\valid(&p->c)
+01_w_Defects	littlemem_st.c	92	littlemem_st_004	mem_access	Invalid or unreachable	\valid(&littlemem_st_004_s_001_gbl_str->c)
+01_w_Defects	littlemem_st.c	117	littlemem_st_005	mem_access	Invalid or unreachable	\valid(&littlemem_st_005_s_001_gbl_str->c)
+01_w_Defects	littlemem_st.c	144	littlemem_st_006_func_002	mem_access	Invalid or unreachable	\valid(&littlemem_st_006_s_001_gbl_str->c)
+01_w_Defects	littlemem_st.c	185	littlemem_st_007_func_002	mem_access	Invalid or unreachable	\valid(&littlemem_st_007_s_001_gbl_str->c)
+01_w_Defects	littlemem_st.c	230	littlemem_st_008_func_002	mem_access	Invalid or unreachable	\valid(&littlemem_st_008_s_001_gbl_str->c)
+01_w_Defects	littlemem_st.c	276	littlemem_st_009_func_002	mem_access	Invalid or unreachable	\valid(&littlemem_st_009_s_001_gbl_str->c)
+01_w_Defects	littlemem_st.c	313	littlemem_st_010_func_002	mem_access	Invalid or unreachable	\valid(&littlemem_st_010_s_001_gbl_str->c)
+01_w_Defects	littlemem_st.c	351	littlemem_st_011_func_002	mem_access	Invalid or unreachable	\valid(&littlemem_st_011_s_001_gbl_str->c)
+01_w_Defects	memory_allocation_failure.c	70	memory_allocation_failure_002	unsigned_overflow	Invalid or unreachable	4294967295U * sizeof(long long) ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	90	memory_allocation_failure_003	unsigned_overflow	Invalid or unreachable	4294967295U * sizeof(unsigned int) ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	123	memory_allocation_failure_004	unsigned_overflow	Invalid or unreachable	tmp * sizeof(unsigned int) ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	143	memory_allocation_failure_005_func_001	unsigned_overflow	Invalid or unreachable	memory_allocation_failure_005_gbl * memory_allocation_failure_005_gbl ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	257	memory_allocation_failure_007_func_001	unsigned_overflow	Invalid or unreachable	static_var + 1 ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	456	memory_allocation_failure_011_func_002	unsigned_overflow	Invalid or unreachable	tmp * sizeof(memory_allocation_failure_011_uni_001) ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	505	memory_allocation_failure_012_func_002	unsigned_overflow	Invalid or unreachable	tmp * sizeof(int) ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	582	memory_allocation_failure_013	unsigned_overflow	Invalid or unreachable	tmp_1 + 1 ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	641	memory_allocation_failure_014_func_001	unsigned_downcast	Invalid or unreachable	0 ≤ (int)(arr_value[1] * 1)
+01_w_Defects	memory_allocation_failure.c	777	memory_allocation_failure_015_func_002	unsigned_overflow	Invalid or unreachable	(unsigned int)tmp * sizeof(int) ≤ 4294967295
+01_w_Defects	memory_allocation_failure.c	835	memory_allocation_failure_016_func_002	unsigned_overflow	Invalid or unreachable	(unsigned int)((int)(tmp_1 + 1)) * sizeof(int) ≤ 4294967295
+01_w_Defects	not_return.c	24	not_return_001_func_001	missing_return	Invalid or unreachable	\false
+01_w_Defects	not_return.c	50	not_return_002_func_001	missing_return	Invalid or unreachable	\false
+01_w_Defects	not_return.c	76	not_return_003_func_001	missing_return	Invalid or unreachable	\false
+01_w_Defects	not_return.c	99	not_return_004_func_001	missing_return	Invalid or unreachable	\false
+01_w_Defects	null_pointer.c	23	null_pointer_001	mem_access	Invalid or unreachable	\valid(p)
+01_w_Defects	null_pointer.c	34	null_pointer_002	mem_access	Invalid or unreachable	\valid_read(p)
+01_w_Defects	null_pointer.c	47	null_pointer_003	mem_access	Invalid or unreachable	\valid(*pp)
+01_w_Defects	null_pointer.c	63	null_pointer_004	mem_access	Invalid or unreachable	\valid(&p->a)
+01_w_Defects	null_pointer.c	94	null_pointer_005	mem_access	Invalid or unreachable	\valid(&p->s1.a)
+01_w_Defects	null_pointer.c	105	null_pointer_006	mem_access	Invalid or unreachable	\valid(p)
+01_w_Defects	null_pointer.c	117	null_pointer_007	mem_access	Invalid or unreachable	\valid(p)
+01_w_Defects	null_pointer.c	133	null_pointer_008	mem_access	Invalid or unreachable	\valid(p)
+01_w_Defects	null_pointer.c	142	null_pointer_009_func_001	mem_access	Invalid or unreachable	\valid(p)
+01_w_Defects	null_pointer.c	159	null_pointer_010	mem_access	Invalid or unreachable	\valid(p1)
+01_w_Defects	null_pointer.c	173	null_pointer_011	mem_access	Invalid or unreachable	\valid(p2)
+01_w_Defects	null_pointer.c	180	null_pointer_012	mem_access	Invalid or unreachable	\valid(p + 3)
+01_w_Defects	null_pointer.c	196	null_pointer_013	mem_access	Invalid or unreachable	\valid(p)
+01_w_Defects	null_pointer.c	213	null_pointer_014	mem_access	Invalid or unreachable	\valid(p)
+01_w_Defects	null_pointer.c	289	null_pointer_016	mem_access	Invalid or unreachable	\valid_read(null_pointer_016_gbl_doubleptr + i)
+01_w_Defects	null_pointer.c	336	null_pointer_017	mem_access	Invalid or unreachable	\valid_read(null_pointer_017dst + i)
+01_w_Defects	overrun_st.c	31	overrun_st_001	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	44	overrun_st_002	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	58	overrun_st_003	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	71	overrun_st_004	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	84	overrun_st_005	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	97	overrun_st_006	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	110	overrun_st_007	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	123	overrun_st_008	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	136	overrun_st_009	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	154	overrun_st_010	mem_access	Invalid or unreachable	\valid(pbuf[4] + 5)
+01_w_Defects	overrun_st.c	170	overrun_st_011	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	186	overrun_st_012	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	197	overrun_st_013	index_bound	Invalid or unreachable	index_0 < 5
+01_w_Defects	overrun_st.c	212	overrun_st_014	index_bound	Unknown	index_0 < 5
+01_w_Defects	overrun_st.c	226	overrun_st_015	index_bound	Invalid or unreachable	(int)((int)(2 * index_0) + 1) < 5
+01_w_Defects	overrun_st.c	240	overrun_st_016	index_bound	Invalid or unreachable	(int)((int)(index_0 * index_0) + 1) < 5
+01_w_Defects	overrun_st.c	258	overrun_st_017	index_bound	Invalid or unreachable	tmp < 5
+01_w_Defects	overrun_st.c	271	overrun_st_018_func_001	index_bound	Invalid or unreachable	index_0 < 5
+01_w_Defects	overrun_st.c	288	overrun_st_019	index_bound	Invalid or unreachable	indexes[index_0] < 5
+01_w_Defects	overrun_st.c	304	overrun_st_020	index_bound	Invalid or unreachable	index1 < 5
+01_w_Defects	overrun_st.c	322	overrun_st_021	index_bound	Invalid or unreachable	index2 < 5
+01_w_Defects	overrun_st.c	337	overrun_st_022	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	352	overrun_st_023	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	368	overrun_st_024	mem_access	Invalid or unreachable	\valid_read(p + 5)
+01_w_Defects	overrun_st.c	383	overrun_st_025	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	398	overrun_st_026	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	413	overrun_st_027	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	428	overrun_st_028	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	445	overrun_st_029	mem_access	Invalid or unreachable	\valid(*pp + 5)
+01_w_Defects	overrun_st.c	462	overrun_st_030	mem_access	Invalid or unreachable	\valid(p2 + 5)
+01_w_Defects	overrun_st.c	477	overrun_st_031	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	490	overrun_st_032	mem_access	Invalid or unreachable	\valid(p + index_0)
+01_w_Defects	overrun_st.c	507	overrun_st_033	mem_access	Unknown	\valid(p + index_0)
+01_w_Defects	overrun_st.c	523	overrun_st_034	mem_access	Invalid or unreachable	\valid(p + (int)((int)(2 * index_0) + 1))
+01_w_Defects	overrun_st.c	539	overrun_st_035	mem_access	Invalid or unreachable	\valid(p + (int)((int)(index_0 * index_0) + 1))
+01_w_Defects	overrun_st.c	559	overrun_st_036	mem_access	Invalid or unreachable	\valid(p + tmp)
+01_w_Defects	overrun_st.c	574	overrun_st_037_func_001	mem_access	Invalid or unreachable	\valid(p + index_0)
+01_w_Defects	overrun_st.c	596	overrun_st_038	mem_access	Invalid or unreachable	\valid(p + indexes[index_0])
+01_w_Defects	overrun_st.c	614	overrun_st_039	mem_access	Invalid or unreachable	\valid(p + index1)
+01_w_Defects	overrun_st.c	634	overrun_st_040	mem_access	Invalid or unreachable	\valid(p + index2)
+01_w_Defects	overrun_st.c	650	overrun_st_041	index_bound	Unknown	i < 5
+01_w_Defects	overrun_st.c	670	overrun_st_042	index_bound	Unknown	i < 5
+01_w_Defects	overrun_st.c	697	overrun_st_043	mem_access	Unknown	\valid(pbuf[i] + j)
+01_w_Defects	overrun_st.c	715	overrun_st_044	mem_access	Unknown	\valid(p)
+01_w_Defects	overrun_st.c	729	overrun_st_045_func_001	mem_access	Invalid or unreachable	\valid(buf + 5)
+01_w_Defects	overrun_st.c	747	overrun_st_046_func_001	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	765	overrun_st_047_func_001	mem_access	Invalid or unreachable	\valid(p + 5)
+01_w_Defects	overrun_st.c	780	overrun_st_048_func_001	mem_access	Invalid or unreachable	\valid(buf + 5)
+01_w_Defects	overrun_st.c	799	overrun_st_049	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	819	overrun_st_050	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	834	overrun_st_051	mem_access	Invalid or unreachable	\valid(pbuf[4] + 5)
+01_w_Defects	overrun_st.c	844	overrun_st_052	index_bound	Invalid or unreachable	5 < 5
+01_w_Defects	overrun_st.c	856	overrun_st_053	mem_access	Invalid or unreachable	\valid(p + 2)
+01_w_Defects	overrun_st.c	868	overrun_st_054	mem_access	Invalid or unreachable	\valid(p + 50)
+01_w_Defects	pow_related_errors.c	48	pow_related_errors_001	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	99	pow_related_errors_003	precondition of titcb_pow	Unknown	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	123	pow_related_errors_004	precondition of titcb_pow	Unknown	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	147	pow_related_errors_005	precondition of titcb_pow	Unknown	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	171	pow_related_errors_006	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	205	pow_related_errors_007	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	224	pow_related_errors_008	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	243	pow_related_errors_009	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	258	pow_related_errors_010	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	273	pow_related_errors_011	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	288	pow_related_errors_012	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	303	pow_related_errors_013	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	318	pow_related_errors_014	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	335	pow_related_errors_015	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	352	pow_related_errors_016	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	370	pow_related_errors_017	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	388	pow_related_errors_018	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	405	pow_related_errors_019	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	422	pow_related_errors_020	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	439	pow_related_errors_021	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	456	pow_related_errors_022	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	473	pow_related_errors_023	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	490	pow_related_errors_024	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	529	pow_related_errors_026	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	546	pow_related_errors_027	precondition of titcb_pow	Invalid or unreachable	finite_logic_res: \is_finite(pow(x, y))
+01_w_Defects	pow_related_errors.c	563	pow_related_errors_028	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	pow_related_errors.c	581	pow_related_errors_029	precondition of titcb_pow	Invalid or unreachable	no_underflow: x ≢ 0.0 ⇒ pow(x, y) ≢ 0.0
+01_w_Defects	ptr_subtraction.c	22	ptr_subtraction_001	differing_blocks	Invalid or unreachable	\base_addr((char *)buf2) ≡ \base_addr((char *)buf1)
+01_w_Defects	ptr_subtraction.c	51	ptr_subtraction_002	mem_access	Invalid or unreachable	\valid(buf)
+01_w_Defects	return_local.c	26	return_local_001	dangling_pointer	Invalid or unreachable	¬\dangling(&p)
+01_w_Defects	return_local.c	43	return_local_002	dangling_pointer	Invalid or unreachable	¬\dangling(&p)
+01_w_Defects	sign_conv.c	23	sign_conv_001	signed_downcast	Invalid or unreachable	a_0 ≤ 127
+01_w_Defects	sign_conv.c	35	sign_conv_002	signed_downcast	Invalid or unreachable	a_0 ≤ 32767
+01_w_Defects	sign_conv.c	47	sign_conv_003	signed_downcast	Invalid or unreachable	a_0 ≤ 2147483647
+01_w_Defects	sign_conv.c	59	sign_conv_004	signed_downcast	Invalid or unreachable	a_0 ≤ 2147483647
+01_w_Defects	sign_conv.c	71	sign_conv_005	unsigned_downcast	Invalid or unreachable	0 ≤ a_0
+01_w_Defects	sign_conv.c	83	sign_conv_006	unsigned_downcast	Invalid or unreachable	0 ≤ a_0
+01_w_Defects	sign_conv.c	95	sign_conv_007	unsigned_downcast	Invalid or unreachable	0 ≤ a_0
+01_w_Defects	sign_conv.c	107	sign_conv_008	unsigned_downcast	Invalid or unreachable	0 ≤ a_0
+01_w_Defects	sign_conv.c	124	sign_conv_009	signed_downcast	Invalid or unreachable	s_0.a ≤ 15
+01_w_Defects	sign_conv.c	140	sign_conv_010	unsigned_downcast	Invalid or unreachable	0 ≤ s_0.a
+01_w_Defects	sign_conv.c	150	sign_conv_011	unsigned_downcast	Invalid or unreachable	0 ≤ (int)(-1)
+01_w_Defects	sign_conv.c	167	sign_conv_012	unsigned_downcast	Unknown	0 ≤ a_0
+01_w_Defects	sign_conv.c	179	sign_conv_013	unsigned_downcast	Invalid or unreachable	0 ≤ (int)((int)(5 * a_0) + 4)
+01_w_Defects	sign_conv.c	191	sign_conv_014	unsigned_downcast	Invalid or unreachable	0 ≤ (int)((int)(a_0 * a_0) - 5)
+01_w_Defects	sign_conv.c	207	sign_conv_015	unsigned_downcast	Invalid or unreachable	0 ≤ tmp
+01_w_Defects	sign_conv.c	217	sign_conv_016_func_001	unsigned_downcast	Invalid or unreachable	0 ≤ a_0
+01_w_Defects	sign_conv.c	233	sign_conv_017	unsigned_downcast	Invalid or unreachable	0 ≤ sign_conv_017_gbl_buf[3]
+01_w_Defects	sign_conv.c	246	sign_conv_018	unsigned_downcast	Invalid or unreachable	0 ≤ a1
+01_w_Defects	sign_conv.c	262	sign_conv_019	unsigned_downcast	Invalid or unreachable	0 ≤ a2
+01_w_Defects	st_underrun.c	28	st_underrun_001	index_bound	Unknown	0 ≤ len
+01_w_Defects	st_underrun.c	54	st_underrun_002_func_001	index_bound	Unknown	0 ≤ len
+01_w_Defects	st_underrun.c	95	st_underrun_003_func_002	index_bound	Unknown	0 ≤ len
+01_w_Defects	st_underrun.c	133	st_underrun_004_func_001	index_bound	Unknown	0 ≤ len
+01_w_Defects	st_underrun.c	197	st_underrun_006_func_001	index_bound	Invalid or unreachable	len < 10
+01_w_Defects	st_underrun.c	249	st_underrun_007_func_001	index_bound	Unknown	0 ≤ len
+01_w_Defects	underrun_st.c	21	underrun_st_001	index_bound	Invalid or unreachable	0 ≤ (int)(-1)
+01_w_Defects	underrun_st.c	31	underrun_st_002	index_bound	Invalid or unreachable	0 ≤ (int)(-1)
+01_w_Defects	underrun_st.c	42	underrun_st_003	index_bound	Invalid or unreachable	0 ≤ index_0
+01_w_Defects	underrun_st.c	55	underrun_st_004	mem_access	Invalid or unreachable	\valid_read(p - 1)
+01_w_Defects	underrun_st.c	67	underrun_st_005	mem_access	Invalid or unreachable	\valid(p - 1)
+01_w_Defects	underrun_st.c	80	underrun_st_006	mem_access	Invalid or unreachable	\valid(p - index_0)
+01_w_Defects	underrun_st.c	93	underrun_st_007	index_bound	Unknown	0 ≤ i
+01_w_Defects	underrun_st.c	109	underrun_st_008	mem_access	Unknown	\valid(p)
+01_w_Defects	underrun_st.c	124	underrun_st_009	index_bound	Unknown	0 ≤ i
+01_w_Defects	underrun_st.c	140	underrun_st_010	mem_access	Unknown	\valid(p)
+01_w_Defects	underrun_st.c	155	underrun_st_011	index_bound	Unknown	0 ≤ i
+01_w_Defects	underrun_st.c	172	underrun_st_012	mem_access	Unknown	\valid(p)
+01_w_Defects	underrun_st.c	190	underrun_st_013	index_bound	Unknown	0 ≤ i
+01_w_Defects	uninit_memory_access.c	29	uninit_memory_access_001	initialization	Invalid or unreachable	\initialized(ret)
+01_w_Defects	uninit_memory_access.c	50	uninit_memory_access_002	initialization	Invalid or unreachable	\initialized(a_0 + 1)
+01_w_Defects	uninit_memory_access.c	67	uninit_memory_access_003	initialization	Invalid or unreachable	\initialized(&str2)
+01_w_Defects	uninit_memory_access.c	90	uninit_memory_access_004	initialization	Invalid or unreachable	\initialized(*ptr)
+01_w_Defects	uninit_memory_access.c	114	uninit_memory_access_005	initialization	Invalid or unreachable	\initialized(&arr1[1][2][3])
+01_w_Defects	uninit_memory_access.c	145	uninit_memory_access_006	initialization	Invalid or unreachable	\initialized(&str2)
+01_w_Defects	uninit_memory_access.c	173	uninit_memory_access_007_func_002	initialization	Invalid or unreachable	\initialized(&st->arr[i])
+01_w_Defects	uninit_memory_access.c	218	uninit_memory_access_008	initialization	Invalid or unreachable	\initialized(&s_0->a)
+01_w_Defects	uninit_memory_access.c	267	uninit_memory_access_009	initialization	Invalid or unreachable	\initialized(*(uninit_memory_access_009_doubleptr_gbl + i) + j)
+01_w_Defects	uninit_memory_access.c	316	uninit_memory_access_010	initialization	Invalid or unreachable	\initialized(&uninit_memory_access_010_s_001_arr_gbl->data)
+01_w_Defects	uninit_memory_access.c	337	uninit_memory_access_011	initialization	Invalid or unreachable	\initialized(&str)
+01_w_Defects	uninit_memory_access.c	370	uninit_memory_access_012	initialization	Invalid or unreachable	\initialized(&s1->short_b)
+01_w_Defects	uninit_memory_access.c	407	uninit_memory_access_013	initialization	Invalid or unreachable	\initialized(&s1->bool_b)
+01_w_Defects	uninit_memory_access.c	491	uninit_memory_access_014	initialization	Unknown	\initialized(&p->b)
+01_w_Defects	uninit_memory_access.c	491	uninit_memory_access_014	mem_access	Unknown	\valid_read(&p->b)
+01_w_Defects	uninit_memory_access.c	512	uninit_memory_access_015_func_001	initialization	Invalid or unreachable	\initialized(&(*(p + i))[j])
+01_w_Defects	uninit_pointer.c	29	uninit_pointer_001	initialization	Invalid or unreachable	\initialized(&p)
+01_w_Defects	uninit_pointer.c	40	uninit_pointer_002	initialization	Invalid or unreachable	\initialized(&p)
+01_w_Defects	uninit_pointer.c	54	uninit_pointer_003	initialization	Invalid or unreachable	\initialized(pp)
+01_w_Defects	uninit_pointer.c	70	uninit_pointer_004	initialization	Invalid or unreachable	\initialized(&p)
+01_w_Defects	uninit_pointer.c	92	uninit_pointer_005_func_001	initialization	Invalid or unreachable	\initialized(pbuf + 1)
+01_w_Defects	uninit_pointer.c	106	uninit_pointer_006_func_001	initialization	Invalid or unreachable	\initialized(pp)
+01_w_Defects	uninit_pointer.c	133	uninit_pointer_007	initialization	Invalid or unreachable	\initialized(pbuf[i])
+01_w_Defects	uninit_pointer.c	157	uninit_pointer_008_func_001	initialization	Invalid or unreachable	\initialized(&ret)
+01_w_Defects	uninit_pointer.c	192	uninit_pointer_009	initialization	Invalid or unreachable	\initialized(&buf)
+01_w_Defects	uninit_pointer.c	205	uninit_pointer_010_func_001	initialization	Invalid or unreachable	\initialized(cptr)
+01_w_Defects	uninit_pointer.c	236	uninit_pointer_011	initialization	Unknown	\initialized(ptr + i)
+01_w_Defects	uninit_pointer.c	259	uninit_pointer_012	initialization	Unknown	\initialized(fptr + i)
+01_w_Defects	uninit_pointer.c	299	uninit_pointer_013	initialization	Unknown	\initialized(&arr[i][j])
+01_w_Defects	uninit_pointer.c	367	uninit_pointer_014	initialization	Invalid or unreachable	\initialized(&r.uninit)
+01_w_Defects	uninit_pointer.c	391	uninit_pointer_015	initialization	Invalid or unreachable	\initialized(&ptr)
+01_w_Defects	uninit_var.c	22	uninit_var_001	initialization	Invalid or unreachable	\initialized(&a_0)
+01_w_Defects	uninit_var.c	33	uninit_var_002	initialization	Invalid or unreachable	\initialized(&buf[3])
+01_w_Defects	uninit_var.c	44	uninit_var_003	initialization	Invalid or unreachable	\initialized(&buf[1][1])
+01_w_Defects	uninit_var.c	62	uninit_var_004	initialization	Invalid or unreachable	\initialized(&dvar)
+01_w_Defects	uninit_var.c	74	uninit_var_005_func_001	initialization	Invalid or unreachable	\initialized(&ret)
+01_w_Defects	uninit_var.c	91	uninit_var_006	initialization	Invalid or unreachable	\initialized(&a_0)
+01_w_Defects	uninit_var.c	110	uninit_var_007	initialization	Invalid or unreachable	\initialized(&s_0.uninit)
+01_w_Defects	uninit_var.c	134	uninit_var_008	initialization	Invalid or unreachable	\initialized(&data)
+01_w_Defects	uninit_var.c	164	uninit_var_010_func_001	initialization	Invalid or unreachable	\initialized(&ret[i][j])
+01_w_Defects	uninit_var.c	182	uninit_var_011_func_001	initialization	Invalid or unreachable	\initialized(arr1 + 0)
+01_w_Defects	uninit_var.c	206	uninit_var_012_func_001	initialization	Invalid or unreachable	\initialized(&s1.uninit)
+01_w_Defects	uninit_var.c	250	uninit_var_013_func_001	initialization	Invalid or unreachable	\initialized(&val)
+01_w_Defects	uninit_var.c	274	uninit_var_014_func_001	initialization	Invalid or unreachable	\initialized(&s1.uninit)
+01_w_Defects	uninit_var.c	303	uninit_var_015	initialization	Invalid or unreachable	\initialized(&a_0[1])
+01_w_Defects	zero_division.c	22	zero_division_001	division_by_zero	Invalid or unreachable	0 ≢ 0
+01_w_Defects	zero_division.c	33	zero_division_002	division_by_zero	Invalid or unreachable	0 ≢ 0
+01_w_Defects	zero_division.c	46	zero_division_003	division_by_zero	Invalid or unreachable	0 ≢ 0
+01_w_Defects	zero_division.c	58	zero_division_004_func_001	division_by_zero	Invalid or unreachable	zero_division_004_divisor_gbl ≢ 0
+01_w_Defects	zero_division.c	77	zero_division_005	division_by_zero	Invalid or unreachable	divisors[2] ≢ 0
+01_w_Defects	zero_division.c	92	zero_division_006	division_by_zero	Invalid or unreachable	*p ≢ 0
+01_w_Defects	zero_division.c	117	zero_division_007	division_by_zero	Invalid or unreachable	zero_division_007_s_gbl.divisor ≢ 0
+01_w_Defects	zero_division.c	134	zero_division_008	is_nan_or_infinite	Invalid or unreachable	\is_finite(\div_double((double)dividend, (double)0.0))
+01_w_Defects	zero_division.c	146	zero_division_009	division_by_zero	Invalid or unreachable	divisor ≢ 0
+01_w_Defects	zero_division.c	159	zero_division_010	division_by_zero	Unknown	divisor ≢ 0
+01_w_Defects	zero_division.c	171	zero_division_011	division_by_zero	Invalid or unreachable	(int)((int)(2 * divisor) - 4) ≢ 0
+01_w_Defects	zero_division.c	183	zero_division_012	division_by_zero	Invalid or unreachable	(int)((int)(divisor * divisor) - 4) ≢ 0
+01_w_Defects	zero_division.c	200	zero_division_013	division_by_zero	Invalid or unreachable	tmp ≢ 0
+01_w_Defects	zero_division.c	211	zero_division_014_func_001	division_by_zero	Invalid or unreachable	divisor ≢ 0
+01_w_Defects	zero_division.c	230	zero_division_015	division_by_zero	Invalid or unreachable	divisor1 ≢ 0
+01_w_Defects	zero_division.c	257	zero_division_016	division_by_zero	Invalid or unreachable	divisor2 ≢ 0
+FRAMAC_SHARE/libc	stdlib.h	405	free	precondition	Invalid or unreachable	freeable: p ≡ \null ∨ \freeable(p)
+FRAMAC_SHARE/libc	string.c	223	strcpy	initialization	Unknown	\initialized(src + i)
+FRAMAC_SHARE/libc	string.c	224	strcpy	mem_access	Unknown	\valid(dest + i)
+FRAMAC_SHARE/libc	string.h	95	memcpy	precondition	Unknown	valid_dest: valid_or_empty(dest, n)
+FRAMAC_SHARE/libc	string.h	96	memcpy	precondition	Unknown	valid_src: valid_read_or_empty(src, n)
+FRAMAC_SHARE/libc	string.h	98	memcpy	precondition	Unknown	separation: \separated((char *)dest + (0 .. n - 1), (char *)src + (0 .. n - 1))
+FRAMAC_SHARE/libc	string.h	131	memset	precondition	Invalid or unreachable	valid_s: valid_or_empty(s_0, n)

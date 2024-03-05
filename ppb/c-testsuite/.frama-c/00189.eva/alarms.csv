@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+FRAMAC_SHARE/libc	stdio.h	207	fprintf	assigns clause	Unknown	assigns \result, *stream;
+FRAMAC_SHARE/libc	stdio.h	207	fprintf	from clause	Unknown	assigns *stream \from *stream, *(format + (0 ..));
+FRAMAC_SHARE/libc	stdio.h	207	fprintf	from clause	Unknown	assigns \result \from *stream, *(format + (0 ..));

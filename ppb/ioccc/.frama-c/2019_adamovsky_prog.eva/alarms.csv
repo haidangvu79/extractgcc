@@ -1,0 +1,24 @@
+directory	file	line	function	property kind	status	property
+2019/adamovsky	prog.c	19	R	initialization	Unknown	\initialized(&(x + (int)(5 - 1))->p)
+2019/adamovsky	prog.c	19	R	signed_overflow	Unknown	(x + (int)(5 - 1))->p + 1 ≤ 9223372036854775807
+2019/adamovsky	prog.c	19	D	initialization	Unknown	\initialized(&(f + (int)(5 - 1))->p)
+2019/adamovsky	prog.c	19	D	signed_overflow	Unknown	-9223372036854775808 ≤ (f + (int)(5 - 1))->p - 1
+2019/adamovsky	prog.c	19	D	initialization	Unknown	\initialized(&(f + (int)(5 - 1))->p)
+2019/adamovsky	prog.c	19	D	initialization	Unknown	\initialized(&(f + 0)->l)
+2019/adamovsky	prog.c	19	D	ptr_comparison	Unknown	\pointer_comparable((void (*)())(f + 0)->l, (void (*)())(&fW))
+2019/adamovsky	prog.c	19	D	ptr_comparison	Unknown	\pointer_comparable((void (*)())(f + 0)->l, (void (*)())(&fCh))
+2019/adamovsky	prog.c	19	D	initialization	Unknown	\initialized(&(f + 1)->a)
+2019/adamovsky	prog.c	19	D	ptr_comparison	Unknown	\pointer_comparable((void (*)())(f + 0)->l, (void (*)())(&fT))
+2019/adamovsky	prog.c	19	D	initialization	Unknown	\initialized(&(f + 2)->a)
+2019/adamovsky	prog.c	19	D	ptr_comparison	Unknown	\pointer_comparable((void (*)())(f + 0)->l, (void (*)())(&rE))
+2019/adamovsky	prog.c	19	D	ptr_comparison	Unknown	\pointer_comparable((void (*)())(f + 0)->l, (void (*)())(&rT))
+2019/adamovsky	prog.c	19	D	ptr_comparison	Unknown	\pointer_comparable((void (*)())(f + 0)->l, (void (*)())(&rC))
+2019/adamovsky	prog.c	19	D	initialization	Unknown	\initialized(&(f + 3)->a)
+2019/adamovsky	prog.c	19	U	index_bound	Unknown	0 ≤ c
+2019/adamovsky	prog.c	19	U	index_bound	Unknown	c < 256
+2019/adamovsky	prog.c	22	I	function_pointer	Unknown	\valid_function((f + 0)->t)
+2019/adamovsky	prog.c	24	main	mem_access	Unknown	\valid_read(y + 1)
+2019/adamovsky	prog.c	24	main	precondition of fopen	Unknown	valid_filename: valid_read_string(filename)
+2019/adamovsky	prog.c	25	main	initialization	Unknown	\initialized(&(f + 3)->a)
+2019/adamovsky	prog.c	38	rY1	mem_access	Invalid or unreachable	\valid_read(&(x + 3)->a)
+FRAMAC_SHARE/libc	stdio.h	150	fopen	precondition	Unknown	valid_filename: valid_read_string(filename)

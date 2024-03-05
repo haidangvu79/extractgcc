@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	pointer_from_concrete_address_1.c	4	main	mem_access	Invalid or unreachable	\valid((int *)0xABC)

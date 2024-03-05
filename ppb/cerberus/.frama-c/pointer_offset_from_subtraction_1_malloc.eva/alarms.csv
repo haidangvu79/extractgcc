@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	pointer_offset_from_subtraction_1_malloc.c	4	main	mem_access	Unknown	\valid((int *)xp)
+.	pointer_offset_from_subtraction_1_malloc.c	5	main	mem_access	Unknown	\valid((int *)yp)
+.	pointer_offset_from_subtraction_1_malloc.c	6	main	differing_blocks	Invalid or unreachable	\base_addr((unsigned char *)yp) ≡ \base_addr((unsigned char *)xp)

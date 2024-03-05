@@ -1,0 +1,37 @@
+[metrics] Defined functions (18)
+======================
+ _ (1 call); _a (1 call); b (10 calls); d (2 calls); k (2 calls);
+ l (2 calls); m (2 calls); main (0 call); n (1 call); o (1 call); p (1 call);
+ q (1 call); r (1 call); s (1 call); t (1 call); u (1 call); v (1 call);
+ x (1 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 210
+Decision point = 24
+Global variables = 1
+If = 24
+Loop = 15
+Goto = 0
+Assignment = 98
+Exit point = 18
+Function = 18
+Function call = 31
+Pointer dereferencing = 29
+Cyclomatic complexity = 42

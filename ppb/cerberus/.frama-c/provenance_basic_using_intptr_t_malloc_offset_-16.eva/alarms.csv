@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	provenance_basic_using_intptr_t_malloc_offset_-16.c	4	main	mem_access	Unknown	\valid(xp)
+.	provenance_basic_using_intptr_t_malloc_offset_-16.c	5	main	mem_access	Unknown	\valid(yp)
+.	provenance_basic_using_intptr_t_malloc_offset_-16.c	12	main	mem_access	Invalid or unreachable	\valid(p)

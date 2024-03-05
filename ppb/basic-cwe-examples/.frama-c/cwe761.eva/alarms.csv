@@ -1,0 +1,5 @@
+directory	file	line	function	property kind	status	property
+.	cwe761.c	21	contains_char	initialization	Unknown	\initialized(str)
+.	cwe761.c	24	contains_char	precondition of free	Unknown	freeable: p ≡ \null ∨ \freeable(p)
+.	cwe761.c	32	contains_char	precondition of free	Unknown	freeable: p ≡ \null ∨ \freeable(p)
+FRAMAC_SHARE/libc	stdlib.h	405	free	precondition	Unknown	freeable: p ≡ \null ∨ \freeable(p)

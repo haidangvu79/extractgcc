@@ -1,0 +1,1 @@
+padding_unspecified_value_8.c:15:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.

@@ -1,0 +1,3 @@
+directory	file	line	function	property kind	status	property
+2019/lynn	prog.c	28	W	mem_access	Unknown	\valid_read(tmp)
+2019/lynn	prog.c	29	W	signed_overflow	Invalid or unreachable	1 << S ≤ 2147483647

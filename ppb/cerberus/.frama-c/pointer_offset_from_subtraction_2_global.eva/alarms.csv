@@ -1,0 +1,14 @@
+directory	file	line	function	property kind	status	property
+.	pointer_offset_from_subtraction_2_global.c	3	main	pointer_downcast	Unknown	(unsigned int)(&x) ≤ 2147483647
+.	pointer_offset_from_subtraction_2_global.c	4	main	pointer_downcast	Unknown	(unsigned int)(&y) ≤ 2147483647
+.	pointer_offset_from_subtraction_2_global.c	5	main	signed_overflow	Unknown	-2147483648 ≤ uy - ux
+.	pointer_offset_from_subtraction_2_global.c	5	main	signed_overflow	Unknown	uy - ux ≤ 2147483647
+.	pointer_offset_from_subtraction_2_global.c	6	main	pointer_downcast	Unknown	(unsigned int)(&z) ≤ 2147483647
+.	pointer_offset_from_subtraction_2_global.c	7	main	pointer_downcast	Unknown	(unsigned int)(&w) ≤ 2147483647
+.	pointer_offset_from_subtraction_2_global.c	8	main	signed_overflow	Unknown	-2147483648 ≤ uw - uz
+.	pointer_offset_from_subtraction_2_global.c	8	main	signed_overflow	Unknown	uw - uz ≤ 2147483647
+.	pointer_offset_from_subtraction_2_global.c	13	main	precondition of __FC_assert	Unknown	nonnull_c: c ≢ 0
+.	pointer_offset_from_subtraction_2_global.c	14	main	signed_overflow	Unknown	-2147483648 ≤ ux + offsetzw
+.	pointer_offset_from_subtraction_2_global.c	14	main	signed_overflow	Unknown	ux + offsetzw ≤ 2147483647
+.	pointer_offset_from_subtraction_2_global.c	17	main	mem_access	Unknown	\valid(p)
+FRAMAC_SHARE/libc	assert.h	31	__FC_assert	precondition	Unknown	nonnull_c: c ≢ 0

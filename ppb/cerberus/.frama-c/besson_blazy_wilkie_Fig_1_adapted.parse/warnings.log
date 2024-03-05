@@ -1,0 +1,2 @@
+besson_blazy_wilkie_Fig_1_adapted.c:7:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+besson_blazy_wilkie_Fig_1_adapted.c:10:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.

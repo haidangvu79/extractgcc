@@ -1,0 +1,24 @@
+# This is a generic Makefile for directories containing a single target that
+# have do not already have a Makefile themselves.
+
+# This Makefile is NOT for running Frama-C, but for compiling the case study
+# itself.
+
+# Usage: `cd` to directory and `ln -s ../Makefile.single-target Makefile`
+
+TARGET = $(shell basename `pwd`)
+
+SOURCES := $(sort $(wildcard *.c))
+
+all: $(TARGET)
+
+# Some directories complement this Makefile with their own
+-include Makefile.own
+
+$(TARGET): $(SOURCES)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -o $@ $^ $(LDFLAGS)
+
+clean:
+	rm -f $(TARGET)
+
+.PHONY: clean

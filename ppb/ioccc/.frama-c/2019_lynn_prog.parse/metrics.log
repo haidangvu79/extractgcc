@@ -1,0 +1,43 @@
+[metrics] Defined functions (26)
+======================
+ A (address taken) (0 call); G (6 calls); N (2 calls);
+ O (address taken) (0 call); R (address taken) (0 call); U (11 calls);
+ W (4 calls); Z (2 calls); _ (address taken) (0 call);
+ a (address taken) (0 call); b (address taken) (0 call);
+ c (address taken) (0 call); d (address taken) (0 call);
+ e (address taken) (0 call); f (address taken) (0 call);
+ g (address taken) (0 call); l (19 calls); m (address taken) (0 call);
+ main (0 call); o (address taken) (0 call); p (address taken) (0 call);
+ r (address taken) (0 call); s (address taken) (0 call);
+ t (address taken) (0 call); u (address taken) (0 call); w (17 calls); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 321
+Decision point = 22
+Global variables = 13
+If = 22
+Loop = 5
+Goto = 0
+Assignment = 194
+Exit point = 26
+Function = 26
+Function call = 66
+Pointer dereferencing = 72
+Cyclomatic complexity = 48

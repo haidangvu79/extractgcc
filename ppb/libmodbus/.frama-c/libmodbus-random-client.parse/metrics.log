@@ -1,0 +1,121 @@
+[metrics] Defined functions (112)
+=======================
+ _connect (2 calls); _error_print (6 calls); _modbus_init_common (3 calls);
+ _modbus_receive_msg (12 calls);
+ _modbus_rtu_build_request_basis (address taken) (0 call);
+ _modbus_rtu_build_response_basis (address taken) (0 call);
+ _modbus_rtu_check_integrity (address taken) (0 call);
+ _modbus_rtu_close (address taken) (0 call);
+ _modbus_rtu_connect (address taken) (0 call);
+ _modbus_rtu_flush (address taken) (1 call);
+ _modbus_rtu_free (address taken) (0 call);
+ _modbus_rtu_ioctl_rts (address taken) (0 call);
+ _modbus_rtu_pre_check_confirmation (address taken) (0 call);
+ _modbus_rtu_prepare_response_tid (address taken) (0 call);
+ _modbus_rtu_receive (address taken) (0 call);
+ _modbus_rtu_recv (address taken) (0 call);
+ _modbus_rtu_select (address taken) (0 call);
+ _modbus_rtu_send (address taken) (0 call);
+ _modbus_rtu_send_msg_pre (address taken) (0 call);
+ _modbus_set_slave (address taken) (0 call);
+ _modbus_set_slave_0 (address taken) (0 call);
+ _modbus_tcp_build_request_basis (address taken) (0 call);
+ _modbus_tcp_build_response_basis (address taken) (0 call);
+ _modbus_tcp_check_integrity (address taken) (0 call);
+ _modbus_tcp_close (address taken) (0 call);
+ _modbus_tcp_connect (address taken) (0 call);
+ _modbus_tcp_flush (address taken) (0 call);
+ _modbus_tcp_free (address taken) (0 call);
+ _modbus_tcp_pi_connect (address taken) (0 call);
+ _modbus_tcp_pre_check_confirmation (address taken) (0 call);
+ _modbus_tcp_prepare_response_tid (address taken) (0 call);
+ _modbus_tcp_receive (address taken) (0 call);
+ _modbus_tcp_recv (address taken) (0 call);
+ _modbus_tcp_select (address taken) (0 call);
+ _modbus_tcp_send (address taken) (0 call);
+ _modbus_tcp_send_msg_pre (address taken) (0 call);
+ _modbus_tcp_set_ipv4_options (2 calls); _sleep_response_timeout (8 calls);
+ check_confirmation (8 calls); compute_data_length_after_meta (1 call);
+ compute_meta_length_after_function (1 call);
+ compute_response_length_from_request (1 call); crc16 (2 calls);
+ main (0 call); modbus_close (4 calls); modbus_connect (4 calls);
+ modbus_flush (7 calls); modbus_free (9 calls);
+ modbus_get_byte_from_bits (0 call); modbus_get_byte_timeout (0 call);
+ modbus_get_float (0 call); modbus_get_float_abcd (0 call);
+ modbus_get_float_badc (0 call); modbus_get_float_cdab (0 call);
+ modbus_get_float_dcba (0 call); modbus_get_header_length (0 call);
+ modbus_get_response_timeout (0 call); modbus_get_slave (0 call);
+ modbus_get_socket (0 call); modbus_mapping_free (0 call);
+ modbus_mapping_new (0 call); modbus_mapping_new_start_address (1 call);
+ modbus_mask_write_register (0 call); modbus_new_rtu (0 call);
+ modbus_new_tcp (1 call); modbus_new_tcp_pi (0 call);
+ modbus_read_bits (2 calls); modbus_read_input_bits (0 call);
+ modbus_read_input_registers (0 call); modbus_read_registers (3 calls);
+ modbus_receive (0 call); modbus_receive_confirmation (0 call);
+ modbus_reply (0 call); modbus_reply_exception (0 call);
+ modbus_report_slave_id (0 call); modbus_rtu_get_rts (0 call);
+ modbus_rtu_get_rts_delay (0 call); modbus_rtu_get_serial_mode (0 call);
+ modbus_rtu_set_custom_rts (0 call); modbus_rtu_set_rts (0 call);
+ modbus_rtu_set_rts_delay (0 call); modbus_rtu_set_serial_mode (0 call);
+ modbus_send_raw_request (0 call); modbus_set_bits_from_byte (0 call);
+ modbus_set_bits_from_bytes (1 call); modbus_set_byte_timeout (0 call);
+ modbus_set_debug (1 call); modbus_set_error_recovery (0 call);
+ modbus_set_float (0 call); modbus_set_float_abcd (0 call);
+ modbus_set_float_badc (0 call); modbus_set_float_cdab (0 call);
+ modbus_set_float_dcba (0 call); modbus_set_response_timeout (0 call);
+ modbus_set_slave (0 call); modbus_set_socket (0 call);
+ modbus_strerror (2 calls); modbus_tcp_accept (0 call);
+ modbus_tcp_listen (0 call); modbus_tcp_pi_accept (0 call);
+ modbus_tcp_pi_listen (0 call); modbus_write_and_read_registers (1 call);
+ modbus_write_bit (1 call); modbus_write_bits (1 call);
+ modbus_write_register (1 call); modbus_write_registers (1 call);
+ read_io_status (2 calls); read_registers (2 calls);
+ response_exception (15 calls); response_io_status (1 call);
+ send_msg (11 calls); write_single (2 calls); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (1)
+=======================================
+ __builtin_bswap32 (2 calls); 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (47)
+===========================
+ main; modbus_get_byte_from_bits; modbus_get_byte_timeout; modbus_get_float;
+  modbus_get_float_abcd; modbus_get_float_badc; modbus_get_float_cdab;
+  modbus_get_float_dcba; modbus_get_header_length;
+  modbus_get_response_timeout; modbus_get_slave; modbus_get_socket;
+  modbus_mapping_free; modbus_mapping_new; modbus_mask_write_register;
+  modbus_new_rtu; modbus_new_tcp_pi; modbus_read_input_bits;
+  modbus_read_input_registers; modbus_receive; modbus_receive_confirmation;
+  modbus_reply; modbus_reply_exception; modbus_report_slave_id;
+  modbus_rtu_get_rts; modbus_rtu_get_rts_delay; modbus_rtu_get_serial_mode;
+  modbus_rtu_set_custom_rts; modbus_rtu_set_rts; modbus_rtu_set_rts_delay;
+  modbus_rtu_set_serial_mode; modbus_send_raw_request;
+  modbus_set_bits_from_byte; modbus_set_byte_timeout;
+  modbus_set_error_recovery; modbus_set_float; modbus_set_float_abcd;
+  modbus_set_float_badc; modbus_set_float_cdab; modbus_set_float_dcba;
+  modbus_set_response_timeout; modbus_set_slave; modbus_set_socket;
+  modbus_tcp_accept; modbus_tcp_listen; modbus_tcp_pi_accept;
+  modbus_tcp_pi_listen; 
+
+Global metrics
+============== 
+Sloc = 2646
+Decision point = 472
+Global variables = 8
+If = 405
+Loop = 35
+Goto = 222
+Assignment = 1172
+Exit point = 112
+Function = 113
+Function call = 409
+Pointer dereferencing = 701
+Cyclomatic complexity = 584

@@ -1,0 +1,34 @@
+[metrics] Defined functions (2)
+=====================
+ foo (0 call); main (address taken) (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ foo; 
+
+Global metrics
+============== 
+Sloc = 9
+Decision point = 1
+Global variables = 1
+If = 1
+Loop = 0
+Goto = 1
+Assignment = 4
+Exit point = 2
+Function = 2
+Function call = 0
+Pointer dereferencing = 0
+Cyclomatic complexity = 3

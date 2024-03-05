@@ -1,0 +1,2 @@
+read_via_invalid_1.c:4:[nonterm:stmt] warning: non-terminating statement
+stack: main

@@ -1,0 +1,7 @@
+directory	file	line	function	property kind	status	property
+2020/burton	prog.c	1	main	division_by_zero	Unknown	(long long)b ≢ 0
+2020/burton	prog.c	1	main	mem_access	Unknown	\valid_read(i)
+2020/burton	prog.c	1	main	precondition of atoi	Unknown	valid_nptr: \valid_read(nptr)
+2020/burton	prog.c	1	main	signed_overflow	Unknown	(long long)(a ^ (long long)(n / (long long)b)) * (long long)(y >> 0) ≤ 9223372036854775807
+2020/burton	prog.c	1	main	signed_overflow	Unknown	-9223372036854775808 ≤ (long long)(a ^ (long long)(n / (long long)b)) * (long long)(y >> 0)
+FRAMAC_SHARE/libc	stdlib.h	78	atoi	precondition	Unknown	valid_nptr: \valid_read(nptr)

@@ -1,0 +1,40 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wno-missing-field-initializers",
+            "-Wno-for-loop-analysis",
+            "-includestdlib.h",
+            "-includemath.h",
+            "-DRS=.15",
+            "-DTR=.95",
+            "-DLR=.002",
+            "-DLD=.97",
+            "-DLE=10",
+            "-DCL=5",
+            "-DB1=.9",
+            "-DB2=.999",
+            "-DEP=1e-8",
+            "-DWD=8e-5",
+            "-DDI=100",
+            "-DSL=200",
+            "-DN=50",
+            "-DTP=1",
+            "-DPF=\"cp%02d_%.3f\"",
+            "-O3",
+            "-DHS=128",
+            "-DBK= hp  = I(HS), t1  = L(HS, x), z   = S(A(t1, L(HS, hp))), t2  = L(HS, x), r   = S(A(t2, L(HS, hp))), t3  = L(HS, x), c   = T(A(t3, L(HS, M(r, hp)))), zc  = OG(1, -1, z), t4  = M(zc, hp), h   = C(hp, A(t4, M(z, c))), y   = h ",
+            "-DNW= x   = I(n), y   = L(n, MD(MD(x))) ",
+            "-o",
+            "gru2",
+            "prog.c"
+        ],
+        "directory": ".",
+        "file": "prog.c"
+    }
+]

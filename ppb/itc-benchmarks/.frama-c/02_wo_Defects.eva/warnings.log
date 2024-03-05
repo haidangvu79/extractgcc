@@ -1,0 +1,10 @@
+02_wo_Defects/littlemem_st.c:377:[eva:locals-escaping] warning: locals {buf_0} escaping the scope of littlemem_st_004 through littlemem_st_004_s_001_gbl_str
+02_wo_Defects/memory_allocation_failure.c:456:[eva:locals-escaping] warning: locals {buf1} escaping the scope of memory_allocation_failure_012_func_002 through ptr
+02_wo_Defects/memory_allocation_failure.c:456:[eva:locals-escaping] warning: locals {buf3} escaping the scope of memory_allocation_failure_012_func_002 through ptr
+02_wo_Defects/memory_allocation_failure.c:456:[eva:locals-escaping] warning: locals {buf4} escaping the scope of memory_allocation_failure_012_func_002 through ptr
+02_wo_Defects/memory_allocation_failure.c:456:[eva:locals-escaping] warning: locals {buf5} escaping the scope of memory_allocation_failure_012_func_002 through ptr
+02_wo_Defects/uninit_pointer.c:101:[eva:locals-escaping] warning: locals {buf1} escaping the scope of uninit_pointer_005_func_001 through pbuf
+02_wo_Defects/uninit_pointer.c:101:[eva:locals-escaping] warning: locals {buf2} escaping the scope of uninit_pointer_005_func_001 through pbuf
+02_wo_Defects/uninit_pointer.c:101:[eva:locals-escaping] warning: locals {buf3} escaping the scope of uninit_pointer_005_func_001 through pbuf
+02_wo_Defects/uninit_pointer.c:101:[eva:locals-escaping] warning: locals {buf4} escaping the scope of uninit_pointer_005_func_001 through pbuf
+02_wo_Defects/uninit_pointer.c:101:[eva:locals-escaping] warning: locals {buf5} escaping the scope of uninit_pointer_005_func_001 through pbuf

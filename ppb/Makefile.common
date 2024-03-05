@@ -1,0 +1,11 @@
+# Makefile optionally included by each GNUmakefile in the target directories.
+# Note: it must be included at the end of the makefiles,
+# to ensure e.g. TARGETS and other variables are properly defined.
+
+### Extra targets for SARIF report
+# '-noautoload-plugins -load-module eva,markdown-report' minimize loading time
+# of several dozens of calls to Frama-C
+%.sarif: %.eva
+	$(FRAMAC) -no-autoload-plugins -load-module eva,markdown-report -load $^/framac.sav -mdr-gen sarif -mdr-no-print-libc -mdr-sarif-deterministic -mdr-out $@
+
+sarif: $(TARGETS:%.eva=%.sarif)

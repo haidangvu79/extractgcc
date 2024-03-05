@@ -1,0 +1,2419 @@
+FRAMAC_SHARE/libc/string.c:223:[nonterm:stmt] warning: non-terminating loop
+stack 1: strcpy :: 01_w_Defects/null_pointer.c:238 <-
+         null_pointer_015 :: 01_w_Defects/null_pointer.c:430 <-
+         null_pointer_main :: 01_w_Defects/main.c:309 <-
+         main :: fc_stubs.c:21 <-
+         eva_main
+stack 2: strcpy :: 01_w_Defects/uninit_pointer.c:439 <-
+         uninit_pointer_016 :: 01_w_Defects/uninit_pointer.c:531 <-
+         uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+         main :: fc_stubs.c:21 <-
+         eva_main
+stack 3: strcpy :: 01_w_Defects/uninit_var.c:145 <-
+         uninit_var_009_func_001 :: 01_w_Defects/uninit_var.c:151 <-
+         uninit_var_009 :: 01_w_Defects/uninit_var.c:356 <-
+         uninit_var_main :: 01_w_Defects/main.c:464 <-
+         main :: fc_stubs.c:21 <-
+         eva_main
+FRAMAC_SHARE/libc/string.c:223:[nonterm:stmt] warning: non-terminating statement
+stack 1: strcpy :: 01_w_Defects/uninit_pointer.c:439 <-
+         uninit_pointer_016 :: 01_w_Defects/uninit_pointer.c:531 <-
+         uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+         main :: fc_stubs.c:21 <-
+         eva_main
+stack 2: strcpy :: 01_w_Defects/uninit_var.c:145 <-
+         uninit_var_009_func_001 :: 01_w_Defects/uninit_var.c:151 <-
+         uninit_var_009 :: 01_w_Defects/uninit_var.c:356 <-
+         uninit_var_main :: 01_w_Defects/main.c:464 <-
+         main :: fc_stubs.c:21 <-
+         eva_main
+FRAMAC_SHARE/libc/string.c:224:[nonterm:stmt] warning: non-terminating statement
+stack: strcpy :: 01_w_Defects/null_pointer.c:238 <-
+       null_pointer_015 :: 01_w_Defects/null_pointer.c:430 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:21:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_001 :: 01_w_Defects/bit_shift.c:249 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:33:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_002 :: 01_w_Defects/bit_shift.c:254 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:45:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_003 :: 01_w_Defects/bit_shift.c:259 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:57:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_004 :: 01_w_Defects/bit_shift.c:264 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:69:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_005 :: 01_w_Defects/bit_shift.c:269 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:81:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_006 :: 01_w_Defects/bit_shift.c:274 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:93:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_007 :: 01_w_Defects/bit_shift.c:279 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:106:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_008 :: 01_w_Defects/bit_shift.c:284 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:133:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_010 :: 01_w_Defects/bit_shift.c:294 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:146:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_011 :: 01_w_Defects/bit_shift.c:299 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:163:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_012 :: 01_w_Defects/bit_shift.c:304 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:175:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_013_func_001 :: 01_w_Defects/bit_shift.c:181 <-
+       bit_shift_013 :: 01_w_Defects/bit_shift.c:309 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:182:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/bit_shift.c:193:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_014 :: 01_w_Defects/bit_shift.c:314 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:208:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_015 :: 01_w_Defects/bit_shift.c:319 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:225:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_016 :: 01_w_Defects/bit_shift.c:324 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/bit_shift.c:236:[nonterm:stmt] warning: non-terminating statement
+stack: bit_shift_017 :: 01_w_Defects/bit_shift.c:329 <-
+       bit_shift_main :: 01_w_Defects/main.c:29 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:24:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_001 :: 01_w_Defects/buffer_overrun_dynamic.c:620 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:41:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_002 :: 01_w_Defects/buffer_overrun_dynamic.c:625 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:61:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_003 :: 01_w_Defects/buffer_overrun_dynamic.c:630 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:76:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_004 :: 01_w_Defects/buffer_overrun_dynamic.c:635 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:91:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_005 :: 01_w_Defects/buffer_overrun_dynamic.c:640 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:109:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_006 :: 01_w_Defects/buffer_overrun_dynamic.c:645 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:127:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_007 :: 01_w_Defects/buffer_overrun_dynamic.c:650 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:147:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_008 :: 01_w_Defects/buffer_overrun_dynamic.c:655 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:149:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_008 :: 01_w_Defects/buffer_overrun_dynamic.c:655 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:171:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_009 :: 01_w_Defects/buffer_overrun_dynamic.c:660 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:173:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_009 :: 01_w_Defects/buffer_overrun_dynamic.c:660 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:197:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_010 :: 01_w_Defects/buffer_overrun_dynamic.c:665 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:217:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_011 :: 01_w_Defects/buffer_overrun_dynamic.c:670 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:232:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_012 :: 01_w_Defects/buffer_overrun_dynamic.c:675 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:247:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_013 :: 01_w_Defects/buffer_overrun_dynamic.c:680 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:262:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_014 :: 01_w_Defects/buffer_overrun_dynamic.c:685 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:277:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_015 :: 01_w_Defects/buffer_overrun_dynamic.c:690 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:297:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_016 :: 01_w_Defects/buffer_overrun_dynamic.c:695 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:311:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_017_func_001 :: 01_w_Defects/buffer_overrun_dynamic.c:318 <-
+       dynamic_buffer_overrun_017 :: 01_w_Defects/buffer_overrun_dynamic.c:700 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:319:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/buffer_overrun_dynamic.c:332:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_018 :: 01_w_Defects/buffer_overrun_dynamic.c:705 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:349:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_019 :: 01_w_Defects/buffer_overrun_dynamic.c:710 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:368:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_020 :: 01_w_Defects/buffer_overrun_dynamic.c:715 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:386:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_021 :: 01_w_Defects/buffer_overrun_dynamic.c:720 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:402:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_022 :: 01_w_Defects/buffer_overrun_dynamic.c:725 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:419:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_023 :: 01_w_Defects/buffer_overrun_dynamic.c:730 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:434:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_024_func_001 :: 01_w_Defects/buffer_overrun_dynamic.c:441 <-
+       dynamic_buffer_overrun_024 :: 01_w_Defects/buffer_overrun_dynamic.c:735 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:446:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/buffer_overrun_dynamic.c:459:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_025 :: 01_w_Defects/buffer_overrun_dynamic.c:740 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:479:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_026 :: 01_w_Defects/buffer_overrun_dynamic.c:745 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:495:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_027 :: 01_w_Defects/buffer_overrun_dynamic.c:750 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:513:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_028 :: 01_w_Defects/buffer_overrun_dynamic.c:755 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:526:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_029 :: 01_w_Defects/buffer_overrun_dynamic.c:760 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:531:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_overrun_029 :: 01_w_Defects/buffer_overrun_dynamic.c:760 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:554:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_030 :: 01_w_Defects/buffer_overrun_dynamic.c:765 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:556:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_030 :: 01_w_Defects/buffer_overrun_dynamic.c:765 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:577:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_031 :: 01_w_Defects/buffer_overrun_dynamic.c:770 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_overrun_dynamic.c:604:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_overrun_032 :: 01_w_Defects/buffer_overrun_dynamic.c:775 <-
+       dynamic_buffer_overrun_main :: 01_w_Defects/main.c:35 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:26:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_001 :: 01_w_Defects/buffer_underrun_dynamic.c:804 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:44:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_002 :: 01_w_Defects/buffer_underrun_dynamic.c:809 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:64:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_003 :: 01_w_Defects/buffer_underrun_dynamic.c:814 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:79:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_004 :: 01_w_Defects/buffer_underrun_dynamic.c:819 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:94:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_005 :: 01_w_Defects/buffer_underrun_dynamic.c:824 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:96:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_005 :: 01_w_Defects/buffer_underrun_dynamic.c:824 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:112:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_006 :: 01_w_Defects/buffer_underrun_dynamic.c:829 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:114:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_006 :: 01_w_Defects/buffer_underrun_dynamic.c:829 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:130:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_007 :: 01_w_Defects/buffer_underrun_dynamic.c:834 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:132:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_007 :: 01_w_Defects/buffer_underrun_dynamic.c:834 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:150:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_008 :: 01_w_Defects/buffer_underrun_dynamic.c:839 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:152:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_008 :: 01_w_Defects/buffer_underrun_dynamic.c:839 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:154:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_008 :: 01_w_Defects/buffer_underrun_dynamic.c:839 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:175:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_009 :: 01_w_Defects/buffer_underrun_dynamic.c:844 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:177:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_009 :: 01_w_Defects/buffer_underrun_dynamic.c:844 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:201:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_010 :: 01_w_Defects/buffer_underrun_dynamic.c:849 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:221:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_011 :: 01_w_Defects/buffer_underrun_dynamic.c:854 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:236:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_012 :: 01_w_Defects/buffer_underrun_dynamic.c:859 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:267:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_014 :: 01_w_Defects/buffer_underrun_dynamic.c:869 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:282:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_015 :: 01_w_Defects/buffer_underrun_dynamic.c:874 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:302:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_016 :: 01_w_Defects/buffer_underrun_dynamic.c:879 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:316:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_017_func_001 :: 01_w_Defects/buffer_underrun_dynamic.c:323 <-
+       dynamic_buffer_underrun_017 :: 01_w_Defects/buffer_underrun_dynamic.c:884 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:324:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/buffer_underrun_dynamic.c:337:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_018 :: 01_w_Defects/buffer_underrun_dynamic.c:889 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:354:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_019 :: 01_w_Defects/buffer_underrun_dynamic.c:894 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:373:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_020 :: 01_w_Defects/buffer_underrun_dynamic.c:899 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:391:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_021 :: 01_w_Defects/buffer_underrun_dynamic.c:904 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:407:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_022 :: 01_w_Defects/buffer_underrun_dynamic.c:909 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:424:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_023 :: 01_w_Defects/buffer_underrun_dynamic.c:914 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:438:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_024_func_001 :: 01_w_Defects/buffer_underrun_dynamic.c:446 <-
+       dynamic_buffer_underrun_024 :: 01_w_Defects/buffer_underrun_dynamic.c:919 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:449:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/buffer_underrun_dynamic.c:463:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_025 :: 01_w_Defects/buffer_underrun_dynamic.c:924 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:483:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_026 :: 01_w_Defects/buffer_underrun_dynamic.c:929 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:499:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_027 :: 01_w_Defects/buffer_underrun_dynamic.c:934 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:518:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_028 :: 01_w_Defects/buffer_underrun_dynamic.c:939 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:526:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_029 :: 01_w_Defects/buffer_underrun_dynamic.c:944 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:531:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_029 :: 01_w_Defects/buffer_underrun_dynamic.c:944 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:554:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_030 :: 01_w_Defects/buffer_underrun_dynamic.c:949 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:556:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_030 :: 01_w_Defects/buffer_underrun_dynamic.c:949 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:579:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_031 :: 01_w_Defects/buffer_underrun_dynamic.c:954 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:606:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_032 :: 01_w_Defects/buffer_underrun_dynamic.c:959 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:607:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_032 :: 01_w_Defects/buffer_underrun_dynamic.c:959 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:620:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_033 :: 01_w_Defects/buffer_underrun_dynamic.c:964 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:649:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_034 :: 01_w_Defects/buffer_underrun_dynamic.c:969 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:651:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_034 :: 01_w_Defects/buffer_underrun_dynamic.c:969 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:679:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_035 :: 01_w_Defects/buffer_underrun_dynamic.c:974 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:706:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_036 :: 01_w_Defects/buffer_underrun_dynamic.c:979 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:724:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_037 :: 01_w_Defects/buffer_underrun_dynamic.c:984 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:726:[nonterm:stmt] warning: non-terminating function call
+stack: dynamic_buffer_underrun_037 :: 01_w_Defects/buffer_underrun_dynamic.c:984 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:756:[nonterm:stmt] warning: non-terminating statement
+stack: dynamic_buffer_underrun_038 :: 01_w_Defects/buffer_underrun_dynamic.c:989 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:781:[nonterm:stmt] warning: non-terminating loop
+stack: dynamic_buffer_underrun_039 :: 01_w_Defects/buffer_underrun_dynamic.c:994 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/buffer_underrun_dynamic.c:787:[nonterm:stmt] warning: non-terminating function call
+stack: dynamic_buffer_underrun_039 :: 01_w_Defects/buffer_underrun_dynamic.c:994 <-
+       dynamic_buffer_underrun_main :: 01_w_Defects/main.c:41 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:21:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_001 :: 01_w_Defects/data_lost.c:285 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:33:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_002 :: 01_w_Defects/data_lost.c:290 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:45:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_003 :: 01_w_Defects/data_lost.c:295 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:57:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_004 :: 01_w_Defects/data_lost.c:300 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:69:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_005 :: 01_w_Defects/data_lost.c:305 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:84:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_006 :: 01_w_Defects/data_lost.c:310 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:100:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_007 :: 01_w_Defects/data_lost.c:315 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:112:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_008 :: 01_w_Defects/data_lost.c:320 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:124:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_009 :: 01_w_Defects/data_lost.c:325 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:141:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_010 :: 01_w_Defects/data_lost.c:330 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:151:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_011 :: 01_w_Defects/data_lost.c:335 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:186:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_013 :: 01_w_Defects/data_lost.c:345 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:198:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_014 :: 01_w_Defects/data_lost.c:350 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:214:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_015 :: 01_w_Defects/data_lost.c:355 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:225:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_016_func_001 :: 01_w_Defects/data_lost.c:231 <-
+       data_lost_016 :: 01_w_Defects/data_lost.c:360 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:232:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/data_lost.c:242:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_017 :: 01_w_Defects/data_lost.c:365 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:256:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_018 :: 01_w_Defects/data_lost.c:370 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_lost.c:272:[nonterm:stmt] warning: non-terminating statement
+stack: data_lost_019 :: 01_w_Defects/data_lost.c:375 <-
+       data_lost_main :: 01_w_Defects/main.c:69 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:47:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_001 :: 01_w_Defects/data_overflow.c:401 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:59:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_002 :: 01_w_Defects/data_overflow.c:406 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:71:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_003 :: 01_w_Defects/data_overflow.c:411 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:83:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_004 :: 01_w_Defects/data_overflow.c:416 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:95:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_005 :: 01_w_Defects/data_overflow.c:421 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:107:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_006 :: 01_w_Defects/data_overflow.c:426 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:119:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_007 :: 01_w_Defects/data_overflow.c:431 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:131:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_008 :: 01_w_Defects/data_overflow.c:436 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:148:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_009 :: 01_w_Defects/data_overflow.c:441 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:164:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_010 :: 01_w_Defects/data_overflow.c:446 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:176:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_011 :: 01_w_Defects/data_overflow.c:451 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:189:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_012 :: 01_w_Defects/data_overflow.c:456 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:201:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_013 :: 01_w_Defects/data_overflow.c:461 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:214:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_014 :: 01_w_Defects/data_overflow.c:466 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:240:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_016 :: 01_w_Defects/data_overflow.c:476 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:252:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_017 :: 01_w_Defects/data_overflow.c:481 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:269:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_018 :: 01_w_Defects/data_overflow.c:486 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:281:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_019_func_001 :: 01_w_Defects/data_overflow.c:287 <-
+       data_overflow_019 :: 01_w_Defects/data_overflow.c:491 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:288:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/data_overflow.c:299:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_020 :: 01_w_Defects/data_overflow.c:496 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:314:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_021 :: 01_w_Defects/data_overflow.c:501 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:331:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_022 :: 01_w_Defects/data_overflow.c:506 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:342:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_023 :: 01_w_Defects/data_overflow.c:511 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:364:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_024 :: 01_w_Defects/data_overflow.c:516 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_overflow.c:385:[nonterm:stmt] warning: non-terminating statement
+stack: data_overflow_025 :: 01_w_Defects/data_overflow.c:521 <-
+       data_overflow_main :: 01_w_Defects/main.c:75 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:20:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_001 :: 01_w_Defects/data_underflow.c:197 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:32:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_002 :: 01_w_Defects/data_underflow.c:202 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:46:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_003 :: 01_w_Defects/data_underflow.c:207 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:59:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_004 :: 01_w_Defects/data_underflow.c:212 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:71:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_005 :: 01_w_Defects/data_underflow.c:217 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:82:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_006 :: 01_w_Defects/data_underflow.c:222 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:132:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_009 :: 01_w_Defects/data_underflow.c:237 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:149:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_010 :: 01_w_Defects/data_underflow.c:242 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:161:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_011_func_001 :: 01_w_Defects/data_underflow.c:167 <-
+       data_underflow_011 :: 01_w_Defects/data_underflow.c:247 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/data_underflow.c:168:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/data_underflow.c:184:[nonterm:stmt] warning: non-terminating statement
+stack: data_underflow_012 :: 01_w_Defects/data_underflow.c:252 <-
+       data_underflow_main :: 01_w_Defects/main.c:81 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:22:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_001 :: 01_w_Defects/double_free.c:237 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:43:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_002 :: 01_w_Defects/double_free.c:242 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:64:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_003 :: 01_w_Defects/double_free.c:247 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:102:[nonterm:stmt] warning: non-terminating statement
+stack: double_free_005 :: 01_w_Defects/double_free.c:257 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:117:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_006 :: 01_w_Defects/double_free.c:262 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:133:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_007 :: 01_w_Defects/double_free.c:267 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:151:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_008 :: 01_w_Defects/double_free.c:272 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:170:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_009 :: 01_w_Defects/double_free.c:277 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:189:[nonterm:stmt] warning: non-terminating function call
+stack: double_free_010 :: 01_w_Defects/double_free.c:282 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:203:[nonterm:stmt] warning: non-terminating loop
+stack: double_free_011 :: 01_w_Defects/double_free.c:287 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/double_free.c:222:[nonterm:stmt] warning: non-terminating loop
+stack: double_free_012 :: 01_w_Defects/double_free.c:292 <-
+       double_free_main :: 01_w_Defects/main.c:124 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:22:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_001 :: 01_w_Defects/endless_loop.c:182 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:39:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_002 :: 01_w_Defects/endless_loop.c:187 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:55:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_003 :: 01_w_Defects/endless_loop.c:192 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:72:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_004 :: 01_w_Defects/endless_loop.c:197 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:93:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_005 :: 01_w_Defects/endless_loop.c:202 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:109:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_006_func_001 :: 01_w_Defects/endless_loop.c:119 <-
+       endless_loop_006 :: 01_w_Defects/endless_loop.c:207 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:120:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/endless_loop.c:131:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_007 :: 01_w_Defects/endless_loop.c:212 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:148:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_008 :: 01_w_Defects/endless_loop.c:217 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/endless_loop.c:164:[nonterm:stmt] warning: non-terminating loop
+stack: endless_loop_009 :: 01_w_Defects/endless_loop.c:222 <-
+       endless_loop_main :: 01_w_Defects/main.c:159 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:22:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_001 :: 01_w_Defects/free_nondynamic_allocated_memory.c:285 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:36:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_002 :: 01_w_Defects/free_nondynamic_allocated_memory.c:290 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:50:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_003 :: 01_w_Defects/free_nondynamic_allocated_memory.c:295 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:64:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_004 :: 01_w_Defects/free_nondynamic_allocated_memory.c:300 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:88:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_005 :: 01_w_Defects/free_nondynamic_allocated_memory.c:305 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:105:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_006 :: 01_w_Defects/free_nondynamic_allocated_memory.c:310 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:116:[nonterm:stmt] warning: non-terminating loop
+stack: free_nondynamic_allocated_memory_007 :: 01_w_Defects/free_nondynamic_allocated_memory.c:315 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:117:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_007 :: 01_w_Defects/free_nondynamic_allocated_memory.c:315 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:129:[nonterm:stmt] warning: non-terminating loop
+stack: free_nondynamic_allocated_memory_008 :: 01_w_Defects/free_nondynamic_allocated_memory.c:320 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:130:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_008 :: 01_w_Defects/free_nondynamic_allocated_memory.c:320 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:142:[nonterm:stmt] warning: non-terminating loop
+stack: free_nondynamic_allocated_memory_009 :: 01_w_Defects/free_nondynamic_allocated_memory.c:325 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:143:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_009 :: 01_w_Defects/free_nondynamic_allocated_memory.c:325 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:154:[nonterm:stmt] warning: non-terminating loop
+stack: free_nondynamic_allocated_memory_010 :: 01_w_Defects/free_nondynamic_allocated_memory.c:330 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:157:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_010 :: 01_w_Defects/free_nondynamic_allocated_memory.c:330 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:169:[nonterm:stmt] warning: non-terminating loop
+stack: free_nondynamic_allocated_memory_011 :: 01_w_Defects/free_nondynamic_allocated_memory.c:335 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:172:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_011 :: 01_w_Defects/free_nondynamic_allocated_memory.c:335 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:185:[nonterm:stmt] warning: non-terminating loop
+stack: free_nondynamic_allocated_memory_012 :: 01_w_Defects/free_nondynamic_allocated_memory.c:340 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:189:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_012 :: 01_w_Defects/free_nondynamic_allocated_memory.c:340 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:213:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_013 :: 01_w_Defects/free_nondynamic_allocated_memory.c:345 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:233:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_014 :: 01_w_Defects/free_nondynamic_allocated_memory.c:350 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:243:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_015_func_001 :: 01_w_Defects/free_nondynamic_allocated_memory.c:249 <-
+       free_nondynamic_allocated_memory_015 :: 01_w_Defects/free_nondynamic_allocated_memory.c:355 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:250:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/free_nondynamic_allocated_memory.c:266:[nonterm:stmt] warning: non-terminating function call
+stack: free_nondynamic_allocated_memory_016_func_002 :: 01_w_Defects/free_nondynamic_allocated_memory.c:273 <-
+       free_nondynamic_allocated_memory_016 :: 01_w_Defects/free_nondynamic_allocated_memory.c:360 <-
+       free_nondynamic_allocated_memory_main :: 01_w_Defects/main.c:165 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/free_nondynamic_allocated_memory.c:274:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/invalid_memory_access.c:45:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_001 :: 01_w_Defects/invalid_memory_access.c:670 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:84:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_002 :: 01_w_Defects/invalid_memory_access.c:675 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:97:[nonterm:stmt] warning: non-terminating loop
+stack: invalid_memory_access_003 :: 01_w_Defects/invalid_memory_access.c:680 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:105:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_003 :: 01_w_Defects/invalid_memory_access.c:680 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:135:[nonterm:stmt] warning: non-terminating function call
+stack: invalid_memory_access_004 :: 01_w_Defects/invalid_memory_access.c:685 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:190:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_006 :: 01_w_Defects/invalid_memory_access.c:698 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:213:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/invalid_memory_access.c:226:[nonterm:stmt] warning: non-terminating function call
+stack: invalid_memory_access_008 :: 01_w_Defects/invalid_memory_access.c:708 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:272:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_009 :: 01_w_Defects/invalid_memory_access.c:713 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:296:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_010 :: 01_w_Defects/invalid_memory_access.c:718 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:322:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_011 :: 01_w_Defects/invalid_memory_access.c:723 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:373:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_012_func_001 :: 01_w_Defects/invalid_memory_access.c:379 <-
+       invalid_memory_access_012 :: 01_w_Defects/invalid_memory_access.c:728 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:381:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/invalid_memory_access.c:434:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_013_func_002 :: 01_w_Defects/invalid_memory_access.c:456 <-
+       invalid_memory_access_013 :: 01_w_Defects/invalid_memory_access.c:733 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:460:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/invalid_memory_access.c:480:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_014 :: 01_w_Defects/invalid_memory_access.c:739 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:521:[nonterm:stmt] warning: non-terminating statement
+stack: invalid_memory_access_015_func_001 :: 01_w_Defects/invalid_memory_access.c:537 <-
+       invalid_memory_access_015 :: 01_w_Defects/invalid_memory_access.c:745 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:533:[nonterm:stmt] warning: non-terminating loop
+stack: invalid_memory_access_015 :: 01_w_Defects/invalid_memory_access.c:745 <-
+       invalid_memory_access_main :: 01_w_Defects/main.c:248 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/invalid_memory_access.c:574:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/invalid_memory_access.c:597:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/invalid_memory_access.c:628:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/invalid_memory_access.c:659:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/littlemem_st.c:36:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_001 :: 01_w_Defects/littlemem_st.c:370 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:55:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_002 :: 01_w_Defects/littlemem_st.c:375 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:73:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_003 :: 01_w_Defects/littlemem_st.c:380 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:92:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_004 :: 01_w_Defects/littlemem_st.c:385 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:117:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_005 :: 01_w_Defects/littlemem_st.c:390 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:144:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_006_func_002 :: 01_w_Defects/littlemem_st.c:151 <-
+       littlemem_st_006 :: 01_w_Defects/littlemem_st.c:395 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:152:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/littlemem_st.c:177:[nonterm:stmt] warning: non-terminating loop
+stack: littlemem_st_007_func_002 :: 01_w_Defects/littlemem_st.c:193 <-
+       littlemem_st_007 :: 01_w_Defects/littlemem_st.c:400 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:185:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_007_func_002 :: 01_w_Defects/littlemem_st.c:193 <-
+       littlemem_st_007 :: 01_w_Defects/littlemem_st.c:400 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:194:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/littlemem_st.c:220:[nonterm:stmt] warning: non-terminating loop
+stack: littlemem_st_008_func_002 :: 01_w_Defects/littlemem_st.c:239 <-
+       littlemem_st_008 :: 01_w_Defects/littlemem_st.c:405 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:230:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_008_func_002 :: 01_w_Defects/littlemem_st.c:239 <-
+       littlemem_st_008 :: 01_w_Defects/littlemem_st.c:405 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:240:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/littlemem_st.c:266:[nonterm:stmt] warning: non-terminating loop
+stack: littlemem_st_009_func_002 :: 01_w_Defects/littlemem_st.c:285 <-
+       littlemem_st_009 :: 01_w_Defects/littlemem_st.c:410 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:276:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_009_func_002 :: 01_w_Defects/littlemem_st.c:285 <-
+       littlemem_st_009 :: 01_w_Defects/littlemem_st.c:410 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:286:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/littlemem_st.c:313:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_010_func_002 :: 01_w_Defects/littlemem_st.c:319 <-
+       littlemem_st_010 :: 01_w_Defects/littlemem_st.c:415 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:320:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/littlemem_st.c:347:[nonterm:stmt] warning: non-terminating loop
+stack: littlemem_st_011_func_002 :: 01_w_Defects/littlemem_st.c:359 <-
+       littlemem_st_011 :: 01_w_Defects/littlemem_st.c:420 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:351:[nonterm:stmt] warning: non-terminating statement
+stack: littlemem_st_011_func_002 :: 01_w_Defects/littlemem_st.c:359 <-
+       littlemem_st_011 :: 01_w_Defects/littlemem_st.c:420 <-
+       littlemem_st_main :: 01_w_Defects/main.c:254 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/littlemem_st.c:360:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/memory_allocation_failure.c:70:[nonterm:stmt] warning: non-terminating function call (initializer)
+stack: memory_allocation_failure_002 :: 01_w_Defects/memory_allocation_failure.c:884 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:88:[nonterm:stmt] warning: non-terminating loop
+stack: memory_allocation_failure_003 :: 01_w_Defects/memory_allocation_failure.c:889 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:90:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_003 :: 01_w_Defects/memory_allocation_failure.c:889 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:123:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_004 :: 01_w_Defects/memory_allocation_failure.c:894 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:143:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_005_func_001 :: 01_w_Defects/memory_allocation_failure.c:170 <-
+       memory_allocation_failure_005 :: 01_w_Defects/memory_allocation_failure.c:899 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:257:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_007_func_001 :: 01_w_Defects/memory_allocation_failure.c:279 <-
+       memory_allocation_failure_007 :: 01_w_Defects/memory_allocation_failure.c:909 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:275:[nonterm:stmt] warning: non-terminating loop
+stack: memory_allocation_failure_007 :: 01_w_Defects/memory_allocation_failure.c:909 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:456:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_011_func_002 :: 01_w_Defects/memory_allocation_failure.c:463 <-
+       memory_allocation_failure_011 :: 01_w_Defects/memory_allocation_failure.c:929 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:474:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/memory_allocation_failure.c:505:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_012_func_002 :: 01_w_Defects/memory_allocation_failure.c:524 <-
+       memory_allocation_failure_012 :: 01_w_Defects/memory_allocation_failure.c:934 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:534:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/memory_allocation_failure.c:571:[nonterm:stmt] warning: non-terminating loop
+stack: memory_allocation_failure_013 :: 01_w_Defects/memory_allocation_failure.c:939 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:582:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_013 :: 01_w_Defects/memory_allocation_failure.c:939 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:641:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_014_func_001 :: 01_w_Defects/memory_allocation_failure.c:683 <-
+       memory_allocation_failure_014 :: 01_w_Defects/memory_allocation_failure.c:944 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:748:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/memory_allocation_failure.c:777:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_015_func_002 :: 01_w_Defects/memory_allocation_failure.c:791 <-
+       memory_allocation_failure_015_func_003 :: 01_w_Defects/memory_allocation_failure.c:801 <-
+       memory_allocation_failure_015 :: 01_w_Defects/memory_allocation_failure.c:949 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:795:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/memory_allocation_failure.c:803:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/memory_allocation_failure.c:835:[nonterm:stmt] warning: non-terminating function call
+stack: memory_allocation_failure_016_func_002 :: 01_w_Defects/memory_allocation_failure.c:861 <-
+       memory_allocation_failure_016 :: 01_w_Defects/memory_allocation_failure.c:954 <-
+       memory_allocation_failure_main :: 01_w_Defects/main.c:280 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/memory_allocation_failure.c:868:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/not_return.c:24:[nonterm:stmt] warning: non-terminating statement
+stack: not_return_001_func_001 :: 01_w_Defects/not_return.c:29 <-
+       not_return_001 :: 01_w_Defects/not_return.c:117 <-
+       not_return_main :: 01_w_Defects/main.c:303 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/not_return.c:50:[nonterm:stmt] warning: non-terminating statement
+stack: not_return_002_func_001 :: 01_w_Defects/not_return.c:55 <-
+       not_return_002 :: 01_w_Defects/not_return.c:122 <-
+       not_return_main :: 01_w_Defects/main.c:303 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/not_return.c:76:[nonterm:stmt] warning: non-terminating statement
+stack: not_return_003_func_001 :: 01_w_Defects/not_return.c:81 <-
+       not_return_003 :: 01_w_Defects/not_return.c:127 <-
+       not_return_main :: 01_w_Defects/main.c:303 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/not_return.c:99:[nonterm:stmt] warning: non-terminating statement
+stack: not_return_004_func_001 :: 01_w_Defects/not_return.c:104 <-
+       not_return_004 :: 01_w_Defects/not_return.c:132 <-
+       not_return_main :: 01_w_Defects/main.c:303 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:23:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_001 :: 01_w_Defects/null_pointer.c:360 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:34:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_002 :: 01_w_Defects/null_pointer.c:365 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:47:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_003 :: 01_w_Defects/null_pointer.c:370 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:63:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_004 :: 01_w_Defects/null_pointer.c:375 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:94:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_005 :: 01_w_Defects/null_pointer.c:380 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:105:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_006 :: 01_w_Defects/null_pointer.c:385 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:117:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_007 :: 01_w_Defects/null_pointer.c:390 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:133:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_008 :: 01_w_Defects/null_pointer.c:395 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:142:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_009_func_001 :: 01_w_Defects/null_pointer.c:147 <-
+       null_pointer_009 :: 01_w_Defects/null_pointer.c:400 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:148:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/null_pointer.c:159:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_010 :: 01_w_Defects/null_pointer.c:405 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:173:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_011 :: 01_w_Defects/null_pointer.c:410 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:180:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_012 :: 01_w_Defects/null_pointer.c:415 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:196:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_013 :: 01_w_Defects/null_pointer.c:420 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:213:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_014 :: 01_w_Defects/null_pointer.c:425 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:241:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/null_pointer.c:285:[nonterm:stmt] warning: non-terminating loop
+stack: null_pointer_016 :: 01_w_Defects/null_pointer.c:435 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:287:[nonterm:stmt] warning: non-terminating loop
+stack: null_pointer_016 :: 01_w_Defects/null_pointer.c:435 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:289:[nonterm:stmt] warning: non-terminating statement
+stack: null_pointer_016 :: 01_w_Defects/null_pointer.c:435 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/null_pointer.c:334:[nonterm:stmt] warning: non-terminating loop
+stack: null_pointer_017 :: 01_w_Defects/null_pointer.c:440 <-
+       null_pointer_main :: 01_w_Defects/main.c:309 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:31:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_001 :: 01_w_Defects/overrun_st.c:881 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:44:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_002 :: 01_w_Defects/overrun_st.c:886 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:58:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_003 :: 01_w_Defects/overrun_st.c:891 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:71:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_004 :: 01_w_Defects/overrun_st.c:896 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:84:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_005 :: 01_w_Defects/overrun_st.c:901 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:97:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_006 :: 01_w_Defects/overrun_st.c:906 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:110:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_007 :: 01_w_Defects/overrun_st.c:911 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:123:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_008 :: 01_w_Defects/overrun_st.c:916 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:136:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_009 :: 01_w_Defects/overrun_st.c:921 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:154:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_010 :: 01_w_Defects/overrun_st.c:926 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:170:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_011 :: 01_w_Defects/overrun_st.c:931 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:186:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_012 :: 01_w_Defects/overrun_st.c:936 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:197:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_013 :: 01_w_Defects/overrun_st.c:941 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:226:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_015 :: 01_w_Defects/overrun_st.c:951 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:240:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_016 :: 01_w_Defects/overrun_st.c:956 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:258:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_017 :: 01_w_Defects/overrun_st.c:961 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:271:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_018_func_001 :: 01_w_Defects/overrun_st.c:276 <-
+       overrun_st_018 :: 01_w_Defects/overrun_st.c:966 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:277:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/overrun_st.c:288:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_019 :: 01_w_Defects/overrun_st.c:971 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:304:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_020 :: 01_w_Defects/overrun_st.c:976 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:322:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_021 :: 01_w_Defects/overrun_st.c:981 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:337:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_022 :: 01_w_Defects/overrun_st.c:986 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:352:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_023 :: 01_w_Defects/overrun_st.c:991 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:368:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_024 :: 01_w_Defects/overrun_st.c:996 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:383:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_025 :: 01_w_Defects/overrun_st.c:1001 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:398:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_026 :: 01_w_Defects/overrun_st.c:1006 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:413:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_027 :: 01_w_Defects/overrun_st.c:1011 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:428:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_028 :: 01_w_Defects/overrun_st.c:1016 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:445:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_029 :: 01_w_Defects/overrun_st.c:1021 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:462:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_030 :: 01_w_Defects/overrun_st.c:1026 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:477:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_031 :: 01_w_Defects/overrun_st.c:1031 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:490:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_032 :: 01_w_Defects/overrun_st.c:1036 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:523:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_034 :: 01_w_Defects/overrun_st.c:1046 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:539:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_035 :: 01_w_Defects/overrun_st.c:1051 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:559:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_036 :: 01_w_Defects/overrun_st.c:1056 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:574:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_037_func_001 :: 01_w_Defects/overrun_st.c:582 <-
+       overrun_st_037 :: 01_w_Defects/overrun_st.c:1061 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:583:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/overrun_st.c:596:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_038 :: 01_w_Defects/overrun_st.c:1066 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:614:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_039 :: 01_w_Defects/overrun_st.c:1071 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:634:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_040 :: 01_w_Defects/overrun_st.c:1076 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:648:[nonterm:stmt] warning: non-terminating loop
+stack: overrun_st_041 :: 01_w_Defects/overrun_st.c:1081 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:666:[nonterm:stmt] warning: non-terminating loop
+stack: overrun_st_042 :: 01_w_Defects/overrun_st.c:1086 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:693:[nonterm:stmt] warning: non-terminating loop
+stack: overrun_st_043 :: 01_w_Defects/overrun_st.c:1091 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:712:[nonterm:stmt] warning: non-terminating loop
+stack: overrun_st_044 :: 01_w_Defects/overrun_st.c:1096 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:729:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_045_func_001 :: 01_w_Defects/overrun_st.c:735 <-
+       overrun_st_045 :: 01_w_Defects/overrun_st.c:1101 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:739:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/overrun_st.c:747:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_046_func_001 :: 01_w_Defects/overrun_st.c:753 <-
+       overrun_st_046 :: 01_w_Defects/overrun_st.c:1106 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:757:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/overrun_st.c:765:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_047_func_001 :: 01_w_Defects/overrun_st.c:771 <-
+       overrun_st_047 :: 01_w_Defects/overrun_st.c:1111 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:772:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/overrun_st.c:780:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_048_func_001 :: 01_w_Defects/overrun_st.c:786 <-
+       overrun_st_048 :: 01_w_Defects/overrun_st.c:1116 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:790:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/overrun_st.c:799:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_049 :: 01_w_Defects/overrun_st.c:1121 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:819:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_050 :: 01_w_Defects/overrun_st.c:1126 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:834:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_051 :: 01_w_Defects/overrun_st.c:1131 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:844:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_052 :: 01_w_Defects/overrun_st.c:1136 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:856:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_053 :: 01_w_Defects/overrun_st.c:1141 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/overrun_st.c:868:[nonterm:stmt] warning: non-terminating statement
+stack: overrun_st_054 :: 01_w_Defects/overrun_st.c:1146 <-
+       overrun_st_main :: 01_w_Defects/main.c:315 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:48:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_001 :: 01_w_Defects/pow_related_errors.c:594 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:96:[nonterm:stmt] warning: non-terminating loop
+stack: pow_related_errors_003 :: 01_w_Defects/pow_related_errors.c:604 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:120:[nonterm:stmt] warning: non-terminating loop
+stack: pow_related_errors_004 :: 01_w_Defects/pow_related_errors.c:609 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:144:[nonterm:stmt] warning: non-terminating loop
+stack: pow_related_errors_005 :: 01_w_Defects/pow_related_errors.c:614 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:171:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_006 :: 01_w_Defects/pow_related_errors.c:619 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:205:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_007 :: 01_w_Defects/pow_related_errors.c:624 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:224:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_008 :: 01_w_Defects/pow_related_errors.c:629 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:243:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_009 :: 01_w_Defects/pow_related_errors.c:634 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:258:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_010 :: 01_w_Defects/pow_related_errors.c:639 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:273:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_011 :: 01_w_Defects/pow_related_errors.c:644 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:288:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_012 :: 01_w_Defects/pow_related_errors.c:649 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:303:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_013 :: 01_w_Defects/pow_related_errors.c:654 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:318:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_014 :: 01_w_Defects/pow_related_errors.c:659 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:335:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_015 :: 01_w_Defects/pow_related_errors.c:664 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:352:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_016 :: 01_w_Defects/pow_related_errors.c:669 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:370:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_017 :: 01_w_Defects/pow_related_errors.c:674 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:388:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_018 :: 01_w_Defects/pow_related_errors.c:679 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:405:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_019 :: 01_w_Defects/pow_related_errors.c:684 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:422:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_020 :: 01_w_Defects/pow_related_errors.c:689 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:439:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_021 :: 01_w_Defects/pow_related_errors.c:694 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:456:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_022 :: 01_w_Defects/pow_related_errors.c:699 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:473:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_023 :: 01_w_Defects/pow_related_errors.c:704 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:490:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_024 :: 01_w_Defects/pow_related_errors.c:709 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:529:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_026 :: 01_w_Defects/pow_related_errors.c:719 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:546:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_027 :: 01_w_Defects/pow_related_errors.c:724 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:563:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_028 :: 01_w_Defects/pow_related_errors.c:729 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/pow_related_errors.c:581:[nonterm:stmt] warning: non-terminating function call
+stack: pow_related_errors_029 :: 01_w_Defects/pow_related_errors.c:734 <-
+       pow_related_errors_main :: 01_w_Defects/main.c:351 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/ptr_subtraction.c:22:[nonterm:stmt] warning: non-terminating statement
+stack: ptr_subtraction_001 :: 01_w_Defects/ptr_subtraction.c:64 <-
+       ptr_subtraction_main :: 01_w_Defects/main.c:357 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/ptr_subtraction.c:51:[nonterm:stmt] warning: non-terminating statement
+stack: ptr_subtraction_002 :: 01_w_Defects/ptr_subtraction.c:69 <-
+       ptr_subtraction_main :: 01_w_Defects/main.c:357 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/return_local.c:26:[nonterm:stmt] warning: non-terminating statement
+stack: return_local_001 :: 01_w_Defects/return_local.c:55 <-
+       return_local_main :: 01_w_Defects/main.c:385 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/return_local.c:43:[nonterm:stmt] warning: non-terminating statement
+stack: return_local_002 :: 01_w_Defects/return_local.c:60 <-
+       return_local_main :: 01_w_Defects/main.c:385 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:23:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_001 :: 01_w_Defects/sign_conv.c:275 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:35:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_002 :: 01_w_Defects/sign_conv.c:280 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:47:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_003 :: 01_w_Defects/sign_conv.c:285 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:59:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_004 :: 01_w_Defects/sign_conv.c:290 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:71:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_005 :: 01_w_Defects/sign_conv.c:295 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:83:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_006 :: 01_w_Defects/sign_conv.c:300 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:95:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_007 :: 01_w_Defects/sign_conv.c:305 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:107:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_008 :: 01_w_Defects/sign_conv.c:310 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:124:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_009 :: 01_w_Defects/sign_conv.c:315 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:140:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_010 :: 01_w_Defects/sign_conv.c:320 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:150:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_011 :: 01_w_Defects/sign_conv.c:325 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:179:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_013 :: 01_w_Defects/sign_conv.c:335 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:191:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_014 :: 01_w_Defects/sign_conv.c:340 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:207:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_015 :: 01_w_Defects/sign_conv.c:345 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:217:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_016_func_001 :: 01_w_Defects/sign_conv.c:222 <-
+       sign_conv_016 :: 01_w_Defects/sign_conv.c:350 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:223:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/sign_conv.c:233:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_017 :: 01_w_Defects/sign_conv.c:355 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:246:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_018 :: 01_w_Defects/sign_conv.c:360 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/sign_conv.c:262:[nonterm:stmt] warning: non-terminating statement
+stack: sign_conv_019 :: 01_w_Defects/sign_conv.c:365 <-
+       sign_conv_main :: 01_w_Defects/main.c:391 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:28:[nonterm:stmt] warning: non-terminating loop
+stack: st_underrun_001 :: 01_w_Defects/st_underrun.c:287 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:54:[nonterm:stmt] warning: non-terminating loop
+stack: st_underrun_002_func_001 :: 01_w_Defects/st_underrun.c:65 <-
+       st_underrun_002 :: 01_w_Defects/st_underrun.c:292 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:66:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/st_underrun.c:89:[nonterm:stmt] warning: non-terminating loop
+stack: st_underrun_003_func_002 :: 01_w_Defects/st_underrun.c:102 <-
+       st_underrun_003 :: 01_w_Defects/st_underrun.c:297 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:103:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/st_underrun.c:126:[nonterm:stmt] warning: non-terminating loop
+stack: st_underrun_004_func_001 :: 01_w_Defects/st_underrun.c:140 <-
+       st_underrun_004 :: 01_w_Defects/st_underrun.c:302 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:141:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/st_underrun.c:197:[nonterm:stmt] warning: non-terminating loop
+stack: st_underrun_006_func_001 :: 01_w_Defects/st_underrun.c:211 <-
+       st_underrun_006 :: 01_w_Defects/st_underrun.c:316 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:197:[nonterm:stmt] warning: non-terminating statement
+stack: st_underrun_006_func_001 :: 01_w_Defects/st_underrun.c:211 <-
+       st_underrun_006 :: 01_w_Defects/st_underrun.c:316 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:211:[nonterm:stmt] warning: non-terminating function call
+stack: st_underrun_006 :: 01_w_Defects/st_underrun.c:316 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:249:[nonterm:stmt] warning: non-terminating loop
+stack: st_underrun_007_func_001 :: 01_w_Defects/st_underrun.c:273 <-
+       st_underrun_007 :: 01_w_Defects/st_underrun.c:321 <-
+       st_underrun_main :: 01_w_Defects/main.c:440 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/st_underrun.c:275:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/underrun_st.c:21:[nonterm:stmt] warning: non-terminating statement
+stack: underrun_st_001 :: 01_w_Defects/underrun_st.c:204 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:31:[nonterm:stmt] warning: non-terminating statement
+stack: underrun_st_002 :: 01_w_Defects/underrun_st.c:209 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:42:[nonterm:stmt] warning: non-terminating statement
+stack: underrun_st_003 :: 01_w_Defects/underrun_st.c:214 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:55:[nonterm:stmt] warning: non-terminating statement
+stack: underrun_st_004 :: 01_w_Defects/underrun_st.c:219 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:67:[nonterm:stmt] warning: non-terminating statement
+stack: underrun_st_005 :: 01_w_Defects/underrun_st.c:224 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:80:[nonterm:stmt] warning: non-terminating statement
+stack: underrun_st_006 :: 01_w_Defects/underrun_st.c:229 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:91:[nonterm:stmt] warning: non-terminating loop
+stack: underrun_st_007 :: 01_w_Defects/underrun_st.c:234 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:107:[nonterm:stmt] warning: non-terminating loop
+stack: underrun_st_008 :: 01_w_Defects/underrun_st.c:239 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:122:[nonterm:stmt] warning: non-terminating loop
+stack: underrun_st_009 :: 01_w_Defects/underrun_st.c:244 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:138:[nonterm:stmt] warning: non-terminating loop
+stack: underrun_st_010 :: 01_w_Defects/underrun_st.c:249 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:153:[nonterm:stmt] warning: non-terminating loop
+stack: underrun_st_011 :: 01_w_Defects/underrun_st.c:254 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:170:[nonterm:stmt] warning: non-terminating loop
+stack: underrun_st_012 :: 01_w_Defects/underrun_st.c:259 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/underrun_st.c:187:[nonterm:stmt] warning: non-terminating loop
+stack: underrun_st_013 :: 01_w_Defects/underrun_st.c:264 <-
+       underrun_st_main :: 01_w_Defects/main.c:446 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:29:[nonterm:stmt] warning: non-terminating function call
+stack: uninit_memory_access_001 :: 01_w_Defects/uninit_memory_access.c:536 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:50:[nonterm:stmt] warning: non-terminating function call
+stack: uninit_memory_access_002 :: 01_w_Defects/uninit_memory_access.c:541 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:71:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_memory_access.c:90:[nonterm:stmt] warning: non-terminating function call
+stack: uninit_memory_access_004 :: 01_w_Defects/uninit_memory_access.c:551 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:114:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_005 :: 01_w_Defects/uninit_memory_access.c:556 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:145:[nonterm:stmt] warning: non-terminating function call
+stack: uninit_memory_access_006 :: 01_w_Defects/uninit_memory_access.c:561 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:171:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_memory_access_007_func_002 :: 01_w_Defects/uninit_memory_access.c:194 <-
+       uninit_memory_access_007 :: 01_w_Defects/uninit_memory_access.c:566 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:173:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_007_func_002 :: 01_w_Defects/uninit_memory_access.c:194 <-
+       uninit_memory_access_007 :: 01_w_Defects/uninit_memory_access.c:566 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:197:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_memory_access.c:218:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_008 :: 01_w_Defects/uninit_memory_access.c:571 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:263:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_memory_access_009 :: 01_w_Defects/uninit_memory_access.c:576 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:265:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_memory_access_009 :: 01_w_Defects/uninit_memory_access.c:576 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:267:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_009 :: 01_w_Defects/uninit_memory_access.c:576 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:316:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_010 :: 01_w_Defects/uninit_memory_access.c:581 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:337:[nonterm:stmt] warning: non-terminating function call
+stack: uninit_memory_access_011 :: 01_w_Defects/uninit_memory_access.c:586 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:370:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_012 :: 01_w_Defects/uninit_memory_access.c:591 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:407:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_013 :: 01_w_Defects/uninit_memory_access.c:596 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:491:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_014 :: 01_w_Defects/uninit_memory_access.c:601 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:508:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_memory_access_015_func_001 :: 01_w_Defects/uninit_memory_access.c:521 <-
+       uninit_memory_access_015 :: 01_w_Defects/uninit_memory_access.c:606 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:510:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_memory_access_015_func_001 :: 01_w_Defects/uninit_memory_access.c:521 <-
+       uninit_memory_access_015 :: 01_w_Defects/uninit_memory_access.c:606 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:512:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_memory_access_015_func_001 :: 01_w_Defects/uninit_memory_access.c:521 <-
+       uninit_memory_access_015 :: 01_w_Defects/uninit_memory_access.c:606 <-
+       uninit_memory_access_main :: 01_w_Defects/main.c:452 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_memory_access.c:524:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_pointer.c:29:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_001 :: 01_w_Defects/uninit_pointer.c:456 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:40:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_002 :: 01_w_Defects/uninit_pointer.c:461 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:54:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_003 :: 01_w_Defects/uninit_pointer.c:466 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:70:[nonterm:stmt] warning: non-terminating function call
+stack: uninit_pointer_004 :: 01_w_Defects/uninit_pointer.c:471 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:92:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_005_func_001 :: 01_w_Defects/uninit_pointer.c:97 <-
+       uninit_pointer_005 :: 01_w_Defects/uninit_pointer.c:476 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:98:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_pointer.c:106:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_006_func_001 :: 01_w_Defects/uninit_pointer.c:113 <-
+       uninit_pointer_006 :: 01_w_Defects/uninit_pointer.c:481 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:114:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_pointer.c:131:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_pointer_007 :: 01_w_Defects/uninit_pointer.c:486 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:133:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_007 :: 01_w_Defects/uninit_pointer.c:486 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:157:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_008_func_001 :: 01_w_Defects/uninit_pointer.c:164 <-
+       uninit_pointer_008 :: 01_w_Defects/uninit_pointer.c:491 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:165:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_pointer.c:194:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_pointer.c:205:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_010_func_001 :: 01_w_Defects/uninit_pointer.c:210 <-
+       uninit_pointer_010 :: 01_w_Defects/uninit_pointer.c:501 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:211:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_pointer.c:232:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_pointer_011 :: 01_w_Defects/uninit_pointer.c:506 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:234:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_pointer_011 :: 01_w_Defects/uninit_pointer.c:506 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:257:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_pointer_012 :: 01_w_Defects/uninit_pointer.c:511 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:295:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_pointer_013 :: 01_w_Defects/uninit_pointer.c:516 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:367:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_pointer_014 :: 01_w_Defects/uninit_pointer.c:521 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:391:[nonterm:stmt] warning: non-terminating function call
+stack: uninit_pointer_015 :: 01_w_Defects/uninit_pointer.c:526 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_pointer.c:434:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_pointer_016 :: 01_w_Defects/uninit_pointer.c:531 <-
+       uninit_pointer_main :: 01_w_Defects/main.c:458 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:22:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_001 :: 01_w_Defects/uninit_var.c:316 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:33:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_002 :: 01_w_Defects/uninit_var.c:321 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:44:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_003 :: 01_w_Defects/uninit_var.c:326 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:62:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_004 :: 01_w_Defects/uninit_var.c:331 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:81:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:91:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_006 :: 01_w_Defects/uninit_var.c:341 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:110:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_007 :: 01_w_Defects/uninit_var.c:346 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:132:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_var_008 :: 01_w_Defects/uninit_var.c:351 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:134:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_008 :: 01_w_Defects/uninit_var.c:351 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:146:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:152:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:162:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_var_010_func_001 :: 01_w_Defects/uninit_var.c:169 <-
+       uninit_var_010 :: 01_w_Defects/uninit_var.c:361 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:163:[nonterm:stmt] warning: non-terminating loop
+stack: uninit_var_010_func_001 :: 01_w_Defects/uninit_var.c:169 <-
+       uninit_var_010 :: 01_w_Defects/uninit_var.c:361 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:164:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_010_func_001 :: 01_w_Defects/uninit_var.c:169 <-
+       uninit_var_010 :: 01_w_Defects/uninit_var.c:361 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:170:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:182:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_011_func_001 :: 01_w_Defects/uninit_var.c:191 <-
+       uninit_var_011 :: 01_w_Defects/uninit_var.c:366 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:192:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:206:[nonterm:stmt] warning: non-terminating switch
+stack: uninit_var_012_func_001 :: 01_w_Defects/uninit_var.c:231 <-
+       uninit_var_012 :: 01_w_Defects/uninit_var.c:371 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:234:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:250:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_013_func_001 :: 01_w_Defects/uninit_var.c:256 <-
+       uninit_var_013 :: 01_w_Defects/uninit_var.c:376 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:257:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:274:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_014_func_001 :: 01_w_Defects/uninit_var.c:283 <-
+       uninit_var_014 :: 01_w_Defects/uninit_var.c:381 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/uninit_var.c:284:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/uninit_var.c:303:[nonterm:stmt] warning: non-terminating statement
+stack: uninit_var_015 :: 01_w_Defects/uninit_var.c:386 <-
+       uninit_var_main :: 01_w_Defects/main.c:464 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:22:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_001 :: 01_w_Defects/zero_division.c:269 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:33:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_002 :: 01_w_Defects/zero_division.c:274 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:46:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_003 :: 01_w_Defects/zero_division.c:279 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:58:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_004_func_001 :: 01_w_Defects/zero_division.c:64 <-
+       zero_division_004 :: 01_w_Defects/zero_division.c:284 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:66:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/zero_division.c:77:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_005 :: 01_w_Defects/zero_division.c:289 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:92:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_006 :: 01_w_Defects/zero_division.c:294 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:117:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_007 :: 01_w_Defects/zero_division.c:299 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:134:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_008 :: 01_w_Defects/zero_division.c:304 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:146:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_009 :: 01_w_Defects/zero_division.c:309 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:171:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_011 :: 01_w_Defects/zero_division.c:319 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:183:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_012 :: 01_w_Defects/zero_division.c:324 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:200:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_013 :: 01_w_Defects/zero_division.c:329 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:211:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_014_func_001 :: 01_w_Defects/zero_division.c:216 <-
+       zero_division_014 :: 01_w_Defects/zero_division.c:334 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:217:[nonterm:unreachable] warning: unreachable return
+01_w_Defects/zero_division.c:230:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_015 :: 01_w_Defects/zero_division.c:339 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main
+01_w_Defects/zero_division.c:257:[nonterm:stmt] warning: non-terminating statement
+stack: zero_division_016 :: 01_w_Defects/zero_division.c:344 <-
+       zero_division_main :: 01_w_Defects/main.c:502 <-
+       main :: fc_stubs.c:21 <-
+       eva_main

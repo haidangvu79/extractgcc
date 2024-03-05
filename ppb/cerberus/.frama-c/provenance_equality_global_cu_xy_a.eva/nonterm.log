@@ -1,0 +1,2 @@
+provenance_equality_global_cu_xy_a.c:13:[nonterm:stmt] warning: non-terminating function call
+stack: main

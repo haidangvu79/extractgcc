@@ -1,0 +1,7 @@
+2019/adamovsky/prog.c:19:[nonterm:unreachable] warning: unreachable implicit return
+2019/adamovsky/prog.c:38:[nonterm:stmt] warning: non-terminating statement
+stack: rY1 :: 2019/adamovsky/prog.c:42 <-
+       Y :: 2019/adamovsky/prog.c:22 <-
+       I :: 2019/adamovsky/prog.c:25 <-
+       main
+2019/adamovsky/prog.c:42:[nonterm:unreachable] warning: unreachable return

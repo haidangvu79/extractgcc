@@ -1,0 +1,34 @@
+[metrics] Defined functions (3)
+=====================
+ fred (8 calls); joe (8 calls); main (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 72
+Decision point = 16
+Global variables = 0
+If = 16
+Loop = 0
+Goto = 0
+Assignment = 43
+Exit point = 3
+Function = 3
+Function call = 26
+Pointer dereferencing = 0
+Cyclomatic complexity = 19

@@ -1,0 +1,5 @@
+directory	file	line	function	property kind	status	property
+.	cwe119.c	28	my_strcmp	mem_access	Unknown	\valid_read(s1 + i)
+.	cwe119.c	28	my_strcmp	mem_access	Unknown	\valid_read(s2 + i)
+.	cwe119.c	65	host_lookup	precondition of strcpy	Invalid or unreachable	room_string: \valid(dest + (0 .. strlen(src)))
+FRAMAC_SHARE/libc	string.h	368	strcpy	precondition	Invalid or unreachable	room_string: \valid(dest + (0 .. strlen(src)))

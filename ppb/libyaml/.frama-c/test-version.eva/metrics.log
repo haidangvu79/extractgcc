@@ -1,0 +1,11 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 3 (out of 195)
+Semantically reached functions = 3
+Coverage estimation = 100.0%
+[metrics] Statements analyzed by Eva
+--------------------------
+19 stmts in analyzed functions, 19 stmts analyzed (100.0%)
+main: 13 stmts out of 13 (100.0%)
+yaml_get_version: 4 stmts out of 4 (100.0%)
+yaml_get_version_string: 2 stmts out of 2 (100.0%)

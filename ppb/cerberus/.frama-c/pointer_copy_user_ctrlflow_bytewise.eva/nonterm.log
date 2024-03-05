@@ -1,0 +1,6 @@
+pointer_copy_user_ctrlflow_bytewise.c:262:[nonterm:stmt] warning: non-terminating statement
+stack: control_flow_copy :: pointer_copy_user_ctrlflow_bytewise.c:267 <-
+       user_memcpy2 :: pointer_copy_user_ctrlflow_bytewise.c:276 <-
+       main
+pointer_copy_user_ctrlflow_bytewise.c:278:[nonterm:stmt] warning: non-terminating statement
+stack: main

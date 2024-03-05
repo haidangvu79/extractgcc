@@ -1,0 +1,14 @@
+Cerberus test suite in OSCS
+---------------------------
+
+This directory contains the test suite obtained from extracting the Cerberus
+(https://www.cl.cam.ac.uk/~pes20/cerberus/) test programs, as available in
+the `defacto_tarball.tar` archive in the Cerberus website.
+
+A few patches were applied to the code, namely to improve parsability by
+Frama-C. Some annotations (e.g. loop unroll) were added for extra precision.
+
+Note: the test cases and oracles were added as-is, by running Frama-C/Eva with
+the parameters given in `GNUmakefile`, but no extensive checking was performed
+to ensure that each test case produces the expected result. Inconsistencies
+can be reported via Github or the Frama-C-discuss mailing list.

@@ -1,0 +1,2 @@
+tkn-3.c:24:[nonterm:stmt] warning: non-terminating loop
+stack: alloc :: tkn-3.c:64 <- main

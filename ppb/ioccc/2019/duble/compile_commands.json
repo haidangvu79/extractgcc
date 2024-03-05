@@ -1,0 +1,34 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wno-incompatible-pointer-types",
+            "-Wno-return-type",
+            "-Wno-format-security",
+            "-Wno-bitwise-op-parentheses",
+            "-Wno-logical-op-parentheses",
+            "-Wno-parentheses",
+            "-Wno-dangling-else",
+            "-Wno-implicit-int",
+            "-Wno-unused-value",
+            "-Wno-pedantic",
+            "-Wno-misleading-indentation",
+            "-Wno-sequence-point",
+            "-Wno-unknown-warning-option",
+            "-Dg=11",
+            "-DSs=0",
+            "-DV=24",
+            "-DW=80",
+            "-o",
+            "prog",
+            "prog.c"
+        ],
+        "directory": ".",
+        "file": "prog.c"
+    }
+]

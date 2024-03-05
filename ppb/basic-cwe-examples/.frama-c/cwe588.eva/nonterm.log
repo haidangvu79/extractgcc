@@ -1,0 +1,2 @@
+cwe588.c:10:[nonterm:stmt] warning: non-terminating statement
+stack: main

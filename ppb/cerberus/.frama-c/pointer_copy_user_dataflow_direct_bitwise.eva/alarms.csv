@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	pointer_copy_user_dataflow_direct_bitwise.c	14	main	mem_access	Unknown	\valid(q)

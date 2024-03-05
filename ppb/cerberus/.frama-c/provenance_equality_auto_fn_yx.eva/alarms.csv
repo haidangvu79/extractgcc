@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	provenance_equality_auto_fn_yx.c	2	f	ptr_comparison	Unknown	\pointer_comparable((void *)p, (void *)q)

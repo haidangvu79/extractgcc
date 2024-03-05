@@ -1,0 +1,2 @@
+unspecified_value_stability.c:8:[nonterm:stmt] warning: non-terminating function call
+stack: main

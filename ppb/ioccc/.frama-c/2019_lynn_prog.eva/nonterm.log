@@ -1,0 +1,4 @@
+2019/lynn/prog.c:29:[nonterm:stmt] warning: non-terminating statement
+stack: W :: 2019/lynn/prog.c:40 <- main
+2019/lynn/prog.c:40:[nonterm:stmt] warning: non-terminating loop
+stack: main

@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+2020/kurdyukov4	prog.c	9	main	signed_overflow	Unknown	c + 1 ≤ 2147483647
+2020/kurdyukov4	prog.c	9	main	mem_access	Invalid or unreachable	\valid_read(V + 2)
+FRAMAC_SHARE/libc	stdlib.h	78	atoi	precondition	Unknown	valid_nptr: \valid_read(nptr)

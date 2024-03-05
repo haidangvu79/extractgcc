@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+programs/apps/bind/CA-1999-14/rrextract-sig	vars_bad.c	27	rrextract	ptr_comparison	Unknown	\pointer_comparable((void *)(cp + dlen), (void *)eom)

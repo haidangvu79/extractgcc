@@ -1,0 +1,5 @@
+khmgzv-2.c:5:[eva:garbled-mix:assigns] warning: The specification of function printf_va_1 has generated a garbled mix for assigns clause __fc_stdout->__fc_FILE_data.
+khmgzv-2.c:9:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{x} (origin: Misaligned {khmgzv-2.c:7}) }}

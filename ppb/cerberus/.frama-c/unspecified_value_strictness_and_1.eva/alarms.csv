@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	unspecified_value_strictness_and_1.c	4	main	initialization	Invalid or unreachable	\initialized(&c)

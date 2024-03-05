@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	padding_struct_copy_3.c	20	main	initialization	Invalid or unreachable	\initialized(padding2)

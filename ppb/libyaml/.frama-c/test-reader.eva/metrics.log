@@ -1,0 +1,26 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 16 (out of 199)
+Semantically reached functions = 16
+Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+------------------------------------
+[metrics] Statements analyzed by Eva
+--------------------------
+946 stmts in analyzed functions, 913 stmts analyzed (96.5%)
+check_boms: 34 stmts out of 34 (100.0%)
+check_long_utf16: 80 stmts out of 80 (100.0%)
+check_long_utf8: 84 stmts out of 84 (100.0%)
+check_utf8_sequences: 43 stmts out of 43 (100.0%)
+main: 7 stmts out of 7 (100.0%)
+yaml_free: 3 stmts out of 3 (100.0%)
+yaml_parser_initialize: 207 stmts out of 207 (100.0%)
+yaml_parser_set_input_string: 9 stmts out of 9 (100.0%)
+yaml_parser_set_reader_error: 6 stmts out of 6 (100.0%)
+yaml_string_read_handler: 13 stmts out of 13 (100.0%)
+yaml_parser_delete: 102 stmts out of 104 (98.1%)
+yaml_parser_update_buffer: 262 stmts out of 270 (97.0%)
+yaml_parser_determine_encoding: 35 stmts out of 38 (92.1%)
+yaml_parser_update_raw_buffer: 22 stmts out of 26 (84.6%)
+yaml_malloc: 4 stmts out of 5 (80.0%)
+yaml_token_delete: 2 stmts out of 17 (11.8%)

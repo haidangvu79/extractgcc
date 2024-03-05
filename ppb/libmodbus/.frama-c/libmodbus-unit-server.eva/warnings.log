@@ -1,0 +1,5 @@
+src/modbus-tcp.c:639:[eva] warning: ignoring unsupported allocates clause
+src/modbus-data.c:89:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: modbus_set_bits_from_bytes :: src/modbus.c:854 <-
+       modbus_reply :: tests/unit-test-server.c:183 <-
+       main

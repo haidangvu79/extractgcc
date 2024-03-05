@@ -1,0 +1,30 @@
+src/api.c:235:[nonterm:stmt] warning: non-terminating statement
+stack 1: yaml_parser_delete :: tests/test-reader.c:157 <-
+         check_utf8_sequences :: tests/test-reader.c:353 <-
+         main
+stack 2: yaml_parser_delete :: tests/test-reader.c:199 <-
+         check_boms :: tests/test-reader.c:353 <-
+         main
+stack 3: yaml_parser_delete :: tests/test-reader.c:273 <-
+         check_long_utf8 :: tests/test-reader.c:353 <-
+         main
+stack 4: yaml_parser_delete :: tests/test-reader.c:344 <-
+         check_long_utf16 :: tests/test-reader.c:353 <-
+         main
+src/api.c:588:[nonterm:stmt] warning: non-terminating switch
+stack 1: yaml_token_delete :: src/api.c:227 <-
+         yaml_parser_delete :: tests/test-reader.c:157 <-
+         check_utf8_sequences :: tests/test-reader.c:353 <-
+         main
+stack 2: yaml_token_delete :: src/api.c:227 <-
+         yaml_parser_delete :: tests/test-reader.c:199 <-
+         check_boms :: tests/test-reader.c:353 <-
+         main
+stack 3: yaml_token_delete :: src/api.c:227 <-
+         yaml_parser_delete :: tests/test-reader.c:273 <-
+         check_long_utf8 :: tests/test-reader.c:353 <-
+         main
+stack 4: yaml_token_delete :: src/api.c:227 <-
+         yaml_parser_delete :: tests/test-reader.c:344 <-
+         check_long_utf16 :: tests/test-reader.c:353 <-
+         main

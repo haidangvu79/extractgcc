@@ -1,0 +1,8 @@
+provenance_multiple_3_global_yx.c:5:[eva:garbled-mix:assigns] warning: The specification of function printf_va_1 has generated a garbled mix for assigns clause __fc_stdout->__fc_FILE_data.
+provenance_multiple_3_global_yx.c:7:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{x}
+  (origin: Misaligned {provenance_multiple_3_global_yx.c:6}) }}
+{{ garbled mix of &{y}
+  (origin: Misaligned {provenance_multiple_3_global_yx.c:6}) }}

@@ -1,0 +1,7 @@
+# extra .gitignore rules specific to this benchmark
+
+# we do not version the .parse and .eva directories due to their large size
+
+eval.txt
+*.eva
+*.parse

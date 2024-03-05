@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	krebbers_biener_1.c	4	foo	mem_access	Unknown	\valid(&q->j)

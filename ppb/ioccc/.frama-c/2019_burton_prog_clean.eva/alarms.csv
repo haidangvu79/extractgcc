@@ -1,0 +1,6 @@
+directory	file	line	function	property kind	status	property
+2019/burton	prog.clean.c	1	main	signed_overflow	Unknown	-((int)(~tmp_0)) ≤ 2147483647
+2019/burton	prog.clean.c	1	main	signed_overflow	Unknown	e + (int)(11 ≡ n? 1: 0) ≤ 2147483647
+2019/burton	prog.clean.c	1	main	signed_overflow	Unknown	y + 1 ≤ 2147483647
+2019/burton	prog.clean.c	1	main	signed_overflow	Unknown	j + 1 ≤ 2147483647
+2019/burton	prog.clean.c	1	main	signed_overflow	Unknown	j + tmp_1 ≤ 2147483647

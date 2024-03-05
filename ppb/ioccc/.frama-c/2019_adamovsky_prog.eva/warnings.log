@@ -1,0 +1,8 @@
+2019/adamovsky/prog.c:42:[eva] warning: Using specification of function I for recursive calls. Analysis of function I
+is thus incomplete and its soundness relies on the written specification.
+2019/adamovsky/prog.c:19:[eva] warning: Using specification of function D for recursive calls. Analysis of function D
+is thus incomplete and its soundness relies on the written specification.
+2019/adamovsky/prog.c:19:[eva] warning: Using specification of function D for recursive calls. Analysis of function D
+is thus incomplete and its soundness relies on the written specification.
+2019/adamovsky/prog.c:19:[eva] warning: Using specification of function D for recursive calls. Analysis of function D
+is thus incomplete and its soundness relies on the written specification.

@@ -1,0 +1,3 @@
+directory	file	line	function	property kind	status	property
+.	pointer_comparison_eq_zombie_1.c	4	main	mem_access	Unknown	\valid(pj)
+.	pointer_comparison_eq_zombie_1.c	7	main	dangling_pointer	Invalid or unreachable	¬\dangling(&pj)

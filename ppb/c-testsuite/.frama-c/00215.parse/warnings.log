@@ -1,0 +1,8 @@
+[variadic:libc:frama-c] warning: Unable to locate ACSL predicate valid_read_string which should be in the Frama-C LibC. Correct specifications can't be generated.
+[variadic:libc:frama-c] warning: Unable to locate global __fc_stdout which should be in the Frama-C LibC. Correct specifications can't be generated.
+00215.c:6:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from unsigned long to long.
+00215.c:19:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from unsigned long to long.
+00215.c:32:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from unsigned long to long.
+00215.c:46:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from unsigned long to long.
+00215.c:60:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from unsigned long to long.
+00215.c:76:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from unsigned long to long.

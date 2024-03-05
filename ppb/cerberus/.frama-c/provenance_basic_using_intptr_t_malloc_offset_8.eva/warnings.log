@@ -1,0 +1,12 @@
+provenance_basic_using_intptr_t_malloc_offset_8.c:4:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+provenance_basic_using_intptr_t_malloc_offset_8.c:5:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+provenance_basic_using_intptr_t_malloc_offset_8.c:8:[eva:garbled-mix:assigns] warning: The specification of function printf_va_1 has generated a garbled mix for assigns clause __fc_stdout->__fc_FILE_data.
+provenance_basic_using_intptr_t_malloc_offset_8.c:12:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{__malloc_main_l2}
+  (origin: Misaligned {provenance_basic_using_intptr_t_malloc_offset_8.c:11}) }}
+{{ garbled mix of &{__malloc_main_l3}
+  (origin: Misaligned {provenance_basic_using_intptr_t_malloc_offset_8.c:11}) }}

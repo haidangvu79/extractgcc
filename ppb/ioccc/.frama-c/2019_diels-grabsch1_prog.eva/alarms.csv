@@ -1,0 +1,15 @@
+directory	file	line	function	property kind	status	property
+2019/diels-grabsch1	prog.c	5	main	signed_overflow	Unknown	g + (long long)(f << 8) ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	5	main	shift	Unknown	0 ≤ f
+2019/diels-grabsch1	prog.c	5	main	signed_overflow	Unknown	f << 8 ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	6	main	initialization	Unknown	\initialized(&c[i])
+2019/diels-grabsch1	prog.c	6	main	index_bound	Unknown	0 ≤ i
+2019/diels-grabsch1	prog.c	6	main	index_bound	Unknown	i < 178819
+2019/diels-grabsch1	prog.c	6	main	signed_overflow	Unknown	i + tmp_2 ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	6	main	signed_overflow	Unknown	i + h ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	7	main	signed_overflow	Unknown	(long long)(h * f) << d ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	8	main	signed_overflow	Unknown	f * 256 ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	8	main	signed_overflow	Unknown	g * 65536L ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	8	main	signed_overflow	Unknown	e + 1 ≤ 9223372036854775807
+2019/diels-grabsch1	prog.c	9	main	shift	Unknown	0 ≤ f
+2019/diels-grabsch1	prog.c	9	main	signed_overflow	Unknown	f << d ≤ 9223372036854775807

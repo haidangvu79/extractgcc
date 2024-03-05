@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	unspecified_value_library_call_argument.c	5	main	initialization	Invalid or unreachable	\initialized(&c)

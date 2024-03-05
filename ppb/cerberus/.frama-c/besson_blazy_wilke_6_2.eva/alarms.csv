@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	besson_blazy_wilke_6_2.c	3	main	ptr_comparison	Unknown	\pointer_comparable(p, (void *)((int)(-1)))

@@ -1,0 +1,4 @@
+programs/apps/SpamAssassin/BID-6679/message_write/loop_ok.c:11:[nonterm:stmt] warning: non-terminating loop
+stack: message_write :: programs/apps/SpamAssassin/BID-6679/message_write/loop_ok.c:38 <-
+       main
+programs/apps/SpamAssassin/BID-6679/message_write/loop_ok.c:40:[nonterm:unreachable] warning: unreachable return

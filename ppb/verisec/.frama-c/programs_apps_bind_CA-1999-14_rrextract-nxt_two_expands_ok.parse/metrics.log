@@ -1,0 +1,34 @@
+[metrics] Defined functions (3)
+=====================
+ dn_expand (2 calls); main (0 call); rrextract (1 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 61
+Decision point = 6
+Global variables = 0
+If = 6
+Loop = 0
+Goto = 6
+Assignment = 32
+Exit point = 3
+Function = 3
+Function call = 12
+Pointer dereferencing = 1
+Cyclomatic complexity = 9

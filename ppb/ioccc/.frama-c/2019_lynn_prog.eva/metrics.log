@@ -1,0 +1,43 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 26 (out of 26)
+Semantically reached functions = 2
+Coverage estimation = 7.7% 
+
+Unreached functions (24) =
+  <2019/lynn/prog.c>: _; A; a; b; c; d; e; f; G; g; l; m; N; o; O; p; R; r;
+    s; t; U; u; w; Z;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function main calls l (at 2019/lynn/prog.c:43)
+Function main calls l (at 2019/lynn/prog.c:43)
+Function main calls l (at 2019/lynn/prog.c:43)
+Function main calls l (at 2019/lynn/prog.c:43)
+Function main calls l (at 2019/lynn/prog.c:43)
+Function main references O (at 2019/lynn/prog.c:46)
+Function main references b (at 2019/lynn/prog.c:46)
+Function main references f (at 2019/lynn/prog.c:46)
+Function main references u (at 2019/lynn/prog.c:46)
+Function main references s (at 2019/lynn/prog.c:46)
+Function main references c (at 2019/lynn/prog.c:46)
+Function main references a (at 2019/lynn/prog.c:46)
+Function main references t (at 2019/lynn/prog.c:46)
+Function main references e (at 2019/lynn/prog.c:46)
+Function main references d (at 2019/lynn/prog.c:46)
+Function main references _ (at 2019/lynn/prog.c:46)
+Function main references p (at 2019/lynn/prog.c:46)
+Function main references r (at 2019/lynn/prog.c:46)
+Function main references o (at 2019/lynn/prog.c:46)
+Function main references g (at 2019/lynn/prog.c:46)
+Function main references R (at 2019/lynn/prog.c:46)
+Function main references A (at 2019/lynn/prog.c:46)
+Function main references m (at 2019/lynn/prog.c:46)
+Function W calls N (at 2019/lynn/prog.c:31)
+Function W calls l (at 2019/lynn/prog.c:31)
+Function W calls Z (at 2019/lynn/prog.c:31)
+Function W calls l (at 2019/lynn/prog.c:31)
+[metrics] Statements analyzed by Eva
+--------------------------
+107 stmts in analyzed functions, 26 stmts analyzed (24.3%)
+W: 20 stmts out of 66 (30.3%)
+main: 6 stmts out of 41 (14.6%)

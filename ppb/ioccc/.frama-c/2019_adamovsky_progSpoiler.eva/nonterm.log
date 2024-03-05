@@ -1,0 +1,11 @@
+2019/adamovsky/progSpoiler.c:9:[nonterm:unreachable] warning: unreachable implicit return
+2019/adamovsky/progSpoiler.c:14:[nonterm:unreachable] warning: unreachable return
+2019/adamovsky/progSpoiler.c:18:[nonterm:unreachable] warning: unreachable return
+2019/adamovsky/progSpoiler.c:111:[nonterm:stmt] warning: non-terminating function call
+stack: main
+2019/adamovsky/progSpoiler.c:288:[nonterm:stmt] warning: non-terminating statement
+stack: Apply1 :: 2019/adamovsky/progSpoiler.c:315 <-
+       Apply :: 2019/adamovsky/progSpoiler.c:90 <-
+       I :: 2019/adamovsky/progSpoiler.c:115 <-
+       main
+2019/adamovsky/progSpoiler.c:315:[nonterm:unreachable] warning: unreachable return

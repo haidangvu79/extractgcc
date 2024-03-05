@@ -1,0 +1,2 @@
+cwe761.c:24:[nonterm:stmt] warning: non-terminating function call
+stack: contains_char :: cwe761.c:37 <- main

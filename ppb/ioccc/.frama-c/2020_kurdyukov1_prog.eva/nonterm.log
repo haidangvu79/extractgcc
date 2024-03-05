@@ -1,0 +1,4 @@
+2020/kurdyukov1/prog.c:17:[nonterm:stmt] warning: non-terminating loop
+stack: main
+2020/kurdyukov1/prog.c:21:[nonterm:stmt] warning: non-terminating statement
+stack: main

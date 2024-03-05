@@ -1,0 +1,6 @@
+run-dumper
+run-emitter
+run-parser-test-suite
+run-scanner
+test-reader
+test-version

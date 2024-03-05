@@ -1,0 +1,34 @@
+[metrics] Defined functions (3)
+=====================
+ blah (1 call); convert_like_real (1 call); main (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 16
+Decision point = 1
+Global variables = 0
+If = 0
+Loop = 0
+Goto = 1
+Assignment = 6
+Exit point = 3
+Function = 3
+Function call = 3
+Pointer dereferencing = 1
+Cyclomatic complexity = 4

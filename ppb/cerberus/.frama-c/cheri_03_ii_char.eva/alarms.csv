@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	cheri_03_ii_char.c	8	main	initialization	Invalid or unreachable	\initialized(p)

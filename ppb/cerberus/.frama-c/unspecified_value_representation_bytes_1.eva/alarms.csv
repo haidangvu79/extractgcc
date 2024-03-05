@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	unspecified_value_representation_bytes_1.c	5	main	initialization	Invalid or unreachable	\initialized((unsigned char *)(&i))

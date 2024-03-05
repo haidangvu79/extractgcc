@@ -1,0 +1,2 @@
+cwe190-unsigned.c:43:[nonterm:stmt] warning: non-terminating function call
+stack: main

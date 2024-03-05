@@ -1,0 +1,2 @@
+cheri_08_last_word.c:7:[nonterm:stmt] warning: non-terminating statement
+stack: main

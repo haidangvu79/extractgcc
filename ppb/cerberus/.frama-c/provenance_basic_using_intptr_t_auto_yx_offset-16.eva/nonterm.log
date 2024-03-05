@@ -1,0 +1,2 @@
+provenance_basic_using_intptr_t_auto_yx_offset-16.c:11:[nonterm:stmt] warning: non-terminating statement
+stack: main

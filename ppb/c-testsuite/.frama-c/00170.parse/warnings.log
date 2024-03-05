@@ -1,0 +1,3 @@
+00170.c:67:[kernel:typing:incompatible-types-call] warning: expected 'unsigned int *' but got argument of type 'enum Epositive *': & epos
+00170.c:62:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from enum fred (unsigned int) to int.
+00170.c:64:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from enum fred (unsigned int) to int.

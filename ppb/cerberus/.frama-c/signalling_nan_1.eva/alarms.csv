@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	signalling_nan_1.c	22	main	initialization	Invalid or unreachable	\initialized(&u.ld)

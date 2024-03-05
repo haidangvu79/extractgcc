@@ -1,0 +1,33 @@
+directory	file	line	function	property kind	status	property
+FRAMAC_SHARE/libc/sys	socket.h	442	recv	precondition	Unknown	valid_buffer_length: \valid((char *)buf + (0 .. len - 1))
+src	modbus-tcp.c	180	_modbus_tcp_recv	precondition of recv	Unknown	valid_buffer_length: \valid((char *)buf + (0 .. len - 1))
+src	modbus-tcp.c	202	_modbus_tcp_pre_check_confirmation	initialization	Unknown	\initialized(rsp + 2)
+src	modbus-tcp.c	202	_modbus_tcp_pre_check_confirmation	initialization	Unknown	\initialized(rsp + 3)
+src	modbus-tcp.c	292	_connect	initialization	Unknown	\initialized(&optval)
+src	modbus.c	176	send_msg	initialization	Unknown	\initialized(msg + i)
+src	modbus.c	296	compute_data_length_after_meta	initialization	Unknown	\initialized(msg + (ctx->backend)->header_length)
+src	modbus.c	316	compute_data_length_after_meta	initialization	Unknown	\initialized(msg + (unsigned int)((ctx->backend)->header_length + 1))
+src	modbus.c	422	_modbus_receive_msg	initialization	Unknown	\initialized(msg + (int)(msg_length + i))
+src	modbus.c	422	_modbus_receive_msg	mem_access	Unknown	\valid_read(msg + (int)(msg_length + i))
+src	modbus.c	422	_modbus_receive_msg	signed_overflow	Unknown	msg_length + i ≤ 2147483647
+src	modbus.c	426	_modbus_receive_msg	signed_overflow	Unknown	-2147483648 ≤ msg_length + rc
+src	modbus.c	426	_modbus_receive_msg	signed_overflow	Unknown	msg_length + rc ≤ 2147483647
+src	modbus.c	428	_modbus_receive_msg	signed_overflow	Unknown	-2147483648 ≤ length_to_read - rc
+src	modbus.c	428	_modbus_receive_msg	signed_overflow	Unknown	length_to_read - rc ≤ 2147483647
+src	modbus.c	434	_modbus_receive_msg	initialization	Unknown	\initialized(msg + (ctx->backend)->header_length)
+src	modbus.c	444	_modbus_receive_msg	signed_overflow	Unknown	msg_length + length_to_read ≤ 2147483647
+src	modbus.c	510	check_confirmation	initialization	Unknown	\initialized(rsp + offset)
+src	modbus.c	531	check_confirmation	initialization	Unknown	\initialized(rsp + (int)(offset + 1))
+src	modbus.c	577	check_confirmation	initialization	Unknown	\initialized(rsp + (int)(offset + 1))
+src	modbus.c	584	check_confirmation	initialization	Unknown	\initialized(rsp + (int)(offset + 1))
+src	modbus.c	590	check_confirmation	initialization	Unknown	\initialized(rsp + (int)(offset + 3))
+src	modbus.c	590	check_confirmation	initialization	Unknown	\initialized(rsp + (int)(offset + 4))
+src	modbus.c	1062	read_io_status	initialization	Unknown	\initialized(&rsp[i])
+src	modbus.c	1173	read_registers	initialization	Unknown	\initialized(&rsp[(int)((int)(offset + 2) + (int)(i << 1))])
+src	modbus.c	1173	read_registers	initialization	Unknown	\initialized(&rsp[(int)((int)(offset + 3) + (int)(i << 1))])
+src	modbus.c	1323	modbus_write_bits	signed_overflow	Unknown	bit_check + 1 ≤ 2147483647
+src	modbus.c	1324	modbus_write_bits	mem_access	Unknown	\valid_read(src + tmp_1)
+src	modbus.c	1324	modbus_write_bits	signed_overflow	Unknown	pos + 1 ≤ 2147483647
+src	modbus.c	1329	modbus_write_bits	signed_overflow	Unknown	bit << 1 ≤ 2147483647
+src	modbus.c	1508	modbus_write_and_read_registers	initialization	Unknown	\initialized(&rsp[(int)((int)(offset + 2) + (int)(i << 1))])
+src	modbus.c	1508	modbus_write_and_read_registers	initialization	Unknown	\initialized(&rsp[(int)((int)(offset + 3) + (int)(i << 1))])

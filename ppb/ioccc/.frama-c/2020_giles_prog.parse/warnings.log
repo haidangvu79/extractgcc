@@ -1,0 +1,2 @@
+2020/giles/prog.c:33:[kernel:parser:decimal-float] warning: Floating-point constant 0.994 is not represented exactly. Will use 0x1.fced916872b02p-1.
+(warn-once: no further messages from category 'parser:decimal-float' will be emitted)

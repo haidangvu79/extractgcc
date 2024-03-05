@@ -1,0 +1,16 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 3 (out of 3)
+Semantically reached functions = 2
+Coverage estimation = 66.7% 
+
+Unreached functions (1) =
+  <programs/apps/bind/CA-1999-14/bind.c>: dn_expand;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function rrextract calls dn_expand (at programs/apps/bind/CA-1999-14/rrextract-sig/both_bad.c:49)
+[metrics] Statements analyzed by Eva
+--------------------------
+58 stmts in analyzed functions, 29 stmts analyzed (50.0%)
+main: 9 stmts out of 9 (100.0%)
+rrextract: 20 stmts out of 49 (40.8%)

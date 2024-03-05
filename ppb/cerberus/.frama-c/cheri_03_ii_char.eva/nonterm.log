@@ -1,0 +1,2 @@
+cheri_03_ii_char.c:8:[nonterm:stmt] warning: non-terminating function call
+stack: main

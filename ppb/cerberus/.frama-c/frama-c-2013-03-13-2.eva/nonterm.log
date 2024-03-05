@@ -1,0 +1,2 @@
+frama-c-2013-03-13-2.c:8:[nonterm:stmt] warning: non-terminating statement
+stack: main

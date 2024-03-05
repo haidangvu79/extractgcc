@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	frama-c-2013-03-13-2.c	8	main	initialization	Invalid or unreachable	\initialized(&j)

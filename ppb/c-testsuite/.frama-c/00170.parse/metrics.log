@@ -1,0 +1,35 @@
+[metrics] Defined functions (4)
+=====================
+ deref_uintptr (1 call); it_real_fn (address taken) (0 call); main (0 call);
+ should_compile (0 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (2)
+==========================
+ main; should_compile; 
+
+Global metrics
+============== 
+Sloc = 16
+Decision point = 0
+Global variables = 0
+If = 0
+Loop = 0
+Goto = 0
+Assignment = 8
+Exit point = 4
+Function = 4
+Function call = 5
+Pointer dereferencing = 2
+Cyclomatic complexity = 4

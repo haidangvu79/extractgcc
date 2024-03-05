@@ -1,0 +1,16 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 3 (out of 3)
+Semantically reached functions = 1
+Coverage estimation = 33.3% 
+
+Unreached functions (2) =
+  <besson_blazy_wilkie_Fig_1.c>: isset; set;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function main calls set (at besson_blazy_wilkie_Fig_1.c:6)
+Function main calls isset (at besson_blazy_wilkie_Fig_1.c:7)
+[metrics] Statements analyzed by Eva
+--------------------------
+3 stmts in analyzed functions, 1 stmts analyzed (33.3%)
+main: 1 stmts out of 3 (33.3%)

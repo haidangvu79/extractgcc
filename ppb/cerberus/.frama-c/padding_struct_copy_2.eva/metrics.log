@@ -1,0 +1,15 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 2 (out of 2)
+Semantically reached functions = 1
+Coverage estimation = 50.0% 
+
+Unreached functions (1) =
+  <padding_struct_copy_2.c>: f;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function main calls f (at padding_struct_copy_2.c:22)
+[metrics] Statements analyzed by Eva
+--------------------------
+12 stmts in analyzed functions, 8 stmts analyzed (66.7%)
+main: 8 stmts out of 12 (66.7%)

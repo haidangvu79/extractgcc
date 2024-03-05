@@ -1,0 +1,6 @@
+directory	file	line	function	property kind	status	property
+FRAMAC_SHARE/libc	string.h	95	memcpy	precondition	Unknown	valid_dest: valid_or_empty(dest, n)
+FRAMAC_SHARE/libc	string.h	96	memcpy	precondition	Unknown	valid_src: valid_read_or_empty(src, n)
+programs/apps/bind/CA-1999-14/rrextract-nxt	two_expands_bad.c	22	rrextract	ptr_comparison	Unknown	\pointer_comparable((void *)(cp + dlen), (void *)eom)
+programs/apps/bind/CA-1999-14/rrextract-nxt	two_expands_bad.c	45	rrextract	precondition of memcpy	Unknown	valid_dest: valid_or_empty(dest, n)
+programs/apps/bind/CA-1999-14/rrextract-nxt	two_expands_bad.c	45	rrextract	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)

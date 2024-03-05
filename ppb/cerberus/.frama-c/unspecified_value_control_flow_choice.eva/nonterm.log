@@ -1,0 +1,2 @@
+unspecified_value_control_flow_choice.c:5:[nonterm:stmt] warning: non-terminating statement
+stack: main

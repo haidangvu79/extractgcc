@@ -1,0 +1,2 @@
+besson_blazy_wilkie_Fig_1.c:6:[nonterm:stmt] warning: non-terminating function call (initializer)
+stack: main

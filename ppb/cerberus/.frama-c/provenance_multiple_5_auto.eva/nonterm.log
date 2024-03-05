@@ -1,0 +1,2 @@
+provenance_multiple_5_auto.c:7:[nonterm:stmt] warning: non-terminating statement
+stack: main

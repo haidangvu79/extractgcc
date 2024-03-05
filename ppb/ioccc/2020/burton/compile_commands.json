@@ -1,0 +1,26 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-include",
+            "stdlib.h",
+            "-include",
+            "stdio.h",
+            "-O3",
+            "-DB=6945503773712347754LL",
+            "-DI=5859838231191962459LL",
+            "-DT=0",
+            "-DS=7",
+            "-o",
+            "prog",
+            "prog.c"
+        ],
+        "directory": ".",
+        "file": "prog.c"
+    }
+]

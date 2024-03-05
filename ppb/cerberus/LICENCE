@@ -1,0 +1,135 @@
+The Charon tool and the majority of the test programs in tests/ are
+copyright (c) 2012-2016 David Chisnall, Kayvan Memarian, and Peter
+Sewell.  They are distributed subject to the ISC licence below.
+
+The remaining test programs are taken from the literature, as below.
+
+klw-itp14-1.c
+klw-itp14-2.c
+
+  Robbert Krebbers, Xavier Leroy, and Freek Wiedijk. Formal
+  C semantics: Compcert and the C standard. In Interactive
+  Theorem Proving - 5th International Conference, ITP 2014
+
+ubc_addr_null_1.c
+
+  Adapted from examples in Regehr’s UB Canaries
+
+besson_blazy_wilke_6.2.c
+
+  Frédéric Besson, Sandrine Blazy, and Pierre Wilke. A precise and
+  abstract memory model for C using symbolic values.  In
+  Proc. Programming Languages and Systems - 12th Asian Symposium,
+  APLAS 2014
+
+union_punning_gcc_1.c
+union_punning_gcc_2.c
+
+  Adapted from the GCC documentation
+
+compcertTSO-2.c
+
+  J. Sevcˇík, V. Vafeiadis, F. Zappa Nardelli, S. Jagannathan, and
+  P. Sewell. CompCertTSO: A verified compiler for relaxed- memory
+  concurrency. J. ACM, 60(3), June 2013.
+
+frama-c-2013-03-13-2.c
+
+  From a Frama-C Blog post by Pascal Cuoq
+
+besson_blazy_wilke_bitfields_1u.c
+
+  Frédéric Besson, Sandrine Blazy, and Pierre Wilke. A concrete memory
+  model for CompCert. In Interactive Theorem Proving - 6th International
+  Conference, ITP 2015
+
+krebbers_biener_1.c
+
+  Richard Biener on the GCC list, following a question from Robbert Krebbers
+  https://gcc.gnu.org/ml/gcc/2015-03/msg00083.html
+
+tkn-1.c
+tkn-2.c
+tkn-3.c
+
+  Types, bytes, and separation logic; Tuch, Klein, Norrish; POPL 2007
+
+compcertMMv2-1.c
+compcertMMv2-2.c
+compcertMMv2-3.c
+compcertMMv2-4.c
+compcertMMv2-5.c
+
+  The CompCert Memory Model, Version 2; Leroy, Appel, Blazy, Stewart;
+  INRIA RR-7987 2012
+
+besson_blazy_wilkie_Fig_1_adapted.c
+besson_blazy_wilkie_Fig_2.c
+besson_blazy_wilke_6.2.c
+
+  A Precise and Abstract Memory Model for C using Symbolic Values,
+  Besson, Blazy, and Wilke; APLAS 2014
+
+khmgzv-1.c
+khmgzv-2.c
+
+  A formal C memory model supporting integer-pointer casts; Kang, Hur,
+  Mansky, Garbuzov, Zdancewic, Vafeiadis; PLDI 2015
+
+
+ISC Licence
+-----------
+
+Permission to use, copy, modify, and/or distribute this software for
+any purpose with or without fee is hereby granted, provided that the
+above copyright notice and this permission notice appear in all
+copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+
+------------------------------------------------------------------------
+
+The file jsmn.h and some parts of charon_run.c are taken from JSMN,
+http://zserge.com/jsmn.html, which is released under the following MIT
+license.
+
+Copyright (c) 2010 Serge A. Zaitsev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+------------------------------------------------------------------------
+
+The files jsonm.mli and jsonm.ml are taken from Jsonm,
+https://github.com/dbuenzli/jsonm, which is released under the BSD3
+license therein.
+
+Copyright (c) 2012 Daniel C. Bünzli. All rights reserved.
+Distributed under the BSD3 license, see license at the end of the file.
+jsonm release 0.9.1
+
+

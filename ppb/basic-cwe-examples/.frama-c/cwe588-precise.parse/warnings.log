@@ -1,0 +1,1 @@
+cwe588.c:9:[kernel:typing:incompatible-pointer-types] warning: casting function to struct foo *

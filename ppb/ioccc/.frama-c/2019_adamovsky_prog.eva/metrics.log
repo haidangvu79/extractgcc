@@ -1,0 +1,60 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 46 (out of 46)
+Semantically reached functions = 11
+Coverage estimation = 23.9% 
+
+Unreached functions (35) =
+  <2019/adamovsky/prog.c>: fA; fA1; fA2; fC; fCh; fD; fD0; fD1; fE; fI; fK0;
+    fK1; fP; fR; fS0; fS1; fS2; fS21; fS22; fT; fV; fW; rA1; rA2; rC; rD; rE;
+    rS1; rS2; rT; rY2; Y1; Y2; YE; Yt;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function D references fW (at 2019/adamovsky/prog.c:19)
+Function D references fCh (at 2019/adamovsky/prog.c:19)
+Function D references fCh (at 2019/adamovsky/prog.c:19)
+Function D references fW (at 2019/adamovsky/prog.c:19)
+Function D references fT (at 2019/adamovsky/prog.c:19)
+Function D references fT (at 2019/adamovsky/prog.c:19)
+Function D references rE (at 2019/adamovsky/prog.c:19)
+Function D references rT (at 2019/adamovsky/prog.c:19)
+Function D references rC (at 2019/adamovsky/prog.c:19)
+Function D references rC (at 2019/adamovsky/prog.c:19)
+Function D references rT (at 2019/adamovsky/prog.c:19)
+Function D references rE (at 2019/adamovsky/prog.c:19)
+Function main references rT (at 2019/adamovsky/prog.c:26)
+Function main references rC (at 2019/adamovsky/prog.c:26)
+Function main references fT (at 2019/adamovsky/prog.c:27)
+Function rY1 references rT (at 2019/adamovsky/prog.c:39)
+Function rY1 references rC (at 2019/adamovsky/prog.c:39)
+Function rY1 references rY2 (at 2019/adamovsky/prog.c:39)
+Function rY1 references fD0 (at 2019/adamovsky/prog.c:40)
+Function rY1 calls Y1 (at 2019/adamovsky/prog.c:40)
+Function rY1 references Yt (at 2019/adamovsky/prog.c:40)
+Function rY1 references fD (at 2019/adamovsky/prog.c:40)
+Initializer of T references fW (at 2019/adamovsky/prog.c:57)
+Initializer of T references fCh (at 2019/adamovsky/prog.c:58)
+Initializer of T references fR (at 2019/adamovsky/prog.c:58)
+Initializer of T references fE (at 2019/adamovsky/prog.c:58)
+Initializer of T references fD0 (at 2019/adamovsky/prog.c:59)
+Initializer of T references fC (at 2019/adamovsky/prog.c:59)
+Initializer of T references fI (at 2019/adamovsky/prog.c:59)
+Initializer of T references fK0 (at 2019/adamovsky/prog.c:59)
+Initializer of T references fW (at 2019/adamovsky/prog.c:60)
+Initializer of T references fS0 (at 2019/adamovsky/prog.c:60)
+Initializer of T references fV (at 2019/adamovsky/prog.c:60)
+Initializer of T references fP (at 2019/adamovsky/prog.c:60)
+[metrics] Statements analyzed by Eva
+--------------------------
+148 stmts in analyzed functions, 91 stmts analyzed (61.5%)
+C: 15 stmts out of 15 (100.0%)
+Ch: 8 stmts out of 8 (100.0%)
+D: 14 stmts out of 14 (100.0%)
+NL: 3 stmts out of 3 (100.0%)
+R: 2 stmts out of 2 (100.0%)
+U: 19 stmts out of 19 (100.0%)
+I: 7 stmts out of 8 (87.5%)
+X: 2 stmts out of 3 (66.7%)
+Y: 2 stmts out of 3 (66.7%)
+main: 18 stmts out of 38 (47.4%)
+rY1: 1 stmts out of 35 (2.9%)

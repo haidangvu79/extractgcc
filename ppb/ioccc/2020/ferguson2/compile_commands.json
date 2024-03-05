@@ -1,0 +1,50 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wno-disabled-macro-expansion",
+            "-Wno-conversion",
+            "-Wno-unused-value",
+            "-Wno-empty-body",
+            "-Wno-comment",
+            "-Wno-misleading-indentation",
+            "-Wno-unknown-warning-option",
+            "-D_POSIX_C_SOURCE=200809L",
+            "-O3",
+            "-o",
+            "recode",
+            "recode.c"
+        ],
+        "directory": ".",
+        "file": "recode.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c11",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wno-disabled-macro-expansion",
+            "-Wno-conversion",
+            "-Wno-unused-value",
+            "-Wno-empty-body",
+            "-Wno-comment",
+            "-Wno-misleading-indentation",
+            "-Wno-unknown-warning-option",
+            "-D_POSIX_C_SOURCE=200809L",
+            "-O3",
+            "-o",
+            "prog",
+            "prog.c"
+        ],
+        "directory": ".",
+        "file": "prog.c"
+    }
+]

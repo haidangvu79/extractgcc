@@ -1,0 +1,6 @@
+00198.c:13:[kernel:parser:unsupported] warning: block-level typedefs currently unsupported;
+trying to convert it to a global-level typedef.
+Note that this may lead to incoherent error messages.
+00198.c:14:[kernel:parser:unsupported] warning: block-level typedefs currently unsupported;
+trying to convert it to a global-level typedef.
+Note that this may lead to incoherent error messages.

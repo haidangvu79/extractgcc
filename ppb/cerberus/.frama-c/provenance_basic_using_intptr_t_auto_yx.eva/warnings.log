@@ -1,0 +1,8 @@
+provenance_basic_using_intptr_t_auto_yx.c:8:[eva:garbled-mix:assigns] warning: The specification of function printf_va_1 has generated a garbled mix for assigns clause __fc_stdout->__fc_FILE_data.
+provenance_basic_using_intptr_t_auto_yx.c:11:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{x}
+  (origin: Misaligned {provenance_basic_using_intptr_t_auto_yx.c:10}) }}
+{{ garbled mix of &{y}
+  (origin: Misaligned {provenance_basic_using_intptr_t_auto_yx.c:10}) }}

@@ -1,0 +1,4 @@
+unspecified_value_representation_bytes_4.c:5:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+unspecified_value_representation_bytes_4.c:6:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+unspecified_value_representation_bytes_4.c:10:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.
+unspecified_value_representation_bytes_4.c:11:[variadic:typing] warning: Incorrect type for argument 2. The argument will be cast from int to unsigned int.

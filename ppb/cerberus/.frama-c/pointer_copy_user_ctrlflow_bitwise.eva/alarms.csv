@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	pointer_copy_user_ctrlflow_bitwise.c	17	main	mem_access	Invalid or unreachable	\valid(q)

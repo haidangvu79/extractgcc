@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	cwe20-2.c	32	main	index_bound	Unknown	0 ≤ stack_top
+.	cwe20-2.c	33	main	signed_overflow	Unknown	-2147483648 ≤ withdraw_bills - 1
+.	cwe20-2.c	35	main	signed_overflow	Unknown	account_balance - (int)((int)(amount / 100) * 100) ≤ 2147483647

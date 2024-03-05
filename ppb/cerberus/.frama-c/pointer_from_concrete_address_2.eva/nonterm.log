@@ -1,0 +1,2 @@
+pointer_from_concrete_address_2.c:8:[nonterm:stmt] warning: non-terminating statement
+stack: main

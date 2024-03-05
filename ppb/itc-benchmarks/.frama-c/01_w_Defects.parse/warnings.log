@@ -1,0 +1,6 @@
+01_w_Defects/data_lost.c:56:[kernel:parser:decimal-float] warning: Floating-point constant 2.14748365e+09F is not represented exactly. Will use 0x1.0000000000000p31.
+(warn-once: no further messages from category 'parser:decimal-float' will be emitted)
+01_w_Defects/not_return.c:20:[kernel:CERT:MSC:37] warning: Body of function not_return_001_func_001 falls-through. Adding a return statement
+01_w_Defects/not_return.c:39:[kernel:CERT:MSC:37] warning: Body of function not_return_002_func_001 falls-through. Adding a return statement
+01_w_Defects/not_return.c:74:[kernel:CERT:MSC:37] warning: Body of function not_return_003_func_001 falls-through. Adding a return statement
+01_w_Defects/not_return.c:98:[kernel:CERT:MSC:37] warning: Body of function not_return_004_func_001 falls-through. Adding a return statement

@@ -1,0 +1,87 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 68 (out of 113)
+Semantically reached functions = 58
+Coverage estimation = 85.3% 
+
+Unreached functions (10) =
+  <src/modbus-rtu.c>: _modbus_rtu_build_request_basis; _modbus_rtu_ioctl_rts;
+    _modbus_rtu_pre_check_confirmation; 
+  <src/modbus-tcp.c>: _connect; _modbus_set_slave_0;
+    _modbus_tcp_build_request_basis; _modbus_tcp_connect;
+    _modbus_tcp_pi_connect; _modbus_tcp_pre_check_confirmation;
+    _modbus_tcp_set_ipv4_options;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function modbus_new_rtu references _modbus_rtu_ioctl_rts (at src/modbus-rtu.c:1266)
+Initializer of _modbus_rtu_backend references _modbus_rtu_build_request_basis (at src/modbus-rtu.c:1194)
+Initializer of _modbus_rtu_backend references _modbus_rtu_pre_check_confirmation (at src/modbus-rtu.c:1202)
+Initializer of _modbus_tcp_backend references _modbus_set_slave_0 (at src/modbus-tcp.c:741)
+Initializer of _modbus_tcp_backend references _modbus_tcp_build_request_basis (at src/modbus-tcp.c:742)
+Initializer of _modbus_tcp_backend references _modbus_tcp_pre_check_confirmation (at src/modbus-tcp.c:750)
+Initializer of _modbus_tcp_backend references _modbus_tcp_connect (at src/modbus-tcp.c:751)
+Initializer of _modbus_tcp_pi_backend references _modbus_set_slave_0 (at src/modbus-tcp.c:764)
+Initializer of _modbus_tcp_pi_backend references _modbus_tcp_build_request_basis (at src/modbus-tcp.c:765)
+Initializer of _modbus_tcp_pi_backend references _modbus_tcp_pre_check_confirmation (at src/modbus-tcp.c:773)
+Initializer of _modbus_tcp_pi_backend references _modbus_tcp_pi_connect (at src/modbus-tcp.c:774)
+[metrics] Statements analyzed by Eva
+--------------------------
+1581 stmts in analyzed functions, 1275 stmts analyzed (80.6%)
+_error_print: 9 stmts out of 9 (100.0%)
+_modbus_init_common: 9 stmts out of 9 (100.0%)
+_modbus_rtu_build_response_basis: 4 stmts out of 4 (100.0%)
+_modbus_rtu_close: 6 stmts out of 6 (100.0%)
+_modbus_rtu_flush: 2 stmts out of 2 (100.0%)
+_modbus_rtu_free: 4 stmts out of 4 (100.0%)
+_modbus_rtu_prepare_response_tid: 3 stmts out of 3 (100.0%)
+_modbus_rtu_receive: 11 stmts out of 11 (100.0%)
+_modbus_rtu_recv: 2 stmts out of 2 (100.0%)
+_modbus_rtu_select: 20 stmts out of 20 (100.0%)
+_modbus_rtu_send_msg_pre: 10 stmts out of 10 (100.0%)
+_modbus_tcp_build_response_basis: 8 stmts out of 8 (100.0%)
+_modbus_tcp_check_integrity: 1 stmts out of 1 (100.0%)
+_modbus_tcp_close: 5 stmts out of 5 (100.0%)
+_modbus_tcp_flush: 11 stmts out of 11 (100.0%)
+_modbus_tcp_free: 3 stmts out of 3 (100.0%)
+_modbus_tcp_prepare_response_tid: 2 stmts out of 2 (100.0%)
+_modbus_tcp_receive: 2 stmts out of 2 (100.0%)
+_modbus_tcp_recv: 2 stmts out of 2 (100.0%)
+_modbus_tcp_select: 20 stmts out of 20 (100.0%)
+_modbus_tcp_send: 2 stmts out of 2 (100.0%)
+_modbus_tcp_send_msg_pre: 4 stmts out of 4 (100.0%)
+_sleep_response_timeout: 11 stmts out of 11 (100.0%)
+compute_data_length_after_meta: 18 stmts out of 18 (100.0%)
+compute_meta_length_after_function: 21 stmts out of 21 (100.0%)
+crc16: 18 stmts out of 18 (100.0%)
+modbus_set_bits_from_bytes: 13 stmts out of 13 (100.0%)
+response_exception: 13 stmts out of 13 (100.0%)
+response_io_status: 24 stmts out of 24 (100.0%)
+modbus_reply: 375 stmts out of 381 (98.4%)
+_modbus_rtu_check_integrity: 22 stmts out of 23 (95.7%)
+main: 120 stmts out of 130 (92.3%)
+modbus_tcp_pi_listen: 66 stmts out of 72 (91.7%)
+modbus_tcp_listen: 33 stmts out of 38 (86.8%)
+_modbus_receive_msg: 76 stmts out of 95 (80.0%)
+modbus_mapping_free: 7 stmts out of 9 (77.8%)
+modbus_tcp_accept: 12 stmts out of 16 (75.0%)
+modbus_tcp_pi_accept: 11 stmts out of 15 (73.3%)
+modbus_strerror: 36 stmts out of 51 (70.6%)
+modbus_reply_exception: 19 stmts out of 27 (70.4%)
+send_msg: 27 stmts out of 42 (64.3%)
+modbus_flush: 7 stmts out of 11 (63.6%)
+modbus_new_rtu: 33 stmts out of 54 (61.1%)
+modbus_close: 3 stmts out of 5 (60.0%)
+modbus_free: 3 stmts out of 5 (60.0%)
+modbus_send_raw_request: 13 stmts out of 23 (56.5%)
+modbus_connect: 4 stmts out of 8 (50.0%)
+modbus_receive: 4 stmts out of 8 (50.0%)
+modbus_set_debug: 4 stmts out of 8 (50.0%)
+modbus_set_slave: 4 stmts out of 8 (50.0%)
+modbus_mapping_new_start_address: 28 stmts out of 57 (49.1%)
+_modbus_rtu_connect: 57 stmts out of 117 (48.7%)
+modbus_new_tcp: 16 stmts out of 33 (48.5%)
+_modbus_set_slave: 5 stmts out of 11 (45.5%)
+modbus_get_header_length: 3 stmts out of 7 (42.9%)
+modbus_get_socket: 3 stmts out of 7 (42.9%)
+modbus_new_tcp_pi: 19 stmts out of 45 (42.2%)
+_modbus_rtu_send: 7 stmts out of 17 (41.2%)

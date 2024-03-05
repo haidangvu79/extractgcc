@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	null_pointer_4.c	5	main	mem_access	Invalid or unreachable	\valid_read((int *)0)

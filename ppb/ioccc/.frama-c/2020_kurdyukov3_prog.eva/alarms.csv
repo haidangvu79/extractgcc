@@ -1,0 +1,5 @@
+directory	file	line	function	property kind	status	property
+2020/kurdyukov3	prog.c	7	main	initialization	Unknown	\initialized(&a)
+2020/kurdyukov3	prog.c	8	main	initialization	Unknown	\initialized(&a)
+2020/kurdyukov3	prog.c	8	main	initialization	Unknown	\initialized(&t[j])
+2020/kurdyukov3	prog.c	9	main	initialization	Unknown	\initialized(&t[i])

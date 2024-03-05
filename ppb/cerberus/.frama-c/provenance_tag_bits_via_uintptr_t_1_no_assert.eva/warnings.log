@@ -1,0 +1,3 @@
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{x}
+  (origin: Arithmetic {provenance_tag_bits_via_uintptr_t_1_no_assert.c:9}) }}

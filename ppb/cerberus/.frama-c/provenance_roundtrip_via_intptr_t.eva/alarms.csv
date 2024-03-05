@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	provenance_roundtrip_via_intptr_t.c	4	main	pointer_downcast	Unknown	(unsigned int)p ≤ 2147483647

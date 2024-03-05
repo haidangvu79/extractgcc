@@ -1,0 +1,2 @@
+pointer_add_wrap_2.c:8:[nonterm:stmt] warning: non-terminating statement
+stack: main

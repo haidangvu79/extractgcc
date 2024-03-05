@@ -1,0 +1,2 @@
+pointer_comparison_eq_zombie_1.c:7:[nonterm:stmt] warning: non-terminating statement
+stack: main

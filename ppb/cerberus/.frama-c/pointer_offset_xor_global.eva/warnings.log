@@ -1,0 +1,7 @@
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{y}
+  (origin: Arithmetic {pointer_offset_xor_global.c:8}) }}
+{{ garbled mix of &{x}
+  (origin: Arithmetic {pointer_offset_xor_global.c:8}) }}
+{{ garbled mix of &{x}
+  (origin: Arithmetic {pointer_offset_xor_global.c:9}) }}

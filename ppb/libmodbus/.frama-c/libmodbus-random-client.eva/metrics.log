@@ -1,0 +1,70 @@
+[metrics] Eva coverage statistics
+=======================
+Syntactically reachable functions = 44 (out of 113)
+Semantically reached functions = 37
+Coverage estimation = 84.1% 
+
+Unreached functions (7) =
+  <src/modbus-tcp.c>: _modbus_set_slave_0; _modbus_tcp_build_response_basis;
+    _modbus_tcp_flush; _modbus_tcp_prepare_response_tid; _modbus_tcp_receive; 
+  <src/modbus.c>: _sleep_response_timeout; modbus_flush;
+[metrics] References to non-analyzed functions
+------------------------------------
+Function _modbus_receive_msg calls _sleep_response_timeout (at src/modbus.c:387)
+Function _modbus_receive_msg calls modbus_flush (at src/modbus.c:388)
+Function check_confirmation calls _sleep_response_timeout (at src/modbus.c:516)
+Function check_confirmation calls modbus_flush (at src/modbus.c:517)
+Function check_confirmation calls _sleep_response_timeout (at src/modbus.c:561)
+Function check_confirmation calls modbus_flush (at src/modbus.c:562)
+Function check_confirmation calls _sleep_response_timeout (at src/modbus.c:611)
+Function check_confirmation calls modbus_flush (at src/modbus.c:612)
+Function check_confirmation calls _sleep_response_timeout (at src/modbus.c:625)
+Function check_confirmation calls modbus_flush (at src/modbus.c:626)
+Function send_msg calls _sleep_response_timeout (at src/modbus.c:191)
+Function send_msg calls _sleep_response_timeout (at src/modbus.c:194)
+Function send_msg calls modbus_flush (at src/modbus.c:195)
+Initializer of _modbus_tcp_backend references _modbus_set_slave_0 (at src/modbus-tcp.c:741)
+Initializer of _modbus_tcp_backend references _modbus_tcp_build_response_basis (at src/modbus-tcp.c:743)
+Initializer of _modbus_tcp_backend references _modbus_tcp_prepare_response_tid (at src/modbus-tcp.c:744)
+Initializer of _modbus_tcp_backend references _modbus_tcp_receive (at src/modbus-tcp.c:747)
+Initializer of _modbus_tcp_backend references _modbus_tcp_flush (at src/modbus-tcp.c:753)
+[metrics] Statements analyzed by Eva
+--------------------------
+1068 stmts in analyzed functions, 861 stmts analyzed (80.6%)
+_connect: 26 stmts out of 26 (100.0%)
+_error_print: 9 stmts out of 9 (100.0%)
+_modbus_init_common: 9 stmts out of 9 (100.0%)
+_modbus_tcp_build_request_basis: 16 stmts out of 16 (100.0%)
+_modbus_tcp_check_integrity: 1 stmts out of 1 (100.0%)
+_modbus_tcp_close: 5 stmts out of 5 (100.0%)
+_modbus_tcp_connect: 29 stmts out of 29 (100.0%)
+_modbus_tcp_free: 3 stmts out of 3 (100.0%)
+_modbus_tcp_pre_check_confirmation: 20 stmts out of 20 (100.0%)
+_modbus_tcp_recv: 2 stmts out of 2 (100.0%)
+_modbus_tcp_select: 20 stmts out of 20 (100.0%)
+_modbus_tcp_send: 2 stmts out of 2 (100.0%)
+_modbus_tcp_send_msg_pre: 4 stmts out of 4 (100.0%)
+_modbus_tcp_set_ipv4_options: 16 stmts out of 16 (100.0%)
+read_io_status: 40 stmts out of 40 (100.0%)
+main: 167 stmts out of 182 (91.8%)
+check_confirmation: 76 stmts out of 89 (85.4%)
+modbus_write_bits: 52 stmts out of 62 (83.9%)
+read_registers: 24 stmts out of 30 (80.0%)
+modbus_write_and_read_registers: 61 stmts out of 77 (79.2%)
+_modbus_receive_msg: 74 stmts out of 95 (77.9%)
+modbus_write_registers: 32 stmts out of 42 (76.2%)
+write_single: 12 stmts out of 16 (75.0%)
+modbus_write_bit: 11 stmts out of 15 (73.3%)
+modbus_strerror: 36 stmts out of 51 (70.6%)
+compute_response_length_from_request: 16 stmts out of 23 (69.6%)
+compute_data_length_after_meta: 12 stmts out of 18 (66.7%)
+send_msg: 27 stmts out of 42 (64.3%)
+modbus_close: 3 stmts out of 5 (60.0%)
+modbus_free: 3 stmts out of 5 (60.0%)
+modbus_read_bits: 11 stmts out of 21 (52.4%)
+modbus_connect: 4 stmts out of 8 (50.0%)
+modbus_set_debug: 4 stmts out of 8 (50.0%)
+modbus_write_register: 4 stmts out of 8 (50.0%)
+modbus_new_tcp: 16 stmts out of 33 (48.5%)
+compute_meta_length_after_function: 9 stmts out of 21 (42.9%)
+modbus_read_registers: 5 stmts out of 15 (33.3%)

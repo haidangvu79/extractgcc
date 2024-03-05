@@ -1,0 +1,2 @@
+pointer_offset_constant_8_malloc.c:14:[nonterm:stmt] warning: non-terminating statement
+stack: main

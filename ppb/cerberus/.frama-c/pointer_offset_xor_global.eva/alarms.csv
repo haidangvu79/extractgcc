@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	pointer_offset_xor_global.c	12	main	mem_access	Unknown	\valid(r)

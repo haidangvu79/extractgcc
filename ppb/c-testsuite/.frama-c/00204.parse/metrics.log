@@ -1,0 +1,61 @@
+[metrics] Defined functions (108)
+=======================
+ addip0 (1 call); addip123 (1 call); addlm123 (1 call); addp12345 (1 call);
+ and0xf0 (1 call); andi0 (1 call); andlm1 (1 call); arg (1 call);
+ asri1 (1 call); asri31 (1 call); asrl0 (1 call); asrl1 (1 call);
+ asrl63 (1 call); eor0xf0 (1 call); eori0 (1 call); eorlm1 (1 call);
+ fa1 (1 call); fa2 (1 call); fa3 (1 call); fa4 (1 call); fa_hfa11 (1 call);
+ fa_hfa12 (1 call); fa_hfa13 (1 call); fa_hfa14 (1 call); fa_hfa21 (1 call);
+ fa_hfa22 (1 call); fa_hfa23 (1 call); fa_hfa24 (1 call); fa_hfa31 (1 call);
+ fa_hfa32 (1 call); fa_hfa33 (1 call); fa_hfa34 (1 call); fa_s1 (1 call);
+ fa_s10 (1 call); fa_s11 (1 call); fa_s12 (1 call); fa_s13 (1 call);
+ fa_s14 (1 call); fa_s15 (1 call); fa_s16 (1 call); fa_s17 (1 call);
+ fa_s2 (1 call); fa_s3 (1 call); fa_s4 (1 call); fa_s5 (1 call);
+ fa_s6 (1 call); fa_s7 (1 call); fa_s8 (1 call); fa_s9 (1 call);
+ fr_hfa11 (1 call); fr_hfa12 (2 calls); fr_hfa13 (2 calls);
+ fr_hfa14 (2 calls); fr_hfa21 (1 call); fr_hfa22 (2 calls);
+ fr_hfa23 (2 calls); fr_hfa24 (2 calls); fr_hfa31 (1 call);
+ fr_hfa32 (2 calls); fr_hfa33 (2 calls); fr_hfa34 (2 calls); fr_s1 (1 call);
+ fr_s10 (1 call); fr_s11 (1 call); fr_s12 (1 call); fr_s13 (1 call);
+ fr_s14 (1 call); fr_s15 (1 call); fr_s16 (1 call); fr_s17 (1 call);
+ fr_s2 (1 call); fr_s3 (1 call); fr_s4 (1 call); fr_s5 (1 call);
+ fr_s6 (1 call); fr_s7 (1 call); fr_s8 (1 call); fr_s9 (1 call);
+ lsli0 (1 call); lsli1 (1 call); lsli31 (1 call); lsll1 (1 call);
+ lsll63 (1 call); lsri0 (1 call); lsri1 (1 call); lsri31 (1 call);
+ lsrl1 (1 call); lsrl63 (1 call); main (0 call); match (14 calls);
+ movi (1 call); mvni (1 call); myprintf (35 calls); negl (1 call);
+ opi (1 call); orr0xf0 (1 call); orrim1 (1 call); orrl0 (1 call);
+ pcs (1 call); pll (73 calls); ret (1 call); rsbi123 (1 call);
+ rsbl123 (1 call); stdarg (1 call); subim503808 (1 call); sublp0 (1 call);
+ sublp4095 (1 call); subp12345 (1 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 803
+Decision point = 18
+Global variables = 29
+If = 18
+Loop = 2
+Goto = 1
+Assignment = 363
+Exit point = 108
+Function = 108
+Function call = 318
+Pointer dereferencing = 37
+Cyclomatic complexity = 126

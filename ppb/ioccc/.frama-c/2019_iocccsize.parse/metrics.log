@@ -1,0 +1,34 @@
+[metrics] Defined functions (4)
+=====================
+ count (1 call); find_member (1 call); main (0 call); read_line (1 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 238
+Decision point = 73
+Global variables = 7
+If = 67
+Loop = 5
+Goto = 20
+Assignment = 86
+Exit point = 4
+Function = 4
+Function call = 27
+Pointer dereferencing = 38
+Cyclomatic complexity = 77

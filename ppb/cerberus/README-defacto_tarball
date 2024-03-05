@@ -1,0 +1,79 @@
+Cerberus memory object model tests
+----------------------------------
+
+This is a collection of test cases for the memory object model of C:
+the non-concurrent semantics of pointers, casts, uninitialised values,
+effective types, and so on, together with a tool, Charon, to compile
+and run them (perhaps with multiple compilers, compiler options, or
+semantic tools) and log the results.
+
+The tools to be used are defined in a JSON tools file, as a list
+specifying the command, arguments, and a human-readable name for each
+combination, eg "gcc-4.8-O2".  The human-readable name is used both to
+construct a filename for the log output and in presenting the results.
+For semantic tools that have a single execute phase, rather than the
+two-phase compile-to-binary and run of typical compilers, one can also
+specify
+
+  single_phase: "true"
+
+or for two-phase tools that need an additional wrapper for the execute
+phase, eg valgrind, one can specify the wrapper like this:
+
+  run_prefix: "valgrind -q"
+
+To run the tests, select the appropriate tools file in place of
+tools.small below, or make a new tools file if necessary, and do:
+
+  TOOLS=tools.small make 
+
+e.g.
+
+  TOOLS=tools.ch2o            make
+  TOOLS=tools.softbound       make
+  TOOLS=tools.tis-interpreter make
+  TOOLS=tools.valgrind        make
+
+
+This generates a combined log file of the compile and execute output:
+
+  all.log
+
+Please mail that to us.  If you made a custom tools file, you could
+also send that so we can include it in future tarballs.
+
+
+Tests
+-----
+
+The tests are listed in a JSON tests.charon file.  This also specifies
+which compilers should be skipped for any particular test, by giving
+substrings of the tool names (e.g. "skip":"clang").  It also contains
+some expectation-outcomes, in plain text (e.g. for iso and defacto
+semantics), but these are not always up-to-date.  The test sources are in:
+
+  tests/de_facto_memory_model
+
+
+Cross-compiling
+---------------
+
+The Charon tool is a small C program used both to compile and run the
+tests.  If using a cross-compiler, one may also want to use these
+variables to control how Charon itself is compiled:
+
+HOST_CC   # for compiling Charon to run on host machine (to compile tests)
+TARGET_CC # for compiling Charon to run on target machine (to run tests)
+
+
+Supported platforms
+-------------------
+
+The Charon code uses various Unix commands to record the host
+identity, which have been made to work on Linux and OSX (with #ifdef __APPLE__).
+
+
+Authors and Licence
+-------------------
+
+See the associated LICENCE file. 

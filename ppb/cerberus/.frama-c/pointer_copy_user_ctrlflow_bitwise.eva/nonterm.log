@@ -1,0 +1,2 @@
+pointer_copy_user_ctrlflow_bitwise.c:17:[nonterm:stmt] warning: non-terminating statement
+stack: main

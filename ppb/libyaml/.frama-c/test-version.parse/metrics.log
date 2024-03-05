@@ -1,0 +1,192 @@
+[metrics] Defined functions (195)
+=======================
+ main (0 call); yaml_alias_event_initialize (0 call);
+ yaml_check_utf8 (16 calls); yaml_document_add_mapping (0 call);
+ yaml_document_add_scalar (0 call); yaml_document_add_sequence (0 call);
+ yaml_document_append_mapping_pair (0 call);
+ yaml_document_append_sequence_item (0 call); yaml_document_delete (2 calls);
+ yaml_document_end_event_initialize (0 call);
+ yaml_document_get_node (0 call); yaml_document_get_root_node (0 call);
+ yaml_document_initialize (0 call);
+ yaml_document_start_event_initialize (0 call);
+ yaml_emitter_analyze_anchor (4 calls); yaml_emitter_analyze_event (1 call);
+ yaml_emitter_analyze_scalar (1 call); yaml_emitter_analyze_tag (3 calls);
+ yaml_emitter_analyze_tag_directive (1 call);
+ yaml_emitter_analyze_version_directive (1 call);
+ yaml_emitter_anchor_node (4 calls);
+ yaml_emitter_append_tag_directive (2 calls);
+ yaml_emitter_check_empty_document (1 call);
+ yaml_emitter_check_empty_mapping (2 calls);
+ yaml_emitter_check_empty_sequence (2 calls);
+ yaml_emitter_check_simple_key (2 calls); yaml_emitter_close (1 call);
+ yaml_emitter_delete (0 call);
+ yaml_emitter_delete_document_and_anchors (3 calls);
+ yaml_emitter_dump (0 call); yaml_emitter_dump_alias (1 call);
+ yaml_emitter_dump_mapping (1 call); yaml_emitter_dump_node (4 calls);
+ yaml_emitter_dump_scalar (1 call); yaml_emitter_dump_sequence (1 call);
+ yaml_emitter_emit (10 calls); yaml_emitter_emit_alias (1 call);
+ yaml_emitter_emit_block_mapping_key (2 calls);
+ yaml_emitter_emit_block_mapping_value (2 calls);
+ yaml_emitter_emit_block_sequence_item (2 calls);
+ yaml_emitter_emit_document_content (1 call);
+ yaml_emitter_emit_document_end (1 call);
+ yaml_emitter_emit_document_start (2 calls);
+ yaml_emitter_emit_flow_mapping_key (2 calls);
+ yaml_emitter_emit_flow_mapping_value (2 calls);
+ yaml_emitter_emit_flow_sequence_item (2 calls);
+ yaml_emitter_emit_mapping_start (1 call); yaml_emitter_emit_node (9 calls);
+ yaml_emitter_emit_scalar (1 call);
+ yaml_emitter_emit_sequence_start (1 call);
+ yaml_emitter_emit_stream_start (1 call); yaml_emitter_flush (60 calls);
+ yaml_emitter_generate_anchor (1 call);
+ yaml_emitter_increase_indent (5 calls); yaml_emitter_initialize (0 call);
+ yaml_emitter_need_more_events (1 call); yaml_emitter_open (1 call);
+ yaml_emitter_process_anchor (4 calls); yaml_emitter_process_scalar (1 call);
+ yaml_emitter_process_tag (3 calls);
+ yaml_emitter_select_scalar_style (1 call); yaml_emitter_set_break (0 call);
+ yaml_emitter_set_canonical (0 call);
+ yaml_emitter_set_emitter_error (16 calls);
+ yaml_emitter_set_encoding (0 call); yaml_emitter_set_indent (0 call);
+ yaml_emitter_set_output (0 call); yaml_emitter_set_output_file (0 call);
+ yaml_emitter_set_output_string (0 call); yaml_emitter_set_unicode (0 call);
+ yaml_emitter_set_width (0 call); yaml_emitter_set_writer_error (2 calls);
+ yaml_emitter_state_machine (1 call); yaml_emitter_write_anchor (1 call);
+ yaml_emitter_write_block_scalar_hints (2 calls);
+ yaml_emitter_write_bom (1 call);
+ yaml_emitter_write_double_quoted_scalar (1 call);
+ yaml_emitter_write_folded_scalar (1 call);
+ yaml_emitter_write_indent (25 calls);
+ yaml_emitter_write_indicator (34 calls);
+ yaml_emitter_write_literal_scalar (1 call);
+ yaml_emitter_write_plain_scalar (1 call);
+ yaml_emitter_write_single_quoted_scalar (1 call);
+ yaml_emitter_write_tag_content (3 calls);
+ yaml_emitter_write_tag_handle (2 calls); yaml_event_delete (3 calls);
+ yaml_file_read_handler (address taken) (0 call);
+ yaml_file_write_handler (address taken) (0 call); yaml_free (169 calls);
+ yaml_get_version (1 call); yaml_get_version_string (1 call);
+ yaml_malloc (52 calls); yaml_mapping_end_event_initialize (0 call);
+ yaml_mapping_start_event_initialize (0 call);
+ yaml_parser_append_tag_directive (2 calls);
+ yaml_parser_decrease_flow_level (1 call); yaml_parser_delete (0 call);
+ yaml_parser_delete_aliases (2 calls);
+ yaml_parser_determine_encoding (1 call); yaml_parser_fetch_anchor (2 calls);
+ yaml_parser_fetch_block_entry (1 call);
+ yaml_parser_fetch_block_scalar (2 calls);
+ yaml_parser_fetch_directive (1 call);
+ yaml_parser_fetch_document_indicator (2 calls);
+ yaml_parser_fetch_flow_collection_end (2 calls);
+ yaml_parser_fetch_flow_collection_start (2 calls);
+ yaml_parser_fetch_flow_entry (1 call);
+ yaml_parser_fetch_flow_scalar (2 calls); yaml_parser_fetch_key (1 call);
+ yaml_parser_fetch_more_tokens (37 calls);
+ yaml_parser_fetch_next_token (1 call);
+ yaml_parser_fetch_plain_scalar (1 call);
+ yaml_parser_fetch_stream_end (1 call);
+ yaml_parser_fetch_stream_start (1 call); yaml_parser_fetch_tag (1 call);
+ yaml_parser_fetch_value (1 call); yaml_parser_increase_flow_level (1 call);
+ yaml_parser_initialize (0 call); yaml_parser_load (0 call);
+ yaml_parser_load_alias (1 call); yaml_parser_load_document (1 call);
+ yaml_parser_load_mapping (1 call); yaml_parser_load_mapping_end (1 call);
+ yaml_parser_load_node_add (4 calls); yaml_parser_load_nodes (1 call);
+ yaml_parser_load_scalar (1 call); yaml_parser_load_sequence (1 call);
+ yaml_parser_load_sequence_end (1 call); yaml_parser_parse (3 calls);
+ yaml_parser_parse_block_mapping_key (2 calls);
+ yaml_parser_parse_block_mapping_value (1 call);
+ yaml_parser_parse_block_sequence_entry (2 calls);
+ yaml_parser_parse_document_content (1 call);
+ yaml_parser_parse_document_end (1 call);
+ yaml_parser_parse_document_start (2 calls);
+ yaml_parser_parse_flow_mapping_key (2 calls);
+ yaml_parser_parse_flow_mapping_value (2 calls);
+ yaml_parser_parse_flow_sequence_entry (2 calls);
+ yaml_parser_parse_flow_sequence_entry_mapping_end (1 call);
+ yaml_parser_parse_flow_sequence_entry_mapping_key (1 call);
+ yaml_parser_parse_flow_sequence_entry_mapping_value (1 call);
+ yaml_parser_parse_indentless_sequence_entry (1 call);
+ yaml_parser_parse_node (14 calls); yaml_parser_parse_stream_start (1 call);
+ yaml_parser_process_directives (2 calls);
+ yaml_parser_process_empty_scalar (11 calls);
+ yaml_parser_register_anchor (3 calls);
+ yaml_parser_remove_simple_key (9 calls); yaml_parser_roll_indent (4 calls);
+ yaml_parser_save_simple_key (5 calls); yaml_parser_scan (0 call);
+ yaml_parser_scan_anchor (1 call); yaml_parser_scan_block_scalar (1 call);
+ yaml_parser_scan_block_scalar_breaks (2 calls);
+ yaml_parser_scan_directive (1 call);
+ yaml_parser_scan_directive_name (1 call);
+ yaml_parser_scan_flow_scalar (1 call);
+ yaml_parser_scan_plain_scalar (1 call); yaml_parser_scan_tag (1 call);
+ yaml_parser_scan_tag_directive_value (1 call);
+ yaml_parser_scan_tag_handle (2 calls); yaml_parser_scan_tag_uri (4 calls);
+ yaml_parser_scan_to_next_token (1 call);
+ yaml_parser_scan_uri_escapes (1 call);
+ yaml_parser_scan_version_directive_number (2 calls);
+ yaml_parser_scan_version_directive_value (1 call);
+ yaml_parser_set_composer_error (1 call);
+ yaml_parser_set_composer_error_context (1 call);
+ yaml_parser_set_encoding (0 call); yaml_parser_set_input (0 call);
+ yaml_parser_set_input_file (0 call); yaml_parser_set_input_string (0 call);
+ yaml_parser_set_parser_error (5 calls);
+ yaml_parser_set_parser_error_context (6 calls);
+ yaml_parser_set_reader_error (12 calls);
+ yaml_parser_set_scanner_error (35 calls);
+ yaml_parser_stale_simple_keys (2 calls); yaml_parser_state_machine (1 call);
+ yaml_parser_unroll_indent (4 calls); yaml_parser_update_buffer (59 calls);
+ yaml_parser_update_raw_buffer (2 calls); yaml_queue_extend (20 calls);
+ yaml_realloc (3 calls); yaml_scalar_event_initialize (0 call);
+ yaml_sequence_end_event_initialize (0 call);
+ yaml_sequence_start_event_initialize (0 call); yaml_stack_extend (47 calls);
+ yaml_strdup (21 calls); yaml_stream_end_event_initialize (0 call);
+ yaml_stream_start_event_initialize (0 call); yaml_string_extend (26 calls);
+ yaml_string_join (12 calls);
+ yaml_string_read_handler (address taken) (0 call);
+ yaml_string_write_handler (address taken) (0 call);
+ yaml_token_delete (7 calls); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (39)
+===========================
+ main; yaml_alias_event_initialize; yaml_document_add_mapping;
+  yaml_document_add_scalar; yaml_document_add_sequence;
+  yaml_document_append_mapping_pair; yaml_document_append_sequence_item;
+  yaml_document_end_event_initialize; yaml_document_get_node;
+  yaml_document_get_root_node; yaml_document_initialize;
+  yaml_document_start_event_initialize; yaml_emitter_delete;
+  yaml_emitter_dump; yaml_emitter_initialize; yaml_emitter_set_break;
+  yaml_emitter_set_canonical; yaml_emitter_set_encoding;
+  yaml_emitter_set_indent; yaml_emitter_set_output;
+  yaml_emitter_set_output_file; yaml_emitter_set_output_string;
+  yaml_emitter_set_unicode; yaml_emitter_set_width;
+  yaml_mapping_end_event_initialize; yaml_mapping_start_event_initialize;
+  yaml_parser_delete; yaml_parser_initialize; yaml_parser_load;
+  yaml_parser_scan; yaml_parser_set_encoding; yaml_parser_set_input;
+  yaml_parser_set_input_file; yaml_parser_set_input_string;
+  yaml_scalar_event_initialize; yaml_sequence_end_event_initialize;
+  yaml_sequence_start_event_initialize; yaml_stream_end_event_initialize;
+  yaml_stream_start_event_initialize; 
+
+Global metrics
+============== 
+Sloc = 16343
+Decision point = 3300
+Global variables = 0
+If = 3173
+Loop = 97
+Goto = 1586
+Assignment = 7619
+Exit point = 195
+Function = 195
+Function call = 1212
+Pointer dereferencing = 8721
+Cyclomatic complexity = 3495

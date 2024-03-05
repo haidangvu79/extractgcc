@@ -1,0 +1,2 @@
+padding_subunion_1.c:7:[kernel] warning: all target addresses were invalid. This path is assumed to be dead.
+stack: main

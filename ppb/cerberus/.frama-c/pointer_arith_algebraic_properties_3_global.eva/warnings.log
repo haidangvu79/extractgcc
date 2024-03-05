@@ -1,0 +1,5 @@
+[eva:garbled-mix:summary] warning: Garbled mix generated during analysis:
+{{ garbled mix of &{y}
+  (origin: Arithmetic {pointer_arith_algebraic_properties_3_global.c:3}) }}
+{{ garbled mix of &{x}
+  (origin: Arithmetic {pointer_arith_algebraic_properties_3_global.c:3}) }}

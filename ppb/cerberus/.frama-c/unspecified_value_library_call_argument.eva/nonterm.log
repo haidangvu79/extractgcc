@@ -1,0 +1,2 @@
+unspecified_value_library_call_argument.c:5:[nonterm:stmt] warning: non-terminating function call
+stack: main

@@ -1,0 +1,149 @@
+directory	file	line	function	property kind	status	property
+FRAMAC_SHARE/libc	assert.h	31	__FC_assert	precondition	Unknown	nonnull_c: c ≢ 0
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_12	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_14	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_18	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_22	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_25	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_29	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_6	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	stdio.h	211	printf_va_7	precondition	Unknown	valid_read_string(param0)
+FRAMAC_SHARE/libc	string.h	55	memcmp	precondition	Unknown	valid_s1: valid_read_or_empty(s1, n)
+FRAMAC_SHARE/libc	string.h	57	memcmp	precondition	Unknown	initialization: s1: \initialized((char *)s1 + (0 .. n - 1))
+FRAMAC_SHARE/libc	string.h	59	memcmp	precondition	Unknown	danglingness: s1: non_escaping(s1, n)
+FRAMAC_SHARE/libc	string.h	95	memcpy	precondition	Unknown	valid_dest: valid_or_empty(dest, n)
+FRAMAC_SHARE/libc	string.h	96	memcpy	precondition	Unknown	valid_src: valid_read_or_empty(src, n)
+FRAMAC_SHARE/libc	string.h	120	memmove	precondition	Unknown	valid_dest: valid_or_empty(dest, n)
+FRAMAC_SHARE/libc	string.h	121	memmove	precondition	Unknown	valid_src: valid_read_or_empty(src, n)
+src	api.c	235	yaml_parser_delete	mem_access	Invalid or unreachable	\valid_read(parser->tag_directives.top)
+src	api.c	254	yaml_string_read_handler	ptr_comparison	Unknown	\pointer_comparable((void *)parser->input.string.current, (void *)parser->input.string.end)
+src	api.c	259	yaml_string_read_handler	differing_blocks	Unknown	\base_addr(parser->input.string.end) ≡ \base_addr(parser->input.string.current)
+src	api.c	259	yaml_string_read_handler	signed_overflow	Unknown	-9223372036854775808 ≤ parser->input.string.end - parser->input.string.current
+src	api.c	259	yaml_string_read_handler	signed_overflow	Unknown	parser->input.string.end - parser->input.string.current ≤ 9223372036854775807
+src	api.c	264	yaml_string_read_handler	precondition of memcpy	Unknown	valid_dest: valid_or_empty(dest, n)
+src	api.c	264	yaml_string_read_handler	precondition of memcpy	Unknown	valid_src: valid_read_or_empty(src, n)
+src	api.c	586	yaml_token_delete	precondition of __FC_assert	Unknown	nonnull_c: c ≢ 0
+src	api.c	588	yaml_token_delete	initialization	Invalid or unreachable	\initialized(&token->type)
+src	reader.c	56	yaml_parser_determine_encoding	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	56	yaml_parser_determine_encoding	differing_blocks	Unknown	\base_addr(parser->raw_buffer.last) ≡ \base_addr(parser->raw_buffer.pointer)
+src	reader.c	56	yaml_parser_determine_encoding	signed_overflow	Unknown	-9223372036854775808 ≤ parser->raw_buffer.last - parser->raw_buffer.pointer
+src	reader.c	56	yaml_parser_determine_encoding	signed_overflow	Unknown	parser->raw_buffer.last - parser->raw_buffer.pointer ≤ 9223372036854775807
+src	reader.c	64	yaml_parser_determine_encoding	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	64	yaml_parser_determine_encoding	differing_blocks	Unknown	\base_addr(parser->raw_buffer.last) ≡ \base_addr(parser->raw_buffer.pointer)
+src	reader.c	64	yaml_parser_determine_encoding	signed_overflow	Unknown	-9223372036854775808 ≤ parser->raw_buffer.last - parser->raw_buffer.pointer
+src	reader.c	64	yaml_parser_determine_encoding	signed_overflow	Unknown	parser->raw_buffer.last - parser->raw_buffer.pointer ≤ 9223372036854775807
+src	reader.c	65	yaml_parser_determine_encoding	precondition of memcmp	Unknown	danglingness: s1: non_escaping(s1, n)
+src	reader.c	65	yaml_parser_determine_encoding	precondition of memcmp	Unknown	initialization: s1: \initialized((char *)s1 + (0 .. n - 1))
+src	reader.c	65	yaml_parser_determine_encoding	precondition of memcmp	Unknown	valid_s1: valid_read_or_empty(s1, n)
+src	reader.c	71	yaml_parser_determine_encoding	precondition of memcmp	Unknown	danglingness: s1: non_escaping(s1, n)
+src	reader.c	71	yaml_parser_determine_encoding	precondition of memcmp	Unknown	initialization: s1: \initialized((char *)s1 + (0 .. n - 1))
+src	reader.c	71	yaml_parser_determine_encoding	precondition of memcmp	Unknown	valid_s1: valid_read_or_empty(s1, n)
+src	reader.c	77	yaml_parser_determine_encoding	precondition of memcmp	Unknown	danglingness: s1: non_escaping(s1, n)
+src	reader.c	77	yaml_parser_determine_encoding	precondition of memcmp	Unknown	initialization: s1: \initialized((char *)s1 + (0 .. n - 1))
+src	reader.c	77	yaml_parser_determine_encoding	precondition of memcmp	Unknown	valid_s1: valid_read_or_empty(s1, n)
+src	reader.c	100	yaml_parser_update_raw_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->raw_buffer.start, (void *)parser->raw_buffer.pointer)
+src	reader.c	101	yaml_parser_update_raw_buffer	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	101	yaml_parser_update_raw_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->raw_buffer.last, (void *)parser->raw_buffer.end)
+src	reader.c	110	yaml_parser_update_raw_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->raw_buffer.start, (void *)parser->raw_buffer.pointer)
+src	reader.c	111	yaml_parser_update_raw_buffer	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	111	yaml_parser_update_raw_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->raw_buffer.pointer, (void *)parser->raw_buffer.last)
+src	reader.c	112	yaml_parser_update_raw_buffer	precondition of memmove	Unknown	valid_dest: valid_or_empty(dest, n)
+src	reader.c	112	yaml_parser_update_raw_buffer	precondition of memmove	Unknown	valid_src: valid_read_or_empty(src, n)
+src	reader.c	113	yaml_parser_update_raw_buffer	differing_blocks	Unknown	\base_addr(parser->raw_buffer.last) ≡ \base_addr(parser->raw_buffer.pointer)
+src	reader.c	113	yaml_parser_update_raw_buffer	signed_overflow	Unknown	-9223372036854775808 ≤ parser->raw_buffer.last - parser->raw_buffer.pointer
+src	reader.c	113	yaml_parser_update_raw_buffer	signed_overflow	Unknown	parser->raw_buffer.last - parser->raw_buffer.pointer ≤ 9223372036854775807
+src	reader.c	115	yaml_parser_update_raw_buffer	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	116	yaml_parser_update_raw_buffer	differing_blocks	Unknown	\base_addr(parser->raw_buffer.pointer) ≡ \base_addr(parser->raw_buffer.start)
+src	reader.c	116	yaml_parser_update_raw_buffer	signed_overflow	Unknown	parser->raw_buffer.pointer - parser->raw_buffer.start ≤ 9223372036854775807
+src	reader.c	122	yaml_parser_update_raw_buffer	differing_blocks	Unknown	\base_addr(parser->raw_buffer.end) ≡ \base_addr(parser->raw_buffer.last)
+src	reader.c	122	yaml_parser_update_raw_buffer	signed_overflow	Unknown	-9223372036854775808 ≤ parser->raw_buffer.end - parser->raw_buffer.last
+src	reader.c	122	yaml_parser_update_raw_buffer	signed_overflow	Unknown	parser->raw_buffer.end - parser->raw_buffer.last ≤ 9223372036854775807
+src	reader.c	150	yaml_parser_update_buffer	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	150	yaml_parser_update_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->raw_buffer.pointer, (void *)parser->raw_buffer.last)
+src	reader.c	167	yaml_parser_update_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->buffer.start, (void *)parser->buffer.pointer)
+src	reader.c	168	yaml_parser_update_buffer	dangling_pointer	Unknown	¬\dangling(&parser->buffer.last)
+src	reader.c	168	yaml_parser_update_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->buffer.pointer, (void *)parser->buffer.last)
+src	reader.c	169	yaml_parser_update_buffer	differing_blocks	Unknown	\base_addr(parser->buffer.last) ≡ \base_addr(parser->buffer.pointer)
+src	reader.c	169	yaml_parser_update_buffer	signed_overflow	Unknown	parser->buffer.last - parser->buffer.pointer ≤ 9223372036854775807
+src	reader.c	170	yaml_parser_update_buffer	precondition of memmove	Unknown	valid_dest: valid_or_empty(dest, n)
+src	reader.c	170	yaml_parser_update_buffer	precondition of memmove	Unknown	valid_src: valid_read_or_empty(src, n)
+src	reader.c	174	yaml_parser_update_buffer	dangling_pointer	Unknown	¬\dangling(&parser->buffer.last)
+src	reader.c	174	yaml_parser_update_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->buffer.pointer, (void *)parser->buffer.last)
+src	reader.c	185	yaml_parser_update_buffer	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	185	yaml_parser_update_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->raw_buffer.pointer, (void *)parser->raw_buffer.last)
+src	reader.c	192	yaml_parser_update_buffer	dangling_pointer	Unknown	¬\dangling(&parser->raw_buffer.last)
+src	reader.c	192	yaml_parser_update_buffer	ptr_comparison	Unknown	\pointer_comparable((void *)parser->raw_buffer.pointer, (void *)parser->raw_buffer.last)
+src	reader.c	200	yaml_parser_update_buffer	differing_blocks	Unknown	\base_addr(parser->raw_buffer.last) ≡ \base_addr(parser->raw_buffer.pointer)
+src	reader.c	200	yaml_parser_update_buffer	signed_overflow	Unknown	-9223372036854775808 ≤ parser->raw_buffer.last - parser->raw_buffer.pointer
+src	reader.c	200	yaml_parser_update_buffer	signed_overflow	Unknown	parser->raw_buffer.last - parser->raw_buffer.pointer ≤ 9223372036854775807
+src	reader.c	230	yaml_parser_update_buffer	initialization	Unknown	\initialized(parser->raw_buffer.pointer + 0)
+src	reader.c	230	yaml_parser_update_buffer	mem_access	Unknown	\valid_read(parser->raw_buffer.pointer + 0)
+src	reader.c	266	yaml_parser_update_buffer	initialization	Unknown	\initialized(parser->raw_buffer.pointer + k)
+src	reader.c	266	yaml_parser_update_buffer	mem_access	Unknown	\valid_read(parser->raw_buffer.pointer + k)
+src	reader.c	345	yaml_parser_update_buffer	initialization	Unknown	\initialized(parser->raw_buffer.pointer + high)
+src	reader.c	345	yaml_parser_update_buffer	initialization	Unknown	\initialized(parser->raw_buffer.pointer + low)
+src	reader.c	345	yaml_parser_update_buffer	mem_access	Unknown	\valid_read(parser->raw_buffer.pointer + high)
+src	reader.c	345	yaml_parser_update_buffer	mem_access	Unknown	\valid_read(parser->raw_buffer.pointer + low)
+src	reader.c	375	yaml_parser_update_buffer	initialization	Unknown	\initialized(parser->raw_buffer.pointer + (int)(high + 2))
+src	reader.c	375	yaml_parser_update_buffer	initialization	Unknown	\initialized(parser->raw_buffer.pointer + (int)(low + 2))
+src	reader.c	375	yaml_parser_update_buffer	mem_access	Unknown	\valid_read(parser->raw_buffer.pointer + (int)(high + 2))
+src	reader.c	375	yaml_parser_update_buffer	mem_access	Unknown	\valid_read(parser->raw_buffer.pointer + (int)(low + 2))
+src	reader.c	429	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_17)
+src	reader.c	433	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_18)
+src	reader.c	434	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_19)
+src	reader.c	438	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_20)
+src	reader.c	439	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_21)
+src	reader.c	440	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_22)
+src	reader.c	444	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_23)
+src	reader.c	445	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_24)
+src	reader.c	446	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_25)
+src	reader.c	447	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_26)
+src	reader.c	456	yaml_parser_update_buffer	mem_access	Unknown	\valid(tmp_27)
+tests	test-reader.c	131	check_utf8_sequences	mem_access	Unknown	\valid_read(end)
+tests	test-reader.c	133	check_utf8_sequences	differing_blocks	Unknown	\base_addr(end) ≡ \base_addr(start)
+tests	test-reader.c	137	check_utf8_sequences	signed_overflow	Unknown	failed + 1 ≤ 2147483647
+tests	test-reader.c	147	check_utf8_sequences	precondition of printf_va_6	Unknown	valid_read_string(param0)
+tests	test-reader.c	151	check_utf8_sequences	precondition of printf_va_7	Unknown	valid_read_string(param0)
+tests	test-reader.c	177	check_boms	mem_access	Unknown	\valid_read(end)
+tests	test-reader.c	180	check_boms	differing_blocks	Unknown	\base_addr(end) ≡ \base_addr(start)
+tests	test-reader.c	183	check_boms	precondition of printf_va_12	Unknown	valid_read_string(param0)
+tests	test-reader.c	184	check_boms	signed_overflow	Unknown	failed + 1 ≤ 2147483647
+tests	test-reader.c	189	check_boms	signed_overflow	Unknown	failed + 1 ≤ 2147483647
+tests	test-reader.c	191	check_boms	precondition of memcmp	Unknown	danglingness: s1: non_escaping(s1, n)
+tests	test-reader.c	191	check_boms	precondition of memcmp	Unknown	initialization: s1: \initialized((char *)s1 + (0 .. n - 1))
+tests	test-reader.c	191	check_boms	precondition of memcmp	Unknown	valid_s1: valid_read_or_empty(s1, n)
+tests	test-reader.c	192	check_boms	precondition of printf_va_14	Unknown	valid_read_string(param0)
+tests	test-reader.c	193	check_boms	signed_overflow	Unknown	failed + 1 ≤ 2147483647
+tests	test-reader.c	215	check_long_utf8	precondition of __FC_assert	Unknown	nonnull_c: c ≢ 0
+tests	test-reader.c	222	check_long_utf8	signed_overflow	Unknown	k + 1 ≤ 2147483647
+tests	test-reader.c	222	check_long_utf8	mem_access	Unknown	\valid(buffer + tmp_3)
+tests	test-reader.c	223	check_long_utf8	mem_access	Unknown	\valid(buffer + tmp_4)
+tests	test-reader.c	226	check_long_utf8	signed_overflow	Unknown	k + 1 ≤ 2147483647
+tests	test-reader.c	226	check_long_utf8	mem_access	Unknown	\valid(buffer + tmp_5)
+tests	test-reader.c	227	check_long_utf8	mem_access	Unknown	\valid(buffer + tmp_6)
+tests	test-reader.c	235	check_long_utf8	precondition of printf_va_18	Unknown	valid_read_string(param0)
+tests	test-reader.c	253	check_long_utf8	initialization	Unknown	\initialized(parser.buffer.pointer + 0)
+tests	test-reader.c	253	check_long_utf8	mem_access	Unknown	\valid_read(parser.buffer.pointer + 0)
+tests	test-reader.c	253	check_long_utf8	initialization	Unknown	\initialized(parser.buffer.pointer + 1)
+tests	test-reader.c	254	check_long_utf8	initialization	Unknown	\initialized(parser.buffer.pointer + 1)
+tests	test-reader.c	265	check_long_utf8	precondition of printf_va_22	Unknown	valid_read_string(param0)
+tests	test-reader.c	268	check_long_utf8	initialization	Unknown	\initialized(parser.buffer.pointer + 0)
+tests	test-reader.c	268	check_long_utf8	mem_access	Unknown	\valid_read(parser.buffer.pointer + 0)
+tests	test-reader.c	287	check_long_utf16	precondition of __FC_assert	Unknown	nonnull_c: c ≢ 0
+tests	test-reader.c	293	check_long_utf16	mem_access	Unknown	\valid(buffer + tmp_2)
+tests	test-reader.c	294	check_long_utf16	signed_overflow	Unknown	k + 1 ≤ 2147483647
+tests	test-reader.c	294	check_long_utf16	mem_access	Unknown	\valid(buffer + tmp_3)
+tests	test-reader.c	297	check_long_utf16	mem_access	Unknown	\valid(buffer + tmp_4)
+tests	test-reader.c	298	check_long_utf16	signed_overflow	Unknown	k + 1 ≤ 2147483647
+tests	test-reader.c	298	check_long_utf16	mem_access	Unknown	\valid(buffer + tmp_5)
+tests	test-reader.c	306	check_long_utf16	precondition of printf_va_25	Unknown	valid_read_string(param0)
+tests	test-reader.c	324	check_long_utf16	initialization	Unknown	\initialized(parser.buffer.pointer + 0)
+tests	test-reader.c	324	check_long_utf16	mem_access	Unknown	\valid_read(parser.buffer.pointer + 0)
+tests	test-reader.c	324	check_long_utf16	initialization	Unknown	\initialized(parser.buffer.pointer + 1)
+tests	test-reader.c	325	check_long_utf16	initialization	Unknown	\initialized(parser.buffer.pointer + 1)
+tests	test-reader.c	336	check_long_utf16	precondition of printf_va_29	Unknown	valid_read_string(param0)
+tests	test-reader.c	339	check_long_utf16	initialization	Unknown	\initialized(parser.buffer.pointer + 0)
+tests	test-reader.c	339	check_long_utf16	mem_access	Unknown	\valid_read(parser.buffer.pointer + 0)
+tests	test-reader.c	353	main	signed_overflow	Unknown	(int)((int)(tmp + tmp_0) + tmp_1) + tmp_2 ≤ 2147483647
+tests	test-reader.c	353	main	signed_overflow	Unknown	(int)(tmp + tmp_0) + tmp_1 ≤ 2147483647
+tests	test-reader.c	353	main	signed_overflow	Unknown	tmp + tmp_0 ≤ 2147483647

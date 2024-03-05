@@ -1,0 +1,6 @@
+directory	file	line	function	property kind	status	property
+.	provenance_basic_using_intptr_t_global_xy.c	3	main	pointer_downcast	Unknown	(unsigned int)(&x) ≤ 2147483647
+.	provenance_basic_using_intptr_t_global_xy.c	4	main	pointer_downcast	Unknown	(unsigned int)(&y) ≤ 2147483647
+.	provenance_basic_using_intptr_t_global_xy.c	6	main	signed_overflow	Unknown	-2147483648 ≤ ux + offset
+.	provenance_basic_using_intptr_t_global_xy.c	6	main	signed_overflow	Unknown	ux + offset ≤ 2147483647
+.	provenance_basic_using_intptr_t_global_xy.c	11	main	mem_access	Invalid or unreachable	\valid(p)

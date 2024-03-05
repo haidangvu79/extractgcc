@@ -1,0 +1,5 @@
+directory	file	line	function	property kind	status	property
+FRAMAC_SHARE/libc	assert.h	31	__FC_assert	precondition	Unknown	nonnull_c: c ≢ 0
+FRAMAC_SHARE/libc	string.h	153	strcmp	precondition	Unknown	valid_string_s1: valid_read_string(s1)
+tests	test-version.c	21	main	precondition of __FC_assert	Unknown	nonnull_c: c ≢ 0
+tests	test-version.c	21	main	precondition of strcmp	Unknown	valid_string_s1: valid_read_string(s1)

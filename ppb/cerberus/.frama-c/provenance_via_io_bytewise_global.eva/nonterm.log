@@ -1,0 +1,2 @@
+provenance_via_io_bytewise_global.c:16:[nonterm:stmt] warning: non-terminating statement
+stack: main

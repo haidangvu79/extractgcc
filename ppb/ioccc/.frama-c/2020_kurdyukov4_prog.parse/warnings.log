@@ -1,0 +1,5 @@
+2020/kurdyukov4/prog.c:13:[kernel:typing:implicit-conv-void-ptr] warning: implicit conversion from void * to FILE *
+2020/kurdyukov4/prog.c:13:[kernel:typing:implicit-conv-void-ptr] warning: implicit conversion from void * to FILE *
+2020/kurdyukov4/prog.c:14:[kernel:typing:implicit-conv-void-ptr] warning: implicit conversion from void * to FILE *
+2020/kurdyukov4/prog.c:14:[kernel:typing:implicit-conv-void-ptr] warning: implicit conversion from void * to FILE *
+2020/kurdyukov4/prog.c:15:[kernel:typing:implicit-conv-void-ptr] warning: implicit conversion from void * to FILE *

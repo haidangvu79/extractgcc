@@ -1,0 +1,4 @@
+directory	file	line	function	property kind	status	property
+.	provenance_via_io_global.c	10	main	precondition of rewind	Unknown	valid_stream: \valid(stream)
+.	provenance_via_io_global.c	18	main	mem_access	Unknown	\valid(r)
+FRAMAC_SHARE/libc	stdio.h	438	rewind	precondition	Unknown	valid_stream: \valid(stream)

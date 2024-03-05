@@ -1,0 +1,2 @@
+signalling_nan_1.c:22:[nonterm:stmt] warning: non-terminating statement
+stack: main

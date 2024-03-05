@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+.	cwe787.c	26	copy_input	mem_access	Unknown	\valid(dst_buf + tmp_5)

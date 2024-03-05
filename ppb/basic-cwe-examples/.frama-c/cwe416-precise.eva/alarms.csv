@@ -1,0 +1,3 @@
+directory	file	line	function	property kind	status	property
+.	cwe416.c	27	main	dangling_pointer	Invalid or unreachable	¬\dangling(&buf2R1)
+.	cwe416.c	27	main	mem_access	Unknown	\valid_read(argv + 1)

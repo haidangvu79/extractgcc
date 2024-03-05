@@ -1,0 +1,2 @@
+directory	file	line	function	property kind	status	property
+programs/apps/bind/CA-1999-14/rrextract-nxt	expands_vars_ok.c	28	rrextract	ptr_comparison	Unknown	\pointer_comparable((void *)(cp + (int)((int)((int)(2 * 2) + 4) + 2)), (void *)eom)

@@ -1,0 +1,2 @@
+02_wo_Defects/data_lost.c:82:[kernel:parser:decimal-float] warning: Floating-point constant 3.4028232635611926e+38 is not represented exactly. Will use 0x1.fffffc0000000p127.
+(warn-once: no further messages from category 'parser:decimal-float' will be emitted)

@@ -1,0 +1,34 @@
+[metrics] Defined functions (2)
+=====================
+ main (0 call); my_memcpy (1 call); 
+
+Specified-only functions (0)
+============================
+ 
+
+Undefined and unspecified functions (0)
+=======================================
+ 
+
+'Extern' global variables (0)
+=============================
+ 
+
+Potential entry points (1)
+==========================
+ main; 
+
+Global metrics
+============== 
+Sloc = 17
+Decision point = 1
+Global variables = 0
+If = 1
+Loop = 1
+Goto = 0
+Assignment = 10
+Exit point = 2
+Function = 2
+Function call = 1
+Pointer dereferencing = 3
+Cyclomatic complexity = 3

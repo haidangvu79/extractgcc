@@ -1,0 +1,2 @@
+provenance_basic_using_intptr_t_malloc_offset_8.c:12:[nonterm:stmt] warning: non-terminating statement
+stack: main
